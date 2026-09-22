@@ -1,0 +1,16 @@
+ALIGN 4
+DesertObject:
+#incext Png2Dmp --lz77 "DesertObject.png"
+
+ALIGN 4
+DesertTiles:
+#incext compress "DesertTiles.mapchip_config"
+
+ALIGN 4
+DesertPalette1:
+#incbin "DesertPalette1.dmp"
+///////////////////////////////////////
+EventPointerTable(0x42, DesertObject)
+EventPointerTable(0x44, DesertTiles)
+
+EventPointerTable(0x43, DesertPalette1)

@@ -1,0 +1,1112 @@
+ALIGN 4
+BlankBG_img:
+#incbin "dmp/blankbg_img.dmp"
+ALIGN 4
+BlankBG_pal:
+#incbin "dmp/blankbg_pal.dmp"
+ALIGN 4
+BlankBG_tsa:
+#incbin "dmp/blankbg_tsa.dmp"
+///////////////////////////////
+ALIGN 4
+Housev3_img:
+#incbin "dmp/Housev3_img.dmp"
+ALIGN 4
+Housev3_pal:
+#incbin "dmp/Housev3_pal.dmp"
+ALIGN 4
+Housev3_tsa:
+#incbin "dmp/Housev3_tsa.dmp"
+
+ALIGN 4
+Housev4_img:
+#incbin "dmp/Housev4_img.dmp"
+ALIGN 4
+Housev4_pal:
+#incbin "dmp/Housev4_pal.dmp"
+ALIGN 4
+Housev4_tsa:
+#incbin "dmp/Housev4_tsa.dmp"
+
+
+ALIGN 4
+Villagev11_img:
+#incbin "dmp/Villagev11_img.dmp"
+ALIGN 4
+Villagev11_pal:
+#incbin "dmp/Villagev11_pal.dmp"
+ALIGN 4
+Villagev11_tsa:
+#incbin "dmp/Villagev11_tsa.dmp"
+ALIGN 4
+Villagev12_img:
+#incbin "dmp/Villagev12_img.dmp"
+ALIGN 4
+Villagev12_pal:
+#incbin "dmp/Villagev12_pal.dmp"
+ALIGN 4
+Villagev12_tsa:
+#incbin "dmp/Villagev12_tsa.dmp"
+ALIGN 4
+Villagev13_img:
+#incbin "dmp/Villagev13_img.dmp"
+ALIGN 4
+Villagev13_pal:
+#incbin "dmp/Villagev13_pal.dmp"
+ALIGN 4
+Villagev13_tsa:
+#incbin "dmp/Villagev13_tsa.dmp"
+ALIGN 4
+Villagev14_img:
+#incbin "dmp/Villagev14_img.dmp"
+ALIGN 4
+Villagev14_pal:
+#incbin "dmp/Villagev14_pal.dmp"
+ALIGN 4
+Villagev14_tsa:
+#incbin "dmp/Villagev14_tsa.dmp"
+ALIGN 4
+Villagev15_img:
+#incbin "dmp/Villagev15_img.dmp"
+ALIGN 4
+Villagev15_pal:
+#incbin "dmp/Villagev15_pal.dmp"
+ALIGN 4
+Villagev15_tsa:
+#incbin "dmp/Villagev15_tsa.dmp"
+ALIGN 4
+Villagev16_img:
+#incbin "dmp/Villagev16_img.dmp"
+ALIGN 4
+Villagev16_pal:
+#incbin "dmp/Villagev16_pal.dmp"
+ALIGN 4
+Villagev16_tsa:
+#incbin "dmp/Villagev16_tsa.dmp"
+
+
+ALIGN 4
+Villagev21_img:
+#incbin "dmp/Villagev21_img.dmp"
+ALIGN 4
+Villagev21_pal:
+#incbin "dmp/Villagev21_pal.dmp"
+ALIGN 4
+Villagev21_tsa:
+#incbin "dmp/Villagev21_tsa.dmp"
+ALIGN 4
+Villagev22_img:
+#incbin "dmp/Villagev22_img.dmp"
+ALIGN 4
+Villagev22_pal:
+#incbin "dmp/Villagev22_pal.dmp"
+ALIGN 4
+Villagev22_tsa:
+#incbin "dmp/Villagev22_tsa.dmp"
+ALIGN 4
+Villagev23_img:
+#incbin "dmp/Villagev23_img.dmp"
+ALIGN 4
+Villagev23_pal:
+#incbin "dmp/Villagev23_pal.dmp"
+ALIGN 4
+Villagev23_tsa:
+#incbin "dmp/Villagev23_tsa.dmp"
+ALIGN 4
+Villagev24_img:
+#incbin "dmp/Villagev24_img.dmp"
+ALIGN 4
+Villagev24_pal:
+#incbin "dmp/Villagev24_pal.dmp"
+ALIGN 4
+Villagev24_tsa:
+#incbin "dmp/Villagev24_tsa.dmp"
+ALIGN 4
+Villagev25_img:
+#incbin "dmp/Villagev25_img.dmp"
+ALIGN 4
+Villagev25_pal:
+#incbin "dmp/Villagev25_pal.dmp"
+ALIGN 4
+Villagev25_tsa:
+#incbin "dmp/Villagev25_tsa.dmp"
+ALIGN 4
+Villagev26_img:
+#incbin "dmp/Villagev26_img.dmp"
+ALIGN 4
+Villagev26_pal:
+#incbin "dmp/Villagev26_pal.dmp"
+ALIGN 4
+Villagev26_tsa:
+#incbin "dmp/Villagev26_tsa.dmp"
+
+
+ALIGN 4
+Villagev31_img:
+#incbin "dmp/Villagev31_img.dmp"
+ALIGN 4
+Villagev31_pal:
+#incbin "dmp/Villagev31_pal.dmp"
+ALIGN 4
+Villagev31_tsa:
+#incbin "dmp/Villagev31_tsa.dmp"
+ALIGN 4
+Villagev32_img:
+#incbin "dmp/Villagev32_img.dmp"
+ALIGN 4
+Villagev32_pal:
+#incbin "dmp/Villagev32_pal.dmp"
+ALIGN 4
+Villagev32_tsa:
+#incbin "dmp/Villagev32_tsa.dmp"
+ALIGN 4
+Villagev33_img:
+#incbin "dmp/Villagev33_img.dmp"
+ALIGN 4
+Villagev33_pal:
+#incbin "dmp/Villagev33_pal.dmp"
+ALIGN 4
+Villagev33_tsa:
+#incbin "dmp/Villagev33_tsa.dmp"
+
+
+ALIGN 4
+Port_img:
+#incbin "dmp/Port_img.dmp"
+ALIGN 4
+Port_pal:
+#incbin "dmp/Port_pal.dmp"
+ALIGN 4
+Port_tsa:
+#incbin "dmp/Port_tsa.dmp"
+
+
+ALIGN 4
+Ship_img:
+#incbin "dmp/Ship_img.dmp"
+ALIGN 4
+Ship_pal:
+#incbin "dmp/Ship_pal.dmp"
+ALIGN 4
+Ship_tsa:
+#incbin "dmp/Ship_tsa.dmp"
+
+
+ALIGN 4
+Shore_img:
+#incbin "dmp/Shore_img.dmp"
+ALIGN 4
+Shore_pal:
+#incbin "dmp/Shore_pal.dmp"
+ALIGN 4
+Shore_tsa:
+#incbin "dmp/Shore_tsa.dmp"
+
+
+ALIGN 4
+Pub_img:
+#incbin "dmp/Pub_img.dmp"
+ALIGN 4
+Pub_pal:
+#incbin "dmp/Pub_pal.dmp"
+ALIGN 4
+Pub_tsa:
+#incbin "dmp/Pub_tsa.dmp"
+
+
+ALIGN 4
+CastleOutsidev1_img:
+#incbin "dmp/CastleOutsidev1_img.dmp"
+ALIGN 4
+CastleOutsidev1_pal:
+#incbin "dmp/CastleOutsidev1_pal.dmp"
+ALIGN 4
+CastleOutsidev1_tsa:
+#incbin "dmp/CastleOutsidev1_tsa.dmp"
+ALIGN 4
+CastleOutsidev21_img:
+#incbin "dmp/CastleOutsidev21_img.dmp"
+ALIGN 4
+CastleOutsidev21_pal:
+#incbin "dmp/CastleOutsidev21_pal.dmp"
+ALIGN 4
+CastleOutsidev21_tsa:
+#incbin "dmp/CastleOutsidev21_tsa.dmp"
+ALIGN 4
+CastleOutsidev22_img:
+#incbin "dmp/CastleOutsidev22_img.dmp"
+ALIGN 4
+CastleOutsidev22_pal:
+#incbin "dmp/CastleOutsidev22_pal.dmp"
+ALIGN 4
+CastleOutsidev22_tsa:
+#incbin "dmp/CastleOutsidev22_tsa.dmp"
+
+
+ALIGN 4
+CastleInsidev11_img:
+#incbin "dmp/CastleInsidev11_img.dmp"
+ALIGN 4
+CastleInsidev11_pal:
+#incbin "dmp/CastleInsidev11_pal.dmp"
+ALIGN 4
+CastleInsidev11_tsa:
+#incbin "dmp/CastleInsidev11_tsa.dmp"
+ALIGN 4
+CastleInsidev12_img:
+#incbin "dmp/CastleInsidev12_img.dmp"
+ALIGN 4
+CastleInsidev12_pal:
+#incbin "dmp/CastleInsidev12_pal.dmp"
+ALIGN 4
+CastleInsidev12_tsa:
+#incbin "dmp/CastleInsidev12_tsa.dmp"
+
+
+ALIGN 4
+CastleInsidev21_img:
+#incbin "dmp/CastleInsidev21_img.dmp"
+ALIGN 4
+CastleInsidev21_pal:
+#incbin "dmp/CastleInsidev21_pal.dmp"
+ALIGN 4
+CastleInsidev21_tsa:
+#incbin "dmp/CastleInsidev21_tsa.dmp"
+ALIGN 4
+CastleInsidev22_img:
+#incbin "dmp/CastleInsidev22_img.dmp"
+ALIGN 4
+CastleInsidev22_pal:
+#incbin "dmp/CastleInsidev22_pal.dmp"
+ALIGN 4
+CastleInsidev22_tsa:
+#incbin "dmp/CastleInsidev22_tsa.dmp"
+ALIGN 4
+CastleInsidev31_img:
+#incbin "dmp/CastleInsidev31_img.dmp"
+ALIGN 4
+CastleInsidev31_pal:
+#incbin "dmp/CastleInsidev31_pal.dmp"
+ALIGN 4
+CastleInsidev31_tsa:
+#incbin "dmp/CastleInsidev31_tsa.dmp"
+ALIGN 4
+CastleInsidev32_img:
+#incbin "dmp/CastleInsidev32_img.dmp"
+ALIGN 4
+CastleInsidev32_pal:
+#incbin "dmp/CastleInsidev32_pal.dmp"
+ALIGN 4
+CastleInsidev32_tsa:
+#incbin "dmp/CastleInsidev32_tsa.dmp"
+ALIGN 4
+CastleInsidev41_img:
+#incbin "dmp/CastleInsidev41_img.dmp"
+ALIGN 4
+CastleInsidev41_pal:
+#incbin "dmp/CastleInsidev41_pal.dmp"
+ALIGN 4
+CastleInsidev41_tsa:
+#incbin "dmp/CastleInsidev41_tsa.dmp"
+ALIGN 4
+CastleInsidev42_img:
+#incbin "dmp/CastleInsidev42_img.dmp"
+ALIGN 4
+CastleInsidev42_pal:
+#incbin "dmp/CastleInsidev42_pal.dmp"
+ALIGN 4
+CastleInsidev42_tsa:
+#incbin "dmp/CastleInsidev42_tsa.dmp"
+ALIGN 4
+CastleInsidev51_img:
+#incbin "dmp/CastleInsidev51_img.dmp"
+ALIGN 4
+CastleInsidev51_pal:
+#incbin "dmp/CastleInsidev51_pal.dmp"
+ALIGN 4
+CastleInsidev51_tsa:
+#incbin "dmp/CastleInsidev51_tsa.dmp"
+ALIGN 4
+CastleInsidev52_img:
+#incbin "dmp/CastleInsidev52_img.dmp"
+ALIGN 4
+CastleInsidev52_pal:
+#incbin "dmp/CastleInsidev52_pal.dmp"
+ALIGN 4
+CastleInsidev52_tsa:
+#incbin "dmp/CastleInsidev52_tsa.dmp"
+ALIGN 4
+CastleInsidev61_img:
+#incbin "dmp/CastleInsidev61_img.dmp"
+ALIGN 4
+CastleInsidev61_pal:
+#incbin "dmp/CastleInsidev61_pal.dmp"
+ALIGN 4
+CastleInsidev61_tsa:
+#incbin "dmp/CastleInsidev61_tsa.dmp"
+ALIGN 4
+CastleInsidev62_img:
+#incbin "dmp/CastleInsidev62_img.dmp"
+ALIGN 4
+CastleInsidev62_pal:
+#incbin "dmp/CastleInsidev62_pal.dmp"
+ALIGN 4
+CastleInsidev62_tsa:
+#incbin "dmp/CastleInsidev62_tsa.dmp"
+ALIGN 4
+CastleInsidev71_img:
+#incbin "dmp/CastleInsidev71_img.dmp"
+ALIGN 4
+CastleInsidev71_pal:
+#incbin "dmp/CastleInsidev71_pal.dmp"
+ALIGN 4
+CastleInsidev71_tsa:
+#incbin "dmp/CastleInsidev71_tsa.dmp"
+ALIGN 4
+CastleInsidev72_img:
+#incbin "dmp/CastleInsidev72_img.dmp"
+ALIGN 4
+CastleInsidev72_pal:
+#incbin "dmp/CastleInsidev72_pal.dmp"
+ALIGN 4
+CastleInsidev72_tsa:
+#incbin "dmp/CastleInsidev72_tsa.dmp"
+ALIGN 4
+CastleInsidev8_img:
+#incbin "dmp/CastleInsidev8_img.dmp"
+ALIGN 4
+CastleInsidev8_pal:
+#incbin "dmp/CastleInsidev8_pal.dmp"
+ALIGN 4
+CastleInsidev8_tsa:
+#incbin "dmp/CastleInsidev8_tsa.dmp"
+ALIGN 4
+CastleInsidev9_img:
+#incbin "dmp/CastleInsidev9_img.dmp"
+ALIGN 4
+CastleInsidev9_pal:
+#incbin "dmp/CastleInsidev9_pal.dmp"
+ALIGN 4
+CastleInsidev9_tsa:
+#incbin "dmp/CastleInsidev9_tsa.dmp"
+
+
+ALIGN 4
+Cell_img:
+#incbin "dmp/Cell_img.dmp"
+ALIGN 4
+Cell_pal:
+#incbin "dmp/Cell_pal.dmp"
+ALIGN 4
+Cell_tsa:
+#incbin "dmp/Cell_tsa.dmp"
+
+
+ALIGN 4
+Forestv11_img:
+#incbin "dmp/Forestv11_img.dmp"
+ALIGN 4
+Forestv11_pal:
+#incbin "dmp/Forestv11_pal.dmp"
+ALIGN 4
+Forestv11_tsa:
+#incbin "dmp/Forestv11_tsa.dmp"
+ALIGN 4
+Forestv12_img:
+#incbin "dmp/Forestv12_img.dmp"
+ALIGN 4
+Forestv12_pal:
+#incbin "dmp/Forestv12_pal.dmp"
+ALIGN 4
+Forestv12_tsa:
+#incbin "dmp/Forestv12_tsa.dmp"
+ALIGN 4
+Forestv13_img:
+#incbin "dmp/Forestv13_img.dmp"
+ALIGN 4
+Forestv13_pal:
+#incbin "dmp/Forestv13_pal.dmp"
+ALIGN 4
+Forestv13_tsa:
+#incbin "dmp/Forestv13_tsa.dmp"
+ALIGN 4
+Forestv14_img:
+#incbin "dmp/Forestv14_img.dmp"
+ALIGN 4
+Forestv14_pal:
+#incbin "dmp/Forestv14_pal.dmp"
+ALIGN 4
+Forestv14_tsa:
+#incbin "dmp/Forestv14_tsa.dmp"
+ALIGN 4
+Forestv15_img:
+#incbin "dmp/Forestv15_img.dmp"
+ALIGN 4
+Forestv15_pal:
+#incbin "dmp/Forestv15_pal.dmp"
+ALIGN 4
+Forestv15_tsa:
+#incbin "dmp/Forestv15_tsa.dmp"
+ALIGN 4
+Forestv16_img:
+#incbin "dmp/Forestv16_img.dmp"
+ALIGN 4
+Forestv16_pal:
+#incbin "dmp/Forestv16_pal.dmp"
+ALIGN 4
+Forestv16_tsa:
+#incbin "dmp/Forestv16_tsa.dmp"
+
+ALIGN 4
+Plainsv11_img:
+#incbin "dmp/Plainsv11_img.dmp"
+ALIGN 4
+Plainsv11_pal:
+#incbin "dmp/Plainsv11_pal.dmp"
+ALIGN 4
+Plainsv11_tsa:
+#incbin "dmp/Plainsv11_tsa.dmp"
+ALIGN 4
+Plainsv12_img:
+#incbin "dmp/Plainsv12_img.dmp"
+ALIGN 4
+Plainsv12_pal:
+#incbin "dmp/Plainsv12_pal.dmp"
+ALIGN 4
+Plainsv12_tsa:
+#incbin "dmp/Plainsv12_tsa.dmp"
+ALIGN 4
+Plainsv21_img:
+#incbin "dmp/Plainsv21_img.dmp"
+ALIGN 4
+Plainsv21_pal:
+#incbin "dmp/Plainsv21_pal.dmp"
+ALIGN 4
+Plainsv21_tsa:
+#incbin "dmp/Plainsv21_tsa.dmp"
+ALIGN 4
+Plainsv22_img:
+#incbin "dmp/Plainsv22_img.dmp"
+ALIGN 4
+Plainsv22_pal:
+#incbin "dmp/Plainsv22_pal.dmp"
+ALIGN 4
+Plainsv22_tsa:
+#incbin "dmp/Plainsv22_tsa.dmp"
+
+ALIGN 4
+Forestv21_img:
+#incbin "dmp/Forestv21_img.dmp"
+ALIGN 4
+Forestv21_pal:
+#incbin "dmp/Forestv21_pal.dmp"
+ALIGN 4
+Forestv21_tsa:
+#incbin "dmp/Forestv21_tsa.dmp"
+ALIGN 4
+Forestv22_img:
+#incbin "dmp/Forestv22_img.dmp"
+ALIGN 4
+Forestv22_pal:
+#incbin "dmp/Forestv22_pal.dmp"
+ALIGN 4
+Forestv22_tsa:
+#incbin "dmp/Forestv22_tsa.dmp"
+ALIGN 4
+Forestv23_img:
+#incbin "dmp/Forestv23_img.dmp"
+ALIGN 4
+Forestv23_pal:
+#incbin "dmp/Forestv23_pal.dmp"
+ALIGN 4
+Forestv23_tsa:
+#incbin "dmp/Forestv23_tsa.dmp"
+ALIGN 4
+Forestv24_img:
+#incbin "dmp/Forestv24_img.dmp"
+ALIGN 4
+Forestv24_pal:
+#incbin "dmp/Forestv24_pal.dmp"
+ALIGN 4
+Forestv24_tsa:
+#incbin "dmp/Forestv24_tsa.dmp"
+ALIGN 4
+Forestv25_img:
+#incbin "dmp/Forestv25_img.dmp"
+ALIGN 4
+Forestv25_pal:
+#incbin "dmp/Forestv25_pal.dmp"
+ALIGN 4
+Forestv25_tsa:
+#incbin "dmp/Forestv25_tsa.dmp"
+ALIGN 4
+Forestv26_img:
+#incbin "dmp/Forestv26_img.dmp"
+ALIGN 4
+Forestv26_pal:
+#incbin "dmp/Forestv26_pal.dmp"
+ALIGN 4
+Forestv26_tsa:
+#incbin "dmp/Forestv26_tsa.dmp"
+ALIGN 4
+Forestv31_img:
+#incbin "dmp/Forestv31_img.dmp"
+ALIGN 4
+Forestv31_pal:
+#incbin "dmp/Forestv31_pal.dmp"
+ALIGN 4
+Forestv31_tsa:
+#incbin "dmp/Forestv31_tsa.dmp"
+ALIGN 4
+Forestv32_img:
+#incbin "dmp/Forestv32_img.dmp"
+ALIGN 4
+Forestv32_pal:
+#incbin "dmp/Forestv32_pal.dmp"
+ALIGN 4
+Forestv32_tsa:
+#incbin "dmp/Forestv32_tsa.dmp"
+ALIGN 4
+Forestv41_img:
+#incbin "dmp/Forestv41_img.dmp"
+ALIGN 4
+Forestv41_pal:
+#incbin "dmp/Forestv41_pal.dmp"
+ALIGN 4
+Forestv41_tsa:
+#incbin "dmp/Forestv41_tsa.dmp"
+ALIGN 4
+Forestv42_img:
+#incbin "dmp/Forestv42_img.dmp"
+ALIGN 4
+Forestv42_pal:
+#incbin "dmp/Forestv42_pal.dmp"
+ALIGN 4
+Forestv42_tsa:
+#incbin "dmp/Forestv42_tsa.dmp"
+ALIGN 4
+Forestv43_img:
+#incbin "dmp/Forestv43_img.dmp"
+ALIGN 4
+Forestv43_pal:
+#incbin "dmp/Forestv43_pal.dmp"
+ALIGN 4
+Forestv43_tsa:
+#incbin "dmp/Forestv43_tsa.dmp"
+ALIGN 4
+Forestv51_img:
+#incbin "dmp/Forestv51_img.dmp"
+ALIGN 4
+Forestv51_pal:
+#incbin "dmp/Forestv51_pal.dmp"
+ALIGN 4
+Forestv51_tsa:
+#incbin "dmp/Forestv51_tsa.dmp"
+ALIGN 4
+Forestv52_img:
+#incbin "dmp/Forestv52_img.dmp"
+ALIGN 4
+Forestv52_pal:
+#incbin "dmp/Forestv52_pal.dmp"
+ALIGN 4
+Forestv52_tsa:
+#incbin "dmp/Forestv52_tsa.dmp"
+ALIGN 4
+Forestv6_img:
+#incbin "dmp/Forestv6_img.dmp"
+ALIGN 4
+Forestv6_pal:
+#incbin "dmp/Forestv6_pal.dmp"
+ALIGN 4
+Forestv6_tsa:
+#incbin "dmp/Forestv6_tsa.dmp"
+ALIGN 4
+Forestv7_img:
+#incbin "dmp/Forestv7_img.dmp"
+ALIGN 4
+Forestv7_pal:
+#incbin "dmp/Forestv7_pal.dmp"
+ALIGN 4
+Forestv7_tsa:
+#incbin "dmp/Forestv7_tsa.dmp"
+
+
+ALIGN 4
+TownOutsidev11_img:
+#incbin "dmp/TownOutsidev11_img.dmp"
+ALIGN 4
+TownOutsidev11_pal:
+#incbin "dmp/TownOutsidev11_pal.dmp"
+ALIGN 4
+TownOutsidev11_tsa:
+#incbin "dmp/TownOutsidev11_tsa.dmp"
+ALIGN 4
+TownOutsidev12_img:
+#incbin "dmp/TownOutsidev12_img.dmp"
+ALIGN 4
+TownOutsidev12_pal:
+#incbin "dmp/TownOutsidev12_pal.dmp"
+ALIGN 4
+TownOutsidev12_tsa:
+#incbin "dmp/TownOutsidev12_tsa.dmp"
+ALIGN 4
+TownOutsidev13_img:
+#incbin "dmp/TownOutsidev13_img.dmp"
+ALIGN 4
+TownOutsidev13_pal:
+#incbin "dmp/TownOutsidev13_pal.dmp"
+ALIGN 4
+TownOutsidev13_tsa:
+#incbin "dmp/TownOutsidev13_tsa.dmp"
+
+
+ALIGN 4
+TownInsidev11_img:
+#incbin "dmp/TownInsidev11_img.dmp"
+ALIGN 4
+TownInsidev11_pal:
+#incbin "dmp/TownInsidev11_pal.dmp"
+ALIGN 4
+TownInsidev11_tsa:
+#incbin "dmp/TownInsidev11_tsa.dmp"
+ALIGN 4
+TownInsidev12_img:
+#incbin "dmp/TownInsidev12_img.dmp"
+ALIGN 4
+TownInsidev12_pal:
+#incbin "dmp/TownInsidev12_pal.dmp"
+ALIGN 4
+TownInsidev12_tsa:
+#incbin "dmp/TownInsidev12_tsa.dmp"
+
+
+ALIGN 4
+FortOutsidev11_img:
+#incbin "dmp/FortOutsidev11_img.dmp"
+ALIGN 4
+FortOutsidev11_pal:
+#incbin "dmp/FortOutsidev11_pal.dmp"
+ALIGN 4
+FortOutsidev11_tsa:
+#incbin "dmp/FortOutsidev11_tsa.dmp"
+ALIGN 4
+FortOutsidev12_img:
+#incbin "dmp/FortOutsidev12_img.dmp"
+ALIGN 4
+FortOutsidev12_pal:
+#incbin "dmp/FortOutsidev12_pal.dmp"
+ALIGN 4
+FortOutsidev12_tsa:
+#incbin "dmp/FortOutsidev12_tsa.dmp"
+ALIGN 4
+FortOutsidev13_img:
+#incbin "dmp/FortOutsidev13_img.dmp"
+ALIGN 4
+FortOutsidev13_pal:
+#incbin "dmp/FortOutsidev13_pal.dmp"
+ALIGN 4
+FortOutsidev13_tsa:
+#incbin "dmp/FortOutsidev13_tsa.dmp"
+ALIGN 4
+FortOutsidev21_img:
+#incbin "dmp/FortOutsidev21_img.dmp"
+ALIGN 4
+FortOutsidev21_pal:
+#incbin "dmp/FortOutsidev21_pal.dmp"
+ALIGN 4
+FortOutsidev21_tsa:
+#incbin "dmp/FortOutsidev21_tsa.dmp"
+ALIGN 4
+FortOutsidev22_img:
+#incbin "dmp/FortOutsidev22_img.dmp"
+ALIGN 4
+FortOutsidev22_pal:
+#incbin "dmp/FortOutsidev22_pal.dmp"
+ALIGN 4
+FortOutsidev22_tsa:
+#incbin "dmp/FortOutsidev22_tsa.dmp"
+ALIGN 4
+FortOutsidev23_img:
+#incbin "dmp/FortOutsidev23_img.dmp"
+ALIGN 4
+FortOutsidev23_pal:
+#incbin "dmp/FortOutsidev23_pal.dmp"
+ALIGN 4
+FortOutsidev23_tsa:
+#incbin "dmp/FortOutsidev23_tsa.dmp"
+
+
+ALIGN 4
+FortInsidev11_img:
+#incbin "dmp/FortInsidev11_img.dmp"
+ALIGN 4
+FortInsidev11_pal:
+#incbin "dmp/FortInsidev11_pal.dmp"
+ALIGN 4
+FortInsidev11_tsa:
+#incbin "dmp/FortInsidev11_tsa.dmp"
+ALIGN 4
+FortInsidev12_img:
+#incbin "dmp/FortInsidev12_img.dmp"
+ALIGN 4
+FortInsidev12_pal:
+#incbin "dmp/FortInsidev12_pal.dmp"
+ALIGN 4
+FortInsidev12_tsa:
+#incbin "dmp/FortInsidev12_tsa.dmp"
+ALIGN 4
+FortInsidev13_img:
+#incbin "dmp/FortInsidev13_img.dmp"
+ALIGN 4
+FortInsidev13_pal:
+#incbin "dmp/FortInsidev13_pal.dmp"
+ALIGN 4
+FortInsidev13_tsa:
+#incbin "dmp/FortInsidev13_tsa.dmp"
+
+
+ALIGN 4
+FortRuinsOutsidev1_img:
+#incbin "dmp/FortRuinsOutsidev1_img.dmp"
+ALIGN 4
+FortRuinsOutsidev1_pal:
+#incbin "dmp/FortRuinsOutsidev1_pal.dmp"
+ALIGN 4
+FortRuinsOutsidev1_tsa:
+#incbin "dmp/FortRuinsOutsidev1_tsa.dmp"
+ALIGN 4
+FortRuinsOutsidev21_img:
+#incbin "dmp/FortRuinsOutsidev21_img.dmp"
+ALIGN 4
+FortRuinsOutsidev21_pal:
+#incbin "dmp/FortRuinsOutsidev21_pal.dmp"
+ALIGN 4
+FortRuinsOutsidev21_tsa:
+#incbin "dmp/FortRuinsOutsidev21_tsa.dmp"
+ALIGN 4
+FortRuinsOutsidev22_img:
+#incbin "dmp/FortRuinsOutsidev22_img.dmp"
+ALIGN 4
+FortRuinsOutsidev22_pal:
+#incbin "dmp/FortRuinsOutsidev22_pal.dmp"
+ALIGN 4
+FortRuinsOutsidev22_tsa:
+#incbin "dmp/FortRuinsOutsidev22_tsa.dmp"
+ALIGN 4
+FortRuinsOutsidev23_img:
+#incbin "dmp/FortRuinsOutsidev23_img.dmp"
+ALIGN 4
+FortRuinsOutsidev23_pal:
+#incbin "dmp/FortRuinsOutsidev23_pal.dmp"
+ALIGN 4
+FortRuinsOutsidev23_tsa:
+#incbin "dmp/FortRuinsOutsidev23_tsa.dmp"
+
+
+ALIGN 4
+FortRuinsInsidev11_img:
+#incbin "dmp/FortRuinsInsidev11_img.dmp"
+ALIGN 4
+FortRuinsInsidev11_pal:
+#incbin "dmp/FortRuinsInsidev11_pal.dmp"
+ALIGN 4
+FortRuinsInsidev11_tsa:
+#incbin "dmp/FortRuinsInsidev11_tsa.dmp"
+ALIGN 4
+FortRuinsInsidev12_img:
+#incbin "dmp/FortRuinsInsidev12_img.dmp"
+ALIGN 4
+FortRuinsInsidev12_pal:
+#incbin "dmp/FortRuinsInsidev12_pal.dmp"
+ALIGN 4
+FortRuinsInsidev12_tsa:
+#incbin "dmp/FortRuinsInsidev12_tsa.dmp"
+
+ALIGN 4
+Ruinsv11_img:
+#incbin "dmp/Ruinsv11_img.dmp"
+ALIGN 4
+Ruinsv11_pal:
+#incbin "dmp/Ruinsv11_pal.dmp"
+ALIGN 4
+Ruinsv11_tsa:
+#incbin "dmp/Ruinsv11_tsa.dmp"
+ALIGN 4
+Ruinsv12_img:
+#incbin "dmp/Ruinsv12_img.dmp"
+ALIGN 4
+Ruinsv12_pal:
+#incbin "dmp/Ruinsv12_pal.dmp"
+ALIGN 4
+Ruinsv12_tsa:
+#incbin "dmp/Ruinsv12_tsa.dmp"
+ALIGN 4
+Ruinsv13_img:
+#incbin "dmp/Ruinsv13_img.dmp"
+ALIGN 4
+Ruinsv13_pal:
+#incbin "dmp/Ruinsv13_pal.dmp"
+ALIGN 4
+Ruinsv13_tsa:
+#incbin "dmp/Ruinsv13_tsa.dmp"
+ALIGN 4
+Ruinsv14_img:
+#incbin "dmp/Ruinsv14_img.dmp"
+ALIGN 4
+Ruinsv14_pal:
+#incbin "dmp/Ruinsv14_pal.dmp"
+ALIGN 4
+Ruinsv14_tsa:
+#incbin "dmp/Ruinsv14_tsa.dmp"
+
+ALIGN 4
+Templev11_img:
+#incbin "dmp/Templev11_img.dmp"
+ALIGN 4
+Templev11_pal:
+#incbin "dmp/Templev11_pal.dmp"
+ALIGN 4
+Templev11_tsa:
+#incbin "dmp/Templev11_tsa.dmp"
+ALIGN 4
+Templev12_img:
+#incbin "dmp/Templev12_img.dmp"
+ALIGN 4
+Templev12_pal:
+#incbin "dmp/Templev12_pal.dmp"
+ALIGN 4
+Templev12_tsa:
+#incbin "dmp/Templev12_tsa.dmp"
+ALIGN 4
+Templev21_img:
+#incbin "dmp/Templev21_img.dmp"
+ALIGN 4
+Templev21_pal:
+#incbin "dmp/Templev21_pal.dmp"
+ALIGN 4
+Templev21_tsa:
+#incbin "dmp/Templev21_tsa.dmp"
+ALIGN 4
+Templev22_img:
+#incbin "dmp/Templev22_img.dmp"
+ALIGN 4
+Templev22_pal:
+#incbin "dmp/Templev22_pal.dmp"
+ALIGN 4
+Templev22_tsa:
+#incbin "dmp/Templev22_tsa.dmp"
+ALIGN 4
+Templev31_img:
+#incbin "dmp/Templev31_img.dmp"
+ALIGN 4
+Templev31_pal:
+#incbin "dmp/Templev31_pal.dmp"
+ALIGN 4
+Templev31_tsa:
+#incbin "dmp/Templev31_tsa.dmp"
+ALIGN 4
+Templev32_img:
+#incbin "dmp/Templev32_img.dmp"
+ALIGN 4
+Templev32_pal:
+#incbin "dmp/Templev32_pal.dmp"
+ALIGN 4
+Templev32_tsa:
+#incbin "dmp/Templev32_tsa.dmp"
+ALIGN 4
+Templev41_img:
+#incbin "dmp/Templev41_img.dmp"
+ALIGN 4
+Templev41_pal:
+#incbin "dmp/Templev41_pal.dmp"
+ALIGN 4
+Templev41_tsa:
+#incbin "dmp/Templev41_tsa.dmp"
+ALIGN 4
+Templev42_img:
+#incbin "dmp/Templev42_img.dmp"
+ALIGN 4
+Templev42_pal:
+#incbin "dmp/Templev42_pal.dmp"
+ALIGN 4
+Templev42_tsa:
+#incbin "dmp/Templev42_tsa.dmp"
+ALIGN 4
+Templev43_img:
+#incbin "dmp/Templev43_img.dmp"
+ALIGN 4
+Templev43_pal:
+#incbin "dmp/Templev43_pal.dmp"
+ALIGN 4
+Templev43_tsa:
+#incbin "dmp/Templev43_tsa.dmp"
+ALIGN 4
+Templev44_img:
+#incbin "dmp/Templev44_img.dmp"
+ALIGN 4
+Templev44_pal:
+#incbin "dmp/Templev44_pal.dmp"
+ALIGN 4
+Templev44_tsa:
+#incbin "dmp/Templev44_tsa.dmp"
+ALIGN 4
+Templev45_img:
+#incbin "dmp/Templev45_img.dmp"
+ALIGN 4
+Templev45_pal:
+#incbin "dmp/Templev45_pal.dmp"
+ALIGN 4
+Templev45_tsa:
+#incbin "dmp/Templev45_tsa.dmp"
+ALIGN 4
+Templev51_img:
+#incbin "dmp/Templev51_img.dmp"
+ALIGN 4
+Templev51_pal:
+#incbin "dmp/Templev51_pal.dmp"
+ALIGN 4
+Templev51_tsa:
+#incbin "dmp/Templev51_tsa.dmp"
+ALIGN 4
+Templev52_img:
+#incbin "dmp/Templev52_img.dmp"
+ALIGN 4
+Templev52_pal:
+#incbin "dmp/Templev52_pal.dmp"
+ALIGN 4
+Templev52_tsa:
+#incbin "dmp/Templev52_tsa.dmp"
+ALIGN 4
+Templev61_img:
+#incbin "dmp/Templev61_img.dmp"
+ALIGN 4
+Templev61_pal:
+#incbin "dmp/Templev61_pal.dmp"
+ALIGN 4
+Templev61_tsa:
+#incbin "dmp/Templev61_tsa.dmp"
+ALIGN 4
+Templev62_img:
+#incbin "dmp/Templev62_img.dmp"
+ALIGN 4
+Templev62_pal:
+#incbin "dmp/Templev62_pal.dmp"
+ALIGN 4
+Templev62_tsa:
+#incbin "dmp/Templev62_tsa.dmp"
+
+ALIGN 4
+Desertv11_img:
+#incbin "dmp/Desertv11_img.dmp"
+ALIGN 4
+Desertv11_pal:
+#incbin "dmp/Desertv11_pal.dmp"
+ALIGN 4
+Desertv11_tsa:
+#incbin "dmp/Desertv11_tsa.dmp"
+ALIGN 4
+Desertv12_img:
+#incbin "dmp/Desertv12_img.dmp"
+ALIGN 4
+Desertv12_pal:
+#incbin "dmp/Desertv12_pal.dmp"
+ALIGN 4
+Desertv12_tsa:
+#incbin "dmp/Desertv12_tsa.dmp"
+
+ALIGN 4
+Lavav11_img:
+#incbin "dmp/Lavav11_img.dmp"
+ALIGN 4
+Lavav11_pal:
+#incbin "dmp/Lavav11_pal.dmp"
+ALIGN 4
+Lavav11_tsa:
+#incbin "dmp/Lavav11_tsa.dmp"
+ALIGN 4
+Lavav12_img:
+#incbin "dmp/Lavav12_img.dmp"
+ALIGN 4
+Lavav12_pal:
+#incbin "dmp/Lavav12_pal.dmp"
+ALIGN 4
+Lavav12_tsa:
+#incbin "dmp/Lavav12_tsa.dmp"
+ALIGN 4
+Lavav13_img:
+#incbin "dmp/Lavav13_img.dmp"
+ALIGN 4
+Lavav13_pal:
+#incbin "dmp/Lavav13_pal.dmp"
+ALIGN 4
+Lavav13_tsa:
+#incbin "dmp/Lavav13_tsa.dmp"
+
+ALIGN 4
+Cavev11_img:
+#incbin "dmp/Cavev11_img.dmp"
+ALIGN 4
+Cavev11_pal:
+#incbin "dmp/Cavev11_pal.dmp"
+ALIGN 4
+Cavev11_tsa:
+#incbin "dmp/Cavev11_tsa.dmp"
+ALIGN 4
+Cavev12_img:
+#incbin "dmp/Cavev12_img.dmp"
+ALIGN 4
+Cavev12_pal:
+#incbin "dmp/Cavev12_pal.dmp"
+ALIGN 4
+Cavev12_tsa:
+#incbin "dmp/Cavev12_tsa.dmp"
+
+ALIGN 4
+Sky_img:
+#incbin "dmp/Sky_img.dmp"
+ALIGN 4
+Sky_pal:
+#incbin "dmp/Sky_pal.dmp"
+ALIGN 4
+Sky_tsa:
+#incbin "dmp/Sky_tsa.dmp"
+
+ALIGN 4
+Tent_img:
+#incbin "dmp/Tent_img.dmp"
+ALIGN 4
+Tent_pal:
+#incbin "dmp/Tent_pal.dmp"
+ALIGN 4
+Tent_tsa:
+#incbin "dmp/Tent_tsa.dmp"
+
+ALIGN 4
+DarkForest_img:
+#incbin "dmp/DarkForest_img.dmp"
+ALIGN 4
+DarkForest_pal:
+#incbin "dmp/DarkForest_pal.dmp"
+ALIGN 4
+DarkForest_tsa:
+#incbin "dmp/DarkForest_tsa.dmp"
+
+ALIGN 4
+DarkTemplev11_img:
+#incbin "dmp/DarkTemplev11_img.dmp"
+ALIGN 4
+DarkTemplev11_pal:
+#incbin "dmp/DarkTemplev11_pal.dmp"
+ALIGN 4
+DarkTemplev11_tsa:
+#incbin "dmp/DarkTemplev11_tsa.dmp"
+ALIGN 4
+DarkTemplev12_img:
+#incbin "dmp/DarkTemplev12_img.dmp"
+ALIGN 4
+DarkTemplev12_pal:
+#incbin "dmp/DarkTemplev12_pal.dmp"
+ALIGN 4
+DarkTemplev12_tsa:
+#incbin "dmp/DarkTemplev12_tsa.dmp"
+////////////////////////////////

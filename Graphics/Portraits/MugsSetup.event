@@ -1,0 +1,163 @@
+//Portraits Sort Order
+//Player
+#define UnknownMug 01
+
+#define MarthMug 02
+#define MarthYoungMug 03
+#define MarthYoungClosedMug 04
+
+#define AbelMug 05
+#define ArranMug 06
+#define AstramMug 07
+#define AthenaMug 08
+
+#define BantuMug 09
+#define BarstMug 10
+#define BeckMug 11
+#define BoahMug 12
+#define BordMug 13
+
+#define CaedaMug 14
+#define CaesarMug 15
+#define CainMug 16
+#define CastorMug 17
+#define CatriaMug 18
+#define CordMug 19
+
+#define DarrosMug 20
+#define DolphMug 21
+#define DraugMug 22
+
+#define EliceMug 23
+#define EstMug 24
+#define EtzelMug 25
+
+#define FreyMug 26
+
+#define GordinMug 27
+#define GotohMug 28
+
+#define HardinMug 29
+#define HoraceMug 30
+
+#define JagenMug 31
+#define JakeMug 32
+#define JeorgeMug 33
+#define JulianMug 34
+
+#define LenaMug 35
+#define LindeMug 36
+#define LorenzMug 37
+
+#define MacellanMug 38
+#define MariaMug 39
+#define MatthisMug 40
+#define MerricMug 41
+#define MidiaMug 42
+#define MinervaMug 43
+
+#define NagiMug 44
+#define NavarreMug 45
+#define NorneMug 46
+
+#define OgmaMug 47
+#define PallaMug 48
+
+#define RaddMug 49
+#define RickardMug 50
+#define RogerMug 51
+#define RosheaMug 52
+
+#define SamsonMug 53
+#define SedgarMug 54
+
+#define TikiAMug 55
+#define TomasMug 56
+
+#define VylandMug 57
+
+#define WendellMug 58
+#define WolfMug 59
+#define WrysMug 60
+
+#define XaneMug 61
+#define YmirMug 62
+
+//Bosses
+#define CaptainMug 63
+
+#define GazzakMug 64
+#define GomerMug 65
+#define HymanMug 66
+#define BentheonMug 67
+#define MerachMug 68
+#define EmereusMug 69
+
+#define BathysMug 70
+
+#define HarmeinMug 71
+#define KannivalMug 72
+#define MannuMug 73
+#define ZharovMug 74
+#define KhozenMug 75
+#define VolzhinMug 76
+#define HeimlerMug 77
+
+#define DejaniraMug 78
+
+#define GrigasMug 79
+#define JiolMug 80
+#define GharnefMug 81
+#define HollstadtMug 82
+#define MorzasMug 83
+
+#define DactylMug 84
+
+#define SternlinMug 85
+#define TikiBMug 86
+#define CamusMug 87
+
+#define LarissaMug 88
+
+#define OrridyonMug 89
+#define MichalisMug 90
+
+#define XemcelMug 91
+
+#define MedeusMug 92
+
+//NPC 1
+#define MalledusMug 93
+#define NynaMug 94
+#define King01Mug 95
+#define King02Mug 96
+#define Soldier01Mug 97
+#define Soldier02Mug 98
+#define BanditMug 99
+
+
+//no mover
+#define AnnaMug 100
+#define ArmoryOgMug 101
+#define ShopOgMug 102
+#define ArenaOgMug 103
+#define SecretOgMug 104
+
+//////
+#define Villager01Mug 105
+#define Villager02Mug 106
+#define Villager03Mug 107
+#define Villager04Mug 108
+#define Villager05Mug 109
+#define Villager06Mug 110
+#define Villager07Mug 111
+#define Villager08Mug 112
+#define Villager09Mug 113
+#define Villager10Mug 114
+
+#define ArmoryMug 115
+#define ArenaMug 116
+#define ShopMug 117
+#define TailsMug 255
+
+//ClassCards

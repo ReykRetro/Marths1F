@@ -1,0 +1,66 @@
+ALIGN 4
+VillageObject:
+#incext Png2Dmp --lz77 "VillageObject.png"
+
+ALIGN 4
+VillageTiles:
+#incext compress "VillageTiles.mapchip_config"
+
+ALIGN 4
+VillagePalette1:
+#incbin "VillagePalette1.dmp"
+ALIGN 4
+VillagePalette2:
+#incbin "VillagePalette2.dmp"
+ALIGN 4
+VillagePalette3:
+#incbin "VillagePalette3.dmp"
+
+EventPointerTable(0x0e, VillageObject)
+EventPointerTable(0x10, VillageTiles)
+
+EventPointerTable(0x0f, VillagePalette1)
+EventPointerTable(0x72, VillagePalette2)
+EventPointerTable(0xea, VillagePalette3)
+/////////////////////////////////////////
+EventPointerTable(0x12, VillageAnims)
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+VillageAnims0:
+#incext png2dmp "VillageAnims/villageanims_000.png"
+ALIGN 4
+VillageAnims1:
+#incext png2dmp "VillageAnims/villageanims_001.png"
+ALIGN 4
+VillageAnims2:
+#incext png2dmp "VillageAnims/villageanims_002.png"
+ALIGN 4
+VillageAnims3:
+#incext png2dmp "VillageAnims/villageanims_003.png"
+ALIGN 4
+VillageAnims4:
+#incext png2dmp "VillageAnims/villageanims_004.png"
+ALIGN 4
+VillageAnims5:
+#incext png2dmp "VillageAnims/villageanims_005.png"
+ALIGN 4
+VillageAnims6:
+#incext png2dmp "VillageAnims/villageanims_006.png"
+ALIGN 4
+VillageAnims7:
+#incext png2dmp "VillageAnims/villageanims_007.png"
+
+ALIGN 4
+VillageAnims:
+tilesetAnimation(0x12,0x1000,VillageAnims0)
+tilesetAnimation(0x12,0x1000,VillageAnims1)
+tilesetAnimation(0x12,0x1000,VillageAnims2)
+tilesetAnimation(0x12,0x1000,VillageAnims3)
+tilesetAnimation(0x12,0x1000,VillageAnims4)
+tilesetAnimation(0x12,0x1000,VillageAnims5)
+tilesetAnimation(0x12,0x1000,VillageAnims6)
+tilesetAnimation(0x12,0x1000,VillageAnims7)
+WORD 0 0

@@ -1,0 +1,10 @@
+ALIGN 4
+fe12_marthX_img:
+#incbin "dmp/fe12_marthX_png.dmp"
+ALIGN 4
+fe12_marthX_pal:
+#incbin "dmp/fe12_marthX_pal.dmp"
+ALIGN 4
+fe12_marthX_tsa:
+#incbin "dmp/fe12_marthX_tsa.dmp"
+SetBG(0x7f,fe12_marthX_img,fe12_marthX_pal,fe12_marthX_tsa)

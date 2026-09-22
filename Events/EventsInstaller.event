@@ -1,0 +1,48 @@
+#include "REDAs.event"
+
+//Chapters
+#include "Chapters/PrologueI.event"
+//#include "Chapters/PrologueII.event"
+//#include "Chapters/PrologueIII.event"
+//#include "Chapters/PrologueIV.event"
+
+//#include "Chapters/Chapter01.event"
+//#include "Chapters/Chapter02.event"
+//#include "Chapters/Chapter03.event"
+//#include "Chapters/Chapter04.event"
+//#include "Chapters/Chapter05.event"
+//#include "Chapters/Chapter06.event"
+
+//#include "Chapters/Chapter06x.event"
+
+//#include "Chapters/Chapter07.event"
+//#include "Chapters/Chapter08.event"
+//#include "Chapters/Chapter09.event"
+//#include "Chapters/Chapter10.event"
+//#include "Chapters/Chapter11.event"
+//#include "Chapters/Chapter12.event"
+
+//#include "Chapters/Chapter12x.event"
+
+//#include "Chapters/Chapter13.event"
+//#include "Chapters/Chapter14.event"
+//#include "Chapters/Chapter15.event"
+//#include "Chapters/Chapter16.event"
+//#include "Chapters/Chapter17.event"
+
+//#include "Chapters/Chapter17x.event"
+
+//#include "Chapters/Chapter18.event"
+//#include "Chapters/Chapter19.event"
+//#include "Chapters/Chapter20.event"
+//#include "Chapters/Chapter21.event"
+//#include "Chapters/Chapter22.event"
+//#include "Chapters/Chapter23.event"
+//#include "Chapters/Chapter24.event"
+
+//#include "Chapters/Chapter24x.event"
+
+//#include "Chapters/Chapter25.event"
+
+//World Map
+#include "WorldMapEvents.event"

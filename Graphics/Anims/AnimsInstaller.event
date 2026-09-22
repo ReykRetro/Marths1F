@@ -1,0 +1,196 @@
+////Installed animations go here:
+
+#include "Lord1/1. Sword/Sword Installer.event" //01
+#include "Lord1/8. Unarmed/Unarmed Installer.event" //02
+
+#include "Lord2/1. Sword/Sword Installer.event" //03
+#include "Lord2/8. Unarmed/Unarmed Installer.event" //04
+
+#include "CavalierM/1. Sword/Sword Installer.event" //05
+#include "CavalierM/2. Lance/Lance Installer.event" //06
+#include "CavalierM/8. Unarmed/Unarmed Installer.event" //07
+
+#include "CavalierF/1. Sword/Sword Installer.event" //08
+#include "CavalierF/2. Lance/Lance Installer.event" //09
+#include "CavalierF/8. Unarmed/Unarmed Installer.event" //0a
+
+#include "PaladinM/1. Sword/Sword Installer.event" //0b
+#include "PaladinM/2. Lance/Lance Installer.event" //0c
+#include "PaladinM/8. Unarmed/Unarmed Installer.event" //0d
+
+#include "PaladinF/1. Sword/Sword Installer.event" //0e
+#include "PaladinF/2. Lance/Lance Installer.event" //0f
+#include "PaladinF/8. Unarmed/Unarmed Installer.event" //10
+
+#include "Knight/2. Lance/Lance Installer.event" //11
+#include "Knight/8. Unarmed/Unarmed Installer.event" //12
+
+#include "General/1. Sword/Sword Installer.event" //13
+#include "General/2. Lance/Lance Installer.event" //14
+#include "General/3. Axe/Axe Installer.event" //15
+#include "General/4. Handaxe/Handaxe Installer.event" //16
+#include "General/8. Unarmed/Unarmed Installer.event" //17
+
+#include "Thief/1. Sword/Sword Installer.event" //18
+#include "Thief/8. Unarmed/Unarmed Installer.event" //19
+
+#include "MercenaryM/1. Sword/Sword Installer.event" //1a
+#include "MercenaryM/8. Unarmed/Unarmed Installer.event" //1b
+#include "MercenaryF/1. Sword/Sword Installer.event" //1c
+#include "MercenaryF/8. Unarmed/Unarmed Installer.event" //1d
+
+#include "HeroM/1. Sword/Sword Installer.event" //1e
+#include "HeroM/3. Axe/Axe Installer.event" //2f
+#include "HeroM/4. Handaxe/Handaxe Installer.event" //30
+#include "HeroM/8. Unarmed/Unarmed Installer.event" //31
+#include "HeroF/1. Sword/Sword Installer.event" //32
+#include "HeroF/3. Axe/Axe Installer.event" //33
+#include "HeroF/4. Handaxe/Handaxe Installer.event" //34
+#include "HeroF/8. Unarmed/Unarmed Installer.event" //35
+
+#include "MyrmidonM/1. Sword/Sword Installer.event" //36
+#include "MyrmidonM/8. Unarmed/Unarmed Installer.event" //37
+#include "MyrmidonF/1. Sword/Sword Installer.event" //38
+#include "MyrmidonF/8. Unarmed/Unarmed Installer.event" //39
+
+#include "SwordmasterM/1. Sword/Sword Installer.event" //3a
+#include "SwordmasterM/8. Unarmed/Unarmed Installer.event" //3b
+#include "SwordmasterF/1. Sword/Sword Installer.event" //3c
+#include "SwordmasterF/8. Unarmed/Unarmed Installer.event" //3d
+#include "AssassinM/1. Sword/Sword Installer.event" //3e
+#include "AssassinM/8. Unarmed/Unarmed Installer.event" //3f
+#include "AssassinF/1. Sword/Sword Installer.event" //40
+#include "AssassinF/8. Unarmed/Unarmed Installer.event" //41
+
+#include "ArcherM/5. Bow/Bow Installer.event" //42
+#include "ArcherM/8. Unarmed/Unarmed Installer.event" //43
+#include "ArcherF/5. Bow/Bow Installer.event" //44
+#include "ArcherF/8. Unarmed/Unarmed Installer.event" //45
+
+#include "SniperM/5. Bow/Bow Installer.event" //46
+#include "SniperM/8. Unarmed/Unarmed Installer.event" //47
+#include "SniperF/5. Bow/Bow Installer.event" //48
+#include "SniperF/8. Unarmed/Unarmed Installer.event" //49
+
+#include "RangerM/1. Sword/Sword Installer.event" //4a
+#include "RangerM/5. Bow/Bow Installer.event" //4b
+#include "RangerM/8. Unarmed/Unarmed Installer.event" //4c
+#include "RangerF/1. Sword/Sword Installer.event" //4d
+#include "RangerF/5. Bow/Bow Installer.event" //4e
+#include "RangerF/8. Unarmed/Unarmed Installer.event" //4f
+
+#include "WyvernRider/2. Lance/Lance Installer.event" //50
+#include "WyvernRider/8. Unarmed/Unarmed Installer.event" //51
+
+#include "WyvernLord/1. Sword/Sword Installer.event" //52
+#include "WyvernLord/2. Lance/Lance Installer.event" //53
+#include "WyvernLord/8. Unarmed/Unarmed Installer.event" //54
+
+#include "WyvernKnight/2. Lance/Lance Installer.event" //55
+#include "WyvernKnight/8. Unarmed/Unarmed Installer.event" //56
+
+#include "MageM/6. Magic/Magic Installer.event" //57
+#include "MageF/6. Magic/Magic Installer.event" //58
+
+#include "SageM/6. Magic/Magic Installer.event" //59
+#include "SageM/7. Staff/Staff Installer.event" //5a
+#include "SageF/6. Magic/Magic Installer.event" //5b
+#include "SageF/7. Staff/Staff Installer.event" //5c
+
+#include "MageKnightM/6. Magic/Magic Installer.event" //5d
+#include "MageKnightM/7. Staff/Staff Installer.event" //5e
+#include "MageKnightF/6. Magic/Magic Installer.event" //5f
+#include "MageKnightF/7. Staff/Staff Installer.event" //60
+
+#include "BishopM/6. Magic/Magic Installer.event" //61
+#include "BishopM/7. Staff/Staff Installer.event" //62
+#include "BishopM/8. Unarmed/Unarmed Installer.event" //63
+#include "BishopF/6. Magic/Magic Installer.event" //64
+#include "BishopF/7. Staff/Staff Installer.event" //65
+#include "BishopF/8. Unarmed/Unarmed Installer.event" //66
+
+#include "ShamanM/6. Magic/Magic Installer.event" //67
+#include "ShamanF/6. Magic/Magic Installer.event"
+
+#include "DruidM/6. Magic/Magic Installer.event"
+#include "DruidM/7. Staff/Staff Installer.event"
+#include "DruidF/6. Magic/Magic Installer.event"
+#include "DruidF/7. Staff/Staff Installer.event"
+
+#include "SummonerM/6. Magic/Magic Installer.event"
+#include "SummonerM/7. Staff/Staff Installer.event"
+#include "SummonerF/6. Magic/Magic Installer.event"
+#include "SummonerF/7. Staff/Staff Installer.event"
+
+#include "Rogue/1. Sword/Sword Installer.event"
+#include "Rogue/8. Unarmed/Unarmed Installer.event"
+
+#include "GreatKnight/1. Sword/Sword Installer.event"
+#include "GreatKnight/2. Lance/Lance Installer.event"
+#include "GreatKnight/3. Axe/Axe Installer.event"
+#include "GreatKnight/4. Handaxe/Handaxe Installer.event"
+#include "GreatKnight/8. Unarmed/Unarmed Installer.event"
+
+#include "Recruit/2. Lance/Lance Installer.event"
+#include "Recruit/8. Unarmed/Unarmed Installer.event"
+
+#include "Journeyman/3. Axe/Axe Installer.event"
+#include "Journeyman/4. Handaxe/Handaxe Installer.event"
+#include "Journeyman/8. Unarmed/Unarmed Installer.event"
+
+#include "Pupil/6. Magic/Magic Installer.event"
+
+#include "Fighter/3. Axe/Axe Installer.event" //7e
+#include "Fighter/4. Handaxe/Handaxe Installer.event" //7f
+#include "Fighter/8. Unarmed/Unarmed Installer.event" //80
+
+#include "Warrior/3. Axe/Axe Installer.event" //81
+#include "Warrior/4. Handaxe/Handaxe Installer.event" //82
+#include "Warrior/5. Bow/Bow Installer.event" //83
+#include "Warrior/8. Unarmed/Unarmed Installer.event" //84
+
+#include "Brigand/3. Axe/Axe Installer.event" //85
+#include "Brigand/4. Handaxe/Handaxe Installer.event" //86
+#include "Brigand/8. Unarmed/Unarmed Installer.event" //87
+
+#include "Pirate/3. Axe/Axe Installer.event" //88
+#include "Pirate/4. Handaxe/Handaxe Installer.event" //89
+#include "Pirate/8. Unarmed/Unarmed Installer.event" //8a
+
+#include "Berserker/3. Axe/Axe Installer.event" //8b
+#include "Berserker/4. Handaxe/Handaxe Installer.event" //8c
+#include "Berserker/8. Unarmed/Unarmed Installer.event" //8d
+
+#include "Monk/6. Magic/Magic Installer.event" //8e
+
+#include "Priest/7. Staff/Staff Installer.event" //8f
+#include "Priest/8. Unarmed/Unarmed Installer.event" //90
+
+#include "PegasusKnight/2. Lance/Lance Installer.event"
+#include "PegasusKnight/8. Unarmed/Unarmed Installer.event"
+
+#include "Falconknight/1. Sword/Sword Installer.event"
+#include "Falconknight/2. Lance/Lance Installer.event"
+#include "Falconknight/8. Unarmed/Unarmed Installer.event"
+
+#include "Cleric/7. Staff/Staff Installer.event" //97
+#include "Cleric/8. Unarmed/Unarmed Installer.event" //98
+
+#include "Troubadour/7. Staff/Staff Installer.event" //99
+#include "Troubadour/8. Unarmed/Unarmed Installer.event" //9a
+
+#include "Valkyrie/6. Magic/Magic Installer.event" //9b
+#include "Valkyrie/7. Staff/Staff Installer.event" //9c
+
+#include "Dancer/1. Sword/Sword Installer.event"
+#include "Dancer/8. Refresh/Refresh Installer.event"
+
+#include "Soldier/2. Lance/Lance Installer.event" //9e
+#include "Soldier/8. Unarmed/Unarmed Installer.event" //9f
+
+#include "DarkDruid/6. Magic/Magic Installer.event" //cc
+#include "DarkDruid/7. Staff/Staff Installer.event" //cd
+
+#include "Phantom/3. Axe/Axe Installer.event" //ce
+#include "Phantom/4. Handaxe/Handaxe Installer.event" //cf
+#include "Phantom/8. Unarmed/Unarmed Installer.event" //d0

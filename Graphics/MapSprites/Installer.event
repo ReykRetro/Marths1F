@@ -1,0 +1,110 @@
+#include "Internals.event"
+
+ALIGN 4
+Lord1stand:
+#incbin "dmp/Lord1stand.dmp"
+ALIGN 4
+Lord1walk:
+#incbin "dmp/Lord1walk.dmp"
+
+ALIGN 4
+Lord2stand:
+#incbin "dmp/Lord2stand.dmp"
+ALIGN 4
+Lord2walk:
+#incbin "dmp/Lord2walk.dmp"
+
+ALIGN 4
+CavalierFstand:
+#incbin "dmp/CavalierFstand.dmp"
+ALIGN 4
+CavalierFwalk:
+#incbin "dmp/CavalierFwalk.dmp"
+
+ALIGN 4
+PaladinFstand:
+#incbin "dmp/PaladinFstand.dmp"
+ALIGN 4
+PaladinFwalk:
+#incbin "dmp/PaladinFwalk.dmp"
+
+ALIGN 4
+ShamanFstand:
+#incbin "dmp/ShamanFstand.dmp"
+ALIGN 4
+ShamanFwalk:
+#incbin "dmp/ShamanFwalk.dmp"
+
+ALIGN 4
+DruidFstand:
+#incbin "dmp/DruidFstand.dmp"
+ALIGN 4
+DruidFwalk:
+#incbin "dmp/DruidFwalk.dmp"
+
+ALIGN 4
+SummonerFstand:
+#incbin "dmp/SummonerFstand.dmp"
+ALIGN 4
+SummonerFwalk:
+#incbin "dmp/SummonerFwalk.dmp"
+
+ALIGN 4
+ManaketeStand:
+#incbin "dmp/ManaketeStand.dmp"
+ALIGN 4
+ManaketeWalk:
+#incbin "dmp/ManaketeWalk.dmp"
+
+ALIGN 4
+BerserkerStand:
+#incbin "dmp/BerserkerStand.dmp"
+ALIGN 4
+BerserkerWalk:
+#incbin "dmp/BerserkerWalk.dmp"
+
+ALIGN 4
+DarkDruidstand:
+#incbin "dmp/DarkDruidstand.dmp"
+ALIGN 4
+DarkDruidwalk:
+#incbin "dmp/DarkDruidwalk.dmp"
+
+ALIGN 4
+FireStand:
+#incbin "dmp/FireStand.dmp"
+ALIGN 4
+ShineStand:
+#incbin "dmp/ShineStand.dmp"
+//Copy from here 
+PUSH 
+
+//Standing MS
+SetSMS(0x00, 1, Lord1stand)
+SetSMS(0x01, 1, Lord2stand)
+SetSMS(0x6b, 1, CavalierFstand)
+SetSMS(0x6c, 1, PaladinFstand)
+SetSMS(0x6d, 0, ShamanFstand)
+SetSMS(0x6e, 0, DruidFstand)
+SetSMS(0x6f, 1, SummonerFstand)
+SetSMS(0x30, 0, ManaketeStand)
+SetSMS(0x35, 1, BerserkerStand)
+SetSMS(0x40, 1, DarkDruidstand)
+SetSMS(0x67, 0, FireStand)
+SetSMS(0x68, 0, ShineStand)
+
+
+//Walking MS
+SetMMS(0x00, Lord1walk, NormalAP)
+SetMMS(0x01, Lord2walk, NormalAP)
+SetMMS(0x05, CavalierFwalk, NormalAP)
+SetMMS(0x07, PaladinFwalk, NormalAP)
+SetMMS(0x2d, ShamanFwalk, NormalAP)
+SetMMS(0x2f, DruidFwalk, NormalAP)
+SetMMS(0x31, SummonerFwalk, NormalAP)
+SetMMS(0x3b, ManaketeWalk, NormalAP)
+SetMMS(0x42, BerserkerWalk, NormalAP)
+SetMMS(0x4e, DarkDruidwalk, NormalAP)
+
+
+POP

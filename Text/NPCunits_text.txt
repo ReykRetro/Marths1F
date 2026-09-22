@@ -1,0 +1,25 @@
+## AnriName
+Anri[X]
+## AnriDesc
+Primer rey de altea.[.][X]
+
+## CorneliusName
+Cornelius[.][X]
+## CorneliusDesc
+Padre de marth[.][X]
+
+## MalledusName
+Malledus[X]
+## MalledusDesc
+consejero de marth[.][X]
+
+## NynaName
+Nyna[X]
+## NynaDesc
+princesa de archanea.[.][X]
+
+## ArenaName
+Arena[.][X]
+## ArenaDesc
+Fiero guerrero que[NL]
+lucha en el coliseo.[.][X]

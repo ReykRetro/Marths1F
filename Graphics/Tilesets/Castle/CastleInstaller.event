@@ -1,0 +1,70 @@
+ALIGN 4
+CastleObject:
+#incext Png2Dmp --lz77 "CastleObject.png"
+
+ALIGN 4
+CastleTiles:
+#incext compress "CastleTiles.mapchip_config"
+
+ALIGN 4
+CastlePalette1:
+#incbin "CastlePalette1.dmp"
+ALIGN 4
+CastlePalette2:
+#incbin "CastlePalette2.dmp"
+ALIGN 4
+CastlePalette3:
+#incbin "CastlePalette3.dmp"
+ALIGN 4
+CastlePalette4:
+#incbin "CastlePalette4.dmp"
+
+EventPointerTable(0x18, CastleObject)
+EventPointerTable(0x1a, CastleTiles)
+
+EventPointerTable(0x19, CastlePalette1)
+EventPointerTable(0x48, CastlePalette2)
+EventPointerTable(0x57, CastlePalette3)
+EventPointerTable(0xb9, CastlePalette4)
+/////////////////////////////////////////
+EventPointerTable(0x1c, CastleAnims)
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+CastleAnims0:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_000.png"
+ALIGN 4
+CastleAnims1:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_001.png"
+ALIGN 4
+CastleAnims2:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_002.png"
+ALIGN 4
+CastleAnims3:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_003.png"
+ALIGN 4
+CastleAnims4:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_004.png"
+ALIGN 4
+CastleAnims5:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_005.png"
+ALIGN 4
+CastleAnims6:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_006.png"
+ALIGN 4
+CastleAnims7:
+#incext png2dmp "CastleAnims/castle_anims.mapanime1_007.png"
+
+ALIGN 4
+CastleAnims:
+tilesetAnimation(0x1C,0x1000,CastleAnims0)
+tilesetAnimation(0x1C,0x1000,CastleAnims1)
+tilesetAnimation(0x1C,0x1000,CastleAnims2)
+tilesetAnimation(0x1C,0x1000,CastleAnims3)
+tilesetAnimation(0x1C,0x1000,CastleAnims4)
+tilesetAnimation(0x1C,0x1000,CastleAnims5)
+tilesetAnimation(0x1C,0x1000,CastleAnims6)
+tilesetAnimation(0x1C,0x1000,CastleAnims7)
+WORD 0 0

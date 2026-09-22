@@ -1,0 +1,26 @@
+//Generated - do not edit!
+//Copy paste the /* */ section into your definitions if desired.
+ 
+ 
+ 
+/* 
+//First free icon past vanilla is 222 / 0xDE 
+ 
+#define BlankIcon 222 
+#define FalchionIcon 223 
+*/ 
+ 
+ 
+ 
+ 
+//Image Data 
+ 
+PUSH 
+ 
+//ItemIconEntry(BlankIcon) 
+//#incbin "dmp/Blank.dmp" 
+ 
+ItemIconEntry(FalchionIcon) 
+#incbin "dmp/Falchion.dmp" 
+ 
+POP 

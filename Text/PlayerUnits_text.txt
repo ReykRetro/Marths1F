@@ -1,0 +1,304 @@
+# 0x0212 MarthName
+Marth[.][X]
+# 0x026e MarthDesc
+Principe de Altea[X]
+
+# 0x213 AbelName
+Abel[X]
+# 0x026f AbelDesc
+Abel el jinete verde[.][X]
+
+# 0x214 FreyName
+Frey[X]
+# 0x0270 FreyDesc
+Tercer Jinete[.][X]
+
+# 0x0215 JagenName
+Jagen[.][X]
+# 0x0271 JagenDesc
+Jagen, protector del grupo[.][X]
+
+# 0x0216 CainName
+Cain[X]
+# 0x0272 CainDesc
+Jinete rojo[.][X]
+
+# 0x0217 GordinName
+Gordin[X]
+# 0x0273 GordinDesc
+Primer arquero[.][X]
+
+# 0x0218 DraugName
+Draug[.][X]
+# 0x0274 Draug
+Acorazado basico[.][X]
+
+# 0x0219 NorneName
+Norne[.][X]
+# 0x0275 NorneDesc
+Arquera de reemplazo[.][X]
+
+# 0x021a CaedaName
+Caeda[.][X]
+# 0x0276 CaedaDesc
+Princesa de Tails[.][X]
+
+# 0x021b WrysName
+Wrys[X]
+# 0x0277 WrysDesc
+Sacerdote pelon[.][X]
+
+# 0x021c OgmaName
+Ogma[X]
+# 0x0278 OgmaDesc
+Mercenario de Talis[.][X]
+
+# 0x021d BartsName
+Barst[.][X]
+# 0x0279 BarstDesc
+Hachero 1[.][X]
+
+# 0x021e BordName
+Bord[X]
+# 0x27a BordDesc
+Hachero 2[.][X]
+
+# 0x021f CordName
+Cord[X]
+# 0x027b CordDesc
+Hachero 3[X]
+
+# 0x0220 DarrosName
+Darros[X]
+# 0x27c DarrosDesc
+Pirata del cap2[.][X]
+
+# 0x0221 CastorName
+Castor[X]
+# 0x027d CastorDesc
+El cazador, que haremos con el?[.][X]
+
+# 0x0222 JulianName
+Julian[X]
+# 0x027e JulianDesc
+Ladron chido[.][X]
+
+# 0x0223 LenaName
+Lena[X]
+#0x027f LenaDesc
+Potencial de Waifu[.][X]
+
+# 0x0224 NavarreName
+Navarre[.][X]
+# 0x0280 NavarreDesc
+Mirmidon edgy[.][X]
+
+# 0x0225 MerricName
+Merric[X]
+# 0x0281 MerricDesc
+Mago especializado
+en magia de viento.[.][X]
+
+# 0x0226 MatthisName
+Matthis[.][X]
+# 0x0282 MatthisDesc
+Caballero pelirojo a caballo.[.][X]
+
+# 0x0227 WolfName
+Wolf[X]
+# 0x0283 WolfDesc
+Se ve mamalon, mira
+nomas ese cabello.[.][X]
+
+# 0x0228 SedgarName
+Sedgar[X]
+# 0x0284 SedgarDesc
+esta ok[.][X]
+
+# 0x0229 RosheaName
+Roshea[X]
+# 0x0285 RosheaDesc
+tiene nombre de maestro,[NL]
+pero lo veo muy guey.[.][X]
+
+# 0x022a VylandName
+Vyland[X]
+# 0x0286 VylandDesc
+Interesante la coincidencia[NL]
+de nombre, no crees?[.][X]
+
+# 0x022b HardinName
+Hardin[X]
+# 0x0287 HardinDesc
+El arabes[.][X]
+
+# 0x022c WendellName
+Wendell[.][X]
+# 0x0288 WendellDesc
+el padrecito.[.][X]
+
+# 0x022d RickardName
+Rickard[.][X]
+# 0x0289 RickardDesc
+parece femboy, no?[.][X]
+
+# 0x022e AthenaName
+Athena[X]
+# 0x028a AthenaDesc
+Hablar cavernicola,[NL]
+igual que Gonzalez.[.][X]
+
+# 0x022f BantuName
+Bantu[.][X]
+# 0x028b BantuDesc
+Dragon de fuego olvidadizo.[.][X]
+
+# 0x0230 CaesarName
+Caesar[X]
+# 0x028c CaesarDesc
+Merc del puerto.[.][X]
+
+# 0x0231 RaddName
+Radd[X]
+# 0x028d RaddDesc
+Myrm del puerto.[.][X]
+
+# 0x0232 RogerName
+Roger[.][X]
+# 0x028e RogerDesc
+Un acorazado mas[.][X]
+
+# 0x0233 JeorgeName
+Jeorge[X]
+# 0x0f73 JeorgeDesc
+Tirador inutil.[.][X]
+
+## MariaName
+Maria[.][X]
+## MariaDesc
+pobrecita[.][X]
+
+## MinervaName
+Minerva[.][X]
+## MinervaDesc
+Me gusta su dragon.[.][X]
+
+## LindeName
+Linde[.][X]
+## LindeDesc
+Maga hija de khadein.[.][X]
+
+## JakeName
+Jake[X]
+## JakeDesc
+novio de anna.[.][X]
+
+## DolphName
+Dolph[.][X]
+## DolphDesc
+acorzado pelon verde[.][X]
+
+## MacellanName
+Macellan[X]
+## MacellanDesc
+Acorazado pelon rosa[.][X]
+
+## TomasName
+Tomas[.][X]
+## TomasDesc
+otro inutil.[.][X]
+
+## BoahName
+Boah[X]
+## BoahDesc
+sacerdote inutil.[.][X]
+
+## MidiaName
+Midia[.][X]
+## MidiaDesc
+Paladin medio tarde.[.][X]
+
+## HoraceName
+Horace[X]
+## HoraceDesc
+del gaiden 12x[.][X]
+
+## BeckName
+Beck[X]
+## BeckDesc
+artillero[.][X]
+
+## AstramName
+Astram[X]
+## AstramDesc
+el dolor de huevos[.][X]
+
+## CatriaName
+Catria[X]
+## CatriaDesc
+pegaso azul[.][X]
+
+## PallaName
+Palla[.][X]
+## PallaDesc
+pegaso verde[.][X]
+
+## ArranName
+Arran[.][X]
+## ArranDesc
+hay de dos sopas, este[NL]
+es la de un lado.[.][X]
+
+## SamsonName
+Samson[X]
+## SamsonDesc
+hay de dos sopas, este[NL]
+es la del lado opuesto.[.][X]
+
+## XaneName
+Xane[X]
+## XaneDesc
+el camaleon[X]
+
+## EtzelName
+Etzel[.][X]
+## EtzelDesc
+mago oscuro... Interesante,[NL]
+supongo, o tu que dices?[.][X]
+
+## EstName
+Est[.][X]
+## EstDesc
+pegaso rosa.[.][X]
+
+## TikiName
+Tiki[X]
+## TikiDesc
+la manakete og.[.][X]
+
+## LorenzName
+Lorenz[X]
+## LorenzDesc
+el tuerto[.][X]
+
+## YmirName
+Ymir[X]
+## YmirDesc
+otro de esos gaiden.[.][X]
+
+## EliceName
+Elice[.][X]
+## EliceDesc
+hermana de marth.[.][X]
+
+## GotohName
+Gotoh[.][X]
+## GotohDesc
+sabio del continente[NL]
+de Akaneia, viejo.[.][X]
+
+## NagiName
+Nagi[X]
+## NagiDesc
+la otra manakete,[NL]
+de donde salio?[.][X]

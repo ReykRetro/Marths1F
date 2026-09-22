@@ -1,0 +1,10 @@
+# 0x02e1 DarkMageName
+Dark Mage[.][X]
+
+# 0x02e2 SorcererNaame
+Sorcerer[X]
+
+# 0x02ef DarkBishopName
+Dark Bishop[.][X]
+# 0x033b DarkBishopDesc
+Master of the dark magic[.][X]

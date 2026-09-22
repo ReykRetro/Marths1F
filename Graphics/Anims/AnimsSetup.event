@@ -1,0 +1,539 @@
+////Defined animations go here:
+ALIGN 4
+Lord1:
+weaponTypeAnim(0x00,0x01)
+weaponTypeAnim(0x09,0x02)
+weaponAnimEnd
+SetAnimationPointers(0x01,Lord1)
+
+ALIGN 4
+CavM:
+weaponTypeAnim(0x00,0x05)
+weaponTypeAnim(0x01,0x06)
+weaponTypeAnim(0x09,0x07)
+weaponAnimEnd
+SetAnimationPointers(0x05,CavM)
+ALIGN 4
+CavF:
+weaponTypeAnim(0x00,0x08)
+weaponTypeAnim(0x01,0x09)
+weaponTypeAnim(0x09,0x0a)
+weaponAnimEnd
+SetAnimationPointers(0x06,CavF)
+
+ALIGN 4
+PaladinM:
+weaponTypeAnim(0x00,0x0b)
+weaponTypeAnim(0x01,0x0c)
+weaponTypeAnim(0x09,0x0d)
+weaponAnimEnd
+SetAnimationPointers(0x07,PaladinM)
+ALIGN 4
+PaladinF:
+weaponTypeAnim(0x00,0x0e)
+weaponTypeAnim(0x01,0x0f)
+weaponTypeAnim(0x09,0x10)
+weaponAnimEnd
+SetAnimationPointers(0x08,PaladinF)
+
+ALIGN 4
+KnightAnims:
+weaponTypeAnim(0x01,0x11)
+weaponTypeAnim(0x09,0x12)
+weaponAnimEnd
+SetAnimationPointers(0x09,KnightAnims)
+SetAnimationPointers(0x0a,KnightAnims)
+
+ALIGN 4
+GeneralAnims:
+weaponTypeAnim(0x00,0x13)
+weaponTypeAnim(0x01,0x14)
+weaponTypeAnim(0x02,0x15)
+weaponAnim(0x28, 0x16)
+weaponAnim(0x29, 0x16)
+weaponAnim(0x2c, 0x16)
+weaponTypeAnim(0x09,0x17)
+weaponAnimEnd
+SetAnimationPointers(0x0b,GeneralAnims)
+SetAnimationPointers(0x0c,GeneralAnims)
+
+ALIGN 4
+ThiefAnims:
+weaponTypeAnim(0x00,0x18)
+weaponTypeAnim(0x09,0x19)
+weaponAnimEnd
+SetAnimationPointers(0x0d,ThiefAnims)
+
+ALIGN 4
+MercM:
+weaponTypeAnim(0x00,0x1a)
+weaponTypeAnim(0x09,0x1b)
+weaponAnimEnd
+SetAnimationPointers(0x0f,MercM)
+ALIGN 4
+MercF:
+weaponTypeAnim(0x00,0x1c)
+weaponTypeAnim(0x09,0x1d)
+weaponAnimEnd
+SetAnimationPointers(0x10,MercF)
+
+
+ALIGN 4
+HeroM:
+weaponTypeAnim(0x00,0x1e)
+weaponTypeAnim(0x02,0x1f)
+weaponAnim(0x28, 0x20)
+weaponAnim(0x29, 0x20)
+weaponAnim(0x2c, 0x20)
+weaponTypeAnim(0x09,0x21)
+weaponAnimEnd
+SetAnimationPointers(0x11,HeroM)
+ALIGN 4
+HeroF:
+weaponTypeAnim(0x00,0x22)
+weaponTypeAnim(0x02,0x23)
+weaponAnim(0x28, 0x24)
+weaponAnim(0x29, 0x24)
+weaponAnim(0x2c, 0x24)
+weaponTypeAnim(0x09,0x25)
+weaponAnimEnd
+SetAnimationPointers(0x12,HeroF)
+
+ALIGN 4
+MyrmM:
+weaponTypeAnim(0x00,0x26)
+weaponTypeAnim(0x09,0x27)
+weaponAnimEnd
+SetAnimationPointers(0x13,MyrmM)
+ALIGN 4
+MyrmF:
+weaponTypeAnim(0x00,0x28)
+weaponTypeAnim(0x09,0x29)
+weaponAnimEnd
+SetAnimationPointers(0x14,MyrmF)
+
+ALIGN 4
+SwdMasterM:
+weaponTypeAnim(0x00,0x2a)
+weaponTypeAnim(0x09,0x2b)
+weaponAnimEnd
+SetAnimationPointers(0x15,SwdMasterM)
+ALIGN 4
+SwdMasterF:
+weaponTypeAnim(0x00,0x2c)
+weaponTypeAnim(0x09,0x2d)
+weaponAnimEnd
+SetAnimationPointers(0x16,SwdMasterF)
+
+ALIGN 4
+AsnM:
+weaponTypeAnim(0x00,0x2e)
+weaponTypeAnim(0x09,0x2f)
+weaponAnimEnd
+SetAnimationPointers(0x17,AsnM)
+ALIGN 4
+AsnF:
+weaponTypeAnim(0x00,0x30)
+weaponTypeAnim(0x09,0x31)
+weaponAnimEnd
+SetAnimationPointers(0x18,AsnF)
+
+ALIGN 4
+ArcherM:
+weaponTypeAnim(0x03,0x32)
+weaponTypeAnim(0x09,0x33)
+weaponAnim(0x35, 0x9f)
+weaponAnim(0x36, 0x9f)
+weaponAnim(0x37, 0x9f)
+weaponAnimEnd
+SetAnimationPointers(0x19,ArcherM)
+ALIGN 4
+ArcherF:
+weaponTypeAnim(0x03,0x34)
+weaponTypeAnim(0x09,0x35)
+weaponAnim(0x35, 0xca)
+weaponAnim(0x36, 0xca)
+weaponAnim(0x37, 0xca)
+weaponAnimEnd
+SetAnimationPointers(0x1a,ArcherF)
+
+ALIGN 4
+SniperM:
+weaponTypeAnim(0x03,0x36)
+weaponTypeAnim(0x09,0x37)
+weaponAnim(0x35, 0xcb)
+weaponAnim(0x36, 0xcb)
+weaponAnim(0x37, 0xcb)
+weaponAnimEnd
+SetAnimationPointers(0x1b,SniperM)
+ALIGN 4
+SniperF:
+weaponTypeAnim(0x03,0x38)
+weaponTypeAnim(0x09,0x39)
+weaponAnim(0x35, 0xcc)
+weaponAnim(0x36, 0xcc)
+weaponAnim(0x37, 0xcc)
+weaponAnimEnd
+SetAnimationPointers(0x1c,SniperF)
+
+ALIGN 4
+RangerM:
+weaponTypeAnim(0x00,0x3a)
+weaponTypeAnim(0x03,0x3b)
+weaponTypeAnim(0x09,0x3c)
+weaponAnimEnd
+SetAnimationPointers(0x1d,RangerM)
+ALIGN 4
+RangerF:
+weaponTypeAnim(0x00,0x3d)
+weaponTypeAnim(0x03,0x3e)
+weaponTypeAnim(0x09,0x3f)
+weaponAnimEnd
+SetAnimationPointers(0x1e,RangerF)
+
+ALIGN 4
+wrAnims:
+weaponTypeAnim(0x01,0x40)
+weaponTypeAnim(0x09,0x41)
+weaponAnimEnd
+SetAnimationPointers(0x1f,wrAnims)
+SetAnimationPointers(0x20,wrAnims)
+
+ALIGN 4
+wlAnims:
+weaponTypeAnim(0x00,0x42)
+weaponTypeAnim(0x01,0x43)
+weaponTypeAnim(0x09,0x44)
+weaponAnimEnd
+SetAnimationPointers(0x21,wlAnims)
+SetAnimationPointers(0x22,wlAnims)
+
+ALIGN 4
+wkAnims:
+weaponTypeAnim(0x01,0x45)
+weaponTypeAnim(0x09,0x46)
+weaponAnimEnd
+SetAnimationPointers(0x23,wkAnims)
+SetAnimationPointers(0x24,wkAnims)
+
+ALIGN 4
+MageM:
+weaponTypeAnim(0x05,0x47)
+weaponTypeAnim(0x06,0x47)
+weaponTypeAnim(0x07,0x47)
+weaponTypeAnim(0x09,0x47)
+weaponAnimEnd
+SetAnimationPointers(0x25,MageM)
+ALIGN 4
+MageF:
+weaponTypeAnim(0x05,0x48)
+weaponTypeAnim(0x06,0x48)
+weaponTypeAnim(0x07,0x48)
+weaponTypeAnim(0x09,0x48)
+weaponAnimEnd
+SetAnimationPointers(0x26,MageF)
+
+ALIGN 4
+SageM:
+weaponTypeAnim(0x05,0x49)
+weaponTypeAnim(0x06,0x49)
+weaponTypeAnim(0x07,0x49)
+weaponTypeAnim(0x04,0x4a)
+weaponTypeAnim(0x09,0x49)
+weaponAnimEnd
+SetAnimationPointers(0x27,SageM)
+ALIGN 4
+SageF:
+weaponTypeAnim(0x05,0x4b)
+weaponTypeAnim(0x06,0x4b)
+weaponTypeAnim(0x07,0x4b)
+weaponTypeAnim(0x04,0x4c)
+weaponTypeAnim(0x09,0x4b)
+weaponAnimEnd
+SetAnimationPointers(0x28,SageF)
+
+ALIGN 4
+mkM:
+weaponTypeAnim(0x05,0x4d)
+weaponTypeAnim(0x06,0x4d)
+weaponTypeAnim(0x07,0x4d)
+weaponTypeAnim(0x04,0x4e)
+weaponTypeAnim(0x09,0x4d)
+weaponAnimEnd
+SetAnimationPointers(0x29,mkM)
+ALIGN 4
+mkF:
+weaponTypeAnim(0x05,0x4f)
+weaponTypeAnim(0x06,0x4f)
+weaponTypeAnim(0x07,0x4f)
+weaponTypeAnim(0x04,0x50)
+weaponTypeAnim(0x09,0x4f)
+weaponAnimEnd
+SetAnimationPointers(0x2a,mkF)
+
+ALIGN 4
+BishopM:
+weaponTypeAnim(0x05,0x51)
+weaponTypeAnim(0x06,0x51)
+weaponTypeAnim(0x07,0x51)
+weaponTypeAnim(0x04,0x52)
+weaponTypeAnim(0x09,0x53)
+weaponAnimEnd
+SetAnimationPointers(0x2b,BishopM)
+ALIGN 4
+BishopF:
+weaponTypeAnim(0x05,0x54)
+weaponTypeAnim(0x06,0x54)
+weaponTypeAnim(0x07,0x54)
+weaponTypeAnim(0x04,0x55)
+weaponTypeAnim(0x09,0x56)
+weaponAnimEnd
+SetAnimationPointers(0x2c,BishopF)
+
+ALIGN 4
+ShamanM:
+weaponTypeAnim(0x05,0x57)
+weaponTypeAnim(0x06,0x57)
+weaponTypeAnim(0x07,0x57)
+weaponTypeAnim(0x09,0x57)
+weaponAnimEnd
+SetAnimationPointers(0x2d,ShamanM)
+ALIGN 4
+ShamanF:
+weaponTypeAnim(0x05,0x58)
+weaponTypeAnim(0x06,0x58)
+weaponTypeAnim(0x07,0x58)
+weaponTypeAnim(0x09,0x58)
+weaponAnimEnd
+SetAnimationPointers(0x2e,ShamanF)
+
+ALIGN 4
+DruidM:
+weaponTypeAnim(0x05,0x59)
+weaponTypeAnim(0x06,0x59)
+weaponTypeAnim(0x07,0x59)
+weaponTypeAnim(0x04,0x5a)
+weaponTypeAnim(0x09,0x59)
+weaponAnimEnd
+SetAnimationPointers(0x2f,DruidM)
+ALIGN 4
+DruidF:
+weaponTypeAnim(0x05,0x5b)
+weaponTypeAnim(0x06,0x5b)
+weaponTypeAnim(0x07,0x5b)
+weaponTypeAnim(0x04,0x5c)
+weaponTypeAnim(0x09,0x5b)
+weaponAnimEnd
+SetAnimationPointers(0x30,DruidF)
+
+ALIGN 4
+SummonerM:
+weaponTypeAnim(0x05,0x5d)
+weaponTypeAnim(0x06,0x5d)
+weaponTypeAnim(0x07,0x5d)
+weaponTypeAnim(0x04,0x5e)
+weaponTypeAnim(0x09,0x5d)
+weaponAnimEnd
+SetAnimationPointers(0x31,SummonerM)
+ALIGN 4
+SummonerF:
+weaponTypeAnim(0x05,0x5f)
+weaponTypeAnim(0x06,0x5f)
+weaponTypeAnim(0x07,0x5f)
+weaponTypeAnim(0x04,0x60)
+weaponTypeAnim(0x09,0x5f)
+weaponAnimEnd
+SetAnimationPointers(0x32,SummonerF)
+
+ALIGN 4
+RogueAnims:
+weaponTypeAnim(0x00,0x61)
+weaponTypeAnim(0x09,0x62)
+weaponAnimEnd
+SetAnimationPointers(0x33,RogueAnims)
+
+ALIGN 4
+gkAnims:
+weaponTypeAnim(0x00,0x63)
+weaponTypeAnim(0x01,0x64)
+weaponTypeAnim(0x02,0x65)
+weaponAnim(0x28,0x66)
+weaponAnim(0x29,0x66)
+weaponAnim(0x2c,0x66)
+weaponTypeAnim(0x09,0x67)
+weaponAnimEnd
+SetAnimationPointers(0x35,gkAnims)
+SetAnimationPointers(0x36,gkAnims)
+
+ALIGN 4
+RecruitAnims:
+weaponTypeAnim(0x01,0x68)
+weaponTypeAnim(0x09,0x69)
+weaponAnimEnd
+SetAnimationPointers(0x37,RecruitAnims)
+SetAnimationPointers(0x3a,RecruitAnims)
+SetAnimationPointers(0x47,RecruitAnims)
+
+ALIGN 4
+JourneymanAnims:
+weaponTypeAnim(0x02,0x6a)
+weaponAnim(0x28,0x6b)
+weaponAnim(0x29,0x6b)
+weaponAnim(0x2c,0x6b)
+weaponTypeAnim(0x09,0x6c)
+weaponAnimEnd
+SetAnimationPointers(0x38,JourneymanAnims)
+SetAnimationPointers(0x3d,JourneymanAnims)
+SetAnimationPointers(0x7e,JourneymanAnims)
+
+ALIGN 4
+PupilAnims:
+weaponTypeAnim(0x05,0x6d)
+weaponTypeAnim(0x06,0x6d)
+weaponTypeAnim(0x07,0x6d)
+weaponTypeAnim(0x09,0x6d)
+weaponAnimEnd
+SetAnimationPointers(0x39,PupilAnims)
+SetAnimationPointers(0x3e,PupilAnims)
+SetAnimationPointers(0x7f,PupilAnims)
+
+ALIGN 4
+FighterAnims:
+weaponTypeAnim(0x02,0x6e)
+weaponAnim(0x28,0x6f)
+weaponAnim(0x29,0x6f)
+weaponAnim(0x2c,0x6f)
+weaponTypeAnim(0x09,0x70)
+weaponAnimEnd
+SetAnimationPointers(0x3f,FighterAnims)
+
+ALIGN 4
+WarriorAnims:
+weaponTypeAnim(0x02,0x71)
+weaponAnim(0x28,0x72)
+weaponAnim(0x29,0x72)
+weaponAnim(0x2c,0x72)
+weaponTypeAnim(0x03,0x73)
+weaponTypeAnim(0x09,0x74)
+weaponAnimEnd
+SetAnimationPointers(0x40,WarriorAnims)
+
+ALIGN 4
+BrigandAnims:
+weaponTypeAnim(0x02,0x75)
+weaponAnim(0x28,0x76)
+weaponAnim(0x29,0x76)
+weaponAnim(0x2c,0x76)
+weaponTypeAnim(0x09,0x77)
+weaponAnimEnd
+SetAnimationPointers(0x41,BrigandAnims)
+ALIGN 4
+PirateAnims:
+weaponTypeAnim(0x02,0x78)
+weaponAnim(0x28,0x79)
+weaponAnim(0x29,0x79)
+weaponAnim(0x2c,0x79)
+weaponTypeAnim(0x09,0x7a)
+weaponAnimEnd
+SetAnimationPointers(0x42,PirateAnims)
+
+ALIGN 4
+BerserkerAnims:
+weaponTypeAnim(0x02,0x7b)
+weaponAnim(0x28,0x7c)
+weaponAnim(0x29,0x7c)
+weaponAnim(0x2c,0x7c)
+weaponTypeAnim(0x09,0x7d)
+weaponAnimEnd
+SetAnimationPointers(0x43,BerserkerAnims)
+
+ALIGN 4
+MonkAnims:
+weaponTypeAnim(0x05,0x7e)
+weaponTypeAnim(0x06,0x7e)
+weaponTypeAnim(0x07,0x7e)
+weaponTypeAnim(0x09,0x7e)
+weaponAnimEnd
+SetAnimationPointers(0x44,MonkAnims)
+
+ALIGN 4
+PriestAnims:
+weaponTypeAnim(0x04,0x7f)
+weaponTypeAnim(0x09,0x80)
+weaponAnimEnd
+SetAnimationPointers(0x45,PriestAnims)
+
+ALIGN 4
+PegT1:
+weaponTypeAnim(0x01,0x81)
+weaponTypeAnim(0x09,0x82)
+weaponAnimEnd
+SetAnimationPointers(0x48,PegT1)
+ALIGN 4
+PegT2:
+weaponTypeAnim(0x00,0x83)
+weaponTypeAnim(0x01,0x84)
+weaponTypeAnim(0x09,0x85)
+weaponAnimEnd
+SetAnimationPointers(0x49,PegT2)
+
+ALIGN 4
+ClericAnims:
+weaponTypeAnim(0x04,0x86)
+weaponTypeAnim(0x09,0x87)
+weaponAnimEnd
+SetAnimationPointers(0x4a,ClericAnims)
+
+ALIGN 4
+TroubadourAnims:
+weaponTypeAnim(0x04,0x88)
+weaponTypeAnim(0x09,0x89)
+weaponAnimEnd
+SetAnimationPointers(0x4b,TroubadourAnims)
+
+ALIGN 4
+ValkyrieAnims:
+weaponTypeAnim(0x05,0x8a)
+weaponTypeAnim(0x06,0x8a)
+weaponTypeAnim(0x07,0x8a)
+weaponTypeAnim(0x04,0x8b)
+weaponTypeAnim(0x09,0x8a)
+weaponAnimEnd
+SetAnimationPointers(0x4c,ValkyrieAnims)
+
+ALIGN 4
+DancerAnims:
+weaponTypeAnim(0x00,0x8c)
+weaponTypeAnim(0x05,0x8d)
+weaponTypeAnim(0x06,0x8d)
+weaponTypeAnim(0x07,0x8d)
+weaponTypeAnim(0x09,0x8d)
+weaponAnimEnd
+SetAnimationPointers(0x4d,DancerAnims)
+
+ALIGN 4
+SoldierAnims:
+weaponTypeAnim(0x01,0x8e)
+weaponTypeAnim(0x09,0x8f)
+weaponAnimEnd
+SetAnimationPointers(0x4e,SoldierAnims)
+
+ALIGN 4
+DDruidAnims:
+weaponTypeAnim(0x05,0x90)
+weaponTypeAnim(0x06,0x90)
+weaponTypeAnim(0x07,0x90)
+weaponTypeAnim(0x04,0x91)
+weaponTypeAnim(0x09,0x90)
+weaponAnimEnd
+SetAnimationPointers(0x4f,DDruidAnims)
+
+ALIGN 4
+PhantomAnims:
+weaponTypeAnim(0x02,0x92)
+weaponAnim(0x28,0x93)
+weaponAnim(0x29,0x93)
+weaponAnim(0x2c,0x93)
+weaponTypeAnim(0x09,0x94)
+weaponAnimEnd
+SetAnimationPointers(0x51,PhantomAnims)

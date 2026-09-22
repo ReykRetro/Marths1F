@@ -1,0 +1,237 @@
+////////////////////////////////////////////////////////
+ALIGN 4
+fe11_anris_img:
+#incbin "dmp/fe11_anris_png.dmp"
+ALIGN 4
+fe11_anris_pal:
+#incbin "dmp/fe11_anris_pal.dmp"
+ALIGN 4
+fe11_anris_tsa:
+#incbin "dmp/fe11_anris_tsa.dmp"
+
+ALIGN 4
+fe11_medeus_img:
+#incbin "dmp/fe11_medeis_png.dmp"
+ALIGN 4
+fe11_medeus_pal:
+#incbin "dmp/fe11_medeis_pal.dmp"
+ALIGN 4
+fe11_medeus_tsa:
+#incbin "dmp/fe11_medeis_tsa.dmp"
+
+ALIGN 4
+fe11_marthElice_img:
+#incbin "dmp/fe11_marthElice_png.dmp"
+ALIGN 4
+fe11_marthElice_pal:
+#incbin "dmp/fe11_marthElice_pal.dmp"
+ALIGN 4
+fe11_marthElice_tsa:
+#incbin "dmp/fe11_marthElice_tsa.dmp"
+
+ALIGN 4
+fe11_dragonDeath_img:
+#incbin "dmp/fe11_dragonDeath_png.dmp"
+ALIGN 4
+fe11_dragonDeath_pal:
+#incbin "dmp/fe11_dragonDeath_pal.dmp"
+ALIGN 4
+fe11_dragonDeath_tsa:
+#incbin "dmp/fe11_dragonDeath_tsa.dmp"
+
+ALIGN 4
+fe11_gharnef_img:
+#incbin "dmp/fe11_gharnef_png.dmp"
+ALIGN 4
+fe11_gharnef_pal:
+#incbin "dmp/fe11_gharnef_pal.dmp"
+ALIGN 4
+fe11_gharnef_tsa:
+#incbin "dmp/fe11_gharnef_tsa.dmp"
+
+ALIGN 4
+fe11_gharnefTiki_img:
+#incbin "dmp/fe11_gharnefTiki_png.dmp"
+ALIGN 4
+fe11_gharnefTiki_pal:
+#incbin "dmp/fe11_gharnefTiki_pal.dmp"
+ALIGN 4
+fe11_gharnefTiki_tsa:
+#incbin "dmp/fe11_gharnefTiki_tsa.dmp"
+
+ALIGN 4
+fe11_marthFight_img:
+#incbin "dmp/fe11_marthFight_png.dmp"
+ALIGN 4
+fe11_marthFight_pal:
+#incbin "dmp/fe11_marthFight_pal.dmp"
+ALIGN 4
+fe11_marthFight_tsa:
+#incbin "dmp/fe11_marthFight_tsa.dmp"
+
+ALIGN 4
+fe11_marthRises_img:
+#incbin "dmp/fe11_marthRises_png.dmp"
+ALIGN 4
+fe11_marthRises_pal:
+#incbin "dmp/fe11_marthRises_pal.dmp"
+ALIGN 4
+fe11_marthRises_tsa:
+#incbin "dmp/fe11_marthRises_tsa.dmp"
+
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+ALIGN 4
+fe12_caeda_img:
+#incbin "dmp/fe12_caeda_png.dmp"
+ALIGN 4
+fe12_caeda_pal:
+#incbin "dmp/fe12_caeda_pal.dmp"
+ALIGN 4
+fe12_caeda_tsa:
+#incbin "dmp/fe12_caeda_tsa.dmp"
+
+ALIGN 4
+fe12_hardinVS_img:
+#incbin "dmp/fe12_hardinVS_png.dmp"
+ALIGN 4
+fe12_hardinVS_pal:
+#incbin "dmp/fe12_hardinVS_pal.dmp"
+ALIGN 4
+fe12_hardinVS_tsa:
+#incbin "dmp/fe12_hardinVS_tsa.dmp"
+
+ALIGN 4
+fe12_KatarinaBumps_img:
+#incbin "dmp/fe12_katarinaBumps_png.dmp"
+ALIGN 4
+fe12_KatarinaBumps_pal:
+#incbin "dmp/fe12_katarinaBumps_pal.dmp"
+ALIGN 4
+fe12_KatarinaBumps_tsa:
+#incbin "dmp/fe12_katarinaBumps_tsa.dmp"
+
+ALIGN 4
+fe12_KatarinaTears_img:
+#incbin "dmp/fe12_katarinaTears_png.dmp"
+ALIGN 4
+fe12_KatarinaTears_pal:
+#incbin "dmp/fe12_katarinaTears_pal.dmp"
+ALIGN 4
+fe12_KatarinaTears_tsa:
+#incbin "dmp/fe12_katarinaTears_tsa.dmp"
+
+ALIGN 4
+fe12_marthX_img:
+#incbin "dmp/fe12_marthX_png.dmp"
+ALIGN 4
+fe12_marthX_pal:
+#incbin "dmp/fe12_marthX_pal.dmp"
+ALIGN 4
+fe12_marthX_tsa:
+#incbin "dmp/fe12_marthX_tsa.dmp"
+
+ALIGN 4
+fe12_marthByes_img:
+#incbin "dmp/fe12_marthByes_png.dmp"
+ALIGN 4
+fe12_marthByes_pal:
+#incbin "dmp/fe12_marthByes_pal.dmp"
+ALIGN 4
+fe12_marthByes_tsa:
+#incbin "dmp/fe12_marthByes_tsa.dmp"
+
+ALIGN 4
+fe12_lorenz_img:
+#incbin "dmp/fe12_lorenzDeath_png.dmp"
+ALIGN 4
+fe12_lorenz_pal:
+#incbin "dmp/fe12_lorenzDeath_pal.dmp"
+ALIGN 4
+fe12_lorenz_tsa:
+#incbin "dmp/fe12_lorenzDeath_tsa.dmp"
+
+ALIGN 4
+fe12_ninaHardin_img:
+#incbin "dmp/fe12_ninaHardin_png.dmp"
+ALIGN 4
+fe12_ninaHardin_pal:
+#incbin "dmp/fe12_ninaHardin_pal.dmp"
+ALIGN 4
+fe12_ninaHardin_tsa:
+#incbin "dmp/fe12_ninaHardin_tsa.dmp"
+
+ALIGN 4
+fe12_zodiac_img:
+#incbin "dmp/fe12_zodiac_png.dmp"
+ALIGN 4
+fe12_zodiac_pal:
+#incbin "dmp/fe12_zodiac_pal.dmp"
+ALIGN 4
+fe12_zodiac_tsa:
+#incbin "dmp/fe12_zodiac_tsa.dmp"
+
+ALIGN 4
+fe12_falchionShield_img:
+#incbin "dmp/fe12_falchionShield_png.dmp"
+ALIGN 4
+fe12_falchionShield_pal:
+#incbin "dmp/fe12_falchionShield_pal.dmp"
+ALIGN 4
+fe12_falchionShield_tsa:
+#incbin "dmp/fe12_falchionShield_tsa.dmp"
+
+ALIGN 4
+fe12_fireEmblem_img:
+#incbin "dmp/fe12_fireEmblem_png.dmp"
+ALIGN 4
+fe12_fireEmblem_pal:
+#incbin "dmp/fe12_fireEmblem_pal.dmp"
+ALIGN 4
+fe12_fireEmblem_tsa:
+#incbin "dmp/fe12_fireEmblem_tsa.dmp"
+
+ALIGN 4
+fe12_fiveSpheres_img:
+#incbin "dmp/fe12_fiveSpheres_png.dmp"
+ALIGN 4
+fe12_fiveSpheres_pal:
+#incbin "dmp/fe12_fiveSpheres_pal.dmp"
+ALIGN 4
+fe12_fiveSpheres_tsa:
+#incbin "dmp/fe12_fiveSpheres_tsa.dmp"
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+SetBG(0x7a,fe11_anris_img,fe11_anris_pal,fe11_anris_tsa)
+SetBG(0x7b,fe11_medeus_img,fe11_medeus_pal,fe11_medeus_tsa)
+SetBG(0x7c,fe11_marthElice_img,fe11_marthElice_pal,fe11_marthElice_tsa)
+SetBG(0x7d,fe11_dragonDeath_img,fe11_dragonDeath_pal,fe11_dragonDeath_tsa)
+SetBG(0x7e,fe11_gharnef_img,fe11_gharnef_pal,fe11_gharnef_tsa)
+SetBG(0x7f,fe11_gharnefTiki_img,fe11_gharnefTiki_pal,fe11_gharnefTiki_tsa)
+SetBG(0x80,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x81,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x82,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x83,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x84,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x85,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x86,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x87,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x88,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x89,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8a,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8b,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8c,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+////////////////////////////////////////////////////////
+SetBG(0x8d,fe12_caeda_img,fe12_caeda_pal,fe12_caeda_tsa)
+SetBG(0x8e,fe12_hardinVS_img,fe12_hardinVS_pal,fe12_hardinVS_tsa)
+SetBG(0x8f,fe12_KatarinaBumps_img,fe12_KatarinaBumps_pal,fe12_KatarinaBumps_tsa)
+SetBG(0x90,fe12_KatarinaTears_img,fe12_KatarinaTears_pal,fe12_KatarinaTears_tsa)
+SetBG(0x91,fe12_marthX_img,fe12_marthX_pal,fe12_marthX_tsa)
+SetBG(0x92,fe12_marthByes_img,fe12_marthByes_pal,fe12_marthByes_tsa)
+SetBG(0x93,fe12_lorenz_img,fe12_lorenz_pal,fe12_lorenz_tsa)
+SetBG(0x94,fe12_ninaHardin_img,fe12_ninaHardin_pal,fe12_ninaHardin_tsa)
+SetBG(0x95,fe12_zodiac_img,fe12_zodiac_pal,fe12_zodiac_tsa)
+SetBG(0x96,fe12_falchionShield_img,fe12_falchionShield_pal,fe12_falchionShield_tsa)
+SetBG(0x97,fe12_fireEmblem_img,fe12_fireEmblem_pal,fe12_fireEmblem_tsa)
+SetBG(0x98,fe12_fiveSpheres_img,fe12_fiveSpheres_pal,fe12_fiveSpheres_tsa)
+////////////////////////////////////////////////////////

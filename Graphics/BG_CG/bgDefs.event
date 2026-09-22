@@ -1,0 +1,19 @@
+
+PUSH
+ORG $E894
+POIN NewBGTable
+ORG $ECF4
+POIN NewBGTable
+ORG $EDF8
+POIN NewBGTable
+ORG $10E44
+POIN NewBGTable
+POP
+
+NewBGTable:
+#incbin "VanillaBGTable.dmp"
+POIN BlankBG_img BlankBG_tsa BlankBG_pal
+WORD 0 0 0 //this entry (0x36) is never actually read anyhow
+FILL $96C //up to 122 entries
+
+#define SetBG(id,img,pal,tsa) "PUSH; ORG (NewBGTable+(id*12)); POIN img tsa pal; POP"

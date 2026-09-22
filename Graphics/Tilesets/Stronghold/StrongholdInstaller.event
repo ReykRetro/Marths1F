@@ -1,0 +1,58 @@
+ALIGN 4
+StrongholdObject:
+#incext Png2Dmp --lz77 "StrongholdObject.png"
+
+ALIGN 4
+StrongholdTiles:
+#incext compress "StrongholdTiles.mapchip_config"
+
+ALIGN 4
+StrongholdPalette1:
+#incbin "StrongholdPalette1.dmp"
+
+EventPointerTable(0x79, StrongholdObject)
+EventPointerTable(0x7b, StrongholdTiles)
+
+EventPointerTable(0x7a, StrongholdPalette1)
+/////////////////////////////////////////
+EventPointerTable(0x7d, StrongholdAnims)
+#ifndef tilesetAnimation
+    #define tilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
+#endif
+
+ALIGN 4
+StrongholdAnims0:
+#incext png2dmp "StrongholdAnims/StrAnims_000.png"
+ALIGN 4
+StrongholdAnims1:
+#incext png2dmp "StrongholdAnims/StrAnims_001.png"
+ALIGN 4
+StrongholdAnims2:
+#incext png2dmp "StrongholdAnims/StrAnims_002.png"
+ALIGN 4
+StrongholdAnims3:
+#incext png2dmp "StrongholdAnims/StrAnims_003.png"
+ALIGN 4
+StrongholdAnims4:
+#incext png2dmp "StrongholdAnims/StrAnims_004.png"
+ALIGN 4
+StrongholdAnims5:
+#incext png2dmp "StrongholdAnims/StrAnims_005.png"
+ALIGN 4
+StrongholdAnims6:
+#incext png2dmp "StrongholdAnims/StrAnims_006.png"
+ALIGN 4
+StrongholdAnims7:
+#incext png2dmp "StrongholdAnims/StrAnims_007.png"
+
+ALIGN 4
+StrongholdAnims:
+tilesetAnimation(0x1C,0x1000,StrongholdAnims0)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims1)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims2)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims3)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims4)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims5)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims6)
+tilesetAnimation(0x1C,0x1000,StrongholdAnims7)
+WORD 0 0

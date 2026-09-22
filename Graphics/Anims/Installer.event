@@ -1,0 +1,7 @@
+ALIGN 4
+#include "AnimsDefs.event"
+#include "AnimsRepointed.event"
+
+ALIGN 4
+#include "AnimsInstaller.event"
+#include "AnimsSetup.event"

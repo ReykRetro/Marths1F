@@ -1,0 +1,83 @@
+# 0x024d ArchaneaName
+Archanea[X]
+# 0x02a8 ArchaneaDesc
+Archanea descripcion[NL]
+placeholder.[.][X]
+
+# 0x024e DolhrName
+Dolhr[.][X]
+# 0x02a9 DolhrDesc
+Dolhr descripcion[NL]
+placeholder.[.][X]
+
+# 0x024f DragoonName
+Dragoon[.][X]
+# 0x02aa DragoonDesc
+Dragoon descripcion[NL]
+placeholder.[.][X]
+
+# 0x0250 GraName
+Gra[.][X]
+# 0x02ab GraDesc
+Gra descripcion[NL]
+placeholder.[.][X]
+
+# 0x0251 GrustName
+Grust[.][X]
+# 0x02ac GrustDesc
+Grust descripcion[NL]
+placeholder.[.][X]
+
+# 0x0252 KhadeinName
+Khadein[.][X]
+# 0x02ad KhadeinDesc
+Khadein descripcion[NL]
+placeholder.[.][X]
+
+# 0x0253 KeeperName
+Keeper[X]
+# 0x02ae KeeperDesc
+Keeper descripcion[NL]
+placeholder.[.][X]
+
+# 0x0254 MacedonName
+Macedon[.][X]
+# 0x02af MacedonDesc
+Macedon descripcion[NL]
+placeholder.[.][X]
+
+# 0x0fc8 PirateName
+Pirate[X]
+## PirateDesc
+Pirate descripcion[NL]
+placeholder.[.][X]
+
+## PyrathiName
+Pyrathi[.][X]
+## PyrathiDesc
+Pyrathi descripcion[NL]
+placeholder.[.][X]
+
+## RamanName
+Raman[.][X]
+## RamanDesc
+Raman descripcion[NL]
+placeholder.[.][X]
+
+## RuffianName
+Ruffian[.][X]
+## RuffianDesc
+Ruffian descripcion[NL]
+placeholder.[.][X]
+
+## SableName
+Sable[.][X]
+## SableDesc
+Sable descripcion[NL]
+placeholder.[.][X]
+
+## SoothsireName
+Soothsire[.][X]
+## SoothsireDesc
+Soothsire descripcion[NL]
+placeholder.[.][X]

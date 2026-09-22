@@ -1,0 +1,9 @@
+//wait	filename
+28	villageanims_000.png	4096
+28	villageanims_001.png	4096
+28	villageanims_002.png	4096
+28	villageanims_003.png	4096
+28	villageanims_004.png	4096
+28	villageanims_005.png	4096
+28	villageanims_006.png	4096
+28	villageanims_007.png	4096

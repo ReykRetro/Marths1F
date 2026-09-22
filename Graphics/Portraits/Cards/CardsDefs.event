@@ -1,0 +1,415 @@
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+
+ALIGN 4
+ArcherGraphic:
+#incext Png2Dmp --lz77 "png/Archer.png"
+ALIGN 4
+ArcherPalette:
+#incext Png2Dmp --palette-only "png/Archer.png"
+
+ALIGN 4
+ArchMogallGraphic:
+#incext Png2Dmp --lz77 "png/ArchMogall.png"
+ALIGN 4
+ArchMogallPalette:
+#incext Png2Dmp --palette-only "png/ArchMogall.png"
+
+ALIGN 4
+BaelGraphic:
+#incext Png2Dmp --lz77 "png/Bael.png"
+ALIGN 4
+BaelPalette:
+#incext Png2Dmp --palette-only "png/Bael.png"
+
+ALIGN 4
+BerserkerGraphic:
+#incext Png2Dmp --lz77 "png/Berserker.png"
+ALIGN 4
+BerserkerPalette:
+#incext Png2Dmp --palette-only "png/Berserker.png"
+
+ALIGN 4
+BishopGraphic:
+#incext Png2Dmp --lz77 "png/Bishop.png"
+ALIGN 4
+BishopPalette:
+#incext Png2Dmp --palette-only "png/Bishop.png"
+
+ALIGN 4
+BonewalkerGraphic:
+#incext Png2Dmp --lz77 "png/Bonewalker.png"
+ALIGN 4
+BonewalkerPalette:
+#incext Png2Dmp --palette-only "png/Bonewalker.png"
+
+ALIGN 4
+BrigandGraphic:
+#incext Png2Dmp --lz77 "png/Brigand.png"
+ALIGN 4
+BrigandPalette:
+#incext Png2Dmp --palette-only "png/Brigand.png"
+
+ALIGN 4
+CavalierGraphic:
+#incext Png2Dmp --lz77 "png/Cavalier.png"
+ALIGN 4
+CavalierPalette:
+#incext Png2Dmp --palette-only "png/Cavalier.png"
+
+ALIGN 4
+CivilianGraphic:
+#incext Png2Dmp --lz77 "png/Civilian.png"
+ALIGN 4
+CivilianPalette:
+#incext Png2Dmp --palette-only "png/Civilian.png"
+
+ALIGN 4
+CyclopsGraphic:
+#incext Png2Dmp --lz77 "png/Cyclops.png"
+ALIGN 4
+CyclopsPalette:
+#incext Png2Dmp --palette-only "png/Cyclops.png"
+
+ALIGN 4
+DeathgoyleGraphic:
+#incext Png2Dmp --lz77 "png/Deathgoyle.png"
+ALIGN 4
+DeathgoylePalette:
+#incext Png2Dmp --palette-only "png/Deathgoyle.png"
+
+ALIGN 4
+DemonKingGraphic:
+#incext Png2Dmp --lz77 "png/DemonKing.png"
+ALIGN 4
+DemonKingPalette:
+#incext Png2Dmp --palette-only "png/DemonKing.png"
+
+ALIGN 4
+DracoZombieGraphic:
+#incext Png2Dmp --lz77 "png/DracoZombie.png"
+ALIGN 4
+DracoZombiePalette:
+#incext Png2Dmp --palette-only "png/DracoZombie.png"
+
+ALIGN 4
+DruidGraphic:
+#incext Png2Dmp --lz77 "png/Druid.png"
+ALIGN 4
+DruidPalette:
+#incext Png2Dmp --palette-only "png/Druid.png"
+
+ALIGN 4
+ElderBaelGraphic:
+#incext Png2Dmp --lz77 "png/ElderBael.png"
+ALIGN 4
+ElderBaelPalette:
+#incext Png2Dmp --palette-only "png/ElderBael.png"
+
+ALIGN 4
+EntombedGraphic:
+#incext Png2Dmp --lz77 "png/Entombed.png"
+ALIGN 4
+EntombedPalette:
+#incext Png2Dmp --palette-only "png/Entombed.png"
+
+ALIGN 4
+FalcoknightGraphic:
+#incext Png2Dmp --lz77 "png/Falcoknight.png"
+ALIGN 4
+FalcoknightPalette:
+#incext Png2Dmp --palette-only "png/Falcoknight.png"
+
+ALIGN 4
+FighterGraphic:
+#incext Png2Dmp --lz77 "png/Fighter.png"
+ALIGN 4
+FighterPalette:
+#incext Png2Dmp --palette-only "png/Fighter.png"
+
+ALIGN 4
+FireDragonGraphic:
+#incext Png2Dmp --lz77 "png/FireDragon.png"
+ALIGN 4
+FireDragonPalette:
+#incext Png2Dmp --palette-only "png/FireDragon.png"
+
+ALIGN 4
+FleetGraphic:
+#incext Png2Dmp --lz77 "png/Fleet.png"
+ALIGN 4
+FleetPalette:
+#incext Png2Dmp --palette-only "png/Fleet.png"
+
+ALIGN 4
+GargoyleGraphic:
+#incext Png2Dmp --lz77 "png/Gargoyle.png"
+ALIGN 4
+GargoylePalette:
+#incext Png2Dmp --palette-only "png/Gargoyle.png"
+
+ALIGN 4
+GeneralGraphic:
+#incext Png2Dmp --lz77 "png/General.png"
+ALIGN 4
+GeneralPalette:
+#incext Png2Dmp --palette-only "png/General.png"
+
+ALIGN 4
+GorgonGraphic:
+#incext Png2Dmp --lz77 "png/Gorgon.png"
+ALIGN 4
+GorgonPalette:
+#incext Png2Dmp --palette-only "png/Gorgon.png"
+
+ALIGN 4
+GreatKnightGraphic:
+#incext Png2Dmp --lz77 "png/GreatKnight.png"
+ALIGN 4
+GreatKnightPalette:
+#incext Png2Dmp --palette-only "png/GreatKnight.png"
+
+ALIGN 4
+GwyllgiGraphic:
+#incext Png2Dmp --lz77 "png/Gwyllgi.png"
+ALIGN 4
+GwyllgiPalette:
+#incext Png2Dmp --palette-only "png/Gwyllgi.png"
+
+ALIGN 4
+HeroGraphic:
+#incext Png2Dmp --lz77 "png/Hero.png"
+ALIGN 4
+HeroPalette:
+#incext Png2Dmp --palette-only "png/Hero.png"
+
+ALIGN 4
+KnightGraphic:
+#incext Png2Dmp --lz77 "png/Knight.png"
+ALIGN 4
+KnightPalette:
+#incext Png2Dmp --palette-only "png/Knight.png"
+
+ALIGN 4
+MaelduinGraphic:
+#incext Png2Dmp --lz77 "png/Maelduin.png"
+ALIGN 4
+MaelduinPalette:
+#incext Png2Dmp --palette-only "png/Maelduin.png"
+
+ALIGN 4
+MageGraphic:
+#incext Png2Dmp --lz77 "png/Mage.png"
+ALIGN 4
+MagePalette:
+#incext Png2Dmp --palette-only "png/Mage.png"
+
+ALIGN 4
+MageKnightGraphic:
+#incext Png2Dmp --lz77 "png/MageKnight.png"
+ALIGN 4
+MageKnightPalette:
+#incext Png2Dmp --palette-only "png/MageKnight.png"
+
+ALIGN 4
+ManaketeGraphic:
+#incext Png2Dmp --lz77 "png/Manakete.png"
+ALIGN 4
+ManaketePalette:
+#incext Png2Dmp --palette-only "png/Manakete.png"
+
+ALIGN 4
+MautheDogGraphic:
+#incext Png2Dmp --lz77 "png/MautheDog.png"
+ALIGN 4
+MautheDogPalette:
+#incext Png2Dmp --palette-only "png/MautheDog.png"
+
+ALIGN 4
+MercenaryGraphic:
+#incext Png2Dmp --lz77 "png/Mercenary.png"
+ALIGN 4
+MercenaryPalette:
+#incext Png2Dmp --palette-only "png/Mercenary.png"
+
+ALIGN 4
+MogallGraphic:
+#incext Png2Dmp --lz77 "png/Mogall.png"
+ALIGN 4
+MogallPalette:
+#incext Png2Dmp --palette-only "png/Mogall.png"
+
+ALIGN 4
+MonkGraphic:
+#incext Png2Dmp --lz77 "png/Monk.png"
+ALIGN 4
+MonkPalette:
+#incext Png2Dmp --palette-only "png/Monk.png"
+
+ALIGN 4
+MyrmidonGraphic:
+#incext Png2Dmp --lz77 "png/Myrmidon.png"
+ALIGN 4
+MyrmidonPalette:
+#incext Png2Dmp --palette-only "png/Myrmidon.png"
+
+ALIGN 4
+NomadGraphic:
+#incext Png2Dmp --lz77 "png/Nomad.png"
+ALIGN 4
+NomadPalette:
+#incext Png2Dmp --palette-only "png/Nomad.png"
+
+ALIGN 4
+NomadTrooperGraphic:
+#incext Png2Dmp --lz77 "png/NomadTrooper.png"
+ALIGN 4
+NomadTrooperPalette:
+#incext Png2Dmp --palette-only "png/NomadTrooper.png"
+
+ALIGN 4
+PaladinGraphic:
+#incext Png2Dmp --lz77 "png/Paladin.png"
+ALIGN 4
+PaladinPalette:
+#incext Png2Dmp --palette-only "png/Paladin.png"
+
+ALIGN 4
+PegasusGraphic:
+#incext Png2Dmp --lz77 "png/PegasusKnight.png"
+ALIGN 4
+PegasusPalette:
+#incext Png2Dmp --palette-only "png/PegasusKnight.png"
+
+ALIGN 4
+PhantomGraphic:
+#incext Png2Dmp --lz77 "png/Phantom.png"
+ALIGN 4
+PhantomPalette:
+#incext Png2Dmp --palette-only "png/Phantom.png"
+
+ALIGN 4
+PirateGraphic:
+#incext Png2Dmp --lz77 "png/Pirate.png"
+ALIGN 4
+PiratePalette:
+#incext Png2Dmp --palette-only "png/Pirate.png"
+
+ALIGN 4
+RangerGraphic:
+#incext Png2Dmp --lz77 "png/Ranger.png"
+ALIGN 4
+RangerPalette:
+#incext Png2Dmp --palette-only "png/Ranger.png"
+
+ALIGN 4
+RevenantGraphic:
+#incext Png2Dmp --lz77 "png/Revenant.png"
+ALIGN 4
+RevenantPalette:
+#incext Png2Dmp --palette-only "png/Revenant.png"
+
+ALIGN 4
+RogueGraphic:
+#incext Png2Dmp --lz77 "png/Rogue.png"
+ALIGN 4
+RoguePalette:
+#incext Png2Dmp --palette-only "png/Rogue.png"
+
+ALIGN 4
+SageGraphic:
+#incext Png2Dmp --lz77 "png/Sage.png"
+ALIGN 4
+SagePalette:
+#incext Png2Dmp --palette-only "png/Sage.png"
+
+ALIGN 4
+ShamanGraphic:
+#incext Png2Dmp --lz77 "png/Shaman.png"
+ALIGN 4
+ShamanPalette:
+#incext Png2Dmp --palette-only "png/Shaman.png"
+
+ALIGN 4
+SniperGraphic:
+#incext Png2Dmp --lz77 "png/Sniper.png"
+ALIGN 4
+SniperPalette:
+#incext Png2Dmp --palette-only "png/Sniper.png"
+
+ALIGN 4
+SoldierGraphic:
+#incext Png2Dmp --lz77 "png/Soldier.png"
+ALIGN 4
+SoldierPalette:
+#incext Png2Dmp --palette-only "png/Soldier.png"
+
+ALIGN 4
+SwordmasterGraphic:
+#incext Png2Dmp --lz77 "png/Swordmaster.png"
+ALIGN 4
+SwordmasterPalette:
+#incext Png2Dmp --palette-only "png/Swordmaster.png"
+
+ALIGN 4
+TarvosGraphic:
+#incext Png2Dmp --lz77 "png/Tarvos.png"
+ALIGN 4
+TarvosPalette:
+#incext Png2Dmp --palette-only "png/Tarvos.png"
+
+ALIGN 4
+ThiefGraphic:
+#incext Png2Dmp --lz77 "png/Thief.png"
+ALIGN 4
+ThiefPalette:
+#incext Png2Dmp --palette-only "png/Thief.png"
+
+ALIGN 4
+TroubadourGraphic:
+#incext Png2Dmp --lz77 "png/Troubadour.png"
+ALIGN 4
+TroubadourPalette:
+#incext Png2Dmp --palette-only "png/Troubadour.png"
+
+ALIGN 4
+ValkyrieGraphic:
+#incext Png2Dmp --lz77 "png/Valkyrie.png"
+ALIGN 4
+ValkyriePalette:
+#incext Png2Dmp --palette-only "png/Valkyrie.png"
+
+ALIGN 4
+WarriorGraphic:
+#incext Png2Dmp --lz77 "png/Warrior.png"
+ALIGN 4
+WarriorPalette:
+#incext Png2Dmp --palette-only "png/Warrior.png"
+
+ALIGN 4
+WightGraphic:
+#incext Png2Dmp --lz77 "png/Wight.png"
+ALIGN 4
+WightPalette:
+#incext Png2Dmp --palette-only "png/Wight.png"
+
+ALIGN 4
+WyvernKnightGraphic:
+#incext Png2Dmp --lz77 "png/WyvernKnight.png"
+ALIGN 4
+WyvernKnightPalette:
+#incext Png2Dmp --palette-only "png/WyvernKnight.png"
+
+ALIGN 4
+WyvernLordGraphic:
+#incext Png2Dmp --lz77 "png/WyvernLord.png"
+ALIGN 4
+WyvernLordPalette:
+#incext Png2Dmp --palette-only "png/WyvernLord.png"
+
+ALIGN 4
+WyvernRiderGraphic:
+#incext Png2Dmp --lz77 "png/WyvernRider.png"
+ALIGN 4
+WyvernRiderPalette:
+#incext Png2Dmp --palette-only "png/WyvernRider.png"
+///
