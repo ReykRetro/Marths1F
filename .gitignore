@@ -1,0 +1,10 @@
+# ROMs, guardados y archivos generados por la compilación
+*.gba
+*.sav
+*.nlz
+*.sym
+*.lnk
+
+# Basura del sistema
+Thumbs.db
+.DS_Store
