@@ -3,10 +3,10 @@
 
 #include EAstdlib.event
 
-EventPointerTable(0xa,ThisChapter)
+EventPointerTable(0xY,Pro3events)
 
 ORG StartOffset
-ThisChapter:
+Pro3events:
 POIN TurnBasedEventsP3
 POIN CharacterBasedEventsP3
 POIN LocationBasedEventsP3
