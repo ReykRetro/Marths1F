@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" width="16" height="24" tilewidth="16" tileheight="16">
- <tileset firstgid="1" name="1800481A" tilewidth="16" tileheight="16">
-  <image source="1800481A.png" trans="ffffff"/>
+<map version="1.0" orientation="orthogonal" width="16" height="22" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="1800571A" tilewidth="16" tileheight="16">
+  <image source="1800571A.png" trans="ffffff"/>
  </tileset>
- <layer name="Tile Layer 1" width="16" height="24">
+ <layer name="Tile Layer 1" width="16" height="22">
   <properties>
    <property name="Main" value =""/>
   </properties>
@@ -360,41 +360,9 @@
   <tile gid="485"/>
   <tile gid="219"/>
   <tile gid="213"/>
-  <tile gid="459"/>
-  <tile gid="623"/>
-  <tile gid="517"/>
-  <tile gid="815"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="779"/>
-  <tile gid="517"/>
-  <tile gid="219"/>
-  <tile gid="213"/>
-  <tile gid="459"/>
-  <tile gid="623"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="976"/>
-  <tile gid="1012"/>
-  <tile gid="459"/>
-  <tile gid="219"/>
-  <tile gid="213"/>
   </data>
  </layer>
- <layer name="Map Change 0" width="16" height="24">
+ <layer name="Map Change 0" width="16" height="22">
   <properties>
    <property name="ID" value ="0"/>
    <property name="Height" value ="1"/>
@@ -559,38 +527,6 @@
   <tile gid="1"/>
   <tile gid="821"/>
   <tile gid="553"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
-  <tile gid="0"/>
   <tile gid="0"/>
   <tile gid="0"/>
   <tile gid="0"/>

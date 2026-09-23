@@ -7,38 +7,38 @@ EventPointerTable(0xa,ThisChapter)
 
 ORG StartOffset
 ThisChapter:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
+POIN TurnBasedEventsP3
+POIN CharacterBasedEventsP3
+POIN LocationBasedEventsP3
+POIN MiscBasedEventsP3
 POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
+POIN TutorialP3
+POIN TrapDataP3 TrapDataP3
 POIN Units Units
 POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
+POIN BeginningSceneP3 EndingSceneP3
 
-TurnBasedEvents:
+TurnBasedEventsP3:
 END_MAIN
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+ALIGN 32 //For some reason, CharacterBasedEventsP3 have to be 32-Aligned?
 
-CharacterBasedEvents:
-END_MAIN
-
-LocationBasedEvents:
+CharacterBasedEventsP3:
 END_MAIN
 
-MiscBasedEvents:
+LocationBasedEventsP3:
+END_MAIN
+
+MiscBasedEventsP3:
 CauseGameOverIfLordDies
 END_MAIN
 
 Dunno:
 END_MAIN
 
-Tutorial:
+TutorialP3:
 END_MAIN
 
-TrapData:
+TrapDataP3:
 ENDTRAP
 
 ALIGN 4
@@ -46,10 +46,10 @@ ALIGN 4
 Units:
 UNIT
 
-BeginningScene:
+BeginningSceneP3:
 ENDA
 
-EndingScene:
+EndingSceneP3:
 MoveToChapter(NextChapter)
 ENDA
 

@@ -1,8 +1,10 @@
-#include "REDAs.event"
+#include "MACROS.event"
+#include "REDA.event"
+#include "REDAslow.event"
 
 //Chapters
 #include "Chapters/PrologueI.event"
-//#include "Chapters/PrologueII.event"
+#include "Chapters/PrologueII.event"
 //#include "Chapters/PrologueIII.event"
 //#include "Chapters/PrologueIV.event"
 

@@ -1,9 +1,5 @@
 
-## FE8 Skill System
-
-https://github.com/FireEmblemUniverse/SkillSystem_FE8/blob/master/README.md
-
-##FE1-Fiukes
+# FE1-Fiukes
 Romhack de Fire Emblem: The Sacred Stones (FE8) que busca ser la "versión definitiva" de los juegos de Marth, empezando por el Libro 1 (FE1 + FE3 + FE11).
 El enfoque es ser fiel a los originales aprovechando las ventajas del motor de FE8: los mapas se basan en los de FE11 y se recrean con tilesets de GBA, y el proyecto usa el Skill System de FE8 como base.
 

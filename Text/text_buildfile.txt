@@ -127,6 +127,6 @@ a skill when used.[X]
 #include "classes_text.txt"
 
 #include "Chapters/PrologueI_text.txt"
-//#include "Chapters/PrologueII_text.txt"
+#include "Chapters/PrologueII_text.txt"
 //#include "Chapters/PrologueIII_text.txt"
 //#include "Chapters/PrologueIV_text.txt"

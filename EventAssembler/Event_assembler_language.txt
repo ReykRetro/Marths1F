@@ -2797,7 +2797,7 @@ Units
    REPOS [Old position X, Old position Y] [New position X, New position Y] 
    REPOS Character [New position X, New position Y] 
 
-   Move unit witout showing movement animations.
+   Move unit without showing movement animations.
 
    Parameters:
     Old position = Position of the unit to move.

@@ -830,5 +830,17 @@
 #define SoldierR2 $907
 #define SoldierT $908
 #define MarthT $909
+#define EliceMarth1 $90B
+#define EliceMarth2 $90C
+#define EliceBye $90D
+#define Convo1P2 $90E
+#define Abelcom $90F
+#define RedTalksT $910
+#define Marchers $911
+#define Japp $912
+#define Capp $913
+#define MarCa1 $914
+#define MarCa2 $915
+#define EliMall $917
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

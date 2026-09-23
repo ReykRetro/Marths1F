@@ -1,41 +1,49 @@
 ﻿//Made by Camtech075 of SerenesForest
 //Modified by Nintenlord
 
-#include EAstdlib.event
+EventPointerTable(0xa,PrologueIIevents)
 
-EventPointerTable(0xa,ThisChapter)
+setText(0x161, NewChNameP2)
+ALIGN 4
+NewChNameP2:
+String("Prologue II")
+BYTE 0
 
-ORG StartOffset
-ThisChapter:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
+ALIGN 4
+PrologueIIevents:
+POIN TurnBasedEventsP2
+POIN CharacterBasedEventsP2
+POIN LocationBasedEventsP2
+POIN MiscBasedEventsP2
 POIN Dunno Dunno Dunno
-POIN Tutorial
+POIN TutorialP2
 POIN TrapData TrapData
-POIN Units Units
+POIN MarthCavUnits MarthCavUnits
 POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
+POIN BeginningSceneP2 EndingSceneP2
 
-TurnBasedEvents:
+TurnBasedEventsP2:
+	TurnEventEnemy(0x7,RedTalks,1)
+	TurnEventPlayer(0x8,Marchs,2)
 END_MAIN
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+ALIGN 32 //For some reason, CharacterBasedEventsP2 have to be 32-Aligned?
 
-CharacterBasedEvents:
+CharacterBasedEventsP2:
 END_MAIN
 
-LocationBasedEvents:
+LocationBasedEventsP2:
+	Seize(5,15)
+	Door(12,2)
 END_MAIN
 
-MiscBasedEvents:
-CauseGameOverIfLordDies
+MiscBasedEventsP2:
+	CauseGameOverIfLordDies
 END_MAIN
 
 Dunno:
 END_MAIN
 
-Tutorial:
+TutorialP2:
 END_MAIN
 
 TrapData:
@@ -43,14 +51,157 @@ ENDTRAP
 
 ALIGN 4
 
-Units:
+MarthCavUnits:
+UNIT 0x01 0x01 0x00 0x08	[12,00] 0 0 1 REDA12R3 [0x09,0x01,0x00,0x00] [0x0,0x00,0x00,0x00]
+UNIT 0x02 0x05 0x01 0x08	[05,10] 0 0 1 REDA11R4 [0x1c,0x01,0x00,0x00] [0x0,0x00,0x00,0x00]
+UNIT 0x03 0x05 0x01 0x08	[06,10] 0 0 1 REDA10R3 [0x14,0x01,0x6c,0x00] [0x0,0x00,0x00,0x00]
 UNIT
 
-BeginningScene:
+Gra2units1:
+UNIT 0x6f 0x3f 0x41 0x0d    [00,03] 0 0 1 REDAslow1R3 [0x1f,0x00,0x00,0x00] [0x00,0x00,0x00,0x00]
+UNIT 0x6f 0x4e 0x41 0x0d    [05,10] 0 0 1 REDAslow5R4 [0x14,0x00,0x00,0x00] [0x00,0x00,0x00,0x00]
+UNIT
+Gra2units2:
+UNIT 0x6f 0x19 0x01 0x0d    [00,12] 0 0 1 REDAslow1R12 [0x2d,0x00,0x00,0x00] [0x00,0x03,0x04,0x00]
+UNIT
+Gra2units3:
+UNIT 0x41 0x4e 0x00 0x0d    [05,16] 0 0 1 REDAslow5R15 [0x14,0x00,0x00,0x00] [0x03,0x03,0x04,0x20]
+UNIT 0x6f 0x4e 0x41 0x0d    [06,16] 0 0 1 REDAslow10R12 [0x14,0x00,0x00,0x00] [0x00,0x00,0x04,0x00]
+UNIT
+Gra2units4:
+UNIT 0x6f 0x19 0x41 0x0d    [18,12] 0 0 1 REDAslow16R12 [0x2d,0x00,0x00,0x00] [0x00,0x06,0x04,0x00]
+UNIT
+
+JagenUnits:
+UNIT 0x04 0x07 0x01 0x08    [5,16] 0 0 1 REDA5R14 [0x22,0x01,0x6c,0x00] [0x0,0x00,0x00,0x00]
+UNIT
+CainUnits:
+UNIT 0x05 0x05 0x01 0x08    [17,16] 0 0 0 0 [0x14,0x01,0x00,0x00] [0x0,0x00,0x00,0x00]
+UNIT
+
+BeginningSceneP2:
+TILECHANGE 0x0
+LOAD1 0x1 MarthCavUnits
+ENUN
+SetBackground(0x1b)
+TEXTSTART
+TEXTSHOW 0x90e
+TEXTEND
+REMA
+FADI 0x10
+CLEAN
+FADU 0x10
+CAM1 [0,0]
+LOAD2 0x1 Gra2units1
+ENUN
+CAM1 [8,10]
+LOAD2 0x1 Gra2units2
+ENUN
+CAM1 [8,12]
+LOAD2 0x1 Gra2units3
+ENUN
+CAM1 [18,12]
+LOAD2 0x1 Gra2units4
+ENUN
+CAM1 0x2
+FlashCursor(0x2,60)
+TEXTSTART
+TEXTSHOW 0x90f
+TEXTEND
+REMA
+MOVE_1STEP 0x10 0x1 0x2
+MOVE_1STEP 0x10 0x2 0x2
+MOVE_1STEP 0x10 0x3 0x1
+ENUN
+NoFade
 ENDA
 
-EndingScene:
-MoveToChapter(NextChapter)
+EndingSceneP2:
+FADI 0x10
+CLEA 0
+CLEE 0
+CLEN 0
+SPAWN_ALLY 0x1 [5,15]
+FADU 0x10
+LOAD1 0x1 JagenUnits
+ENUN
+TEXTSTART
+TEXTSHOW 0x912
+TEXTEND
+REMA
+LOAD1 0x1 CainUnits
+ENUN
+CAM1 0x5
+FlashCursor(0x5,60)
+TEXTSTART
+TEXTSHOW 0x913
+TEXTEND
+REMA
+CAM1 0x1
+FlashCursor(0x1,60)
+TEXTSTART
+TEXTSHOW 0x914
+TEXTEND
+REMA
+MOVE 0x10 0x5 [6,15]
+ENUN
+TEXTSTART
+TEXTSHOW 0x915
+TEXTEND
+REMA
+FADI 0x10
+CLEA 0
+CLEE 0
+CLEN 0
+LOMA 0x0
+TILECHANGE 0x0
+CAM1 [10,2]
+SPAWN_ALLY 0x39 [10,2]
+SPAWN_NPC 0x67 [0,4]
+FADU 0x10
+MOVE 0x10 0x67 [10,4]
+MOVE_1STEP 0x10 0x39 0x2
+ENUN
+SetBackground(0x1b)
+TEXTSTART
+TEXTSHOW 0x918
+TEXTEND
+REMA
+FADI 0x10
+CLEAN
+FADU 0x10
+MOVE 0x10 0x67 [10,5]
+ENUN
+MOVE 0x10 0x67 [7,5]
+ENUN
+STAL 60
+MOVE 0x10 0x67 [0,5]
+FADI 0x4
+ENUN
+MNC2 0x2
+ENDA
+
+RedTalks:
+CAM1 0x41
+FlashCursor(0x41,60)
+TEXTSTART
+TEXTSHOW 0x910
+TEXTEND
+REMA
+NoFade
+ENDA
+
+Marchs:
+CAM1 [1,12]
+FlashCursor(1,12,60)
+CAM1 [16,12]
+FlashCursor(16,12,60)
+CAM1 0x1
+FlashCursor(0x1,60)
+TEXTSTART
+TEXTSHOW 0x911
+TEXTEND
+NoFade
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

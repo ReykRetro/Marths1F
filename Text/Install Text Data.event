@@ -3321,6 +3321,54 @@ __TEXTPROCESS909:
 #incext ParseFile ".TextEntries/text_buildfileMarthT.fetxt"
 setText($909, __TEXTPROCESS909)
 
+__TEXTPROCESS90B:
+#incext ParseFile ".TextEntries/text_buildfileEliceMarth1.fetxt"
+setText($90B, __TEXTPROCESS90B)
+
+__TEXTPROCESS90C:
+#incext ParseFile ".TextEntries/text_buildfileEliceMarth2.fetxt"
+setText($90C, __TEXTPROCESS90C)
+
+__TEXTPROCESS90D:
+#incext ParseFile ".TextEntries/text_buildfileEliceBye.fetxt"
+setText($90D, __TEXTPROCESS90D)
+
+__TEXTPROCESS90E:
+#incext ParseFile ".TextEntries/text_buildfileConvo1P2.fetxt"
+setText($90E, __TEXTPROCESS90E)
+
+__TEXTPROCESS90F:
+#incext ParseFile ".TextEntries/text_buildfileAbelcom.fetxt"
+setText($90F, __TEXTPROCESS90F)
+
+__TEXTPROCESS910:
+#incext ParseFile ".TextEntries/text_buildfileRedTalksT.fetxt"
+setText($910, __TEXTPROCESS910)
+
+__TEXTPROCESS911:
+#incext ParseFile ".TextEntries/text_buildfileMarchers.fetxt"
+setText($911, __TEXTPROCESS911)
+
+__TEXTPROCESS912:
+#incext ParseFile ".TextEntries/text_buildfileJapp.fetxt"
+setText($912, __TEXTPROCESS912)
+
+__TEXTPROCESS913:
+#incext ParseFile ".TextEntries/text_buildfileCapp.fetxt"
+setText($913, __TEXTPROCESS913)
+
+__TEXTPROCESS914:
+#incext ParseFile ".TextEntries/text_buildfileMarCa1.fetxt"
+setText($914, __TEXTPROCESS914)
+
+__TEXTPROCESS915:
+#incext ParseFile ".TextEntries/text_buildfileMarCa2.fetxt"
+setText($915, __TEXTPROCESS915)
+
+__TEXTPROCESS918:
+#incext ParseFile ".TextEntries/text_buildfileEliMall.fetxt"
+setText($918, __TEXTPROCESS918)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
