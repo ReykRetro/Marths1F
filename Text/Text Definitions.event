@@ -841,6 +841,9 @@
 #define Capp $913
 #define MarCa1 $914
 #define MarCa2 $915
-#define EliMall $917
+#define EliMall $918
+#define Convo1P3 $919
+#define Jags2 $91A
+#define Jags3 $91B
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

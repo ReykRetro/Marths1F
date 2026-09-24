@@ -5,8 +5,8 @@
 //Chapters
 #include "Chapters/PrologueI.event"
 #include "Chapters/PrologueII.event"
-//#include "Chapters/PrologueIII.event"
-//#include "Chapters/PrologueIV.event"
+#include "Chapters/PrologueIII.event"
+#include "Chapters/PrologueIV.event"
 
 //#include "Chapters/Chapter01.event"
 //#include "Chapters/Chapter02.event"

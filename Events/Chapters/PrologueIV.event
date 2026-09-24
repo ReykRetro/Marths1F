@@ -3,54 +3,64 @@
 
 #include EAstdlib.event
 
-EventPointerTable(0xy,Pro4events)
+EventPointerTable(0x14,Pro4events)
 
-ORG StartOffset
+setText(0x163, NewChNameP4)
+ALIGN 4
+NewChNameP4:
+String("Prologue IV")
+BYTE 0
+
+ALIGN 4
 Pro4events:
-POIN TurnBasedEvents
-POIN CharacterBasedEvents
-POIN LocationBasedEvents
-POIN MiscBasedEvents
-POIN Dunno Dunno Dunno
-POIN Tutorial
-POIN TrapData TrapData
-POIN Units Units
+POIN TurnBasedEventsP4
+POIN CharacterBasedEventsP4
+POIN LocationBasedEventsP4
+POIN MiscBasedEventsP4
+POIN DunnoP41 DunnoP42 DunnoP43
+POIN TutorialP4
+POIN TrapDataP4 TrapDataP4
+POIN UnitsP4 UnitsP4
 POIN $0 $0 $0 $0 $0 $0
-POIN BeginningScene EndingScene
+POIN BeginningSceneP4 EndingSceneP4
 
-TurnBasedEvents:
+TurnBasedEventsP4:
 END_MAIN
-ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+ALIGN 32 //For some reason, CharacterBasedEventsP4 have to be 32-Aligned?
 
-CharacterBasedEvents:
-END_MAIN
-
-LocationBasedEvents:
+CharacterBasedEventsP4:
 END_MAIN
 
-MiscBasedEvents:
+LocationBasedEventsP4:
+END_MAIN
+
+MiscBasedEventsP4:
 CauseGameOverIfLordDies
 END_MAIN
 
-Dunno:
+DunnoP41:
+END_MAIN
+DunnoP42:
+END_MAIN
+DunnoP43:
 END_MAIN
 
-Tutorial:
+TutorialP4:
 END_MAIN
 
-TrapData:
+TrapDataP4:
 ENDTRAP
 
 ALIGN 4
 
-Units:
+UnitsP4:
 UNIT
 
-BeginningScene:
+BeginningSceneP4:
 ENDA
 
-EndingScene:
-MoveToChapter(NextChapter)
+EndingSceneP4:
+MNC2 0x4
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

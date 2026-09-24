@@ -3369,6 +3369,18 @@ __TEXTPROCESS918:
 #incext ParseFile ".TextEntries/text_buildfileEliMall.fetxt"
 setText($918, __TEXTPROCESS918)
 
+__TEXTPROCESS919:
+#incext ParseFile ".TextEntries/text_buildfileConvo1P3.fetxt"
+setText($919, __TEXTPROCESS919)
+
+__TEXTPROCESS91A:
+#incext ParseFile ".TextEntries/text_buildfileJags2.fetxt"
+setText($91A, __TEXTPROCESS91A)
+
+__TEXTPROCESS91B:
+#incext ParseFile ".TextEntries/text_buildfileJags3.fetxt"
+setText($91B, __TEXTPROCESS91B)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
