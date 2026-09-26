@@ -14,7 +14,7 @@
 #include "NightmareModules\ItemEffectRevamp\Promotion_Item_Table.event"
 #include "NightmareModules\ItemEffectRevamp\Staff_AI_Table.event"
 #include "NightmareModules\Items\GaidenSpellCostTable.event"
-#include "NightmareModules\Items\ItemTable.event"
+#include "NightmareModules\Items\ItemsRepointed.event"
 #include "NightmareModules\Items\SpellAssociationList.event"
 #include "NightmareModules\Items\WeaponLockArray.event"
 #include "NightmareModules\Misc\BiorhythmEditor.event"
