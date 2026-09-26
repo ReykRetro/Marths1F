@@ -1,9 +1,9 @@
 ALIGN 4
 NewClassTable:
-ORG CURRENTOFFSET + (0x54 * 0xA0)
+ORG CURRENTOFFSET + (0x54 * 0xa0)
 PUSH
 ORG NewClassTable
-incbin "ClassTableDump.dmp"
+#incbin "ClassTableDump.dmp"
 POP
 
 #undef ClassTable
@@ -20,4 +20,5 @@ ORG $17AB8
 POIN ClassTable
 POP
 
-#include "ClassTable.event"
+ALIGN 4
+#include "ClassesCustom.event"
