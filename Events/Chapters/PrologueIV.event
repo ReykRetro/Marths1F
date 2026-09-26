@@ -1,8 +1,6 @@
 ﻿//Made by Camtech075 of SerenesForest
 //Modified by Nintenlord
 
-#include EAstdlib.event
-
 EventPointerTable(0x14,Pro4events)
 
 setText(0x163, NewChNameP4)

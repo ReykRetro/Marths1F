@@ -1,0 +1,23 @@
+ALIGN 4
+NewClassTable:
+ORG CURRENTOFFSET + (0x54 * 0xA0)
+PUSH
+ORG NewClassTable
+incbin "ClassTableDump.dmp"
+POP
+
+#undef ClassTable
+#define ClassTable NewClassTable
+
+PUSH
+ORG $19458
+POIN ClassTable
+ORG $18DAC
+POIN ClassTable
+ORG $17DBC
+POIN ClassTable
+ORG $17AB8
+POIN ClassTable
+POP
+
+#include "ClassTable.event"

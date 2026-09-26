@@ -23,7 +23,7 @@ POIN TurnBasedEventsP1
 POIN CharacterBasedEventsP1
 POIN LocationBasedEventsP1
 POIN MiscBasedEventsP1
-POIN DunnoP11 DunnoP12 DunnoP13
+POIN NoEvents NoEvents NoEvents
 POIN TutorialP1
 POIN Traps1p1 Traps2p1
 POIN MarthUnits MarthUnits  //This unit group determines the number and position of deployment slots when there is a prep screen
@@ -48,13 +48,6 @@ MiscBasedEventsP1:
 	CauseGameOverIfLordDies
 END_MAIN
 
-DunnoP11:
-END_MAIN
-DunnoP12:
-END_MAIN
-DunnoP13:
-END_MAIN
-
 TutorialP1:
 END_MAIN
 
@@ -62,9 +55,11 @@ END_MAIN
 SoldierUnits:
 UNIT 0xfc 0x4e 0x01 0x09    [11,19] 0 0 0 0 [0x14,0x00,0x00,0x00] [0x0,0x00,0x00,0x00]
 UNIT
+
 MarthUnits:
 Unit 0x01 0x01 0x00 0x08	[01,21] 0 0 1 REDA1R20 [0x09,0x01,0x00,0x00] [0x0,0x00,0x00,0x00]
 UNIT
+
 Refuerzos:
 UNIT 0x40 0x4e 0x00 0x0c    [08,03] 0 0 0 0 [0x14,0x00,0x00,0x00] [0x03,0x03,0x09,0x20]
 UNIT 0x6f 0x4e 0x40 0x0d    [09,07] 0 0 0 0 [0x14,0x00,0x00,0x00] [0x00,0x03,0x04,0x00]
@@ -88,18 +83,11 @@ CAM1 [1,17]
 STAL 60
 LOAD2 0x1 SoldierUnits
 ENUN
-MOVE 0x10 0xfc [01,23]
+MOVE 0x10 0xfc [01,21]
 FADI 0x4
 ENUN
 DISA 0xfc
-SetBackground(0x1b)
-TEXTSTART
-TEXTSHOW 0x903
-TEXTEND
-REMA
-FADI 0x10
-CLEAN
-FADU 0x10
+Text(0x1b,0x903)
 LOAD1 0x1 MarthUnits
 ENUN
 UNCM(0x1, 0x800000)
@@ -136,10 +124,7 @@ ENUN
 UNCM(0x1, 0x1)
 MOVE_1STEP 0x10 0x39 0x0 //el 0x0 es para izquierda 
 ENUN
-TEXTSTART
-TEXTSHOW 0x90d
-TEXTEND
-REMA
+Text(0x90d)
 MNC2 0x1
 ENDA
 
@@ -147,23 +132,13 @@ Gra:
 SVAL 0x2 0x0
 CALL ActivePlayer
 TILECHANGE 0x0
-TEXTSTART
-TEXTSHOW 0x906
-TEXTEND
-REMA
+Text(0x906)
 LOAD1 0x1 Refuerzos
 ENUN
 EVBIT_T 9
 MOVE 0x10 0x70 [10,13]
 ENUN
-SetBackground(0x1b)
-TEXTSTART
-TEXTSHOW 0x907
-TEXTEND
-REMA
-FADI 0x10
-CLEAN
-FADU 0x10
+Text(0x1b,0x907)
 NoFade
 ENDA
 
@@ -172,16 +147,10 @@ SVAL 0x2 0x0
 CALL ActivePlayer
 CAM1 0x40
 FlashCursor(0x40,60)
-TEXTSTART
-TEXTSHOW 0x908
-TEXTEND
-REMA
+Text(0x908)
 MOVE 0x10 0x40 [10,2]
 ENUN
 CAM1 0x1
-TEXTSTART
-TEXTSHOW 0x909
-TEXTEND
-REMA
+Text(0x909)
 NoFade
 ENDA
