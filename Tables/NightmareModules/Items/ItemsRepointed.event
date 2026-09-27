@@ -38,8 +38,6 @@ ORG $1683C
 POIN ItemTable
 ORG $168C4
 POIN ItemTable
-ORG $1683C
-POIN ItemTable
 ORG $1698C
 POIN ItemTable
 ORG $16A10
@@ -96,8 +94,6 @@ ORG $17580
 POIN ItemTable
 ORG $175A4
 POIN ItemTable
-ORG $175A4
-POIN ItemTable
 ORG $175D0
 POIN ItemTable
 ORG $175F0
@@ -136,12 +132,10 @@ ORG $177AC
 POIN ItemTable
 ORG $177C0
 POIN ItemTable
-ORG $17718
-POIN ItemTable
 ORG $1C1FB8
 POIN ItemTable
 ORG $1C20E0
 POIN ItemTable
 POP
 
-#include "Items.event"
+#include "MyItems.event"
