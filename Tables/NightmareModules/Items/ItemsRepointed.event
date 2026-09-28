@@ -1,6 +1,6 @@
 ALIGN 4
 NewItemTable:
-ORG CURRENTOFFSET + (0x24 * 256)
+ORG CURRENTOFFSET + (0x24 * 0x100)
 PUSH
 ORG NewItemTable
 #incbin "ItemTableDump.dmp"

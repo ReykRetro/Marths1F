@@ -1,0 +1,3 @@
+//Mis propias tablas
+#include "NightmareModules/CharactersClasses/Characters.event"
+#include "NightmareModules/CharactersClasses/ClassesRepointed.event"

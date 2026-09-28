@@ -15,6 +15,7 @@
 
     //CSV tables
     #include "Tables/TableInstaller.event"
+    //#include "Tables/MyTables.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
@@ -27,7 +28,8 @@
     #include "Events/EventsInstaller.event"
 
     //Maps
-    #include "Maps/MasterMapInstaller.event"
+    //#include "Maps/MasterMapInstaller.event"
+    //#include "Maps/SFRound35.event"
     #endif // USE_TEST_MAP
 	
 	//Graphics
