@@ -5,7 +5,15 @@
  </tileset>
  <layer name="Tile Layer 1" width="24" height="32">
   <properties>
-   <property name="Main" value =""/>
+   <property name="Anims1" value="0x12"/>
+   <property name="Anims2" value="0x0"/>
+   <property name="ChapterID" value="0x20"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0xc4"/>
+   <property name="MapID" value="0xd6"/>
+   <property name="ObjectType" value="0x42"/>
+   <property name="PaletteID" value="0x43"/>
+   <property name="TileConfig" value="0x44"/>
   </properties>
   <data>
   <tile gid="1"/>

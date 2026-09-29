@@ -1,0 +1,66 @@
+# 0x01a2 throneI
+Seize the throne[NL]
+before Elice comes[.][X]
+
+## throneII
+Seize the altea's[NL]
+castle gates[.][X]
+
+## throneIII
+Seize the fort around[NL]
+altea's castle[.][X]
+
+## throneIV
+Seize the altea's port[.][X]
+
+## throne1
+Seize the talis'[NL]
+castle gate[.][X]
+
+## throne2
+Seize the garuda's mansion gate[.][X]
+
+## throne3
+Seize the castle lair gate[.][X]
+
+## throne4
+Seize the throne[.][X]
+
+## throne5
+Seize the castle gate[.][X]
+
+## throne6
+Seize the castle throne[.][X]
+
+## throne6x
+Seize the mansion gate[.][X]
+
+## throne7
+Seize the castle gate[.][X]
+
+## throne8
+Seize the fortress[.][X]
+
+## throne9
+Seize the castle gate[.][X]
+
+## throne10
+Seize the castle gate[.][X]
+
+## throne11
+Seize the palace gates[.][X]
+
+## throne12
+Seize the palace throne[.][X]
+
+## throne12x
+Seize the castle gate[.][X]
+
+## throne13
+Seize the castle gate[.][X]
+
+## throne14
+Seize the old throne[.][X]
+
+## throne15
+Seize the khadein's gate[.][X]

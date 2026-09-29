@@ -41,7 +41,7 @@ Hmm, they have archers...[....] We need to take[NL]
 care they don't pick us off from afar.[.][ANL][X]
 
 # 0x0912 Japp
-[MidLeft][LoadFace][0x1f][0x1]
+[MidRight][LoadFace][0x1f][0x1]
 Sire, it gladdens me to[NL]
 see you in one piece.[.][ANL]
 It's not safe for you here;[NL]

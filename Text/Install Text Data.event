@@ -2334,11 +2334,11 @@ __TEXTPROCESSF6C:
 setText($F6C, __TEXTPROCESSF6C)
 
 __TEXTPROCESSF6D:
-#incext ParseFile ".TextEntries/text_buildfileEirLike1ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileEirLk1id.fetxt"
 setText($F6D, __TEXTPROCESSF6D)
 
 __TEXTPROCESSF6E:
-#incext ParseFile ".TextEntries/text_buildfileEirLike2ID.fetxt"
+#incext ParseFile ".TextEntries/text_buildfileEirLk2id.fetxt"
 setText($F6E, __TEXTPROCESSF6E)
 
 __TEXTPROCESSF6F:
@@ -3293,6 +3293,90 @@ __TEXTPROCESS33B:
 #incext ParseFile ".TextEntries/text_buildfileDarkBishopDesc.fetxt"
 setText($33B, __TEXTPROCESS33B)
 
+__TEXTPROCESS1A2:
+#incext ParseFile ".TextEntries/text_buildfilethroneI.fetxt"
+setText($1A2, __TEXTPROCESS1A2)
+
+__TEXTPROCESS1A3:
+#incext ParseFile ".TextEntries/text_buildfilethroneII.fetxt"
+setText($1A3, __TEXTPROCESS1A3)
+
+__TEXTPROCESS1A4:
+#incext ParseFile ".TextEntries/text_buildfilethroneIII.fetxt"
+setText($1A4, __TEXTPROCESS1A4)
+
+__TEXTPROCESS1A5:
+#incext ParseFile ".TextEntries/text_buildfilethroneIV.fetxt"
+setText($1A5, __TEXTPROCESS1A5)
+
+__TEXTPROCESS1A6:
+#incext ParseFile ".TextEntries/text_buildfilethrone1.fetxt"
+setText($1A6, __TEXTPROCESS1A6)
+
+__TEXTPROCESS1A7:
+#incext ParseFile ".TextEntries/text_buildfilethrone2.fetxt"
+setText($1A7, __TEXTPROCESS1A7)
+
+__TEXTPROCESS1A8:
+#incext ParseFile ".TextEntries/text_buildfilethrone3.fetxt"
+setText($1A8, __TEXTPROCESS1A8)
+
+__TEXTPROCESS1A9:
+#incext ParseFile ".TextEntries/text_buildfilethrone4.fetxt"
+setText($1A9, __TEXTPROCESS1A9)
+
+__TEXTPROCESS1AA:
+#incext ParseFile ".TextEntries/text_buildfilethrone5.fetxt"
+setText($1AA, __TEXTPROCESS1AA)
+
+__TEXTPROCESS1AB:
+#incext ParseFile ".TextEntries/text_buildfilethrone6.fetxt"
+setText($1AB, __TEXTPROCESS1AB)
+
+__TEXTPROCESS1AC:
+#incext ParseFile ".TextEntries/text_buildfilethrone6x.fetxt"
+setText($1AC, __TEXTPROCESS1AC)
+
+__TEXTPROCESS1AD:
+#incext ParseFile ".TextEntries/text_buildfilethrone7.fetxt"
+setText($1AD, __TEXTPROCESS1AD)
+
+__TEXTPROCESS1AE:
+#incext ParseFile ".TextEntries/text_buildfilethrone8.fetxt"
+setText($1AE, __TEXTPROCESS1AE)
+
+__TEXTPROCESS1AF:
+#incext ParseFile ".TextEntries/text_buildfilethrone9.fetxt"
+setText($1AF, __TEXTPROCESS1AF)
+
+__TEXTPROCESS1B0:
+#incext ParseFile ".TextEntries/text_buildfilethrone10.fetxt"
+setText($1B0, __TEXTPROCESS1B0)
+
+__TEXTPROCESS1B1:
+#incext ParseFile ".TextEntries/text_buildfilethrone11.fetxt"
+setText($1B1, __TEXTPROCESS1B1)
+
+__TEXTPROCESS1B2:
+#incext ParseFile ".TextEntries/text_buildfilethrone12.fetxt"
+setText($1B2, __TEXTPROCESS1B2)
+
+__TEXTPROCESS1B3:
+#incext ParseFile ".TextEntries/text_buildfilethrone12x.fetxt"
+setText($1B3, __TEXTPROCESS1B3)
+
+__TEXTPROCESS1B4:
+#incext ParseFile ".TextEntries/text_buildfilethrone13.fetxt"
+setText($1B4, __TEXTPROCESS1B4)
+
+__TEXTPROCESS1B5:
+#incext ParseFile ".TextEntries/text_buildfilethrone14.fetxt"
+setText($1B5, __TEXTPROCESS1B5)
+
+__TEXTPROCESS1B6:
+#incext ParseFile ".TextEntries/text_buildfilethrone15.fetxt"
+setText($1B6, __TEXTPROCESS1B6)
+
 __TEXTPROCESS903:
 #incext ParseFile ".TextEntries/text_buildfileConvoP1.fetxt"
 setText($903, __TEXTPROCESS903)
@@ -3380,6 +3464,54 @@ setText($91A, __TEXTPROCESS91A)
 __TEXTPROCESS91B:
 #incext ParseFile ".TextEntries/text_buildfileJags3.fetxt"
 setText($91B, __TEXTPROCESS91B)
+
+__TEXTPROCESS91C:
+#incext ParseFile ".TextEntries/text_buildfileJags4.fetxt"
+setText($91C, __TEXTPROCESS91C)
+
+__TEXTPROCESS91D:
+#incext ParseFile ".TextEntries/text_buildfileMtalk0.fetxt"
+setText($91D, __TEXTPROCESS91D)
+
+__TEXTPROCESS91E:
+#incext ParseFile ".TextEntries/text_buildfileeastH.fetxt"
+setText($91E, __TEXTPROCESS91E)
+
+__TEXTPROCESS91F:
+#incext ParseFile ".TextEntries/text_buildfileseatH.fetxt"
+setText($91F, __TEXTPROCESS91F)
+
+__TEXTPROCESS920:
+#incext ParseFile ".TextEntries/text_buildfilemuH.fetxt"
+setText($920, __TEXTPROCESS920)
+
+__TEXTPROCESS921:
+#incext ParseFile ".TextEntries/text_buildfilemdH.fetxt"
+setText($921, __TEXTPROCESS921)
+
+__TEXTPROCESS922:
+#incext ParseFile ".TextEntries/text_buildfileemp3wH.fetxt"
+setText($922, __TEXTPROCESS922)
+
+__TEXTPROCESS923:
+#incext ParseFile ".TextEntries/text_buildfileenw1.fetxt"
+setText($923, __TEXTPROCESS923)
+
+__TEXTPROCESS924:
+#incext ParseFile ".TextEntries/text_buildfileenw2.fetxt"
+setText($924, __TEXTPROCESS924)
+
+__TEXTPROCESS925:
+#incext ParseFile ".TextEntries/text_buildfileenw3.fetxt"
+setText($925, __TEXTPROCESS925)
+
+__TEXTPROCESS926:
+#incext ParseFile ".TextEntries/text_buildfilerem.fetxt"
+setText($926, __TEXTPROCESS926)
+
+__TEXTPROCESS927:
+#incext ParseFile ".TextEntries/text_buildfilerac2.fetxt"
+setText($927, __TEXTPROCESS927)
 
 }
 

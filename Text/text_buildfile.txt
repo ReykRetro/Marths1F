@@ -125,6 +125,7 @@ a skill when used.[X]
 #include "NPCunits_text.txt"
 #include "EnemiesUnits_text.txt"
 #include "classes_text.txt"
+#include "objectives_text.txt"
 
 //capitulosPrologos
 #include "Chapters/PrologueI_text.txt"

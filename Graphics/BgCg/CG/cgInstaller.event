@@ -1,0 +1,132 @@
+////////////////////////////////////////////////////////
+ALIGN 4
+fe11_anris_img:
+#incbin "dmp/fe11_anris_png.dmp"
+ALIGN 4
+fe11_anris_pal:
+#incbin "dmp/fe11_anris_pal.dmp"
+ALIGN 4
+fe11_anris_tsa:
+#incbin "dmp/fe11_anris_tsa.dmp"
+
+ALIGN 4
+fe11_medeus_img:
+#incbin "dmp/fe11_medeis_png.dmp"
+ALIGN 4
+fe11_medeus_pal:
+#incbin "dmp/fe11_medeis_pal.dmp"
+ALIGN 4
+fe11_medeus_tsa:
+#incbin "dmp/fe11_medeis_tsa.dmp"
+
+ALIGN 4
+fe11_marthElice_img:
+#incbin "dmp/fe11_marthElice_png.dmp"
+ALIGN 4
+fe11_marthElice_pal:
+#incbin "dmp/fe11_marthElice_pal.dmp"
+ALIGN 4
+fe11_marthElice_tsa:
+#incbin "dmp/fe11_marthElice_tsa.dmp"
+
+ALIGN 4
+fe11_dragonDeath_img:
+#incbin "dmp/fe11_dragonDeath_png.dmp"
+ALIGN 4
+fe11_dragonDeath_pal:
+#incbin "dmp/fe11_dragonDeath_pal.dmp"
+ALIGN 4
+fe11_dragonDeath_tsa:
+#incbin "dmp/fe11_dragonDeath_tsa.dmp"
+
+ALIGN 4
+fe11_gharnef_img:
+#incbin "dmp/fe11_gharnef_png.dmp"
+ALIGN 4
+fe11_gharnef_pal:
+#incbin "dmp/fe11_gharnef_pal.dmp"
+ALIGN 4
+fe11_gharnef_tsa:
+#incbin "dmp/fe11_gharnef_tsa.dmp"
+
+ALIGN 4
+fe11_gharnefTiki_img:
+#incbin "dmp/fe11_gharnefTiki_png.dmp"
+ALIGN 4
+fe11_gharnefTiki_pal:
+#incbin "dmp/fe11_gharnefTiki_pal.dmp"
+ALIGN 4
+fe11_gharnefTiki_tsa:
+#incbin "dmp/fe11_gharnefTiki_tsa.dmp"
+
+ALIGN 4
+fe11_marthFight_img:
+#incbin "dmp/fe11_marthFight_png.dmp"
+ALIGN 4
+fe11_marthFight_pal:
+#incbin "dmp/fe11_marthFight_pal.dmp"
+ALIGN 4
+fe11_marthFight_tsa:
+#incbin "dmp/fe11_marthFight_tsa.dmp"
+
+ALIGN 4
+fe11_marthRises_img:
+#incbin "dmp/fe11_marthRises_png.dmp"
+ALIGN 4
+fe11_marthRises_pal:
+#incbin "dmp/fe11_marthRises_pal.dmp"
+ALIGN 4
+fe11_marthRises_tsa:
+#incbin "dmp/fe11_marthRises_tsa.dmp"
+
+ALIGN 4
+fe11_marthStrikes_img:
+#incbin "dmp/fe11_marthStrikes_png.dmp"
+ALIGN 4
+fe11_marthStrikes_pal:
+#incbin "dmp/fe11_marthStrikes_pal.dmp"
+ALIGN 4
+fe11_marthStrikes_tsa:
+#incbin "dmp/fe11_marthStrikes_tsa.dmp"
+
+ALIGN 4
+fe11_marthShip_img:
+#incbin "dmp/fe11_marthShip_png.dmp"
+ALIGN 4
+fe11_marthShip_pal:
+#incbin "dmp/fe11_marthShip_pal.dmp"
+ALIGN 4
+fe11_marthShip_tsa:
+#incbin "dmp/fe11_marthShip_tsa.dmp"
+
+ALIGN 4
+fe11_Reunion_img:
+#incbin "dmp/fe11_Reunion_png.dmp"
+ALIGN 4
+fe11_Reunion_pal:
+#incbin "dmp/fe11_Reunion_pal.dmp"
+ALIGN 4
+fe11_Reunion_tsa:
+#incbin "dmp/fe11_Reunion_tsa.dmp"
+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+SetBG(0x7a,fe11_anris_img,fe11_anris_pal,fe11_anris_tsa)
+SetBG(0x7b,fe11_medeus_img,fe11_medeus_pal,fe11_medeus_tsa)
+SetBG(0x7c,fe11_marthElice_img,fe11_marthElice_pal,fe11_marthElice_tsa)
+SetBG(0x7d,fe11_dragonDeath_img,fe11_dragonDeath_pal,fe11_dragonDeath_tsa)
+SetBG(0x7e,fe11_gharnef_img,fe11_gharnef_pal,fe11_gharnef_tsa)
+SetBG(0x7f,fe11_gharnefTiki_img,fe11_gharnefTiki_pal,fe11_gharnefTiki_tsa)
+SetBG(0x80,fe11_marthFight_img,fe11_marthFight_pal,fe11_marthFight_tsa)
+SetBG(0x81,fe11_marthRises_img,fe11_marthRises_pal,fe11_marthRises_tsa)
+SetBG(0x82,fe11_marthStrikes_img,fe11_marthStrikes_pal,fe11_marthStrikes_tsa)
+SetBG(0x83,fe11_marthShip_img,fe11_marthShip_pal,fe11_marthShip_tsa)
+SetBG(0x84,fe11_Reunion_img,fe11_Reunion_pal,fe11_Reunion_tsa)
+SetBG(0x85,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x86,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x87,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x88,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x89,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8a,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8b,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+SetBG(0x8c,BlankBG_img,BlankBG_pal,BlankBG_tsa)
+////////////////////////////////////////////////////////

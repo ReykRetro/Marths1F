@@ -5,6 +5,7 @@
 #define MarthMug 02
 #define MarthYoungMug 03
 #define MarthYoungClosedMug 04
+#define MarthYoungSepiaMug 177
 
 #define AbelMug 05
 #define ArranMug 06
@@ -20,6 +21,7 @@
 #define CaedaMug 14
 #define CaesarMug 15
 #define CainMug 16
+#define CainSepiaMug 178
 #define CastorMug 17
 #define CatriaMug 18
 #define CordMug 19

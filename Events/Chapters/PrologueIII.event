@@ -23,6 +23,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningSceneP3 EndingSceneP3
 
 TurnBasedEventsP3:
+	TurnEventPlayer(0x7,Jtalks,1)
 END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEventsP3 have to be 32-Aligned?
 
@@ -32,7 +33,6 @@ END_MAIN
 LocationBasedEventsP3:
 	Seize(1,1)
 	House(0x0,House1p3,6,12)//1
-	House(0x0,House2p3,8,15)//2
 	House(0x0,House3p3,13,13)//3
 	House(0x0,House4p3,13,17)//4
 	House(0x0,House5p3,19,17)//5
@@ -40,7 +40,43 @@ LocationBasedEventsP3:
 END_MAIN
 
 MiscBasedEventsP3:
+	AREA 0x8 Mages [0,0] [9,18]
 	CauseGameOverIfLordDies
+	// IA de grupo (FE11): si un jugador termina su accion donde puede
+	// atacarle CUALQUIER miembro del grupo, se despierta el grupo entero.
+	// Zonas calculadas con el terreno real (Documentacion/Herramientas).
+	// Grupo sur: soldados [7,16] y [14,17] + arquero [12,13]
+	AREA 0x20 DespertarSurP3 [13,9] [14,9]
+	AREA 0x20 DespertarSurP3 [12,10] [15,10]
+	AREA 0x20 DespertarSurP3 [6,11] [7,11]
+	AREA 0x20 DespertarSurP3 [11,11] [16,11]
+	AREA 0x20 DespertarSurP3 [5,12] [8,12]
+	AREA 0x20 DespertarSurP3 [10,12] [16,12]
+	AREA 0x20 DespertarSurP3 [4,13] [17,14]
+	AREA 0x20 DespertarSurP3 [2,15] [18,15]
+	AREA 0x20 DespertarSurP3 [1,16] [19,16]
+	AREA 0x20 DespertarSurP3 [2,17] [20,17]
+	AREA 0x20 DespertarSurP3 [4,18] [8,18]
+	AREA 0x20 DespertarSurP3 [10,18] [19,18]
+	// Grupo oeste: guerreros [1,11] y [1,17] + arquero [3,6]
+	AREA 0x21 DespertarOesteP3 [2,0] [4,0]
+	AREA 0x21 DespertarOesteP3 [1,1] [5,1]
+	AREA 0x21 DespertarOesteP3 [0,2] [6,2]
+	AREA 0x21 DespertarOesteP3 [0,3] [7,3]
+	AREA 0x21 DespertarOesteP3 [0,4] [8,4]
+	AREA 0x21 DespertarOesteP3 [0,5] [7,5]
+	AREA 0x21 DespertarOesteP3 [0,6] [8,6]
+	AREA 0x21 DespertarOesteP3 [0,7] [9,7]
+	AREA 0x21 DespertarOesteP3 [0,8] [8,8]
+	AREA 0x21 DespertarOesteP3 [0,9] [7,9]
+	AREA 0x21 DespertarOesteP3 [0,10] [5,11]
+	AREA 0x21 DespertarOesteP3 [0,12] [6,12]
+	AREA 0x21 DespertarOesteP3 [0,13] [5,13]
+	AREA 0x21 DespertarOesteP3 [0,14] [4,14]
+	AREA 0x21 DespertarOesteP3 [0,15] [5,15]
+	AREA 0x21 DespertarOesteP3 [0,16] [6,16]
+	AREA 0x21 DespertarOesteP3 [0,17] [5,17]
+	AREA 0x21 DespertarOesteP3 [0,18] [4,18]
 END_MAIN
 
 TutorialP3:
@@ -76,7 +112,7 @@ BeginningSceneP3:
 LOAD2 0x1 SoldierCasOut
 LOAD1 0x0 MarthJcavs
 ENUN
-Cam1 0x1
+CAM1 0x1
 EVBIT_T 9
 FADU 0x10
 STAL 60
@@ -89,7 +125,7 @@ Text(0x33,0x919)
 MOVE 0x10 0x4 [21,8]
 ENUN
 Text(0x91a)
-Cam1 [24,10]
+CAM1 [24,10]
 FlashCursor(24,10,60)
 CAM1 0x4
 Text(0x91b)
@@ -101,27 +137,98 @@ NoFade
 ENDA
 
 EndingSceneP3:
+FADI 0x10
+CLEA 0
+CLEE 0
+CLEN 0
+SPAWN_ALLY 0x1 [2,3]
+SPAWN_NPC 0x67 [6,12]
+CAM1 0x1
+FADU 0x10
+STAL 60
+TEXTSTART
+TEXTSHOW 0x923
+TEXTEND
+MOVE 0x10 0x67 [3,5]
+ENUN
+TEXTSHOW2 0x924
+TEXTEND
+REMA
+MOVE 0x10 0x1 [2,4]
+MOVE 0x10 0x67 [2,5]
+ENUN
+STAL 60
+SetBackground(0x33)
+Text(0x925)
+SetBackground(0x8d)
+Text(0x926)
+FADI 0x10
+CLEAN
+SetBackground(0x33)
+TEXTSTART
+TEXTSHOW (0x927)
+TEXTEND
+FADI 0x10
+REMA
 MNC2 0x03
 ENDA
 
 ALIGN 4
 House1p3:
-HouseEvent(0x91b,0x0)
-ENDA
-House2p3:
-HouseEvent(0x91b,0x0)
+HouseEvent(0x922,0x0)
 ENDA
 House3p3:
-HouseEvent(0x91b,0x0)
+HouseEvent(0x920,0x0)
 ENDA
 House4p3:
-HouseEvent(0x91b,0x0)
+HouseEvent(0x921,0x0)
 ENDA
 House5p3:
-HouseEvent(0x91b,0x0)
+HouseEvent(0x91f,0x0)
 ENDA
 House6p3:
-HouseEvent(0x91b,0x0)
+HouseEvent(0x91e,0x0)
+ENDA
+
+Jtalks:
+CAM1 [22,18]
+CAM1 [0,18]
+CAM1 [0,0]
+CAM1 0x4
+FlashCursor(0x4,60)
+Text(0x91c)
+NoFade
+ENDA
+
+Mages:
+SVAL 0x2 0x0
+CALL ActivePlayer
+CAM1 0x42
+FlashCursor(0x42,60)
+CAM1 [0,18]
+FlashCursor(0x4,60)
+Text(0x91d)
+NoFade
+ENDA
+
+DespertarSurP3:
+SVAL 0x2 0x0
+CALL ActivePlayer
+SVAL 0x1 0x0
+CHAI [7,16]
+CHAI [14,17]
+CHAI [12,13]
+NoFade
+ENDA
+
+DespertarOesteP3:
+SVAL 0x2 0x0
+CALL ActivePlayer
+SVAL 0x1 0x0
+CHAI [1,11]
+CHAI [1,17]
+CHAI [3,6]
+NoFade
 ENDA
 
 MESSAGE Events end at offset CURRENTOFFSET

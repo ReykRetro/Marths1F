@@ -16,8 +16,7 @@ Last words? You don't[NL]
 mean... Father...[....][ANL]
 [MidRight]
 My condolences, sire. The king died[NL]
-valiantly on the fields of Gra.[.][ANL]
-[CloseSpeechFast]
+valiantly on the fields of Gra.[.][A][CloseSpeechFast][NL]
 The traitors took from him[NL]
 the divine blade Falchion,[ANL]
 and gave no quarter to those of[NL]
@@ -59,3 +58,155 @@ these homes outside the castle.[.][ANL][X]
 [MidLeft][LoadFace][0x1f][0x1]
 Your countrymen love you; perhaps they[NL]
 have knowledge that may serve us.[.][ANL][X]
+
+# 0x91c Jags4
+[MidLeft][LoadFace][0x1f][0x1]
+[MidRight][LoadFace][0x03][0x1]
+[MidLeft]
+Look, sire. Not all of Gra's[NL]
+might  harries the castle.[.][ANL]
+They've left soldiers here outside.[.][ANL]
+[MidRight]
+Elice will have no place to escape...[....][NL]
+Let's seize that fort across the water.[ANL]
+Perhaps we can quash enemy[NL]
+reinforcements at the source.[.][ANL][X]
+
+# 0x091d Mtalk0
+[MidRight][LoadFace][0x03][0x1]
+Mages... That complicates things.[.]They[NL]
+don't need to get as close to do us harm.[.][ANL] 
+We'll need to approach carefully.[.][ANL][X]
+
+# 0x091e eastH
+[MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6a][0x1]
+Just 'cause you see an enemy over[NL]
+yonder doesn't mean you should go[ANL]
+runnin' up to him like a fool![.][ANL]
+Lure one out, then take 'im down![.][NL]
+Then go on and lure out the next.[.][ANL]
+That's how we did it when I was a lad![.][ANL][X]
+
+# 0x091f seatH 
+[MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6b][0x1]
+Sir Jagen is a paladin:[NL]
+the champion of Altea![.][NL]
+He may be old, but he's[NL]
+as strong as an ox.[.][ANL]
+Still, you can't have a champion[NL]
+like him do everything;[.][ANL]
+that's not fair to all your[NL] 
+would-be future champions![.][ANL]
+Let your other units fight[NL]
+and gain experience, or[NL]
+you may find yourself in[NL]
+a real fix down the line.[.][ANL][X]
+
+# 0x0920 muH
+[MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6f][0x1]
+If you get hurt, rest[NL]
+a spell at a fort.[.][ANL]
+A short stay there, and you'll[NL]
+be feeling hale as ever.[.][ANL][X]
+
+# 0x0921 mdH
+[MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6c][0x1]
+Javelins and hand axes are[NL]
+versatile weapons that let you[ANL]
+attack both up close and[NL]
+from a short distance away.[.][ANL][X]
+
+# 0x0922 emp3wH
+[MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6a][0x1]
+Weapons aren't indestructible,[.][NL]
+you know. They have limits![.][ANL]
+When a weapon's durability reaches 0,[NL]
+that's it: no more weapon.[.][ANL]
+So be sure to keep an[NL]
+eye on those numbers.[.][ANL][X]
+
+# 0x0923 enw1
+[FarLeft][LoadFace][0x03][0x1]
+There. That ought to do for the[NL]
+enemy soldiers around here.[.][A][CloseSpeechFast][X]
+
+# 0x0924 enw2
+[FarLeft][LoadFace][0x03][0x1]
+[FarRight][LoadFace][0x5d][0x1]
+[FarLeft]
+Malledus! Why aren't you with my sister?[.][NL]
+Did you leave her someplace safe?[.][ANL]
+[FarRight]
+...[....]Princess Elice will not be joining us.[.][NL]
+She has elected to stay at the castle.[.][ANL][X]
+
+# 0x0925 enw3
+[MidLeft][LoadFace][0x03][0x1]
+[MidRight][LoadFace][0x5d][0x1]
+[MidRight]
+Hold, sire! Where are you going?[.][ANL]
+[MidLeft]
+Where do you think![.][ANL]
+[MidRight]
+Stop![.][A][CloseSpeechFast][NL]
+Sire, consider for a moment[NL]
+why the princess would[ANL]
+go so far as to lie to you[NL]
+to ensure your escape.[.][A][CloseSpeechFast][NL]
+Your sister knows that you are the[ANL]
+future of Altea-nay the whole land![.][ANL]
+[MidLeft]
+......![.][ANL][X]
+
+# 0x0926 rem
+[MidLeft][LoadFace][0xb1][0x1]
+[MidRight][LoadFace][0xb2][0x1]
+His last words were as follows:[.][ANL]
+[Red]"Tell my son that I leave the future of[NL]
+Altea and our continent in his hands."[Red][.][ANL][X]
+
+# 0x0927 rac2
+[MidLeft][LoadFace][0x03][0x1]
+[MidRight][LoadFace][0x5d][0x1]
+[MidLeft]
+I'm...our future...[....][ANL]
+[MidRight]
+Sire... You must live. Drink[NL]
+deeply now of these injustices;[.][ANL]
+sup on these slights they[NL]
+serve. Remember them![.][A][CloseSpeechFast][NL]
+One day you will lead us back here to avenge[NL]
+the fallen and reclaim Altea in their names![.][ANL]
+[FarLeft]
+...Then it seems my life is[NL]
+no longer mine to hazard.[.][ANL]
+[FarRight]
+In your veins flows the blood[NL]
+of a hero-the blood of Anri.[.][ANL]
+You are a son of House Archanea,[.][ANL]
+and sole heir to Falchion-our only hope[NL]
+of defeating Medeus, emperor of Dolhr.[.][ANL]
+Sire, wer't in my power, I would[NL]
+have you choose your own path...[....][ANL]
+but I'm afraid your path has chosen you.[.][ANL]
+[FarLeft]
+......[......][ANL][X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

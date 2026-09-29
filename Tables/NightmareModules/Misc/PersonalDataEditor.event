@@ -5,7 +5,7 @@ POP
 ALIGN 4
 PersonalDataTable:
 _C2EA_PersonalDataEditor(0x0000,0x0000,0x0000,0x0000,0x0000,0x0000)
-_C2EA_PersonalDataEditor(EirLike1ID,EirLike2ID,EirikaDislike1ID,EirikaDislike2ID,EirikaAgeID,EirikaHeightID)
+_C2EA_PersonalDataEditor(EirLk1id,EirLk2id,EirikaDislike1ID,EirikaDislike2ID,EirikaAgeID,EirikaHeightID)
 _C2EA_PersonalDataEditor(0x0000,0x0000,0x0000,0x0000,0x0000,0x0000)
 _C2EA_PersonalDataEditor(0x0000,0x0000,0x0000,0x0000,0x0000,0x0000)
 _C2EA_PersonalDataEditor(0x0000,0x0000,0x0000,0x0000,0x0000,0x0000)

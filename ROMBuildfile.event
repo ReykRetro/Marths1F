@@ -10,12 +10,12 @@
 	
 	
     //Text first for Text ID definitions
-    #include "Text/InstallTextData.event"
+    #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
 
     //CSV tables
     #include "Tables/TableInstaller.event"
-    //#include "Tables/MyTables.event"
+    #include "Tables/MyTables.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
@@ -28,15 +28,15 @@
     #include "Events/EventsInstaller.event"
 
     //Maps
-    //#include "Maps/MasterMapInstaller.event"
+    #include "Maps/MasterMapInstaller.event"
     //#include "Maps/SFRound35.event"
     #endif // USE_TEST_MAP
 	
 	//Graphics
-	#include "Graphics/Graphics Installer.event"
+	#include "Graphics/GraphicsInstaller.event"
 	
 	//Music
-	//#include "Music/Music Installer.event"
+	//#include "Music/MusicInstaller.event"
 	
 	ASSERT (FreeSpaceEnd - currentOffset) // So that you don't overwrite vanilla tables if using default freespace
 	
