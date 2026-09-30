@@ -878,5 +878,12 @@
 #define enw3 $925
 #define rem $926
 #define rac2 $927
+#define Convo1p4 $928
+#define mala2 $929
+#define vstl $92A
+#define vasf $92B
+#define vgd $92C
+#define solca $92D
+#define gorruf $92E
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

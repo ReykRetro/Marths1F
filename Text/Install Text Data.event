@@ -3513,6 +3513,34 @@ __TEXTPROCESS927:
 #incext ParseFile ".TextEntries/text_buildfilerac2.fetxt"
 setText($927, __TEXTPROCESS927)
 
+__TEXTPROCESS928:
+#incext ParseFile ".TextEntries/text_buildfileConvo1p4.fetxt"
+setText($928, __TEXTPROCESS928)
+
+__TEXTPROCESS929:
+#incext ParseFile ".TextEntries/text_buildfilemala2.fetxt"
+setText($929, __TEXTPROCESS929)
+
+__TEXTPROCESS92A:
+#incext ParseFile ".TextEntries/text_buildfilevstl.fetxt"
+setText($92A, __TEXTPROCESS92A)
+
+__TEXTPROCESS92B:
+#incext ParseFile ".TextEntries/text_buildfilevasf.fetxt"
+setText($92B, __TEXTPROCESS92B)
+
+__TEXTPROCESS92C:
+#incext ParseFile ".TextEntries/text_buildfilevgd.fetxt"
+setText($92C, __TEXTPROCESS92C)
+
+__TEXTPROCESS92D:
+#incext ParseFile ".TextEntries/text_buildfilesolca.fetxt"
+setText($92D, __TEXTPROCESS92D)
+
+__TEXTPROCESS92E:
+#incext ParseFile ".TextEntries/text_buildfilegorruf.fetxt"
+setText($92E, __TEXTPROCESS92E)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
