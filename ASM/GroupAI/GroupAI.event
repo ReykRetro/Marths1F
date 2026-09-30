@@ -1,0 +1,124 @@
+//Make sure to add GroupAI to SkillSystem_FE8-master\Engine Hacks\Necessary\CalcLoops\PostBattleCalcLoop\PostBattleCalcLoop.event
+
+/*
+PUSH 
+// Wild Pokemon 
+ORG $D8178 // AI3 00 PrioritizeDamage (Accuracy) 
+BYTE 1 // Lethal 
+BYTE 1 // Defender's remaining HP
+BYTE 0 // Near allied units
+BYTE 0 // Defender's class (unused) 
+BYTE 0 // Turn count 
+BYTE 0 // Defender can't counter + defender's expected damage
+BYTE 0 // Penalty: Range and attack power of opponents
+BYTE 0 // Penalty: Attacker's remaining HP 
+
+// Gyms 
+ORG $D818C // 08 Standard 
+BYTE 2 // Lethal 
+BYTE 2 // Defender's remaining HP
+BYTE 2 // Near allied units
+BYTE 0 // Defender's class (unused) 
+BYTE 0 // Turn count 
+BYTE 0 // Defender can't counter + defender's expected damage
+BYTE 2 // Penalty: Range and attack power of opponents
+BYTE 1 // Penalty: Attacker's remaining HP 
+
+// Trainers
+ORG $D81A0 
+BYTE 2 // Lethal 
+BYTE 2 // Defender's remaining HP
+BYTE 2 // Near allied units
+BYTE 0 // Defender's class (unused) 
+BYTE 0 // Turn count 
+BYTE 0 // Defender can't counter + defender's expected damage
+BYTE 0 // Penalty: Range and attack power of opponents
+BYTE 0 // Penalty: Attacker's remaining HP 
+
+// 28 Archers / rarely used 
+BYTE 2 // Lethal 
+BYTE 1 // Defender's remaining HP
+BYTE 1 // Near allied units
+BYTE 0 // Defender's class (unused) 
+BYTE 0 // Turn count 
+BYTE 1 // Defender can't counter + defender's expected damage
+BYTE 1 // Penalty: Range and attack power of opponents
+BYTE 1 // Penalty: Attacker's remaining HP 
+
+POP 
+*/
+
+ALIGN 4
+PUSH
+ORG CurrentOffset+1
+GroupAI:
+POP
+#incbin "GroupAI.dmp"
+
+PUSH 
+ORG $39C44 
+callHackNew(AggroGroupAI_IfInDanger) 
+POP 
+
+ALIGN 4 
+PUSH; ORG CurrentOffset+1 
+AggroGroupAI_IfInDanger: 
+POP 
+#incbin "GroupAIDanger.dmp" 
+
+#define GroupOneAI 					[0x00,0x03,0x0A,0x01]
+#define GroupTwoAI 					[0x00,0x03,0x0A,0x02]
+#define GroupThreeAI					[0x00,0x03,0x0A,0x03]
+#define GroupFourAI					[0x00,0x03,0x0A,0x04]
+#define GroupFiveAI					[0x00,0x03,0x0A,0x05]
+#define GroupSixAI					[0x00,0x03,0x0A,0x06]
+#define GroupSevenAI					[0x00,0x03,0x0A,0x07]
+#define GroupEightAI					[0x00,0x03,0x0A,0x08]
+#define GroupNineAI					[0x00,0x03,0x0A,0x09]
+#define GroupTenAI					[0x00,0x03,0x0A,0x0A]
+
+#define ZoningHeal50GroupOneAI 				[0x00,0x18,0x08,0x01] // Within 2 
+#define ZoningHeal80GroupOneAI 				[0x00,0x18,0x0B,0x01] // Within 2 
+#define ZoningGroupOneAI 					[0x00,0x18,0x0A,0x01] // Within 2 
+#define ZoningGroupTwoAI 					[0x00,0x18,0x0A,0x02]
+#define ZoningGroupThreeAI					[0x00,0x18,0x0A,0x03]
+#define ZoningGroupFourAI					[0x00,0x18,0x0A,0x04]
+#define ZoningGroupFiveAI					[0x00,0x18,0x0A,0x05]
+#define ZoningGroupSixAI						[0x00,0x18,0x0A,0x06]
+#define ZoningGroupSevenAI					[0x00,0x18,0x0A,0x07]
+#define ZoningGroupEightAI					[0x00,0x18,0x0A,0x08]
+#define ZoningGroupNineAI					[0x00,0x18,0x0A,0x09]
+#define ZoningGroupTenAI						[0x00,0x18,0x0A,0x0A]
+
+// group ai in danger was triggering the safest zoning ai 
+// trainer summons 4 mons: 1 mon waits beside trainer (in danger) which aggros the others 
+// therefore, I've made it so trainer mon's don't care about danger 
+
+#define SafestZoningGroupOneAI 					[32,24,0x12,0x01] // Retreat for 1st turn
+#define SafestZoningGroupTwoAI 					[32,24,0x12,0x02]
+#define SafestZoningGroupThreeAI				[32,24,0x12,0x03]
+#define SafestZoningGroupFourAI					[32,24,0x12,0x04]
+#define SafestZoningGroupFiveAI					[32,24,0x12,0x05]
+#define SafestZoningGroupSixAI					[32,24,0x12,0x06]
+#define SafestZoningGroupSevenAI				[32,24,0x12,0x07]
+#define SafestZoningGroupEightAI				[32,24,0x12,0x08]
+#define SafestZoningGroupNineAI					[32,24,0x12,0x09]
+#define SafestZoningGroupTenAI					[32,24,0x12,0x0A]
+
+
+
+#define UnsafeZoningGroupOneAI 					[0x00,0x18,0x0A,0x01] //
+#define UnsafeZoningGroupTwoAI 					[0x00,0x18,0x0A,0x02]
+#define UnsafeZoningGroupThreeAI				[0x00,0x18,0x0A,0x03]
+#define UnsafeZoningGroupFourAI					[0x00,0x18,0x0A,0x04]
+#define UnsafeZoningGroupFiveAI					[0x00,0x18,0x0A,0x05]
+#define UnsafeZoningGroupSixAI					[0x00,0x18,0x0A,0x06]
+#define UnsafeZoningGroupSevenAI				[0x00,0x18,0x0A,0x07]
+#define UnsafeZoningGroupEightAI				[0x00,0x18,0x0A,0x08]
+#define UnsafeZoningGroupNineAI					[0x00,0x18,0x0A,0x09]
+#define UnsafeZoningGroupTenAI					[0x00,0x18,0x0A,0x0A]
+
+
+
+
+
