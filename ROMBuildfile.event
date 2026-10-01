@@ -19,6 +19,7 @@
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+	#include "ASM/GroupAI/GroupAI.event"
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
     #include "ASM/asmInstaller.event"

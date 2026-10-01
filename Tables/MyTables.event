@@ -2,3 +2,6 @@
 #include "NightmareModules/CharactersClasses/Characters.event"
 #include "NightmareModules/CharactersClasses/ClassesRepointed.event"
 #include "NightmareModules/Items/ItemsRepointed.event"
+
+#include "MoreTables/bqInstaller.event"
+#include "MoreTables/dqInstaller.event"

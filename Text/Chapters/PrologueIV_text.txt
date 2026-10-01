@@ -145,3 +145,49 @@ Rrrmph.[.][ANL]
 [MidLeft]
 So long, Gaggles! Better start prayin'[NL]
 to your 'igher deity of choice![.][ANL][X]
+
+# 0x092f grdM
+[MidLeft][LoadFace][0x03][0x01]
+[MidRight][LoadFace][0x1b][0x1]
+[MidLeft]
+Yow! It's an enemy ambush![.][ANL]
+[MidRight]
+Rrrgmph mrph!
+[MidLeft]
+Huh? You've been gagged?[NL]
+Here, I'll get that...[....][ANL]
+Wait, I know you! You're[NL]
+one of our archers, er...[....][ANL]
+[MidRight]
+Gordin, sire! My name is Gordin.[.][ANL]
+The enemy captured me and left me[NL]
+in this mortifying state.[.][ANL]
+[MidLeft]
+I see. Well, I'm glad you're unharmed.[.][ANL] 
+But I'm afraid we cannot stay here[NL]
+a moment longer. Stay behind me and-[.][ANL]
+[MidRight]
+I can fight, sire! If you[NL]
+have a bow I could use,[NL]
+I would be honored to[NL]
+fight at your side.[.][ANL][X]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

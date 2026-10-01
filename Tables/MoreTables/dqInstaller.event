@@ -1,0 +1,136 @@
+#define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
+#define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
+#define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
+#define DefeatBossFlag 0x2
+#define GameOverFlag 0x65
+#define CheckNoPlayersDeathQuote(UnitID) "BYTE UnitID 0x0 0xff 0xff 0x00 0x00; SHORT 0x00; WORD 0" //POIN CheckIfNoPlayerUnits" 
+#define EventDeathQuote(UnitID, EventLabelName) "BYTE UnitID 0x0 0xff 0xff 0x00 0x00; SHORT 0x00; POIN EventLabelName" //POIN CheckIfNoPlayerUnits" 
+#define FlagDeathQuote(UnitID, FlagID) "BYTE UnitID 0x0 0xff 0xff; SHORT FlagID; SHORT 0x00; WORD 0"
+// previously how I did it 
+
+ALIGN 4
+DeathQuoteTable:
+EventDeathQuote(0x01,MarthsDeath)
+CheckNoPlayersDeathQuote(0x02)
+CheckNoPlayersDeathQuote(0x03)
+CheckNoPlayersDeathQuote(0x04)
+CheckNoPlayersDeathQuote(0x05)
+ChapterDeathQuote(0x6,0x3,0x1,0x0)
+CheckNoPlayersDeathQuote(0x06)
+CheckNoPlayersDeathQuote(0x07)
+CheckNoPlayersDeathQuote(0x08)
+CheckNoPlayersDeathQuote(0x09)
+CheckNoPlayersDeathQuote(0x0A)
+CheckNoPlayersDeathQuote(0x0B)
+CheckNoPlayersDeathQuote(0x0C)
+CheckNoPlayersDeathQuote(0x0D)
+CheckNoPlayersDeathQuote(0x0E)
+CheckNoPlayersDeathQuote(0x0F)
+CheckNoPlayersDeathQuote(0x10)
+CheckNoPlayersDeathQuote(0x11)
+CheckNoPlayersDeathQuote(0x12)
+CheckNoPlayersDeathQuote(0x13)
+CheckNoPlayersDeathQuote(0x14)
+CheckNoPlayersDeathQuote(0x15)
+CheckNoPlayersDeathQuote(0x16)
+CheckNoPlayersDeathQuote(0x17)
+CheckNoPlayersDeathQuote(0x18)
+CheckNoPlayersDeathQuote(0x19)
+CheckNoPlayersDeathQuote(0x1A)
+CheckNoPlayersDeathQuote(0x1B)
+CheckNoPlayersDeathQuote(0x1C)
+CheckNoPlayersDeathQuote(0x1D)
+CheckNoPlayersDeathQuote(0x1E)
+CheckNoPlayersDeathQuote(0x1F)
+CheckNoPlayersDeathQuote(0x20)
+CheckNoPlayersDeathQuote(0x21)
+CheckNoPlayersDeathQuote(0x22)
+CheckNoPlayersDeathQuote(0x23)
+CheckNoPlayersDeathQuote(0x24)
+CheckNoPlayersDeathQuote(0x25)
+CheckNoPlayersDeathQuote(0x26)
+CheckNoPlayersDeathQuote(0x27)
+CheckNoPlayersDeathQuote(0x28)
+CheckNoPlayersDeathQuote(0x29)
+CheckNoPlayersDeathQuote(0x2A)
+CheckNoPlayersDeathQuote(0x2B)
+CheckNoPlayersDeathQuote(0x2C)
+CheckNoPlayersDeathQuote(0x2D)
+CheckNoPlayersDeathQuote(0x2E)
+CheckNoPlayersDeathQuote(0x2F)
+CheckNoPlayersDeathQuote(0x30)
+CheckNoPlayersDeathQuote(0x31)
+CheckNoPlayersDeathQuote(0x32)
+CheckNoPlayersDeathQuote(0x33)
+CheckNoPlayersDeathQuote(0x34)
+CheckNoPlayersDeathQuote(0x35)
+CheckNoPlayersDeathQuote(0x36)
+CheckNoPlayersDeathQuote(0x37)
+CheckNoPlayersDeathQuote(0x38)
+CheckNoPlayersDeathQuote(0x39)
+CheckNoPlayersDeathQuote(0x3A)
+CheckNoPlayersDeathQuote(0x3B)
+CheckNoPlayersDeathQuote(0x3C)
+CheckNoPlayersDeathQuote(0x3D)
+CheckNoPlayersDeathQuote(0x3E)
+CheckNoPlayersDeathQuote(0x3F)
+CheckNoPlayersDeathQuote(0x40)
+CheckNoPlayersDeathQuote(0x41)
+CheckNoPlayersDeathQuote(0x42)
+CheckNoPlayersDeathQuote(0x43)
+CheckNoPlayersDeathQuote(0x44)
+CheckNoPlayersDeathQuote(0x45)
+CheckNoPlayersDeathQuote(0x46)
+CheckNoPlayersDeathQuote(0x47)
+CheckNoPlayersDeathQuote(0x48)
+CheckNoPlayersDeathQuote(0x49)
+CheckNoPlayersDeathQuote(0x4a)
+CheckNoPlayersDeathQuote(0x4b)
+CheckNoPlayersDeathQuote(0x4c)
+CheckNoPlayersDeathQuote(0x4d)
+CheckNoPlayersDeathQuote(0x4e)
+CheckNoPlayersDeathQuote(0x4f)
+CheckNoPlayersDeathQuote(0x50)
+CheckNoPlayersDeathQuote(0x51)
+CheckNoPlayersDeathQuote(0x52)
+CheckNoPlayersDeathQuote(0x53)
+CheckNoPlayersDeathQuote(0x54)
+CheckNoPlayersDeathQuote(0x55)
+CheckNoPlayersDeathQuote(0x56)
+CheckNoPlayersDeathQuote(0x57)
+CheckNoPlayersDeathQuote(0x58)
+CheckNoPlayersDeathQuote(0x59)
+CheckNoPlayersDeathQuote(0x5a)
+CheckNoPlayersDeathQuote(0x5b)
+CheckNoPlayersDeathQuote(0x5c)
+CheckNoPlayersDeathQuote(0x5d)
+CheckNoPlayersDeathQuote(0x5e)
+CheckNoPlayersDeathQuote(0x5f)
+CheckNoPlayersDeathQuote(0x60)
+CheckNoPlayersDeathQuote(0x61)
+CheckNoPlayersDeathQuote(0x62)
+CheckNoPlayersDeathQuote(0x63)
+CheckNoPlayersDeathQuote(0x64)
+CheckNoPlayersDeathQuote(0x65)
+CheckNoPlayersDeathQuote(0x66)
+CheckNoPlayersDeathQuote(0x67)
+CheckNoPlayersDeathQuote(0x68)
+EndQuote
+
+PUSH
+ORG $8472C
+POIN DeathQuoteTable
+POP
+
+ALIGN 4
+MarthsDeath:
+CHECK_EVENTID 0x83
+SVAL 1 0x0
+BEQ 0x0 0xC 0x1
+	Text(0x922)
+	GOTO 1
+LABEL 0
+	Text(0x923)
+LABEL 1
+NoFade
+ENDA
