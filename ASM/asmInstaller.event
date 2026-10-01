@@ -1,4 +1,4 @@
 #include "RW Cloud Fix/Cloud_Fix_EA.event"
 #include "UNCMv2/UNCMv2Installer.event"
 //#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
-#include "GroupAI/GroupAI.event"
+//#include "GroupAI/GroupAI.event"

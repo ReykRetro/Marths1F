@@ -55,6 +55,7 @@ GroupAI:
 POP
 #incbin "GroupAI.dmp"
 
+/*
 PUSH 
 ORG $39C44 
 callHackNew(AggroGroupAI_IfInDanger) 
@@ -65,6 +66,7 @@ PUSH; ORG CurrentOffset+1
 AggroGroupAI_IfInDanger: 
 POP 
 #incbin "GroupAIDanger.dmp" 
+*/
 
 #define GroupOneAI 					[0x00,0x03,0x0A,0x01]
 #define GroupTwoAI 					[0x00,0x03,0x0A,0x02]
