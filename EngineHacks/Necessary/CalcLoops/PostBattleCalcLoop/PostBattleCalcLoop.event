@@ -18,6 +18,7 @@ POIN Canto CantoPlus Galeforce FailGale ReMove Powerstaff CulturedPostCombat Gri
 #ifdef GAIDEN_MAGIC
 	POIN GaidenZeroOutSpellVariables // without this there was an R-text bug when obtaining an item during the end scene after KOing an enemy 
 #endif // GAIDEN_MAGIC
+POIN GroupAI
 WORD 0 //Terminator
 
 PROTECT $1D308 $1D314
