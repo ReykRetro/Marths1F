@@ -1,0 +1,21 @@
+#ifndef CHANGE_EDITION_EVENT
+#define CHANGE_EDITION_EVENT
+
+// ============================================
+// ASMC: Change Edition (con protagonista custom opcional)
+// Autor: 7743, adaptado para buildfile FE8U
+// ============================================
+
+ALIGN 4
+ChangeEdition_ASMC:
+#incbin "ASMC_ChangeEdition.dmp"
+
+// ============================================
+// Macro para eventos de capítulo
+// Parámetros:
+//   edition:  0x01=Tutorial, 0x02=Eirika, 0x03=Ephraim
+//   protag_id: Unit ID del protagonista (0x00 = vanilla)
+// ============================================
+#define ChangeEdition(edition, protag_id) "BYTE 0x40 0x0D edition protag_id; POIN ChangeEdition_ASMC+1"
+
+#endif // CHANGE_EDITION_EVENT

@@ -1,0 +1,23 @@
+#ifndef CHANGE_EDITION_EVENT
+#define CHANGE_EDITION_EVENT
+
+// ============================================
+// ASMC: Change Edition
+// Autor: 7743
+// Adaptado para buildfile FE8U (SkillSystem)
+// ============================================
+
+ALIGN 4
+ChangeEdition_ASMC:
+#incbin "asmcChangeEdition.dmp"
+
+// ============================================
+// Macro para usar en eventos de capítulo
+// Parámetro: edition
+//   0x01 = Tutorial
+//   0x02 = Ruta Eirika (protagonista: Unit 0x01)
+//   0x03 = Ruta Ephraim (protagonista: Unit 0x0F)
+// ============================================
+#define ChangeEdition(edition) "BYTE 0x40 0x0D edition 0x00; POIN ChangeEdition_ASMC+1"
+
+#endif // CHANGE_EDITION_EVENT

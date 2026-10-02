@@ -79,7 +79,6 @@ ENDTRAP
 ALIGN 4
 
 BeginningSceneP1:
-ENUT 0x83
 LOAD2 0x1 SoldierUnits
 ENUN
 MOVE 0x10 0xfc [01,21]

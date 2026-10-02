@@ -589,6 +589,10 @@
 #define EirikaDislike2ID $F70
 #define EirikaAgeID $F71
 #define EirikaHeightID $F72
+#define MountUMText $FD4
+#define DismountUMText $FD5
+#define MountDesc $FD6
+#define DismountDesc $FD7
 #define MarthName $212
 #define MarthDesc $26E
 #define AbelName $213
@@ -885,5 +889,6 @@
 #define vgd $92C
 #define solca $92D
 #define gorruf $92E
+#define grdM $92F
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

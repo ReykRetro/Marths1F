@@ -2357,6 +2357,22 @@ __TEXTPROCESSF72:
 #incext ParseFile ".TextEntries/text_buildfileEirikaHeightID.fetxt"
 setText($F72, __TEXTPROCESSF72)
 
+__TEXTPROCESSFD4:
+#incext ParseFile ".TextEntries/text_buildfileMountUMText.fetxt"
+setText($FD4, __TEXTPROCESSFD4)
+
+__TEXTPROCESSFD5:
+#incext ParseFile ".TextEntries/text_buildfileDismountUMText.fetxt"
+setText($FD5, __TEXTPROCESSFD5)
+
+__TEXTPROCESSFD6:
+#incext ParseFile ".TextEntries/text_buildfileMountDesc.fetxt"
+setText($FD6, __TEXTPROCESSFD6)
+
+__TEXTPROCESSFD7:
+#incext ParseFile ".TextEntries/text_buildfileDismountDesc.fetxt"
+setText($FD7, __TEXTPROCESSFD7)
+
 __TEXTPROCESS212:
 #incext ParseFile ".TextEntries/text_buildfileMarthName.fetxt"
 setText($212, __TEXTPROCESS212)
@@ -3540,6 +3556,10 @@ setText($92D, __TEXTPROCESS92D)
 __TEXTPROCESS92E:
 #incext ParseFile ".TextEntries/text_buildfilegorruf.fetxt"
 setText($92E, __TEXTPROCESS92E)
+
+__TEXTPROCESS92F:
+#incext ParseFile ".TextEntries/text_buildfilegrdM.fetxt"
+setText($92F, __TEXTPROCESS92F)
 
 }
 
