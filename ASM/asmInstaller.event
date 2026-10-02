@@ -4,3 +4,5 @@
 //#include "GroupAI/GroupAI.event"
 #include "DismountMount/DismountMountInstaller.event"
 #include "ChangeEdition/ChangeEdition.event"
+#include "MirrorMapSprites/Installer.event"
+#include "ResTerrainWindow/ResTerrainWindowInstaller.event"

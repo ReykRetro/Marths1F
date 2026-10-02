@@ -162,7 +162,7 @@ UnitMenuTable:
 #endif // HAX_RALLIES
 
 #endif // COMBAT_ARTS
-
+  
   // UM_Talk
   MenuCommand(0x680, 0x6c9, GreenText, 0x23c81, 0x23cc5)
   // UM_Support
@@ -217,6 +217,15 @@ UnitMenuTable:
   //UM_Supply
   MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
   
+  // Dismount / Mount (Contro's addon con verificación de terreno)
+  #define Dismount_Name_TextID        DismountUMText
+  #define Dismount_Description_TextID DismountDesc
+  #define Mount_Name_TextID           MountUMText
+  #define Mount_Description_TextID    MountDesc
+  MenuCommand(Dismount_Name_TextID, Dismount_Description_TextID, OrangeText, DismountUsability, DismountRoutine)
+  MenuCommand(Mount_Name_TextID, Mount_Description_TextID, OrangeText, MountUsability, MountRoutine)
+  UM_Ride
+  UM_Exit
   UM_Wait
 
   UM_Separator 

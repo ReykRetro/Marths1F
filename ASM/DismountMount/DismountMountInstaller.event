@@ -1,48 +1,20 @@
-//Dismount/Mount Installer, by Crazycolorz5
-/*
-    Notes:
-    This installer automatically repoints the Unit Menu Table. 
-    If you're defining it in another file, then copy the lines
-    that point to the mount and dismount hack into it. 
-    Then, remove the table from this file.
-    
-*/
+// Dismount/Mount Installer (modificado para SkillSystem buildfile)
+// Basado en Crazycolorz5 + addon de terreno de Contro
 
-//The user needs to change these to fit his/her ROM.
-//These are the text IDs used for the unit menu. Change them based on what IDs you're using for the text.
-#define Dismount_Name_TextID        DismountUMText
-#define Dismount_Description_TextID DismountDesc
-#define Mount_Name_TextID           MountUMText
-#define Mount_Description_TextID    MountDesc
+// Text IDs (asegurate de que estén definidos en tu text buildfile)
 
-//These are for constructing your Mounted Class Table.
+// Tabla de clases montadas/desmontadas
 #define MountedUnmounted(classIDMounted, classIDUnmounted) "BYTE classIDMounted classIDUnmounted"
 #define EndMountUnmountedTable "BYTE 0x00 0x00"
 
-//Next, go down a few lines to where you see MountedClassTable,
-//And fill it with entries for mounted and unmounted classes.
-
-
-//Installer ----------
-//#include "_UnitMenuDefs.txt"
-
-  #include "Extensions/Hack Installation.txt"
-
-  //Repoint Unit Menu
-  PUSH
-    ORG $59D1f8         //Repointing Unit Menu Table
-    POIN UnitMenuTable
-  POP
-
-    MountedClassTable:
-    //Replace this with a list of your classes, mounted and unmounted.
-    MountedUnmounted(Cavalier_F, EirikaLord) //Examples
-    MountedUnmounted(Cavalier, EphraimLord)
-    MountedUnmounted(MageKnight, Sage)
-    MountedUnmounted(MageKnight_F, Sage_F)
-    MountedUnmounted(PegasusKnight, Soldier)
+  MountedClassTable:
+    // EDITÁ ESTO con tus clases reales
+    MountedUnmounted(0x6, 0x1)   // Ejemplos — reemplazalos
+    MountedUnmounted(0x5, 0x2)
+    MountedUnmounted(0x29, 0x27)
+    MountedUnmounted(0x2a, 0x28)
+    MountedUnmounted(0x48, 0x4e)
     EndMountUnmountedTable
-    
     
   ALIGN 4
   DismountRoutine:
