@@ -3,3 +3,4 @@
 //#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
 //#include "GroupAI/GroupAI.event"
 #include "DismountMount/DismountMountInstaller.event"
+#include "ChangeEdition/ChangeEdition.event"
