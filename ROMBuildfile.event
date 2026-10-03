@@ -6,7 +6,7 @@
 
     //#include "repointedAllTables.event"
 	//#include "repointedAnimsTable.event"
-	#include "repointedTextTable.event"
+	#include "Text/ZrepointedTextTable.event"
 	
 	
     //Text first for Text ID definitions
