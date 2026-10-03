@@ -2,8 +2,10 @@
 *.gba
 *.sav
 *.nlz
-*.sym
 *.lnk
+*.sgm
+*.tmx.bak
+
 
 # Basura del sistema
 Thumbs.db
