@@ -6,10 +6,8 @@
 *.sgm
 *.tmx.bak
 *.bak
-*.cache
-
-
 
 # Basura del sistema
 Thumbs.db
 .DS_Store
+.cache
