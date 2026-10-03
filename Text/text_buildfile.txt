@@ -127,6 +127,8 @@ a skill when used.[X]
 #include "EnemiesUnits_text.txt"
 #include "classes_text.txt"
 #include "objectives_text.txt"
+#include "dq_text.txt"
+//#include "bq_text.txt"
 
 //capitulosPrologos
 #include "Chapters/PrologueI_text.txt"

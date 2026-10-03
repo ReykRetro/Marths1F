@@ -168,7 +168,7 @@ But I'm afraid we cannot stay here[NL]
 a moment longer. Stay behind me and-[.][ANL]
 [MidRight]
 I can fight, sire! If you[NL]
-have a bow I could use,[NL]
+have a bow I could use,[.][ANL]
 I would be honored to[NL]
 fight at your side.[.][ANL][X]
 

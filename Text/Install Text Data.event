@@ -3393,6 +3393,146 @@ __TEXTPROCESS1B6:
 #incext ParseFile ".TextEntries/text_buildfilethrone15.fetxt"
 setText($1B6, __TEXTPROCESS1B6)
 
+__TEXTPROCESSFD8:
+#incext ParseFile ".TextEntries/text_buildfilemarthsYoungDQ.fetxt"
+setText($FD8, __TEXTPROCESSFD8)
+
+__TEXTPROCESSFD9:
+#incext ParseFile ".TextEntries/text_buildfilemarthsDQ.fetxt"
+setText($FD9, __TEXTPROCESSFD9)
+
+__TEXTPROCESSFDA:
+#incext ParseFile ".TextEntries/text_buildfilecaedaMdq.fetxt"
+setText($FDA, __TEXTPROCESSFDA)
+
+__TEXTPROCESSFDB:
+#incext ParseFile ".TextEntries/text_buildfilejagenMdq.fetxt"
+setText($FDB, __TEXTPROCESSFDB)
+
+__TEXTPROCESSFDC:
+#incext ParseFile ".TextEntries/text_buildfilenynaMdq.fetxt"
+setText($FDC, __TEXTPROCESSFDC)
+
+__TEXTPROCESSFDD:
+#incext ParseFile ".TextEntries/text_buildfilemalledusMdq.fetxt"
+setText($FDD, __TEXTPROCESSFDD)
+
+__TEXTPROCESS90A:
+#incext ParseFile ".TextEntries/text_buildfileabeldq.fetxt"
+setText($90A, __TEXTPROCESS90A)
+
+__TEXTPROCESS916:
+#incext ParseFile ".TextEntries/text_buildfilefreyDQ.fetxt"
+setText($916, __TEXTPROCESS916)
+
+__TEXTPROCESS917:
+#incext ParseFile ".TextEntries/text_buildfile917.fetxt"
+setText($917, __TEXTPROCESS917)
+
+__TEXTPROCESS930:
+#incext ParseFile ".TextEntries/text_buildfile930.fetxt"
+setText($930, __TEXTPROCESS930)
+
+__TEXTPROCESS931:
+#incext ParseFile ".TextEntries/text_buildfilegordinDq4.fetxt"
+setText($931, __TEXTPROCESS931)
+
+__TEXTPROCESS932:
+#incext ParseFile ".TextEntries/text_buildfilegordinDqStandard.fetxt"
+setText($932, __TEXTPROCESS932)
+
+__TEXTPROCESS933:
+#incext ParseFile ".TextEntries/text_buildfiledraugDQ.fetxt"
+setText($933, __TEXTPROCESS933)
+
+__TEXTPROCESS934:
+#incext ParseFile ".TextEntries/text_buildfilenorneDQ.fetxt"
+setText($934, __TEXTPROCESS934)
+
+__TEXTPROCESS935:
+#incext ParseFile ".TextEntries/text_buildfilecaedaDQ.fetxt"
+setText($935, __TEXTPROCESS935)
+
+__TEXTPROCESS936:
+#incext ParseFile ".TextEntries/text_buildfilewrysDQ.fetxt"
+setText($936, __TEXTPROCESS936)
+
+__TEXTPROCESS937:
+#incext ParseFile ".TextEntries/text_buildfileogmaDQ.fetxt"
+setText($937, __TEXTPROCESS937)
+
+__TEXTPROCESS938:
+#incext ParseFile ".TextEntries/text_buildfilebarstDQ.fetxt"
+setText($938, __TEXTPROCESS938)
+
+__TEXTPROCESS939:
+#incext ParseFile ".TextEntries/text_buildfileborddQ.fetxt"
+setText($939, __TEXTPROCESS939)
+
+__TEXTPROCESS93A:
+#incext ParseFile ".TextEntries/text_buildfilecorddQ.fetxt"
+setText($93A, __TEXTPROCESS93A)
+
+__TEXTPROCESS93B:
+#incext ParseFile ".TextEntries/text_buildfiledarrosDQ.fetxt"
+setText($93B, __TEXTPROCESS93B)
+
+__TEXTPROCESS93C:
+#incext ParseFile ".TextEntries/text_buildfilecastorDQ.fetxt"
+setText($93C, __TEXTPROCESS93C)
+
+__TEXTPROCESS93D:
+#incext ParseFile ".TextEntries/text_buildfilejulianDQ.fetxt"
+setText($93D, __TEXTPROCESS93D)
+
+__TEXTPROCESS93E:
+#incext ParseFile ".TextEntries/text_buildfilelenaDQ.fetxt"
+setText($93E, __TEXTPROCESS93E)
+
+__TEXTPROCESS93F:
+#incext ParseFile ".TextEntries/text_buildfilenavarreDQ.fetxt"
+setText($93F, __TEXTPROCESS93F)
+
+__TEXTPROCESS940:
+#incext ParseFile ".TextEntries/text_buildfilemerricDQ.fetxt"
+setText($940, __TEXTPROCESS940)
+
+__TEXTPROCESS941:
+#incext ParseFile ".TextEntries/text_buildfilematthisDQ.fetxt"
+setText($941, __TEXTPROCESS941)
+
+__TEXTPROCESS942:
+#incext ParseFile ".TextEntries/text_buildfilewolfdQ.fetxt"
+setText($942, __TEXTPROCESS942)
+
+__TEXTPROCESS943:
+#incext ParseFile ".TextEntries/text_buildfilesedgarDQ.fetxt"
+setText($943, __TEXTPROCESS943)
+
+__TEXTPROCESS944:
+#incext ParseFile ".TextEntries/text_buildfilerosheaDQ.fetxt"
+setText($944, __TEXTPROCESS944)
+
+__TEXTPROCESS945:
+#incext ParseFile ".TextEntries/text_buildfilevylanddQ.fetxt"
+setText($945, __TEXTPROCESS945)
+
+__TEXTPROCESS946:
+#incext ParseFile ".TextEntries/text_buildfilehardinDQ.fetxt"
+setText($946, __TEXTPROCESS946)
+
+__TEXTPROCESS947:
+#incext ParseFile ".TextEntries/text_buildfilewendelldQ.fetxt"
+setText($947, __TEXTPROCESS947)
+
+__TEXTPROCESS948:
+#incext ParseFile ".TextEntries/text_buildfilerickarddQ.fetxt"
+setText($948, __TEXTPROCESS948)
+
+__TEXTPROCESS94D:
+#incext ParseFile ".TextEntries/text_buildfiledeDqiuenDQ.fetxt"
+setText($94D, __TEXTPROCESS94D)
+
 __TEXTPROCESS903:
 #incext ParseFile ".TextEntries/text_buildfileConvoP1.fetxt"
 setText($903, __TEXTPROCESS903)

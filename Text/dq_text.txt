@@ -1,0 +1,170 @@
+//frases de muerte de Marth 0x1
+# 0x0fd8 marthsYoungDQ
+[MidRight][LoadFace][0x3][0x1]
+Forgive me,[.][NL]
+my friends...[....][A][ClearFace][X]
+
+## marthsDQ
+[MidRight][LoadFace][0x2][0x1]
+Forgive me,[.][NL]
+my friends...[....][A][ClearFace][X]
+
+## caedaMdq
+[MidLeft][LoadFace][0xe][0x1]
+Ahh... Marth! No![.][NL]
+Don't leave me...[....][A][ClearFace][X]
+
+## jagenMdq
+[MidLeft][LoadFace][0x1f][0x1]
+Sire! Get up, sire![.][NL]
+What of Altea's future?[.][A][ClearFace][X]
+
+## nynaMdq
+[MidLeft][LoadFace][0x5e][0x1]
+Marth, no... You cannot die here![....][NL]
+There's too much to be done![A][ClearFace][X]
+
+## malledusMdq
+[MidLeft][LoadFace][0x5d][0x1]
+No... Prince Marth![.][NL]
+You are our leader![.][ANL]
+Stand up! Sire![ANL][ClearFace][X]
+
+//resto de PlayerDQ
+//0x2 abel
+# 0x090a abeldq
+[MidRight][LoadFace][0x5][0x1]
+Long... live...[....][NL]
+Altea!![.][A][X]
+
+//0x3 frey
+# 0x0916 freyDQ
+[MidRight][LoadFace][0x1a][0x1]
+Luck be... with you,[.][NL]
+sire...[....][A][X]
+ 
+//0x4 jagen
+# 0x0917
+[MidRight][LoadFace][0x1f][0x1]
+Sire... Fight for Altea...[....][A][X]
+ 
+//0x5 cain
+# 0x0930
+[MidRight][LoadFace][0x10][0x1]
+Prince Marth... Tell them...[....][NL]
+I did not run...[....][A][X]
+
+//0x6 gordin
+## gordinDq4
+[MidRight][LoadFace][0x1b][0x1]
+Grrrmph...[....][A][X]
+
+## gordinDqStandard
+[MidRight][LoadFace][0x1b][0x1]
+Prince Marth...[....][NL]
+It was...an honor...[....][A][X]
+
+## draugDQ
+[MidRight][LoadFace][0x16][0x1]
+Take care, sire...[....][NL]
+Altea needs you...[....][ANL][X]
+
+## norneDQ
+[MidRight][LoadFace][0x2e][0x1]
+Heh... Oops...unnh...[....][ANL][X]
+
+## caedaDQ
+[MidRight][LoadFace][0xe][0x1]
+Goodbye, Marth... Stay[NL]
+strong...for me...[....][ANL][X]
+
+## wrysDQ
+[MidRight][LoadFace][0x3c][0x1]
+Alas... This is[NL]
+beyond healing...[....][ANL][X]
+
+## ogmaDQ
+[MidRight][LoadFace][0x2f][0x1]
+Princess...[....][NL]
+I'm sorry...[A][X]
+
+## barstDQ
+[MidRight][LoadFace][0xa][0x1]
+Sorry, Captain Ogma...[A][X]
+
+## borddQ
+[MidRight][LoadFace][0xd][0x1]
+Captain Ogma... Nngh...[A][X]
+
+## corddQ
+[MidRight][LoadFace][0x13][0x1]
+Captain Ogma... Rrgh...[A][X]
+
+## darrosDQ
+[MidRight][LoadFace][0x14][0x1]
+Arr... So this[NL]
+be the end...[A][X]
+
+# 0x093c castorDQ
+[MidRight][LoadFace][0x11][0x1]
+Mother... I tried...[....][NL]
+my best...[....][A][X]
+
+## julianDQ
+[MidRight][LoadFace][0x22][0x1]
+Looks like...the jig is up...[....][NL]
+Nngh, so long...[A][X]
+
+## lenaDQ
+[MidRight][LoadFace][0x23][0x1]
+Lords above... Take me...[....][NL]
+into your embrace...[....][A][X]
+
+## navarreDQ
+[MidRight][LoadFace][0x2d][0x1]
+Heh... Pathetic.[.][A][X]
+
+## merricDQ
+[MidRight][LoadFace][0x29][0x1]
+Sire... I was glad...[....]
+to know you...[....][A][X]
+
+## matthisDQ
+[MidRight][LoadFace][0x28][0x1]
+Lena... Forgive your...[....]
+fool of a brother...[....][A][X]
+
+## wolfdQ
+[MidRight][LoadFace][0x3b][0x1]
+Agh! Coyote...[....][A][X]
+
+## sedgarDQ
+[MidRight][LoadFace][0x36][0x1]
+Nngh! Coyote...[....][A][X]
+
+## rosheaDQ
+[MidRight][LoadFace][0x34][0x1]
+Unnh! Coyote...[....][A][X]
+
+## vylanddQ
+[MidRight][LoadFace][0x39][0x1]
+Rrgh! Coyote...[....][A][X]
+
+## hardinDQ
+[MidRight][LoadFace][0x1d][0x1]
+Forgive me...[....][NL]
+Nyna...[....][A][X]
+
+## wendelldQ
+[MidRight][LoadFace][0x3a][0x1]
+Why here...when I've[NL]
+no love... for war...[....][A][X]
+
+## rickarddQ
+[MidRight][LoadFace][0x32][0x1]
+Dang it... What a way[NL]
+to- nngh- go...[....][A][X]
+
+# 0x094d deDqiuenDQ
+[MidRight][LoadFace][0x32][0x1]
+[....][A][X]

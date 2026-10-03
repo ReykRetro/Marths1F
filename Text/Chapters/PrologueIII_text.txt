@@ -100,7 +100,7 @@ like him do everything;[.][ANL]
 that's not fair to all your[NL] 
 would-be future champions![.][ANL]
 Let your other units fight[NL]
-and gain experience, or[NL]
+and gain experience, or[ANL]
 you may find yourself in[NL]
 a real fix down the line.[.][ANL][X]
 
