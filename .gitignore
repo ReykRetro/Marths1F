@@ -5,6 +5,7 @@
 *.lnk
 *.sgm
 *.tmx.bak
+*.bak
 *.cache
 
 
