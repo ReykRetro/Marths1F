@@ -5,6 +5,8 @@
 *.lnk
 *.sgm
 *.tmx.bak
+*.cache
+
 
 
 # Basura del sistema
