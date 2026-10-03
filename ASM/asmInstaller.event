@@ -5,5 +5,5 @@
 #include "DismountMount/DismountMountInstaller.event"
 #include "ChangeEdition/ChangeEdition.event"
 #include "MirrorMapSprites/Installer.event"
-//#include "ResTerrainWindow/Installer.event"
+#include "ResTerrainWindow/Installer.event"
 //#include "PortraitHeight/PortraitShiftTable.txt"
