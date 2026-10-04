@@ -6,6 +6,7 @@
 *.sgm
 *.tmx.bak
 *.bak
+*.ase
 
 # Basura del sistema
 Thumbs.db
