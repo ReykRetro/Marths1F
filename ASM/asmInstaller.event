@@ -1,6 +1,6 @@
-#include "RW Cloud Fix/Cloud_Fix_EA.event"
+#include "RWcloudFix/Cloud_Fix_EA.event"
 #include "UNCMv2/UNCMv2Installer.event"
-#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
+//#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
 //#include "GroupAI/GroupAI.event" /* instalado desde antes en la build */
 #include "DismountMount/DismountMountInstaller.event"
 #include "ChangeEdition/ChangeEdition.event"
@@ -10,3 +10,4 @@
 #include "PartyCount/Installer.event"
 #include "SecondPortraitFix/Installer.event"
 #include "CheckPlayers/Installer.event"
+//#include "Aum/Aum.event"

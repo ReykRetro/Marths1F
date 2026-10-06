@@ -165,6 +165,155 @@ no love... for war...[....][A][X]
 Dang it... What a way[NL]
 to- nngh- go...[....][A][X]
 
-# 0x094d deDqiuenDQ
-[MidRight][LoadFace][0x32][0x1]
-[....][A][X]
+# 0x094d athenaDQ
+[MidRight][LoadFace][0x8][0x1]
+Nngh... Vat a vay...[....][NL]
+to go...[....][A][X]
+
+## bantuDQ
+[MidRight][LoadFace][0x9][0x1]
+Forgive me, Tiki...[....][A][X]
+
+## caesarDQ
+[MidRight][LoadFace][0xf][0x1]
+Rrgh! What was I...[....][NL]
+thinking?[....][A][X]
+
+## radddQ
+[MidRight][LoadFace][0x31][0x1]
+End of... the road...[....][A][X]
+
+## rogerDQ
+[MidRight][LoadFace][0x33][0x1]
+N...no...[....][A][X]
+
+## jeorgeDQ
+[MidRight][LoadFace][0x21][0x1]
+Princess Nyna...[....][NL]
+I fought...my best...[....][A][X]
+
+## mariaDQ
+[MidRight][LoadFace][0x27][0x1]
+Ahh! Sister...[....][A][X]
+
+## minervaDQ
+[MidRight][LoadFace][0x2b][0x1]
+Marth... My kingdom...[....][NL]
+Save...Medon...[....][A][X]
+
+## lindeDQ
+[MidRight][LoadFace][0x24][0x1]
+Father... I'll[NL]
+be with you...[....][ANL]
+soon...[....][A][X]
+
+## jakeDQ
+[MidRight][LoadFace][0x20][0x1]
+So long, Anna...[....][NL]
+I'll miss you...[....][ANL]
+the most...[....][A][X]
+
+## dolphDQ
+[MidRight][LoadFace][0x15][0x1]
+Forgive me...[....][NL]
+Princess Nyna...[....][A][X]
+
+## macellanDQ
+[MidRight][LoadFace][0x26][0x1]
+Forgive me...[....][NL]
+Princess Nyna...[....][A][X]
+
+## tomasDQ
+[MidRight][LoadFace][0x38][0x1]
+Princess Nyna...[....][A][X]
+
+## boahDQ
+[MidRight][LoadFace][0xc][0x1]
+Princess Nyna, my child...[....][NL]
+Be strong...[....][A][X]
+
+## midiaDQ
+[MidRight][LoadFace][0x2a][0x1]
+Astram...[....][A][X]
+
+## horaceDQ
+[MidRight][LoadFace][0x1e][0x1]
+Princess... I must...[....][NL]
+break my vow...[....][A][X]
+
+## beckDQ
+[MidRight][LoadFace][0xb][0x1]
+After comin'...[....][NL]
+so far...nngh![....][A][X]
+
+## astramDQ
+[MidRight][LoadFace][0x7][0x1]
+Goodbye...[....][NL]
+Midia...[....][A][X]
+
+## catriaDQ
+[MidRight][LoadFace][0x12][0x1]
+Commander...[....][NL]
+I'm sorry...[....][A][X]
+
+## pallaDQ
+[MidRight][LoadFace][0x30][0x1]
+Commander...[....][NL]
+Forgive me...[....][A][X]
+
+## arranDQ
+[MidRight][LoadFace][0x6][0x1]
+At least I died...[....][NL]
+fighting...[....][A][X]
+
+## samsonDQ
+[MidRight][LoadFace][0x35][0x1]
+Always knew...I'd breathe my last...[....][NL]
+here on the battlefield...[....][A][X]
+
+## xaneDQ
+[MidRight][LoadFace][0x3d][0x1]
+So long, Princey...[....][NL]
+It's been...fun...[....][A][X]
+
+## etzeldQ
+[MidRight][LoadFace][0x19][0x1]
+Ursula... Wait...[....][NL]
+for me...[....][A][X]
+
+## estDQ
+[MidRight][LoadFace][0x18][0x1]
+Commander...[....][NL]
+I gave it my all...[....][A][X]
+
+## tikiDQ
+[MidRight][LoadFace][0x37][0x1]
+No... I don't want to be...[....][NL]
+alone...[....][A][X]
+
+## lorenzDQ
+[MidRight][LoadFace][0x25][0x1]
+This, too,[.][NL]
+must be fate...[....][A][X]
+
+## ymirDQ
+[MidRight][LoadFace][0x3e][0x1]
+You'll never...[NL]
+get the best of...[....][ANL]
+of... Unnh...[....][A][X]
+
+## eliceDQ
+[MidRight][LoadFace][0x17][0x1]
+Marth...my brother...[....][NL]
+Be strong...[....][A][X]
+
+## gotohDQ
+[MidRight][LoadFace][0x1c][0x1]
+The end...[....][ANL]
+was so close...[....][A][X]
+
+## nagiDQ
+[MidRight][LoadFace][0x2c][0x1]
+I must keep...going...[....][NL]
+Too much...at stake...[....][ANL]
+Ahh...[....][A][X]

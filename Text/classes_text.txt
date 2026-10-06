@@ -1,3 +1,8 @@
+# 0x2bf
+Dismounted T1[.][X]
+##
+Dismounted T2[.][X]
+
 # 0x02e1 DarkMageName
 Dark Mage[.][X]
 
@@ -8,3 +13,15 @@ Sorcerer[X]
 Dark Bishop[.][X]
 # 0x033b DarkBishopDesc
 Master of the dark magic[.][X]
+
+# 0xfde Lordname
+Lord[.][X]
+## Lorddesc
+Noble heirs to a ruling house.[NL]
+They possess great potential.[.][X]
+
+## GreatLordname
+Great Lord[X]
+## GreadLorddesc
+Mounted lords whose fine qualities[NL]
+set them apart from their peers.[.][X]

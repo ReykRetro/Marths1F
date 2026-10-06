@@ -1,0 +1,13 @@
+BattleAnimsUnitEA //third, [], OG
+ChangeEdition //OG, hecho con IA, OG
+CheckPlayers //OG, hecho con IA, OG
+DismountMount //third, [], adaptado con IA
+GroupAI //third, Vesly, OG
+MirrorMapSprites //third, [], OG
+PartyCount //OG, hecho con IA, OG
+PortraitHeight //third, [], adaptado con IA
+ResTerrainWindow //third, [Contro,Jester], adaptado con IA
+RWcloudFix //third, RandomWizard, OG
+SecondPortraitFix //OG, hecho con IA, OG
+UNCMv2 //third, Vesly, OG
+AUM //third, [Vesly,SME], adaptado con IA

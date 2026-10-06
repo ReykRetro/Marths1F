@@ -9,11 +9,26 @@
 
   MountedClassTable:
     // EDITÁ ESTO con tus clases reales
-    MountedUnmounted(0x6, 0x1)   // Ejemplos — reemplazalos
-    MountedUnmounted(0x5, 0x2)
-    MountedUnmounted(0x29, 0x27)
-    MountedUnmounted(0x2a, 0x28)
-    MountedUnmounted(0x48, 0x4e)
+    MountedUnmounted(0x5, 0x1)   // Ejemplos — reemplazalos
+    MountedUnmounted(0x6, 0x2)
+    MountedUnmounted(0x7, 0x3)
+    MountedUnmounted(0x8, 0x4)
+    MountedUnmounted(0x1d, 0x3)
+    MountedUnmounted(0x1e, 0x4)
+    MountedUnmounted(0x1f, 0x1)
+    MountedUnmounted(0x20, 0x2)
+    MountedUnmounted(0x21, 0x3)
+    MountedUnmounted(0x22, 0x4)
+    MountedUnmounted(0x23, 0x3)
+    MountedUnmounted(0x24, 0x4)
+    MountedUnmounted(0x29, 0x3)
+    MountedUnmounted(0x2a, 0x4)
+    MountedUnmounted(0x35, 0x4)
+    MountedUnmounted(0x36, 0x4)
+    MountedUnmounted(0x48, 0x3)
+    MountedUnmounted(0x49, 0x4)
+    MountedUnmounted(0x4b, 0x3)
+    MountedUnmounted(0x4c, 0x4)
     EndMountUnmountedTable
     
   ALIGN 4

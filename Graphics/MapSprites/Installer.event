@@ -76,12 +76,43 @@ FireStand:
 ALIGN 4
 ShineStand:
 #incbin "dmp/ShineStand.dmp"
-//Copy from here 
-PUSH 
 
+ALIGN 4
+dismounted1mstand:
+#incbin "dmp/dismounted1mStand.dmp"
+ALIGN 4
+dismounted1mwalk:
+#incbin "dmp/dismounted1mWalk.dmp"
+
+ALIGN 4
+dismounted1fstand:
+#incbin "dmp/dismounted1fStand.dmp"
+ALIGN 4
+dismounted1fwalk:
+#incbin "dmp/dismounted1fWalk.dmp"
+
+ALIGN 4
+dismounted2mstand:
+#incbin "dmp/dismounted2mStand.dmp"
+ALIGN 4
+dismounted2mwalk:
+#incbin "dmp/dismounted2mWalk.dmp"
+
+ALIGN 4
+dismounted2fstand:
+#incbin "dmp/dismounted2fStand.dmp"
+ALIGN 4
+dismounted2fwalk:
+#incbin "dmp/dismounted2fWalk.dmp"
+
+
+//Copy from here
+PUSH 
 //Standing MS
-SetSMS(0x00, 1, Lord1stand)
-SetSMS(0x01, 1, Lord2stand)
+SetSMS(0x0, 0, dismounted1mstand)
+SetSMS(0x1, 0, dismounted1fstand)
+SetSMS(0x2, 1, dismounted2mstand)
+SetSMS(0x3, 0, dismounted2fstand)
 SetSMS(0x6b, 1, CavalierFstand)
 SetSMS(0x6c, 1, PaladinFstand)
 SetSMS(0x6d, 0, ShamanFstand)
@@ -92,11 +123,13 @@ SetSMS(0x35, 1, BerserkerStand)
 SetSMS(0x40, 1, DarkDruidstand)
 SetSMS(0x67, 0, FireStand)
 SetSMS(0x68, 0, ShineStand)
-
-
+SetSMS(0x70, 1, Lord1stand)
+SetSMS(0x71, 1, Lord2stand)
 //Walking MS
-SetMMS(0x00, Lord1walk, NormalAP)
-SetMMS(0x01, Lord2walk, NormalAP)
+SetMMS(0x0, dismounted1mwalk, NormalAP)
+SetMMS(0x1, dismounted1fwalk, NormalAP)
+SetMMS(0x2, dismounted2mwalk, NormalAP)
+SetMMS(0x3, dismounted2fwalk, NormalAP)
 SetMMS(0x05, CavalierFwalk, NormalAP)
 SetMMS(0x07, PaladinFwalk, NormalAP)
 SetMMS(0x2d, ShamanFwalk, NormalAP)
@@ -105,6 +138,6 @@ SetMMS(0x31, SummonerFwalk, NormalAP)
 SetMMS(0x3b, ManaketeWalk, NormalAP)
 SetMMS(0x42, BerserkerWalk, NormalAP)
 SetMMS(0x4e, DarkDruidwalk, NormalAP)
-
-
+SetMMS(0x7f, Lord1walk, NormalAP)
+SetMMS(0x80, Lord2walk, NormalAP)
 POP
