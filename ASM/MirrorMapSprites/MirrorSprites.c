@@ -3,7 +3,9 @@
 //https://github.com/MokhaLeee/FE-CLib-Mokha
 
 extern int gSMSSyncFlag;
-extern UnitIconWait unit_icon_wait_table[];
+// La tabla de sprites estaticos REPUNTADA (definida en Internals.event del instalador de map sprites).
+// Antes se leia la tabla vanilla (unit_icon_wait_table), que no tiene tus cambios ni los IDs nuevos.
+extern UnitIconWait NewStandingMapSpriteTable[];
 extern struct SMSHandle gSMSHandleArray[100];
 extern struct SMSHandle* gSMSHandleIt;
 
@@ -16,7 +18,7 @@ enum {
 	FLIP_FOURTH = 0x8,
 };
 
-#define GetInfo(id) (unit_icon_wait_table[(id) & ((1<<7)-1)])
+#define GetInfo(id) (NewStandingMapSpriteTable[(id) & 0xFF])
 
 const u16 gObject_16x16_HFlipped[] =
 {
