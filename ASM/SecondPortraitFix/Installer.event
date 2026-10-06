@@ -1,0 +1,13 @@
+#include "GetUnitPortraitID.lyn.event"
+
+PUSH
+ORG 0x192B8
+jumpToHack(GetUnitPortraitId_Hook)
+POP
+
+PUSH
+ORG 0x8868E   // StatScreen_Display: anula el +1 del bit 23 (ahora lo hace GetUnitPortraitId)
+SHORT 0x46C0
+ORG 0xC0C78   // WorldmapStatus_InitDetails: igual
+SHORT 0x46C0
+POP

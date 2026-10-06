@@ -1,0 +1,24 @@
+#include "KernelDesignerConfigStub.event"
+#include "src/LynJump.event"
+#include "src/ResTerrainWindow.lyn.event"
+
+ALIGN 4
+NewTerrainWindow_TSA:
+#incbin "gfx/TerrainWindow.dmp"
+
+ALIGN 4
+NewBrokenWall_TSA:
+#incbin "gfx/BrokenWall.dmp"
+
+ALIGN 4
+NewTerrainWindowText_TSA:
+#incbin "gfx/TerrainWindowText.dmp"
+
+ALIGN 4
+NewPlayerInterfaceFontTiles:
+#incbin "gfx/FontTiles_swapped_def_res.dmp"
+
+PUSH
+ORG $8D0AC
+POIN NewPlayerInterfaceFontTiles
+POP

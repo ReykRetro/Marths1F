@@ -1,9 +1,12 @@
 #include "RW Cloud Fix/Cloud_Fix_EA.event"
 #include "UNCMv2/UNCMv2Installer.event"
-//#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
-//#include "GroupAI/GroupAI.event"
+#include "BattleAnimsUnitEA/BattleAnimsUnitEA.event"
+//#include "GroupAI/GroupAI.event" /* instalado desde antes en la build */
 #include "DismountMount/DismountMountInstaller.event"
 #include "ChangeEdition/ChangeEdition.event"
 #include "MirrorMapSprites/Installer.event"
-#include "ResTerrainWindow/Installer.event"
-//#include "PortraitHeight/PortraitShiftTable.txt"
+#include "ResTerrainWindow/ResTerrainWindowInstaller.event" /* faltan de arreglar cosas */
+#include "PortraitHeight/PortraitShiftTable.txt"
+#include "PartyCount/Installer.event"
+#include "SecondPortraitFix/Installer.event"
+#include "CheckPlayers/Installer.event"

@@ -5,7 +5,7 @@
 	ERROR This is intended for FE8.
 #endif
 
-#include EAStdlib.event
+#include "EAStdlib.event"
 #include "Extensions/Hack Installation.txt"
 #ifndef FreeSpace
 	#define FreeSpace 0xB2B000

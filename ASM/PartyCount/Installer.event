@@ -1,0 +1,5 @@
+// Cuenta las unidades del grupo (vivas, desplegadas o no) y deja el total en el slot 0xC.
+#include "PartyCount.lyn.event"
+
+// Atajo para usarlo en eventos:  CHECK_PARTY
+#define CHECK_PARTY "ASMC PartyCount"

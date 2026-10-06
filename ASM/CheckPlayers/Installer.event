@@ -1,0 +1,5 @@
+// Cuenta las unidades del jugador que estan en el mapa y deja el total en el slot 0xC.
+#include "PlayerCount.lyn.event"
+
+// Atajo para usarlo en eventos:  CHECK_PLAYERS
+#define CHECK_PLAYERS "ASMC PlayerCount"

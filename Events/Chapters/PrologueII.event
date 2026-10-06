@@ -80,6 +80,7 @@ BeginningSceneP2:
 TILECHANGE 0x0
 LOAD1 0x1 MarthCavUnits
 ENUN
+UNCM(0x1, 0x800000)
 Text(0x1b,0x90e)
 CAM1 [0,0]
 LOAD2 0x1 Gra2units1
@@ -104,6 +105,7 @@ NoFade
 ENDA
 
 EndingSceneP2:
+//CALL conteoPlayer
 FADI 0x10
 CLEA 0
 CLEE 0
@@ -170,5 +172,19 @@ FlashCursor(0x1,60)
 Text(0x911)
 NoFade
 ENDA
+
+/*
+conteoPlayer:
+CHECK_PLAYERS
+SVAL 1 3
+BGE 1 0xC 1    //menos de 3 en el party
+	Text(0x923)
+	GOTO 2
+LABEL 1
+	Text(0x924)
+LABEL 2
+NoFade
+ENDA
+*/
 
 MESSAGE Events end at offset CURRENTOFFSET
