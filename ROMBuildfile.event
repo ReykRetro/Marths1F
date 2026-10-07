@@ -12,14 +12,18 @@
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
-
+	
+	//new hacks, before tables or other things need them
+	#include "ASM/GroupAI/GroupAI.event"
+	#include "ASM/ClasslockedWeaponRanks/ClasslockedWeaponRanks.event"
+	#include "ASM/Aum/Aum.event"
+	
     //CSV tables
     #include "Tables/TableInstaller.event"
     #include "Tables/MyTables.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
-	#include "ASM/GroupAI/GroupAI.event"
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
     #include "ASM/asmInstaller.event"

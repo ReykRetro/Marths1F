@@ -1,0 +1,19 @@
+AUM //third, [Vesly,SME], adaptado con IA
+BattleAnimsUnitEA //third, [Tequila], OG
+ChangeEdition //OG, hecho con IA, OG
+CheckPlayers //OG, hecho con IA, OG
+ClasslockedWeaponRanks //OG, Drag, OG
+DismountMount //third, [CrazyColorz5,Contro,] adaptado con IA
+FadeSoloEndingPortraits //OG, Drag, OG
+GroupAI //third, [Vesly], OG
+MirrorMapSprites //third, [Vesly], adaptado con IA
+PartyCount //OG, hecho con IA, OG
+PortraitHeight //third, [2WB], adaptado con IA
+ResTerrainWindow //third, [Contro,Jester], adaptado con IA
+RWcloudFix //third, [RandomWizard], OG
+SecondPortraitFix //OG, hecho con IA, OG
+UNCMv2 //third, [Vesly], OG
+
+
+//comentarios
+El mirror sprites no leia toda la nueva tabla de sprites provocando fallos graficos

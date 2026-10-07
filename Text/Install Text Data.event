@@ -3677,6 +3677,10 @@ __TEXTPROCESS96B:
 #incext ParseFile ".TextEntries/text_buildfilenagiDQ.fetxt"
 setText($96B, __TEXTPROCESS96B)
 
+__TEXTPROCESS8DB:
+#incext ParseFile ".TextEntries/text_buildfile8DB.fetxt"
+setText($8DB, __TEXTPROCESS8DB)
+
 __TEXTPROCESS903:
 #incext ParseFile ".TextEntries/text_buildfileConvoP1.fetxt"
 setText($903, __TEXTPROCESS903)

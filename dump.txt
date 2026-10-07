@@ -1,0 +1,778 @@
+ASM\Aum\Aum.lyn.event:4:ORG CURRENTOFFSET+$2c;AumUsability:
+ASM\Aum\Aum.s:14:.global AumUsability
+ASM\Aum\Aum.s:15:.type AumUsability, %function
+ASM\Aum\Aum.s:60:AumUsability:
+ASM\Aum\Aum.s:63:beq Usability_GoBack @if not, return this return which is false
+ASM\Aum\Aum.s:67:Usability_GoBack:
+ASM\ClasslockedWeaponRanks\ClasslockedWeaponRanks.c:3:// goes in the weapon usability loop
+ASM\ClasslockedWeaponRanks\ClasslockedWeaponRanks.c:4:int ClasslockedWeaponUsability(struct Unit* unit, u16 item, u8 rank) {
+ASM\ClasslockedWeaponRanks\ClasslockedWeaponRanks.lyn.event:9:ORG CURRENTOFFSET+$1;ClasslockedWeaponUsability:
+ASM\DismountMount\DismountMountInstaller.event:38:  DismountUsability:
+ASM\DismountMount\DismountMountInstaller.event:39:  #incbin "ASM/DismountUsabilityRoutine.dmp"
+ASM\DismountMount\DismountMountInstaller.event:49:  MountUsability:
+ASM\DismountMount\DismountMountInstaller.event:50:  #incbin "ASM/MountUsabilityRoutine.dmp"
+ASM\DismountMount\UnitMenuCommands.txt:2:MenuCommand(Dismount_Name_TextID, Dismount_Description_TextID, OrangeText, DismountUsability, DismountRoutine)
+ASM\DismountMount\UnitMenuCommands.txt:3:MenuCommand(Mount_Name_TextID, Mount_Description_TextID, OrangeText, MountUsability, MountRoutine)
+ASM\DismountMount\_UnitMenuDefs.event:4:#define MenuCommand(name,description,colour,usability,effect) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; WORD 0 0 0"
+ASM\DismountMount\_UnitMenuDefs.event:5:#define MenuCommand(name,description,colour,usability,effect, unknown1, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 unknown1|1 unknown2|1"
+ASM\DismountMount\_UnitMenuDefs.event:13://                                          name    desc    color           usability pointer               effect pointer  
+ASM\DismountMount\_UnitMenuDefs.event:43://                                          name    desc    color           usability pointer               effect pointer  
+EngineHacks\Config.event:347://	SkillSystem/Skills/WeaponUsabilitySkills/WeaponUsabilitySkills.event.
+EngineHacks\ExternalHacks\AoE\AoE.lyn.event:3:ORG CURRENTOFFSET+$1;AoE_Usability:
+EngineHacks\ExternalHacks\AoE\AoE.s:16:.global AoE_Usability 
+EngineHacks\ExternalHacks\AoE\AoE.s:17:.type AoE_Usability, %function 
+EngineHacks\ExternalHacks\AoE\AoE.s:19:AoE_Usability:
+EngineHacks\ExternalHacks\AoE\AoE.s:150:blh CanUnitUseWeapon
+EngineHacks\ExternalHacks\AoE\AoE.s:196:blh CanUnitUseWeapon
+EngineHacks\ExternalHacks\AoE\AoE.s:209:b Finish_Usability 
+EngineHacks\ExternalHacks\AoE\AoE.s:216:Finish_Usability: 
+EngineHacks\ExternalHacks\AoE\AoE.s:1738:blh CanUnitUseWeapon
+EngineHacks\ExternalHacks\AoE\AoE.sym.txt:13:Finish_Usability=$B6
+EngineHacks\ExternalHacks\AoE\AoE_CallSubmenuEffect.s:21:add r4,#0xC @usability of first menu option
+EngineHacks\ExternalHacks\AoE\AoE_CallSubmenuEffectPokemblem.s:21:add r4,#0xC @usability of first menu option
+EngineHacks\ExternalHacks\AoE\AoE_SpecificUsability.lyn.event:3:SHORT ((AoE_Usability-4-CURRENTOFFSET>>12)&$7FF)|$F000 ((AoE_Usability-4-CURRENTOFFSET>>1)&$7FF)|$F800
+EngineHacks\ExternalHacks\AoE\AoE_SpecificUsability.s:10:AoE_SpecificUsability:
+EngineHacks\ExternalHacks\AoE\AoE_SpecificUsability.s:20:bl AoE_Usability
+EngineHacks\ExternalHacks\AoE\Definitions.s:4:@ Usability Reqs 
+EngineHacks\ExternalHacks\AoE\Installer.event:25://#define MenuCommand_BPress(name,description,colour,usability,effect, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 0 unknown2|1"
+EngineHacks\ExternalHacks\AoE\Installer.event:46:	#define MenuCommandID(name,description,colour,ID,usability,effect, unknown1, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour ID; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 unknown1|1 unknown2|1"	//{U}
+EngineHacks\ExternalHacks\AoE\Installer.event:47://	#define MenuCommandID(nameJP,description,colour,ID,usability,effect, unknown1, unknown2) "POIN nameJP; SHORT 0x60C description; BYTE colour ID; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 unknown1|1 unknown2|1"	//{J}
+EngineHacks\ExternalHacks\AoE\Installer.event:52:MenuCommandID(UM_AoESlash, 		UM_AoEDesc, NormalText, 0, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:53:MenuCommandID(UM_AoECleave, 		UM_AoEDesc, NormalText, 1, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:54:MenuCommandID(UM_AoEImpale, UM_AoEDesc, NormalText, 2, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:55:MenuCommandID(UM_AoEShoot, UM_AoEDesc, NormalText, 3, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:56:MenuCommandID(UM_AoEBlast, UM_AoEDesc, NormalText, 4, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:57:MenuCommandID(UM_AoEExpel, UM_AoEDesc, NormalText, 5, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:58:MenuCommandID(UM_AoEHex, UM_AoEDesc, NormalText, 6, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:59:MenuCommandID(UM_AoEHeal, UM_AoEDesc, NormalText, 7, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:60:MenuCommandID(UM_AoERestore, UM_AoEDesc, NormalText, 8, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:61:MenuCommandID(UM_AoEMend, UM_AoEDesc, NormalText, 9, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:62:MenuCommandID(UM_AoEPhysic, UM_AoEDesc, NormalText, 10, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:63:MenuCommandID(UM_AoERecover, UM_AoEDesc, NormalText, 11, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:64:MenuCommandID(UM_AoEFortify, UM_AoEDesc, NormalText, 12, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:65:MenuCommandID(UM_AoEExcalibur, UM_AoEDesc, NormalText, 13, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:66:MenuCommandID(UM_AoEElfire, UM_AoEDesc, NormalText, 14, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:67:MenuCommandID(UM_AoEThunder, UM_AoEDesc, NormalText, 15, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:68:MenuCommandID(UM_AoEFimbulvetr, UM_AoEDesc, NormalText, 16, AoE_SpecificUsability|1, AoE_SpecificEffect|1, AoE_SpecificHover|1, HideMoveRangeGraphicsWrapper|1)
+EngineHacks\ExternalHacks\AoE\Installer.event:90:@ Usability Reqs 
+EngineHacks\ExternalHacks\AoE\Internals.event:133:	#define MenuCommand(name,description,colour,usability,effect, unknown1, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 unknown1|1 unknown2|1"
+EngineHacks\ExternalHacks\AoE\Internals.event:319:AoE_SpecificUsability:
+EngineHacks\ExternalHacks\AoE\Internals.event:320:#include "AoE_SpecificUsability.lyn.event"
+EngineHacks\ExternalHacks\AoE\PATCH_Attack of Area Editor_AoEMenuCommandsList.txt:32:P12:ASM=Usability(Do NOT Change)
+EngineHacks\ExternalHacks\AoE\_TargetSelectionDefinitions.s:22:.set CanUnitUseWeapon, 0x8016574
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.lyn.event:3:ORG CURRENTOFFSET+$1;ArriveCommandUsability:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.lyn.event:5:ORG CURRENTOFFSET+$14;EscapeCommandUsability:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:5:.global ArriveCommandUsability
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:6:.type ArriveCommandUsability, %function
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:11:.global EscapeCommandUsability
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:12:.type EscapeCommandUsability, %function
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:22:ArriveCommandUsability:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:32:bne ArriveCommandUsability_ReturnFalse		@if set, return false
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:43:bne ArriveCommandUsability_ReturnFalse		@otherwise, return false
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:46:b ArriveCommandUsability_GoBack				@jump to go back
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:48:ArriveCommandUsability_ReturnFalse:			
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:51:ArriveCommandUsability_GoBack:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:76:EscapeCommandUsability:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:86:bne EscapeCommandUsability_ReturnFalse
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:101:bne EscapeCommandUsability_ReturnFalse
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:112:beq EscapeCommandUsability_IsALord
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:118:beq EscapeCommandUsability_ReturnTrue
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:137:bne EscapeCommandUsability_IsALord
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:141:EscapeCommandUsability_ReturnTrue:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:143:b EscapeCommandUsability_GoBack
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:145:EscapeCommandUsability_IsALord:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:153:bne EscapeCommandUsability_CheckTheFlag
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:155:b EscapeCommandUsability_GoBack
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:157:EscapeCommandUsability_CheckTheFlag:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:162:beq EscapeCommandUsability_GoBack
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:164:b EscapeCommandUsability_DoTheGrayThing
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:167:EscapeCommandUsability_DoTheGrayThing:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:170:b EscapeCommandUsability_GoBack
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:172:EscapeCommandUsability_ReturnFalse:
+EngineHacks\ExternalHacks\EscapeArrive\UnitMenu.s:175:EscapeCommandUsability_GoBack:
+EngineHacks\ExternalHacks\GaidenMagic\Definitions.s:8:SET_FUNC CanUnitUseWeapon, (0x8016750+1)
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\include\gbafe\item.h:168:int CanUnitUseWeapon(const struct Unit*, int item); //! FE8U = (0x08016574+1)
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\include\gbafe\item.h:169:int CanUnitUseWeaponNow(const struct Unit*, int item); //! FE8U = (0x08016750+1)
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\include\gbafe\menu.h:130:// default usability
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\include\gbafe\unit.h:440:int GetUnitWeaponUsabilityBits(const struct Unit*); //! FE8U = 0x8018B29
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:662:SET_ABS_FUNC CanUnitUseWeapon, 0x8016751
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:940:SET_ABS_FUNC RescueUsability, 0x80228A5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:943:SET_ABS_FUNC DropUsability, 0x8022911
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:946:SET_ABS_FUNC TakeUsability, 0x802298D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:948:SET_ABS_FUNC GiveUsability, 0x80229F5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:955:SET_ABS_FUNC DanceCommandUsability, 0x8023195
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:958:SET_ABS_FUNC ItemSelectMenu_Usability, 0x80233D9
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:962:SET_ABS_FUNC StaffCommandUsability, 0x8023A55
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:964:SET_ABS_FUNC StaffItemSelect_Usability, 0x8023B91
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:968:SET_ABS_FUNC PickCommandUsability, 0x8023E7D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:969:SET_ABS_FUNC SupplyUsability, 0x8023F65
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:970:SET_ABS_FUNC ArenaCommandUsability, 0x80240ED
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:972:SET_ABS_FUNC StealCommandUsability, 0x802418D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:975:SET_ABS_FUNC StealItemMenuCommand_Usability, 0x8024305
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:983:SET_ABS_FUNC RideCommandUsability, 0x80248C5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:985:SET_ABS_FUNC AttackCommandUsability, 0x80249AD
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:986:SET_ABS_FUNC AttackBallistaCommandUsability, 0x8024A29
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20180806.s:2389:SET_ABS_FUNC Usability_ThirdPromotionOption, 0x80CDD39
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:689:SET_FUNC CanUnitUseWeapon, 0x8016751
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:970:SET_FUNC RescueUsability, 0x80228A5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:973:SET_FUNC DropUsability, 0x8022911
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:976:SET_FUNC TakeUsability, 0x802298D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:978:SET_FUNC GiveUsability, 0x80229F5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:985:SET_FUNC DanceCommandUsability, 0x8023195
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:988:SET_FUNC ItemSelectMenu_Usability, 0x80233D9
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:992:SET_FUNC StaffCommandUsability, 0x8023A55
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:994:SET_FUNC StaffItemSelect_Usability, 0x8023B91
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:998:SET_FUNC PickCommandUsability, 0x8023E7D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:999:SET_FUNC SupplyUsability, 0x8023F65
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1000:SET_FUNC ArenaCommandUsability, 0x80240ED
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1002:SET_FUNC StealCommandUsability, 0x802418D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1005:SET_FUNC StealItemMenuCommand_Usability, 0x8024305
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1013:SET_FUNC RideCommandUsability, 0x80248C5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1015:SET_FUNC AttackCommandUsability, 0x80249AD
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:1016:SET_FUNC AttackBallistaCommandUsability, 0x8024A29
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20181105.s:2593:SET_FUNC Usability_ThirdPromotionOption, 0x80CDD39
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:719:SET_FUNC CanUnitUseWeaponNow, 0x8016575
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:720:SET_FUNC CanUnitUseWeaponNow, 0x8016751
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:833:SET_FUNC GetUnitWeaponUsabilityBits, 0x8018B29
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:834:SET_FUNC GetCombinedEnemyWeaponUsabilityBits, 0x8018BA1
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1017:SET_FUNC RescueUsability, 0x80228A5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1020:SET_FUNC DropUsability, 0x8022911
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1023:SET_FUNC TakeUsability, 0x802298D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1025:SET_FUNC GiveUsability, 0x80229F5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1032:SET_FUNC DanceCommandUsability, 0x8023195
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1035:SET_FUNC ItemSelectMenu_Usability, 0x80233D9
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1039:SET_FUNC StaffCommandUsability, 0x8023A55
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1041:SET_FUNC StaffItemSelect_Usability, 0x8023B91
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1045:SET_FUNC PickCommandUsability, 0x8023E7D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1046:SET_FUNC SupplyUsability, 0x8023F65
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1047:SET_FUNC ArenaCommandUsability, 0x80240ED
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1049:SET_FUNC StealCommandUsability, 0x802418D
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1052:SET_FUNC StealItemMenuCommand_Usability, 0x8024305
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1060:SET_FUNC RideCommandUsability, 0x80248C5
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1062:SET_FUNC AttackCommandUsability, 0x80249AD
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1063:SET_FUNC AttackBallistaCommandUsability, 0x8024A29
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:1808:SET_FUNC GetOverriddenMenuCommandUsability, 0x804F7AD
+EngineHacks\ExternalHacks\GaidenMagic\FE-CLib-master\reference\FE8U-20190316.s:2808:SET_FUNC Usability_ThirdPromotionOption, 0x80CDD39
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:104:int GaidenBlackMagicUMUsability(void);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:106:int GaidenWhiteMagicUMUsability(void);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:108:static int GaidenMagicUMUsabilityExt(u8* spellList);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:135:long long Return_Range_Bitfield(Unit* unit, int slot, int(*usability)(Unit* unit, int item));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:136:long long GetUnitRangeMaskForSpells(Unit* unit, int(*usability)(Unit* unit, int item));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:138:int RangeUsabilityCheckStaff(Unit* unit, int item);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:139:int RangeUsabilityCheckNotStaff(Unit* unit, int item);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:140:void All_Spells_One_Square(Unit* unit, int(*usability)(Unit* unit, int item));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.c:142:int SpellUsability(const struct MenuCommandDefinition* menuEntry, int index, int idk);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.event:103:	#define MagicMenuCommand(optionNumber) "WORD $080D7CB8; SHORT 0; SHORT 0; BYTE 0 optionNumber 0 0; POIN (SpellUsability|1); POIN (SpellDrawingRoutine|1); POIN (SpellEffectRoutine|1); WORD 0; POIN (SpellOnHover|1); POIN (SpellOnUnhover|1)"
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.lyn.event:30:ORG CURRENTOFFSET+$5c;RangeUsabilityCheckStaff:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.lyn.event:31:ORG CURRENTOFFSET+$2c;RangeUsabilityCheckNotStaff:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.lyn.event:44:ORG CURRENTOFFSET+$78;GaidenBlackMagicUMUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.lyn.event:45:ORG CURRENTOFFSET+$1c;GaidenWhiteMagicUMUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.lyn.event:58:ORG CURRENTOFFSET+$70;SpellUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:229:@ SpellSystem.c:210: 		if ( !CanUnitUseWeaponNow(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:235:@ SpellSystem.c:210: 		if ( !CanUnitUseWeaponNow(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:239:@ SpellSystem.c:210: 		if ( !CanUnitUseWeaponNow(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:270:	.word	CanUnitUseWeaponNow
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:293:@ SpellSystem.c:226: 		if ( !CanUnitUseWeapon(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:299:@ SpellSystem.c:226: 		if ( !CanUnitUseWeapon(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:303:@ SpellSystem.c:226: 		if ( !CanUnitUseWeapon(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:334:	.word	CanUnitUseWeapon
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:340:	.global	RangeUsabilityCheckStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:344:	.type	RangeUsabilityCheckStaff, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:345:RangeUsabilityCheckStaff:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:383:	.size	RangeUsabilityCheckStaff, .-RangeUsabilityCheckStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:385:	.global	RangeUsabilityCheckNotStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:389:	.type	RangeUsabilityCheckNotStaff, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:390:RangeUsabilityCheckNotStaff:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:428:	.size	RangeUsabilityCheckNotStaff, .-RangeUsabilityCheckNotStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:721:@ SpellSystem.c:127: 			if ( CanUnitUseWeaponNow(unit,unit->items[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:726:@ SpellSystem.c:127: 			if ( CanUnitUseWeaponNow(unit,unit->items[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:729:@ SpellSystem.c:127: 			if ( CanUnitUseWeaponNow(unit,unit->items[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:783:@ SpellSystem.c:141: 			if ( CanUnitUseWeaponNow(unit,spells[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:788:@ SpellSystem.c:141: 			if ( CanUnitUseWeaponNow(unit,spells[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:791:@ SpellSystem.c:141: 			if ( CanUnitUseWeaponNow(unit,spells[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:817:	.word	CanUnitUseWeaponNow
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1125:	.type	GaidenMagicUMUsabilityExt, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1126:GaidenMagicUMUsabilityExt:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1204:	.size	GaidenMagicUMUsabilityExt, .-GaidenMagicUMUsabilityExt
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1206:	.global	GaidenBlackMagicUMUsability
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1210:	.type	GaidenBlackMagicUMUsability, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1211:GaidenBlackMagicUMUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1216:@ UnitMenu.c:8: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,BLACK_MAGIC)); // This is a 0-terminated list of spells this character has learned.
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1220:@ UnitMenu.c:8: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,BLACK_MAGIC)); // This is a 0-terminated list of spells this character has learned.
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1224:@ UnitMenu.c:8: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,BLACK_MAGIC)); // This is a 0-terminated list of spells this character has learned.
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1225:	bl	GaidenMagicUMUsabilityExt		@
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1234:	.size	GaidenBlackMagicUMUsability, .-GaidenBlackMagicUMUsability
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1236:	.global	GaidenWhiteMagicUMUsability
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1240:	.type	GaidenWhiteMagicUMUsability, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1241:GaidenWhiteMagicUMUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1246:@ UnitMenu.c:13: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,WHITE_MAGIC));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1250:@ UnitMenu.c:13: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,WHITE_MAGIC));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1254:@ UnitMenu.c:13: 	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,WHITE_MAGIC));
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1255:	bl	GaidenMagicUMUsabilityExt		@
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1264:	.size	GaidenWhiteMagicUMUsability, .-GaidenWhiteMagicUMUsability
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1412:@ SpellSystem.c:271: 		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1414:@ SpellSystem.c:271: 		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1416:@ SpellSystem.c:271: 		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1423:@ SpellSystem.c:271: 		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1425:@ SpellSystem.c:271: 		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1517:	.word	CanUnitUseWeapon
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1536:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1538:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1543:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1560:@ SpellSystem.c:112: 			if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return i; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1562:@ SpellSystem.c:112: 			if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return i; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1564:@ SpellSystem.c:112: 			if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return i; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1568:@ SpellSystem.c:112: 			if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return i; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1578:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1580:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1582:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1589:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1593:@ SpellSystem.c:87: 	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1618:@ SpellSystem.c:96: 			if ( CanUnitUseWeapon(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1620:@ SpellSystem.c:96: 			if ( CanUnitUseWeapon(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1622:@ SpellSystem.c:96: 			if ( CanUnitUseWeapon(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1626:@ SpellSystem.c:96: 			if ( CanUnitUseWeapon(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1674:	.word	CanUnitUseWeapon
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1823:@ RangeDisplay.c:46: 		if ( usability == NULL )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1824:	ldr	r3, [sp, #4]	@ usability, %sfp
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1828:@ RangeDisplay.c:46: 		if ( usability == NULL )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1829:	cmp	r3, #0	@ usability,
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1834:@ RangeDisplay.c:52: 			if ( usability(unit,spell) ) { current = IncorporateNewRange(current,gGet_Item_Range(unit,spell)); }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1837:@ RangeDisplay.c:52: 			if ( usability(unit,spell) ) { current = IncorporateNewRange(current,gGet_Item_Range(unit,spell)); }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1856:@ RangeDisplay.c:52: 			if ( usability(unit,spell) ) { current = IncorporateNewRange(current,gGet_Item_Range(unit,spell)); }
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1857:	ldr	r3, [sp, #4]	@ usability, %sfp
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1902:@ RangeDisplay.c:16: 			if ( usability(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1904:	ldr	r3, [sp, #8]	@ usability, %sfp
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1906:@ RangeDisplay.c:16: 			if ( usability(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1930:@ RangeDisplay.c:21: 		return ( slot == -1 ? IncorporateNewRange(current,GetUnitRangeMaskForSpells(unit,usability)) : current );
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1934:@ RangeDisplay.c:21: 		return ( slot == -1 ? IncorporateNewRange(current,GetUnitRangeMaskForSpells(unit,usability)) : current );
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1944:@ RangeDisplay.c:33: 			return GetUnitRangeMaskForSpells(unit,usability);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1972:@ RangeDisplay.c:33: 			return GetUnitRangeMaskForSpells(unit,usability);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:1999:@ RangeDisplay.c:33: 			return GetUnitRangeMaskForSpells(unit,usability);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2073:@ UnitMenu.c:78: 		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckNotStaff);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2090:@ UnitMenu.c:83: 		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckStaff);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2106:	.word	RangeUsabilityCheckNotStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2107:	.word	RangeUsabilityCheckStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2144:@ UnitMenu.c:99: 		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckNotStaff);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2161:@ UnitMenu.c:104: 		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckStaff);
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2177:	.word	RangeUsabilityCheckNotStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2178:	.word	RangeUsabilityCheckStaff
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2181:	.global	SpellUsability
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2185:	.type	SpellUsability, %function
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2186:SpellUsability:
+EngineHacks\ExternalHacks\GaidenMagic\GaidenMagic.s:2244:	.size	SpellUsability, .-SpellUsability
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:8:long long Return_Range_Bitfield(Unit* unit, int slot, int(*usability)(Unit* unit, int item))
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:16:			if ( usability(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:21:		return ( slot == -1 ? IncorporateNewRange(current,GetUnitRangeMaskForSpells(unit,usability)) : current );
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:33:			return GetUnitRangeMaskForSpells(unit,usability);
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:39:long long GetUnitRangeMaskForSpells(Unit* unit, int(*usability)(Unit* unit, int item))
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:46:		if ( usability == NULL )
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:52:			if ( usability(unit,spell) ) { current = IncorporateNewRange(current,gGet_Item_Range(unit,spell)); }
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:69:int RangeUsabilityCheckStaff(Unit* unit, int item)
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:75:int RangeUsabilityCheckNotStaff(Unit* unit, int item)
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:80:void All_Spells_One_Square(Unit* unit, int(*usability)(Unit* unit, int item))
+EngineHacks\ExternalHacks\GaidenMagic\RangeDisplay.c:83:	long long mask = Return_Range_Bitfield(unit,9,usability);
+EngineHacks\ExternalHacks\GaidenMagic\SpellMenu.c:2:// This follows those weird menu usability return values. 1 = usable, 2 = grey, 3 = unsuable.
+EngineHacks\ExternalHacks\GaidenMagic\SpellMenu.c:3:int SpellUsability(const struct MenuCommandDefinition* menuEntry, int index, int idk)
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:87:	if ( UsingSpellMenu && unit->index == gBattleActor.unit.index && CanUnitUseWeapon(unit,SelectedSpell) ) { return 9; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:96:			if ( CanUnitUseWeapon(unit,unit->items[i]) )
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:112:			if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return i; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:127:			if ( CanUnitUseWeaponNow(unit,unit->items[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:141:			if ( CanUnitUseWeaponNow(unit,spells[i]) ) { ret |= 1; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:210:		if ( !CanUnitUseWeaponNow(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:226:		if ( !CanUnitUseWeapon(gActiveUnit,spell) ) { return 0; }
+EngineHacks\ExternalHacks\GaidenMagic\SpellSystem.c:271:		if ( CanUnitUseWeapon(unit,unit->items[i]) ) { return unit->items[i]; }
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:6:int GaidenBlackMagicUMUsability(void) // It's kinda weird that usability is void, but the other UM functions get the menu proc passed in...
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:8:	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,BLACK_MAGIC)); // This is a 0-terminated list of spells this character has learned.
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:11:int GaidenWhiteMagicUMUsability(void)
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:13:	return GaidenMagicUMUsabilityExt(SpellsGetter(gActiveUnit,WHITE_MAGIC));
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:16:static int GaidenMagicUMUsabilityExt(u8* spellList)
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:78:		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckNotStaff);
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:83:		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckStaff);
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:99:		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckNotStaff);
+EngineHacks\ExternalHacks\GaidenMagic\UnitMenu.c:104:		All_Spells_One_Square(gActiveUnit,&RangeUsabilityCheckStaff);
+EngineHacks\ExternalHacks\Raid\RaidCommand.lyn.event:3:ORG CURRENTOFFSET+$1;RaidUsability:
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:10:.global RaidUsability
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:11:.type   RaidUsability, %function
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:13:RaidUsability:
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:63:UsabilityLoop:
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:70:	bne UsabilityLoop
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:73:	bne UsabilityLoop
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:76:		bne UsabilityLoop
+EngineHacks\ExternalHacks\Raid\RaidCommand.s:80:			beq UsabilityLoop
+EngineHacks\ExternalHacks\Stairs\Stairs.event:66:	  MenuCommand(StairsNameText,StairsDescText,GreenText,StairsUsability,StairsEffect)
+EngineHacks\ExternalHacks\Stairs\Stairs.lyn.event:3:ORG CURRENTOFFSET+$1;StairsUsability:
+EngineHacks\ExternalHacks\Stairs\Stairs.s:3:.global StairsUsability
+EngineHacks\ExternalHacks\Stairs\Stairs.s:4:.type StairsUsability, %function
+EngineHacks\ExternalHacks\Stairs\Stairs.s:14:StairsUsability:
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:3:#ifndef ItemUsabilityTable
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:4:	#define ItemUsabilityTable 0x288B0
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:5:#endif // ItemUsabilityTable
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:9:#ifndef PrepScreenUsabilityTable
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:10:	#define PrepScreenUsabilityTable 0x29F34
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:11:#endif // PrepScreenUsabilityTable
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:13:#define Mag_Booster_Item_Usability_Ptr "ItemUsabilityTable+4*(SpiritDust-0x4B)"
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\Installer.event:15:#define Mag_Booster_Prep_Screen_Usability_Ptr "PrepScreenUsabilityTable+4*(SpiritDust-0x5B)"
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:188:	POIN PrepScreenUsabilityTable
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:191:	callHack_r3(Prep_Screen_Usability1)
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:194:	callHack_r3(Prep_Screen_Usability2)
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:202:	ORG Mag_Booster_Item_Usability_Ptr
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:208:	ORG Mag_Booster_Prep_Screen_Usability_Ptr
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:287:	Prep_Screen_Usability1:
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:288:	#incbin "PrepScreenUsability1.dmp"
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:291:	Prep_Screen_Usability2:
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:292:	#incbin "PrepScreenUsability2.dmp"
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:295:	PrepScreenUsabilityTable:
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:296:	#incbin "Prep Screen Usability Table.dmp"*/
+EngineHacks\ExternalHacks\StrMagSplit\StrMagSplit\PrepScreenMagBooster\PrepScreen.event:389:If usability returns true, look at 922EA; this may tell you where to go for the effect later on (ok, maybe not; seems to determine what image to pull up?)
+EngineHacks\ExternalHacks\TrapRework\Modules\DragonVeins\DragonVeins.event:95:  VeinUsability:
+EngineHacks\ExternalHacks\TrapRework\Modules\DragonVeins\DragonVeins.event:96:    #incbin "asm/DragonVeinUsability.dmp"
+EngineHacks\ExternalHacks\TrapRework\Modules\DragonVeins\DragonVeins.event:103:  VeinUsability:
+EngineHacks\ExternalHacks\TrapRework\Modules\DragonVeins\DragonVeins.event:104:    #incbin "asm/DragonVeinUsabilityNoSkill.dmp"
+EngineHacks\ExternalHacks\WeaponLockArray\AdvWeaponLocks.s:7:AdvWeaponLocks: @return usability bool in r0
+EngineHacks\Necessary\CalcLoops\CalcLoops.event:12:#include "WeaponUsabilityCalcLoop/WeaponUsabilityCalcLoop.event"
+EngineHacks\Necessary\CalcLoops\TurnLoop\Installer.event:100:#define EndOfTurnHealFunctionEntry(skillID, usability, effect) "PUSH; ORG EndOfTurn_HealSkillTable+(skillID*8); POIN usability|1 effect|1; POP" 
+EngineHacks\Necessary\CalcLoops\TurnLoop\Installer.event:112:#define StartOfTurnBuffFunctionEntry(skillID, usability, effect) "PUSH; ORG StartOfTurn_BuffSkillTable+(skillID*8); POIN usability|1 effect|1; POP" 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:101:@ each effect needs a usability function and an effect function 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:191:ldr r2, [r3, r1] @ usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:285:ldr r2, [r3, r1] @ usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:460:ldr r2, [r3, r1] @ usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:465:mov lr, r2 @ function of usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:603:ldr r2, [r3, r1] @ usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:608:mov lr, r2 @ function of usability 
+EngineHacks\Necessary\CalcLoops\TurnLoop\StartOfTurn_CalcLoop.s:827:ldr r0, [r3] @ specific entry usability 
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4037:fun 0x08016575, CanUnitUseWeapon
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4038:fun 0x08016751, CanUnitUseWeaponNow
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4153:fun 0x08018B29, GetUnitWeaponUsabilityBits
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4154:fun 0x08018BA1, GetCombinedEnemyWeaponUsabilityBits
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4678:fun 0x080228A5, RescueUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4681:fun 0x08022911, DropUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4684:fun 0x0802298D, TakeUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4686:fun 0x080229F5, GiveUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4712:fun 0x08023041, VisitCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4715:fun 0x08023159, PlayCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4716:fun 0x08023195, DanceCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4719:fun 0x080232B9, ItemCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4722:fun 0x080233D9, ItemSelectMenu_Usability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4740:fun 0x08023919, BallistaRangeMenu_BallistaUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4744:fun 0x08023A55, StaffCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4748:fun 0x08023B91, StaffItemSelect_Usability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4753:fun 0x08023C81, TalkCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4756:fun 0x08023D15, SupportCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4759:fun 0x08023DB5, DoorCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4761:fun 0x08023E1D, ChestCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4763:fun 0x08023E7D, PickCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4767:fun 0x08023F65, SupplyUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4769:fun 0x08023FD9, ArmoryCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4771:fun 0x08024035, VendorCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4773:fun 0x08024091, SecretShopCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4775:fun 0x080240ED, ArenaCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4777:fun 0x0802418D, StealCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4782:fun 0x08024305, StealItemMenuCommand_Usability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4785:fun 0x080243D9, SummonCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4788:fun 0x080244FD, YobimaCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4817:fun 0x080248C5, RideCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4819:fun 0x0802494D, ExitCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4821:fun 0x080249AD, AttackCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:4822:fun 0x08024A29, AttackBallistaCommandUsability
+EngineHacks\Necessary\GrowthGetters\C\fe8.s:30564:fun 0x080CDD39, Usability_ThirdPromotionOption
+EngineHacks\Necessary\GrowthGetters\C\include\bmitem.h:163:s8 CanUnitUseWeapon(struct Unit* unit, int item);
+EngineHacks\Necessary\GrowthGetters\C\include\bmitem.h:164:s8 CanUnitUseWeaponNow(struct Unit* unit, int item);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:25:u8 RescueUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:28:u8 DropUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:31:u8 TakeUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:33:u8 GiveUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:59:u8 VisitCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:62:u8 PlayCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:63:u8 DanceCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:66:u8 ItemCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:69:u8 ItemSelectMenu_Usability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:87:u8 BallistaRangeMenu_BallistaUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:91:u8 StaffCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:95:u8 StaffItemSelect_Usability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:100:u8 TalkCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:103:u8 SupportCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:106:u8 DoorCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:108:u8 ChestCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:110:u8 PickCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:114:u8 SupplyUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:116:u8 ArmoryCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:118:u8 VendorCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:120:u8 SecretShopCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:122:u8 ArenaCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:124:u8 StealCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:129:u8 StealItemMenuCommand_Usability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:132:u8 SummonCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:135:u8 YobimaCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:164:u8 RideCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:166:u8 ExitCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:168:u8 AttackCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmmenu.h:169:u8 AttackBallistaCommandUsability(const struct MenuItemDef*, int number);
+EngineHacks\Necessary\GrowthGetters\C\include\bmunit.h:413:int GetUnitWeaponUsabilityBits(struct Unit* unit);
+EngineHacks\Necessary\GrowthGetters\C\include\bmunit.h:414:int GetCombinedEnemyWeaponUsabilityBits(void);
+EngineHacks\Necessary\GrowthGetters\C\include\classchg.h:201:// ??? ClassChgMenuItem_3rdUsability(???);
+EngineHacks\Necessary\ItemEffectRevamp\AoEStaves\AoEStatusStaves.event:11:AoEStatusStaffUsability:
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\KeyCommandsFix.event:25:	MasterKeyUsability:
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\KeyCommandsFix.event:31:	#incbin "MasterKey_Usability.dmp"
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\MasterKey_Usability.s:2:@Master Key Usability
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\PromoEffect_Setup.event:50:		#incbin "PromoItemUsability.dmp"
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\UseIDSetup.event:49:		ORG $28896	//Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\UseIDSetup.event:65:		ORG $29F18	//Prescreen Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_KeyCommandsFix.event:25:	MasterKeyUsability:
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_KeyCommandsFix.event:31:	#include "MasterKey_Usability.lyn.event"
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_KeyCommandsFix.event:32:	//#incbin "MasterKey_Usability.dmp"
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_PromoEffect_Setup.event:42:		#include "PromoItemUsability.lyn.event"
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_UseIDSetup.event:25:		ORG $28896	//Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Core\_UseIDSetup.event:47:		ORG $29F18	//Prescreen Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\IERevamp_Installer.event:25:	#define IER_setItemEffect(effectid,usability,prepscreen_usability,targeting,effect) "PUSH; ORG IERevampTable + (effectid * 0x10); POIN usability prepscreen_usability targeting effect; POP"
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:9:			#define IUArray 0x288B0	//Item Usability Pointer Jump Table
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:18:			#define PUArray 0x29F34 //Prep Screen Item Usability Pointer Jump Table
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:27:			#define PromoItemTable 0x2921C //Promotion Item Usability Jump Table
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:41:		#define IUNull 0x8028c04	//Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:43:		#define PUNull 0x802a100	//Prepscreen Item Usability
+EngineHacks\Necessary\ItemEffectRevamp\_ItemArrayMacros.event:44:		//#define PromoNull 0x8029400	//Promotion Item Usability, i rewrote my stuff so this is no longer needed
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:8:	#define Usability_Table 0x288B0
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:13:	//USABILITY
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:125:	#define New_Use(item) "ORG Usability_Table+4*(item-0x4B); POIN 0x28A8C"
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:128:	//###### USABILITY TABLE ######
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:142:	ORG Usability_Table+4*(TorchStaff-0x4B)
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:147:	POIN Usability_Routine_For_Non_Unlock|1
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:151:	POIN Usability_Routine_For_Unlock|1
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:154:	//Can't do the same thing here that we did with the usability table because they don't all branch to the same place
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:388:	Usability_Routine_For_Non_Unlock: //push r14; mov r1,r5; bl somewhere; pop r0; bx r0 (r5 has item id/uses halfword)
+EngineHacks\Necessary\ItemRangeFix\ItemRangeFix.event:393:	Usability_Routine_For_Unlock:
+EngineHacks\Necessary\ItemRangeFix\Notes.txt:4:To create a new staff (or item), there're 4 tables you need to modify. 3 from vanilla, 1 from here: Usability, Target, and Effect. They affect items 0x4B (Heal) to 0xC1 (empty). Before the table, 0x4B is subtracted from the item id, and the compared to 0x76; if less than or equal, proceed, otherwise, use the default option. Any new item requires you to a) repoint and expand these, and b) increase the 0x76 number. (Target table subtracts compares to 0x41 (Latona).
+EngineHacks\Necessary\ItemRangeFix\Notes.txt:6:288B0	Usability	Determines whether you can use the item (default: no)
+EngineHacks\Necessary\ItemRangeFix\README.txt:18:To use this, patch FE7-Staff Range EA.txt with Event Assembler 9.12 or higher. If you've repointed the item table and/or usability table (if you don't know that is, then you didn't repoint it), be sure to update that in the definitions section. 
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:78:  //Use the macro MenuCommand(name,description,colour,usability,effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:86:    MenuCommand(ArriveName, ArriveDesc, BlueText, ArriveCommandUsability, ArriveCommandEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:87:    MenuCommand(EscapeName, EscapeDesc, BlueText, EscapeCommandUsability, EscapeCommandEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:91:  MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:99:	MenuCommand(UM_GaidenBlackMagic,UM_GaidenMagicDesc,NormalText,GaidenBlackMagicUMUsability,GaidenBlackMagicUMEffect,GaidenBlackMagicUMHover,GaidenMagicUMUnhover)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:100:	MenuCommand(UM_GaidenWhiteMagic,UM_GaidenMagicDesc,NormalText,GaidenWhiteMagicUMUsability,GaidenWhiteMagicUMEffect,GaidenWhiteMagicUMHover,GaidenMagicUMUnhover)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:103:	MenuCommand(UM_CombatArts, UM_CombatArtsDesc, NormalText, CombatArtsUsability, CombatArtsEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:106:	MenuCommand(UM_Lunge, UM_LungeDesc, NormalText, LungeUsability, LungeEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:109:	MenuCommand(UM_Mercy, UM_MercyDesc, NormalText, MercyUsability, MercyEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:112:	MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:115:	MenuCommand(UM_Capture, UM_CaptureDesc, NormalText, Capture_Usability, Capture_Effect_Func, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:118:	MenuCommand(UM_GoddessDance, UM_GoddessDanceDesc, NormalText, GoddessDanceUsability, GoddessDanceEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:121:	MenuCommand(UM_Detonate, UM_DetonateDesc, NormalText, DetonateUsability, DetonateEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:126:	MenuCommand(UM_Stride, UM_StrideDesc, NormalText, StrideUsability, StrideEffect, $22c31, $22c99)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:134:  MenuCommand(0x67E,0x6C2,NormalText,NewDanceUsability,0x231D0)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:137:#define MenuCommand_BPress(name,description,colour,usability,effect, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 0 unknown2|1"
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:146:  MenuCommand(0x693,0x6DD,NormalText,NewSummonUsability,0x244B8)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:157:  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:159:  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect, RallyCommandSwitchIn, RallyCommandSwitchOut)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:173:    MenuCommand(RaidNameText,RaidDescText,NormalText,RaidUsability,RaidEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:177:	MenuCommand(StairsNameText,StairsDescText,GreenText,StairsUsability,StairsEffect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:189:	MenuCommand(UM_Shove,      UM_ShoveDesc,      NormalText, prShoveCommand_Usability,      prShoveCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:190:	MenuCommand(UM_Smite,      UM_SmiteDesc,      NormalText, prSmiteCommand_Usability,      prSmiteCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:191:	MenuCommand(UM_Pivot,      UM_PivotDesc,      NormalText, prPivotCommand_Usability,      prPivotCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:192:	MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:193:	MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:194:	MenuCommand(UM_Swarp,      UM_SwarpDesc,      NormalText, prSwarpCommand_Usability,      prSwarpCommand_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:196: MenuCommand(UM_DrawBack, UM_DrawBackDesc, NormalText, DrawBack_Usability, DrawBack_Effect) 
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:197: MenuCommand(UM_Sacrifice, UM_SacrificeDesc, NormalText, Sacrifice_Usability, Sacrifice_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:198: MenuCommand(UM_ArdentSacrifice, UM_ArdentSacrificeDesc, NormalText, ArdentSacrifice_Usability, ArdentSacrifice_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:199: MenuCommand(UM_ReciprocalAid, UM_ReciprocalAidDesc, NormalText, ReciprocalAid_Usability, ReciprocalAid_Effect)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:206:  // MenuCommand(UMText_Transfer,UMText_TransferDesc,GreenText,TransferUsability,TransferTarget) //transfer
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:207:  // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:218:  MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:225:  MenuCommand(Dismount_Name_TextID, Dismount_Description_TextID, OrangeText, DismountUsability, DismountRoutine)
+EngineHacks\Necessary\UnitMenu\UnitMenu.event:226:  MenuCommand(Mount_Name_TextID, Mount_Description_TextID, OrangeText, MountUsability, MountRoutine)
+EngineHacks\Necessary\UnitMenu\_UnitMenuDefs.event:4:#define MenuCommand(name,description,colour,usability,effect) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; WORD 0 0 0"
+EngineHacks\Necessary\UnitMenu\_UnitMenuDefs.event:5:#define MenuCommand(name,description,colour,usability,effect, unknown1, unknown2) "WORD $80d7d94; SHORT name description; BYTE colour $4e; SHORT 0; POIN usability|1; WORD 0; POIN effect|1; POIN 0 unknown1|1 unknown2|1"
+EngineHacks\Necessary\UnitMenu\_UnitMenuDefs.event:13://                                          name    desc    color           usability pointer               effect pointer  
+EngineHacks\Necessary\UnitMenu\_UnitMenuDefs.event:43://                                          name    desc    color           usability pointer               effect pointer  
+EngineHacks\SkillSystem\Internals\NewSkillTester\include\gbafe\item.h:171:int CanUnitUseWeapon(const struct Unit*, int item); //! FE8U = (0x08016574+1)
+EngineHacks\SkillSystem\Internals\NewSkillTester\include\gbafe\item.h:172:int CanUnitUseWeaponNow(const struct Unit*, int item); //! FE8U = (0x08016750+1)
+EngineHacks\SkillSystem\Internals\NewSkillTester\include\gbafe\unit.h:440:int GetUnitWeaponUsabilityBits(const struct Unit*); //! FE8U = 0x8018B29
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:728:SET_FUNC CanUnitUseWeapon, 0x8016575
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:729:SET_FUNC CanUnitUseWeaponNow, 0x8016751
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:843:SET_FUNC GetUnitWeaponUsabilityBits, 0x8018B29
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:844:SET_FUNC GetCombinedEnemyWeaponUsabilityBits, 0x8018BA1
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1027:SET_FUNC RescueUsability, 0x80228A5
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1030:SET_FUNC DropUsability, 0x8022911
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1033:SET_FUNC TakeUsability, 0x802298D
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1035:SET_FUNC GiveUsability, 0x80229F5
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1042:SET_FUNC DanceCommandUsability, 0x8023195
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1045:SET_FUNC ItemSelectMenu_Usability, 0x80233D9
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1049:SET_FUNC StaffCommandUsability, 0x8023A55
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1051:SET_FUNC StaffItemSelect_Usability, 0x8023B91
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1055:SET_FUNC PickCommandUsability, 0x8023E7D
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1056:SET_FUNC SupplyUsability, 0x8023F65
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1057:SET_FUNC ArenaCommandUsability, 0x80240ED
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1059:SET_FUNC StealCommandUsability, 0x802418D
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1062:SET_FUNC StealItemMenuCommand_Usability, 0x8024305
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1070:SET_FUNC RideCommandUsability, 0x80248C5
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1072:SET_FUNC AttackCommandUsability, 0x80249AD
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1073:SET_FUNC AttackBallistaCommandUsability, 0x8024A29
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:1819:SET_FUNC GetOverriddenMenuCommandUsability, 0x804F7AD
+EngineHacks\SkillSystem\Internals\NewSkillTester\reference\SkillsRef.s:2819:SET_FUNC Usability_ThirdPromotionOption, 0x80CDD39
+EngineHacks\SkillSystem\Internals\NewSkillTester\_src\SkillTester.c:184://Used by the weapon usability calc loop
+EngineHacks\SkillSystem\RemoveSkillMenu\asm\Menu\MenuRemoveSkillCommand_Usability.s:6:Command_Usability:
+EngineHacks\SkillSystem\RemoveSkillMenu\asm\Menu\MenuRemoveSkillCommand_Usability.s:9:	@ I'm cheating a bit here, and abusing the fact that the usability routine is only called at 0804ED9C, where in r5 lies the Menu proc Struct pointer.
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:234:// Usability, Draw, Effect
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:235:#define MenuCommand_UDE(aprUsability, aprDraw, aprEffect) "WORD 0; SHORT 0 0; BYTE 0 0; SHORT 0; POIN ((aprUsability)|1) ((aprDraw)|1) ((aprEffect)|1); WORD 0 0 0"
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:239:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_NoEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:240:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_NoEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:241:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_ForgetEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:242:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_ForgetEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:243:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_ForgetEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:244:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_ForgetEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:245:	MenuCommand_UDE(prMenuRemoveSkillCommand_Usability, prMenuRemoveSkillCommand_Draw, prMenuRemoveSkillCommand_NoLearnEffect)
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:259:prMenuRemoveSkillCommand_Usability:
+EngineHacks\SkillSystem\RemoveSkillMenu\RemoveSkillMenu.event:260:	#incbin "asm/Menu/MenuRemoveSkillCommand_Usability.dmp"
+EngineHacks\SkillSystem\Skills\MasterSkillInstaller.event:38:#include "WeaponUsabilitySkills/WeaponUsabilitySkills.event"
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2423:fun 0x08016575, CanUnitUseWeapon
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2424:fun 0x08016751, CanUnitUseWeaponNow
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2539:fun 0x08018B29, GetUnitWeaponUsabilityBits
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2540:fun 0x08018BA1, GetCombinedEnemyWeaponUsabilityBits
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2923:fun 0x080228A5, RescueUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2926:fun 0x08022911, DropUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2929:fun 0x0802298D, TakeUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2931:fun 0x080229F5, GiveUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2957:fun 0x08023041, VisitCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2960:fun 0x08023159, PlayCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2961:fun 0x08023195, DanceCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2964:fun 0x080232B9, ItemCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2967:fun 0x080233D9, ItemSelectMenu_Usability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2985:fun 0x08023919, BallistaRangeMenu_BallistaUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2989:fun 0x08023A55, StaffCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2993:fun 0x08023B91, StaffItemSelect_Usability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:2998:fun 0x08023C81, TalkCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3001:fun 0x08023D15, SupportCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3004:fun 0x08023DB5, DoorCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3006:fun 0x08023E1D, ChestCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3008:fun 0x08023E7D, PickCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3012:fun 0x08023F65, SupplyUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3014:fun 0x08023FD9, ArmoryCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3016:fun 0x08024035, VendorCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3018:fun 0x08024091, SecretShopCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3020:fun 0x080240ED, ArenaCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3022:fun 0x0802418D, StealCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3027:fun 0x08024305, StealItemMenuCommand_Usability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3030:fun 0x080243D9, SummonCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3033:fun 0x080244FD, YobimaCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3062:fun 0x080248C5, RideCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3064:fun 0x0802494D, ExitCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3066:fun 0x080249AD, AttackCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:3067:fun 0x08024A29, AttackBallistaCommandUsability
+EngineHacks\SkillSystem\Skills\PreBattleSkills\FlankSwarmScale\fe8.s:15152:fun 0x080CDD39, ClassChgMenuItem_3rdUsability
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.lyn.event:5:ORG CURRENTOFFSET+$38;RallyCommandUsability:
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:50:	.type   RallyCommandUsability, function
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:51:	.global RallyCommandUsability
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:98:RallyCommandUsability:
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:110:	bne RallyCommandUsability.no
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:119:	beq RallyCommandUsability.no
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:128:	beq RallyCommandUsability.no
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:132:	b RallyCommandUsability.end
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:134:RallyCommandUsability.no:
+EngineHacks\SkillSystem\Skills\RallySkills\asm\Rally.s:137:RallyCommandUsability.end:
+EngineHacks\SkillSystem\Skills\RallySkills\MapAuraFx\Src\Definitions.s:21:SET_FUNC CanUnitUseWeapon, (0x8016750+1)
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:160:bne HoardersBaneUsability_True
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:166:bne HoardersBaneUsability_False 
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:169:beq HoardersBaneUsability_False
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:174:beq HoardersBaneUsability_False 
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:181:bne HoardersBaneUsability_True
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:183:HoardersBaneUsability_False:
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:185:b HoardersBaneUsability_Exit
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:187:HoardersBaneUsability_True:
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:190:HoardersBaneUsability_Exit: 
+EngineHacks\SkillSystem\Skills\TurnSkills\HoardersBane.s:311:ldr r0, [r3] @ usability 
+EngineHacks\SkillSystem\Skills\TurnSkills\SoulSap.s:22:b SoulSap_ExitUsability 
+EngineHacks\SkillSystem\Skills\TurnSkills\SoulSap.s:25:SoulSap_ExitUsability: 
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Capture\Capture\Capture.event:74:	Capture_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Capture\Capture\Capture.event:75:	#incbin "Capture_Usability_Func.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Capture\Capture\Capture.event:82:	Capture_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Capture\Capture\Capture.event:83:	#incbin "Capture_Usability_Func_NoSkill.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:3://usability on this is check a loop of all usabilities on the submenu
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:58:MenuCommand(UM_Adept, UM_AdeptDesc, NormalText, AdeptUsability, AdeptEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:60:MenuCommand(UM_Aether, UM_AetherDesc, NormalText, AetherUsability, AetherEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:62:MenuCommand(UM_Astra, UM_AstraDesc, NormalText, AstraUsability, AstraEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:64:MenuCommand(UM_DragonFang, UM_DragonFangDesc, NormalText, DragonFangUsability, DragonFangEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:66:MenuCommand(UM_Glacies, UM_GlaciesDesc, NormalText, GlaciesUsability, GlaciesEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:68:MenuCommand(UM_Ignis, UM_IgnisDesc, NormalText, IgnisUsability, IgnisEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:70:MenuCommand(UM_Luna, UM_LunaDesc, NormalText, LunaUsability, LunaEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:72:MenuCommand(UM_Sol, UM_SolDesc, NormalText, SolUsability, SolEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:74:MenuCommand(UM_SureShot, UM_SureShotDesc, NormalText, SureShotUsability, SureShotEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:79:MenuCommand(UM_Lunge, UM_LungeDesc, NormalText, LungeUsability, LungeEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:82:MenuCommand(UM_Mercy, UM_MercyDesc, NormalText, MercyUsability, MercyEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:85:MenuCommand(UM_Gamble, UM_GambleDesc, NormalText, GambleUsability, GambleEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:88:MenuCommand(UM_Capture, UM_CaptureDesc, NormalText, Capture_Usability, Capture_Effect_Func, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:91:MenuCommand(UM_Detonate, UM_DetonateDesc, NormalText, DetonateUsability, DetonateEffect, $22c31, $22c99)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:97:  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:99:  MenuCommand(UM_Rally, UM_RallyDesc, NormalText, RallyCommandUsability, RallyCommandEffect, RallyCommandSwitchIn, RallyCommandSwitchOut)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:106:MenuCommand(UM_Shove,      UM_ShoveDesc,      NormalText, prShoveCommand_Usability,      prShoveCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:107:MenuCommand(UM_Smite,      UM_SmiteDesc,      NormalText, prSmiteCommand_Usability,      prSmiteCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:108:MenuCommand(UM_Pivot,      UM_PivotDesc,      NormalText, prPivotCommand_Usability,      prPivotCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:109:MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:110:MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:111:MenuCommand(UM_Swarp,      UM_SwarpDesc,      NormalText, prSwarpCommand_Usability,      prSwarpCommand_Effect)
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:119:AdeptUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:120:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:132:AetherUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:133:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:146:AstraUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:147:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:159:DragonFangUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:160:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:172:GlaciesUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:173:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:185:IgnisUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:186:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:198:LunaUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:199:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:211:SolUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:212:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:224:SureShotUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.event:225:#incbin "CombatArtUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.lyn.event:3:ORG CURRENTOFFSET+$1;CombatArtsUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.s:5:.global CombatArtsUsability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.s:6:.type CombatArtsUsability, %function
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.s:14:CombatArtsUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArts.s:20:add r4,#0xC @usability of first menu option
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArtUsability.s:11:CombatArtUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\CombatArts\CombatArtUsability.s:69:ldr r0, =0x80249ac @attack usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Detonate\DetonateUsability.s:28:ldr r0, =0x80249ac @attack usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Gamble\GambleUsability.s:28:ldr r0, =0x80249ac @attack usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\asm\TargetCommandUsability.s:7:TargetCommandUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:39:prSmiteCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:40:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:51:prShoveCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:52:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:63:prPivotCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:64:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:75:prRepositionCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:76:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:87:prSwapCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:88:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:99:prSwarpCommand_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\HeroesMovement\HeroesMovement_Internal.event:100:	#incbin "asm/TargetCommandUsability.bin"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Lunge\LungeUsability.s:29:ldr r0, =0x80249ac @attack usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Mercy\MercyUsability.s:29:ldr r0, =0x80249ac @attack usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.c:102:int DrawBack_Usability(struct MenuProc* menu);
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.c:107:int Sacrifice_Usability(struct MenuProc* menu) { 
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.c:268:int ArdentSacrifice_Usability(struct MenuProc* menu) { 
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.c:285:int ReciprocalAid_Usability(struct MenuProc* menu) { 
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.c:380:int DrawBack_Usability(struct MenuProc* menu) { 
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.lyn.event:6:ORG CURRENTOFFSET+$144;Sacrifice_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.lyn.event:18:ORG CURRENTOFFSET+$5c;ArdentSacrifice_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.lyn.event:19:ORG CURRENTOFFSET+$54;ReciprocalAid_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\SacrificeDrawBack\Sacrifice.lyn.event:22:ORG CURRENTOFFSET+$40;DrawBack_Usability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:35:bl		StealCommandUsability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:52:StealCommandUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:64:beq StealCommandUsability_RetFalse
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:69:    bne StealCommandUsability_RetFalse
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:72:        blh 0x0804fd28   @GetTargetListSize Gets list size (used to check for empty lists in usability routines) Number of entries in the list
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:74:        beq StealCommandUsability_RetFalse
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:79:beq StealCommandUsability_RetFalse   @ItemFull
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:81:StealCommandUsability_RetTrue:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:83:b		StealCommandUsability_GoBack
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:85:StealCommandUsability_RetFalse:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\Can_Unit_Steal.s:88:StealCommandUsability_GoBack:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\StealPlus.event:17://Usability check
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\StealPlus\StealPlus\StealPlus.event:69:	//Steal menu option usability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Supply\NewSupplyUsability.s:52:blh 0x08023F64 @VanillaSupplyUsability
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\Supply\NewSupplyUsability.s:76:ldr r1,=0x08023F78  @SupplyUsability => cmp r0, #0x51
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:11:NewDanceUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:12:#incbin "Dance/NewDanceUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:18:NewSupplyUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:19:#incbin "Supply/NewSupplyUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:25:NewSummonUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:26:#incbin "Summon/NewSummonUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:36:LungeUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:37:#incbin "Lunge/LungeUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:46:GambleUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:47:#incbin "Gamble/GambleUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:56:MercyUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:57:#incbin "Mercy/MercyUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:66:GoddessDanceUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:67:#incbin "GoddessDance/GoddessDanceUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:78:DetonateUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:79:#incbin "Detonate/DetonateUsability.dmp"
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:87:StrideUsability:
+EngineHacks\SkillSystem\Skills\UnitMenuSkills\UnitMenuSkills.event:88:#incbin "Stride/StrideUsability.dmp"
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.lyn.event:3:ORG CURRENTOFFSET+$1;MultiScrollPrepUsability:
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.lyn.event:4:ORG CURRENTOFFSET+$48;MultiScrollUsability:
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:19:.global MultiScrollPrepUsability
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:20:.type MultiScrollPrepUsability, %function
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:22:.global MultiScrollUsability
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:23:.type MultiScrollUsability, %function
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:32:MultiScrollPrepUsability:
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:66:ldr r0,=MultiScrollUsability
+EngineHacks\SkillSystem\SkillScrolls\MultiSkillScrolls.s:80:MultiScrollUsability:
+EngineHacks\SkillSystem\skillsys-ref.s:42:fun (0x08016750+1), CanUnitUseWeapon
+Tables\NightmareModules\ItemEffectRevamp\Item_Effect_Revamp.event:45:_C2EA_Item_Effect_Revamp(MasterKeyUsability | 0x8000000,0x802a100,0x802905c,0x802fee6,0x0)
+Tables\NightmareModules\ItemEffectRevamp\Item_Effect_Revamp.event:60:_C2EA_Item_Effect_Revamp(AoEStatusStaffUsability|IsPointer,0x802a100,AoEStatusStaffTargeting|IsPointer,0x802fe7c,ApplyStaffStatusAfterBattle|IsPointer)
+Tables\NightmareModules\ItemEffectRevamp\Item_Effect_Revamp.event:63:_C2EA_Item_Effect_Revamp(MultiScrollUsability|IsPointer,MultiScrollPrepUsability|IsPointer,0x802905c,MultiScrollEffect|IsPointer,0x0)
+Tools\FE-Clib\include\bmitem.h:163:s8 CanUnitUseWeapon(struct Unit* unit, int item);
+Tools\FE-Clib\include\bmitem.h:164:s8 CanUnitUseWeaponNow(struct Unit* unit, int item);
+Tools\FE-Clib\include\bmmenu.h:27:u8 RescueUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:30:u8 DropUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:33:u8 TakeUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:35:u8 GiveUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:61:u8 VisitCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:64:u8 PlayCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:65:u8 DanceCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:68:u8 ItemCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:71:u8 ItemSelectMenu_Usability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:89:u8 BallistaRangeMenu_BallistaUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:93:u8 StaffCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:97:u8 StaffItemSelect_Usability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:102:u8 TalkCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:105:u8 SupportCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:108:u8 DoorCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:110:u8 ChestCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:112:u8 PickCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:116:u8 SupplyUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:118:u8 ArmoryCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:120:u8 VendorCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:122:u8 SecretShopCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:124:u8 ArenaCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:126:u8 StealCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:131:u8 StealItemMenuCommand_Usability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:134:u8 SummonCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:137:u8 YobimaCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:166:u8 RideCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:168:u8 ExitCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:170:u8 AttackCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmmenu.h:171:u8 AttackBallistaCommandUsability(const struct MenuItemDef * def, int number);
+Tools\FE-Clib\include\bmunit.h:414:int GetUnitWeaponUsabilityBits(struct Unit* unit);
+Tools\FE-Clib\include\bmunit.h:415:int GetCombinedEnemyWeaponUsabilityBits(void);
+Tools\FE-Clib\include\classchg.h:201:// ??? ClassChgMenuItem_3rdUsability(???);
+Tools\FE-Clib\reference\fireemblem8.ref.s:2488:fun 0x08016575, CanUnitUseWeapon
+Tools\FE-Clib\reference\fireemblem8.ref.s:2489:fun 0x08016751, CanUnitUseWeaponNow
+Tools\FE-Clib\reference\fireemblem8.ref.s:2604:fun 0x08018B29, GetUnitWeaponUsabilityBits
+Tools\FE-Clib\reference\fireemblem8.ref.s:2605:fun 0x08018BA1, GetCombinedEnemyWeaponUsabilityBits
+Tools\FE-Clib\reference\fireemblem8.ref.s:2988:fun 0x080228A5, RescueUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:2991:fun 0x08022911, DropUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:2994:fun 0x0802298D, TakeUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:2996:fun 0x080229F5, GiveUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3022:fun 0x08023041, VisitCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3025:fun 0x08023159, PlayCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3026:fun 0x08023195, DanceCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3029:fun 0x080232B9, ItemCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3032:fun 0x080233D9, ItemSelectMenu_Usability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3050:fun 0x08023919, BallistaRangeMenu_BallistaUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3054:fun 0x08023A55, StaffCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3058:fun 0x08023B91, StaffItemSelect_Usability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3063:fun 0x08023C81, TalkCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3066:fun 0x08023D15, SupportCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3069:fun 0x08023DB5, DoorCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3071:fun 0x08023E1D, ChestCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3073:fun 0x08023E7D, PickCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3077:fun 0x08023F65, SupplyUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3079:fun 0x08023FD9, ArmoryCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3081:fun 0x08024035, VendorCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3083:fun 0x08024091, SecretShopCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3085:fun 0x080240ED, ArenaCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3087:fun 0x0802418D, StealCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3092:fun 0x08024305, StealItemMenuCommand_Usability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3095:fun 0x080243D9, SummonCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3098:fun 0x080244FD, YobimaCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3127:fun 0x080248C5, RideCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3129:fun 0x0802494D, ExitCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3131:fun 0x080249AD, AttackCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:3132:fun 0x08024A29, AttackBallistaCommandUsability
+Tools\FE-Clib\reference\fireemblem8.ref.s:19207:fun 0x080CDD39, ClassChgMenuItem_3rdUsability

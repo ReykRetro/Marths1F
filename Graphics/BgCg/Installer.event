@@ -3,5 +3,5 @@
 #include "BG/bgInstaller.event"
 #include "BG/bgSetup.event"
 
-#include "CG/cgInstaller.event"
+//#include "CG/cgInstaller.event"
 //#include "CG/cgSetup.event"

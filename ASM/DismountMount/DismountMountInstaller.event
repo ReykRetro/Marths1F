@@ -6,31 +6,29 @@
 // Tabla de clases montadas/desmontadas
 #define MountedUnmounted(classIDMounted, classIDUnmounted) "BYTE classIDMounted classIDUnmounted"
 #define EndMountUnmountedTable "BYTE 0x00 0x00"
-
   MountedClassTable:
-    // EDITÁ ESTO con tus clases reales
-    MountedUnmounted(0x5, 0x1)   // Ejemplos — reemplazalos
-    MountedUnmounted(0x6, 0x2)
-    MountedUnmounted(0x7, 0x3)
-    MountedUnmounted(0x8, 0x4)
-    MountedUnmounted(0x1d, 0x3)
-    MountedUnmounted(0x1e, 0x4)
-    MountedUnmounted(0x1f, 0x1)
-    MountedUnmounted(0x20, 0x2)
-    MountedUnmounted(0x21, 0x3)
-    MountedUnmounted(0x22, 0x4)
-    MountedUnmounted(0x23, 0x3)
-    MountedUnmounted(0x24, 0x4)
-    MountedUnmounted(0x29, 0x3)
-    MountedUnmounted(0x2a, 0x4)
-    MountedUnmounted(0x35, 0x4)
-    MountedUnmounted(0x36, 0x4)
-    MountedUnmounted(0x48, 0x3)
-    MountedUnmounted(0x49, 0x4)
-    MountedUnmounted(0x4b, 0x3)
-    MountedUnmounted(0x4c, 0x4)
+    MountedUnmounted(0x5, 0x1)    // Cavalier M -> T1 M
+    MountedUnmounted(0x6, 0x2)    // Cavalier F -> T1 F
+    MountedUnmounted(0x7, 0x3)    // Paladin M -> T2 M
+    MountedUnmounted(0x8, 0x4)    // Paladin F -> T2 F
+    MountedUnmounted(0x1d, 0x3)   // Ranger M -> T2 M
+    MountedUnmounted(0x1e, 0x4)   // Ranger F -> T2 F
+    MountedUnmounted(0x1f, 0x1)   // Wyvern Rider M -> T1 M
+    MountedUnmounted(0x20, 0x2)   // Wyvern Rider F -> T1 F
+    MountedUnmounted(0x21, 0x3)   // Wyvern Lord M -> T2 M
+    MountedUnmounted(0x22, 0x4)   // Wyvern Lord F -> T2 F
+    MountedUnmounted(0x23, 0x3)   // Wyvern Knight M -> T2 M
+    MountedUnmounted(0x24, 0x4)   // Wyvern Knight F -> T2 F
+    MountedUnmounted(0x29, 0x3)   // Mage Knight M -> T2 M
+    MountedUnmounted(0x2a, 0x4)   // Mage Knight F -> T2 F
+    MountedUnmounted(0x35, 0x3)   // Great Knight M -> T2 M
+    MountedUnmounted(0x36, 0x4)   // Great Knight F -> T2 F
+    MountedUnmounted(0x48, 0x2)   // Pegasus Knight -> T1 F
+    MountedUnmounted(0x49, 0x4)   // Falconknight -> T2 F
+    MountedUnmounted(0x4b, 0x2)   // Troubadour -> T1 F
+    MountedUnmounted(0x4c, 0x4)   // Valkyrie -> T2 F
     EndMountUnmountedTable
-    
+  
   ALIGN 4
   DismountRoutine:
   #incbin "ASM/DismountRoutine.dmp"

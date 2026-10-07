@@ -11,3 +11,5 @@
 #include "SecondPortraitFix/Installer.event"
 #include "CheckPlayers/Installer.event"
 //#include "Aum/Aum.event"
+//#include "ClasslockedWeaponRanks/ClasslockedWeaponRanks.event" /* instalado desde antes en la build */
+#include "FadeSoloEndingPortraits/FadeSoloEndingPortraits.event"
