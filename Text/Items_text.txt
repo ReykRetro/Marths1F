@@ -1,0 +1,174 @@
+# 0x0fe2 levinSwordname
+Levin Sword[.][X]
+## levinSworddesc
+Works as magic damage.[.][X]
+
+## devilSwordname
+Devil Sword[.][X]
+## devilSworddesc
+Has a (31 - luck)% chance[NL]
+to backfire on the user.[.][NL]
+Cannot be sold.[.][X]
+
+## mercuriusName
+Mercurius[.][X]
+## mercuriusDesc
+Legendary Sword[NL]
+Cannot be sold.[.][X]
+
+## falchionfakeName
+Falcion Fake[.][X]
+## falchionfakeDesc
+Cannot be sold.[.][NL]
+Becomes a Steel Sword when[NL]
+obtained by a player.[.][X]
+
+## falchioShortName
+Falchion Short[.][X]
+## falchionShortDesc
+Marth only. Deals bonus damage to dragon[NL]
+units and Medeus. Can be used to restore[NL]
+10 HP to the user. Cannot be sold.[.][X]
+
+## falchionTrueName
+Falchion True[.][X]
+## falchionTrueDesc
+Marth only. Deals bonus damage to dragon[NL]
+units and Medeus. Can be used to restore[NL]
+10 HP to the user. Cannot be sold.[.][X]
+
+## wingSpearName
+Wing Spear[.][X]
+## wingSpearDesc
+Caeda only. Deals bonus damage[NL]
+to cavalry and armored units.[.][X]
+
+## GradivusName
+Gradivus[.][X]
+## GradivusDesc
+Legendary Lance. Can be used to restore[NL]
+all HP to the user. Cannot be sold.[.][X]
+
+## HauteclereName
+Hauteclere[.][X]
+## HauteclereDesc
+Can be used to restore 10 HP[NL]
+to the user. Cannot be sold.[.][X]
+
+## ParthiaName
+Parthia[.][X]
+## ParthiaDesc
+Deals bonus damage to flying units. Can be used[NL]
+to grant the user +7 resistance; buff reduces by[NL]
+1 point per turn. Cannot be sold. Legendary Bow.[.][X]
+
+## ArrowspateName
+Arrowspate[.][X]
+## ArrowspateDesc
+Deals bonus damage to flying units.[.][NL]
+Cannot make follow-up attacks.[.][X]
+
+## StonehoistName
+Stonehoist[.][X]
+## StonehoistDesc
+Cannot make follow-up attacks.[.][X]
+
+## HoistflammeName
+Hoistflamme[.][X]
+## HoistflammeDesc
+Cannot make follow-up attacks.[.][X]
+
+## ThunderboltName
+Thunderbolt[.][X]
+## ThunderboltDesc
+Works as magic damage. Deals[NL]
+bonus damage to Ballisticians.[.][NL]
+Cannot make follow-up attacks.[.][X]
+
+## PachydermName
+Pachyderm[.][X]
+## PachydermDesc
+Cannot make follow-up attacks.[.][X]
+
+## FirestoneName
+Firestone[.][X]
+## FirestoneDesc
+User uses the base and maximum[NL]
+stats of a Fire Dragon in combat.[.][NL]
+Cannot be sold.[.][X]
+
+## EarthstoneName
+Earthstone[.][X]
+## EarthstoneDesc
+Medeus only.
+User uses the base and maximum[NL]
+stats of an Earth Dragon in combat.[.][NL]
+Cannot be sold.[.][X]
+
+## MagestoneName
+Magestone[.][X]
+## MagestoneDesc
+User uses the base and maximum stats of a[NL]
+Mage Dragon in combat. Works as magic damage.[.][NL]
+Seals magical attacks. Cannot be sold.[.][X]
+
+## BlizzardName
+Blizzard[.][X]
+## Blizzarddesc
+bLAIAZA--[.][X]
+
+## imhulluFakeName
+Imhullu Fake[.][X]
+## ImhulluFakeDesc
+Cannot be sold. Becomes an Elfire[NL]
+when obtained by a player.[.][X]
+
+## BolganoneName
+Bolganone[.][X]
+## BolganoneDesc
+BolgaNone--[.][X]
+
+## ThoronName
+Thoron[.][X]
+## ThoronDesc
+ThoRon--[.][X]
+
+## SwarmName
+Swarm[.][X]
+## SwarmDesc
+Swamr--[.][X]
+
+## AuraName
+Aura[X]
+## AuraDesc
+Female units only; Linde can[NL]
+use regardless of weapon level.[.][NL]
+Cannot be sold.[.][X]
+
+## ExcaliburName
+Excalibur[.][X]
+## ExcaliburDesc
+Male units only; Merric can use regardless[NL]
+of weapon level. Deals bonus damage to[NL]
+flying units. Cannot be sold.[.][X]
+
+## ImhulluName
+Imhullu[.][X]
+## ImhulluDesc
+Seals an enemy's attacks.[.][NL]
+Cannot be sold.[.][X]
+
+## StarlightName
+Starlight[.][X]
+## StarlightDesc
+Ignores sealing effect of[NL]
+Imhullu. Cannot be sold.[.][X]
+
+## AumName
+Aum[.][X]
+## AumDesc
+Noblewomen only.[.][NL]
+Revives a single dead ally.[.][X]
+
+## AumPickReviveText
+Revive who?[X]

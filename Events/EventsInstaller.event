@@ -5,4 +5,5 @@
 //Chapters
 #include "ChaptersEvents.event"
 //World Map
+#include "wmOpening.event"
 #include "WorldMapEvents.event"

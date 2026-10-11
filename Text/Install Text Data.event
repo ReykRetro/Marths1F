@@ -3681,6 +3681,234 @@ __TEXTPROCESS8DB:
 #incext ParseFile ".TextEntries/text_buildfile8DB.fetxt"
 setText($8DB, __TEXTPROCESS8DB)
 
+__TEXTPROCESSFE2:
+#incext ParseFile ".TextEntries/text_buildfilelevinSwordname.fetxt"
+setText($FE2, __TEXTPROCESSFE2)
+
+__TEXTPROCESSFE3:
+#incext ParseFile ".TextEntries/text_buildfilelevinSworddesc.fetxt"
+setText($FE3, __TEXTPROCESSFE3)
+
+__TEXTPROCESSFE4:
+#incext ParseFile ".TextEntries/text_buildfiledevilSwordname.fetxt"
+setText($FE4, __TEXTPROCESSFE4)
+
+__TEXTPROCESSFE5:
+#incext ParseFile ".TextEntries/text_buildfiledevilSworddesc.fetxt"
+setText($FE5, __TEXTPROCESSFE5)
+
+__TEXTPROCESSFE6:
+#incext ParseFile ".TextEntries/text_buildfilemercuriusName.fetxt"
+setText($FE6, __TEXTPROCESSFE6)
+
+__TEXTPROCESSFE7:
+#incext ParseFile ".TextEntries/text_buildfilemercuriusDesc.fetxt"
+setText($FE7, __TEXTPROCESSFE7)
+
+__TEXTPROCESSFE8:
+#incext ParseFile ".TextEntries/text_buildfilefalchionfakeName.fetxt"
+setText($FE8, __TEXTPROCESSFE8)
+
+__TEXTPROCESSFE9:
+#incext ParseFile ".TextEntries/text_buildfilefalchionfakeDesc.fetxt"
+setText($FE9, __TEXTPROCESSFE9)
+
+__TEXTPROCESSFEA:
+#incext ParseFile ".TextEntries/text_buildfilefalchioShortName.fetxt"
+setText($FEA, __TEXTPROCESSFEA)
+
+__TEXTPROCESSFEB:
+#incext ParseFile ".TextEntries/text_buildfilefalchionShortDesc.fetxt"
+setText($FEB, __TEXTPROCESSFEB)
+
+__TEXTPROCESSFEC:
+#incext ParseFile ".TextEntries/text_buildfilefalchionTrueName.fetxt"
+setText($FEC, __TEXTPROCESSFEC)
+
+__TEXTPROCESSFED:
+#incext ParseFile ".TextEntries/text_buildfilefalchionTrueDesc.fetxt"
+setText($FED, __TEXTPROCESSFED)
+
+__TEXTPROCESSFEE:
+#incext ParseFile ".TextEntries/text_buildfilewingSpearName.fetxt"
+setText($FEE, __TEXTPROCESSFEE)
+
+__TEXTPROCESSFEF:
+#incext ParseFile ".TextEntries/text_buildfilewingSpearDesc.fetxt"
+setText($FEF, __TEXTPROCESSFEF)
+
+__TEXTPROCESSFF0:
+#incext ParseFile ".TextEntries/text_buildfileGradivusName.fetxt"
+setText($FF0, __TEXTPROCESSFF0)
+
+__TEXTPROCESSFF1:
+#incext ParseFile ".TextEntries/text_buildfileGradivusDesc.fetxt"
+setText($FF1, __TEXTPROCESSFF1)
+
+__TEXTPROCESSFF2:
+#incext ParseFile ".TextEntries/text_buildfileHauteclereName.fetxt"
+setText($FF2, __TEXTPROCESSFF2)
+
+__TEXTPROCESSFF3:
+#incext ParseFile ".TextEntries/text_buildfileHauteclereDesc.fetxt"
+setText($FF3, __TEXTPROCESSFF3)
+
+__TEXTPROCESSFF4:
+#incext ParseFile ".TextEntries/text_buildfileParthiaName.fetxt"
+setText($FF4, __TEXTPROCESSFF4)
+
+__TEXTPROCESSFF5:
+#incext ParseFile ".TextEntries/text_buildfileParthiaDesc.fetxt"
+setText($FF5, __TEXTPROCESSFF5)
+
+__TEXTPROCESSFF6:
+#incext ParseFile ".TextEntries/text_buildfileArrowspateName.fetxt"
+setText($FF6, __TEXTPROCESSFF6)
+
+__TEXTPROCESSFF7:
+#incext ParseFile ".TextEntries/text_buildfileArrowspateDesc.fetxt"
+setText($FF7, __TEXTPROCESSFF7)
+
+__TEXTPROCESSFF8:
+#incext ParseFile ".TextEntries/text_buildfileStonehoistName.fetxt"
+setText($FF8, __TEXTPROCESSFF8)
+
+__TEXTPROCESSFF9:
+#incext ParseFile ".TextEntries/text_buildfileStonehoistDesc.fetxt"
+setText($FF9, __TEXTPROCESSFF9)
+
+__TEXTPROCESSFFA:
+#incext ParseFile ".TextEntries/text_buildfileHoistflammeName.fetxt"
+setText($FFA, __TEXTPROCESSFFA)
+
+__TEXTPROCESSFFB:
+#incext ParseFile ".TextEntries/text_buildfileHoistflammeDesc.fetxt"
+setText($FFB, __TEXTPROCESSFFB)
+
+__TEXTPROCESSFFC:
+#incext ParseFile ".TextEntries/text_buildfileThunderboltName.fetxt"
+setText($FFC, __TEXTPROCESSFFC)
+
+__TEXTPROCESSFFD:
+#incext ParseFile ".TextEntries/text_buildfileThunderboltDesc.fetxt"
+setText($FFD, __TEXTPROCESSFFD)
+
+__TEXTPROCESSFFE:
+#incext ParseFile ".TextEntries/text_buildfilePachydermName.fetxt"
+setText($FFE, __TEXTPROCESSFFE)
+
+__TEXTPROCESSFFF:
+#incext ParseFile ".TextEntries/text_buildfilePachydermDesc.fetxt"
+setText($FFF, __TEXTPROCESSFFF)
+
+__TEXTPROCESS1000:
+#incext ParseFile ".TextEntries/text_buildfileFirestoneName.fetxt"
+setText($1000, __TEXTPROCESS1000)
+
+__TEXTPROCESS1001:
+#incext ParseFile ".TextEntries/text_buildfileFirestoneDesc.fetxt"
+setText($1001, __TEXTPROCESS1001)
+
+__TEXTPROCESS1002:
+#incext ParseFile ".TextEntries/text_buildfileEarthstoneName.fetxt"
+setText($1002, __TEXTPROCESS1002)
+
+__TEXTPROCESS1003:
+#incext ParseFile ".TextEntries/text_buildfileEarthstoneDesc.fetxt"
+setText($1003, __TEXTPROCESS1003)
+
+__TEXTPROCESS1004:
+#incext ParseFile ".TextEntries/text_buildfileMagestoneName.fetxt"
+setText($1004, __TEXTPROCESS1004)
+
+__TEXTPROCESS1005:
+#incext ParseFile ".TextEntries/text_buildfileMagestoneDesc.fetxt"
+setText($1005, __TEXTPROCESS1005)
+
+__TEXTPROCESS1006:
+#incext ParseFile ".TextEntries/text_buildfileBlizzardName.fetxt"
+setText($1006, __TEXTPROCESS1006)
+
+__TEXTPROCESS1007:
+#incext ParseFile ".TextEntries/text_buildfileBlizzarddesc.fetxt"
+setText($1007, __TEXTPROCESS1007)
+
+__TEXTPROCESS1008:
+#incext ParseFile ".TextEntries/text_buildfileimhulluFakeName.fetxt"
+setText($1008, __TEXTPROCESS1008)
+
+__TEXTPROCESS1009:
+#incext ParseFile ".TextEntries/text_buildfileImhulluFakeDesc.fetxt"
+setText($1009, __TEXTPROCESS1009)
+
+__TEXTPROCESS100A:
+#incext ParseFile ".TextEntries/text_buildfileBolganoneName.fetxt"
+setText($100A, __TEXTPROCESS100A)
+
+__TEXTPROCESS100B:
+#incext ParseFile ".TextEntries/text_buildfileBolganoneDesc.fetxt"
+setText($100B, __TEXTPROCESS100B)
+
+__TEXTPROCESS100C:
+#incext ParseFile ".TextEntries/text_buildfileThoronName.fetxt"
+setText($100C, __TEXTPROCESS100C)
+
+__TEXTPROCESS100D:
+#incext ParseFile ".TextEntries/text_buildfileThoronDesc.fetxt"
+setText($100D, __TEXTPROCESS100D)
+
+__TEXTPROCESS100E:
+#incext ParseFile ".TextEntries/text_buildfileSwarmName.fetxt"
+setText($100E, __TEXTPROCESS100E)
+
+__TEXTPROCESS100F:
+#incext ParseFile ".TextEntries/text_buildfileSwarmDesc.fetxt"
+setText($100F, __TEXTPROCESS100F)
+
+__TEXTPROCESS1010:
+#incext ParseFile ".TextEntries/text_buildfileAuraName.fetxt"
+setText($1010, __TEXTPROCESS1010)
+
+__TEXTPROCESS1011:
+#incext ParseFile ".TextEntries/text_buildfileAuraDesc.fetxt"
+setText($1011, __TEXTPROCESS1011)
+
+__TEXTPROCESS1012:
+#incext ParseFile ".TextEntries/text_buildfileExcaliburName.fetxt"
+setText($1012, __TEXTPROCESS1012)
+
+__TEXTPROCESS1013:
+#incext ParseFile ".TextEntries/text_buildfileExcaliburDesc.fetxt"
+setText($1013, __TEXTPROCESS1013)
+
+__TEXTPROCESS1014:
+#incext ParseFile ".TextEntries/text_buildfileImhulluName.fetxt"
+setText($1014, __TEXTPROCESS1014)
+
+__TEXTPROCESS1015:
+#incext ParseFile ".TextEntries/text_buildfileImhulluDesc.fetxt"
+setText($1015, __TEXTPROCESS1015)
+
+__TEXTPROCESS1016:
+#incext ParseFile ".TextEntries/text_buildfileStarlightName.fetxt"
+setText($1016, __TEXTPROCESS1016)
+
+__TEXTPROCESS1017:
+#incext ParseFile ".TextEntries/text_buildfileStarlightDesc.fetxt"
+setText($1017, __TEXTPROCESS1017)
+
+__TEXTPROCESS1018:
+#incext ParseFile ".TextEntries/text_buildfileAumName.fetxt"
+setText($1018, __TEXTPROCESS1018)
+
+__TEXTPROCESS1019:
+#incext ParseFile ".TextEntries/text_buildfileAumDesc.fetxt"
+setText($1019, __TEXTPROCESS1019)
+
+__TEXTPROCESS101A:
+#incext ParseFile ".TextEntries/text_buildfileAumPickReviveText.fetxt"
+setText($101A, __TEXTPROCESS101A)
+
 __TEXTPROCESS903:
 #incext ParseFile ".TextEntries/text_buildfileConvoP1.fetxt"
 setText($903, __TEXTPROCESS903)
@@ -3848,6 +4076,146 @@ setText($92E, __TEXTPROCESS92E)
 __TEXTPROCESS92F:
 #incext ParseFile ".TextEntries/text_buildfilegrdM.fetxt"
 setText($92F, __TEXTPROCESS92F)
+
+__TEXTPROCESS96C:
+#incext ParseFile ".TextEntries/text_buildfile96C.fetxt"
+setText($96C, __TEXTPROCESS96C)
+
+__TEXTPROCESS96E:
+#incext ParseFile ".TextEntries/text_buildfilemallmartdec1.fetxt"
+setText($96E, __TEXTPROCESS96E)
+
+__TEXTPROCESS96F:
+#incext ParseFile ".TextEntries/text_buildfilemallmartdec2.fetxt"
+setText($96F, __TEXTPROCESS96F)
+
+__TEXTPROCESS970:
+#incext ParseFile ".TextEntries/text_buildfilemarthD.fetxt"
+setText($970, __TEXTPROCESS970)
+
+__TEXTPROCESS971:
+#incext ParseFile ".TextEntries/text_buildfileabeld.fetxt"
+setText($971, __TEXTPROCESS971)
+
+__TEXTPROCESS972:
+#incext ParseFile ".TextEntries/text_buildfilefreyD.fetxt"
+setText($972, __TEXTPROCESS972)
+
+__TEXTPROCESS973:
+#incext ParseFile ".TextEntries/text_buildfilejagenD.fetxt"
+setText($973, __TEXTPROCESS973)
+
+__TEXTPROCESS974:
+#incext ParseFile ".TextEntries/text_buildfilecainD.fetxt"
+setText($974, __TEXTPROCESS974)
+
+__TEXTPROCESS975:
+#incext ParseFile ".TextEntries/text_buildfilegordinD.fetxt"
+setText($975, __TEXTPROCESS975)
+
+__TEXTPROCESS976:
+#incext ParseFile ".TextEntries/text_buildfilecrazyGRA.fetxt"
+setText($976, __TEXTPROCESS976)
+
+__TEXTPROCESS977:
+#incext ParseFile ".TextEntries/text_buildfiledecoyJIOL.fetxt"
+setText($977, __TEXTPROCESS977)
+
+__TEXTPROCESS978:
+#incext ParseFile ".TextEntries/text_buildfilemarDcrys.fetxt"
+setText($978, __TEXTPROCESS978)
+
+__TEXTPROCESS979:
+#incext ParseFile ".TextEntries/text_buildfilesoldcaRun.fetxt"
+setText($979, __TEXTPROCESS979)
+
+__TEXTPROCESS97A:
+#incext ParseFile ".TextEntries/text_buildfilemartgrode.fetxt"
+setText($97A, __TEXTPROCESS97A)
+
+__TEXTPROCESS97B:
+#incext ParseFile ".TextEntries/text_buildfilesoldcapgrten.fetxt"
+setText($97B, __TEXTPROCESS97B)
+
+__TEXTPROCESS97C:
+#incext ParseFile ".TextEntries/text_buildfilesoldcaporMarth.fetxt"
+setText($97C, __TEXTPROCESS97C)
+
+__TEXTPROCESS97D:
+#incext ParseFile ".TextEntries/text_buildfilemalledusVillage1.fetxt"
+setText($97D, __TEXTPROCESS97D)
+
+__TEXTPROCESS97E:
+#incext ParseFile ".TextEntries/text_buildfilemalledusVillage2.fetxt"
+setText($97E, __TEXTPROCESS97E)
+
+__TEXTPROCESS97F:
+#incext ParseFile ".TextEntries/text_buildfiledraguMt.fetxt"
+setText($97F, __TEXTPROCESS97F)
+
+__TEXTPROCESS980:
+#incext ParseFile ".TextEntries/text_buildfiledraugFvie.fetxt"
+setText($980, __TEXTPROCESS980)
+
+__TEXTPROCESS981:
+#incext ParseFile ".TextEntries/text_buildfiledraugNone.fetxt"
+setText($981, __TEXTPROCESS981)
+
+__TEXTPROCESS982:
+#incext ParseFile ".TextEntries/text_buildfilejiolDec.fetxt"
+setText($982, __TEXTPROCESS982)
+
+__TEXTPROCESS983:
+#incext ParseFile ".TextEntries/text_buildfileAbeldLW.fetxt"
+setText($983, __TEXTPROCESS983)
+
+__TEXTPROCESS984:
+#incext ParseFile ".TextEntries/text_buildfileFreydLW.fetxt"
+setText($984, __TEXTPROCESS984)
+
+__TEXTPROCESS985:
+#incext ParseFile ".TextEntries/text_buildfileJagenDLW.fetxt"
+setText($985, __TEXTPROCESS985)
+
+__TEXTPROCESS986:
+#incext ParseFile ".TextEntries/text_buildfileCainDLW.fetxt"
+setText($986, __TEXTPROCESS986)
+
+__TEXTPROCESS987:
+#incext ParseFile ".TextEntries/text_buildfileGordinDLW.fetxt"
+setText($987, __TEXTPROCESS987)
+
+__TEXTPROCESS98A:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg1.fetxt"
+setText($98A, __TEXTPROCESS98A)
+
+__TEXTPROCESS98B:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg2.fetxt"
+setText($98B, __TEXTPROCESS98B)
+
+__TEXTPROCESS98C:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg3.fetxt"
+setText($98C, __TEXTPROCESS98C)
+
+__TEXTPROCESS98D:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg4.fetxt"
+setText($98D, __TEXTPROCESS98D)
+
+__TEXTPROCESS98E:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg5.fetxt"
+setText($98E, __TEXTPROCESS98E)
+
+__TEXTPROCESS98F:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg6.fetxt"
+setText($98F, __TEXTPROCESS98F)
+
+__TEXTPROCESS990:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg7.fetxt"
+setText($990, __TEXTPROCESS990)
+
+__TEXTPROCESS991:
+#incext ParseFile ".TextEntries/text_buildfilejagMsCg8.fetxt"
+setText($991, __TEXTPROCESS991)
 
 }
 

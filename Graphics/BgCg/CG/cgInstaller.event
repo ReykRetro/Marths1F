@@ -1,132 +1,589 @@
-////////////////////////////////////////////////////////
 ALIGN 4
-fe11_anris_img:
-#incbin "dmp/fe11_anris_png.dmp"
+CgFE11i0_img:
+#incbin "dmp/CgFE11i0_png.dmp"
 ALIGN 4
-fe11_anris_pal:
-#incbin "dmp/fe11_anris_pal.dmp"
+CgFE11i0_pal:
+#incbin "dmp/CgFE11i0_pal.dmp"
 ALIGN 4
-fe11_anris_tsa:
-#incbin "dmp/fe11_anris_tsa.dmp"
+CgFE11i0_tsa:
+#incbin "dmp/CgFE11i0_tsa.dmp"
 
 ALIGN 4
-fe11_medeus_img:
-#incbin "dmp/fe11_medeis_png.dmp"
+CgFE11i1_img:
+#incbin "dmp/CgFE11i1_png.dmp"
 ALIGN 4
-fe11_medeus_pal:
-#incbin "dmp/fe11_medeis_pal.dmp"
+CgFE11i1_pal:
+#incbin "dmp/CgFE11i1_pal.dmp"
 ALIGN 4
-fe11_medeus_tsa:
-#incbin "dmp/fe11_medeis_tsa.dmp"
+CgFE11i1_tsa:
+#incbin "dmp/CgFE11i1_tsa.dmp"
 
 ALIGN 4
-fe11_marthElice_img:
-#incbin "dmp/fe11_marthElice_png.dmp"
+CgFE11i2_img:
+#incbin "dmp/CgFE11i2_png.dmp"
 ALIGN 4
-fe11_marthElice_pal:
-#incbin "dmp/fe11_marthElice_pal.dmp"
+CgFE11i2_pal:
+#incbin "dmp/CgFE11i2_pal.dmp"
 ALIGN 4
-fe11_marthElice_tsa:
-#incbin "dmp/fe11_marthElice_tsa.dmp"
+CgFE11i2_tsa:
+#incbin "dmp/CgFE11i2_tsa.dmp"
 
 ALIGN 4
-fe11_dragonDeath_img:
-#incbin "dmp/fe11_dragonDeath_png.dmp"
+CgFE11i3p1_img:
+#incbin "dmp/CgFE11i3p1_png.dmp"
 ALIGN 4
-fe11_dragonDeath_pal:
-#incbin "dmp/fe11_dragonDeath_pal.dmp"
+CgFE11i3p1_pal:
+#incbin "dmp/CgFE11i3p1_pal.dmp"
 ALIGN 4
-fe11_dragonDeath_tsa:
-#incbin "dmp/fe11_dragonDeath_tsa.dmp"
+CgFE11i3p1_tsa:
+#incbin "dmp/CgFE11i3p1_tsa.dmp"
 
 ALIGN 4
-fe11_gharnef_img:
-#incbin "dmp/fe11_gharnef_png.dmp"
+CgFE11i3p2_img:
+#incbin "dmp/CgFE11i3p2_png.dmp"
 ALIGN 4
-fe11_gharnef_pal:
-#incbin "dmp/fe11_gharnef_pal.dmp"
+CgFE11i3p2_pal:
+#incbin "dmp/CgFE11i3p2_pal.dmp"
 ALIGN 4
-fe11_gharnef_tsa:
-#incbin "dmp/fe11_gharnef_tsa.dmp"
+CgFE11i3p2_tsa:
+#incbin "dmp/CgFE11i3p2_tsa.dmp"
 
 ALIGN 4
-fe11_gharnefTiki_img:
-#incbin "dmp/fe11_gharnefTiki_png.dmp"
+CgFE11i4_img:
+#incbin "dmp/CgFE11i4_png.dmp"
 ALIGN 4
-fe11_gharnefTiki_pal:
-#incbin "dmp/fe11_gharnefTiki_pal.dmp"
+CgFE11i4_pal:
+#incbin "dmp/CgFE11i4_pal.dmp"
 ALIGN 4
-fe11_gharnefTiki_tsa:
-#incbin "dmp/fe11_gharnefTiki_tsa.dmp"
+CgFE11i4_tsa:
+#incbin "dmp/CgFE11i4_tsa.dmp"
 
 ALIGN 4
-fe11_marthFight_img:
-#incbin "dmp/fe11_marthFight_png.dmp"
+CgFE11p3_img:
+#incbin "dmp/CgFE11p3_png.dmp"
 ALIGN 4
-fe11_marthFight_pal:
-#incbin "dmp/fe11_marthFight_pal.dmp"
+CgFE11p3_pal:
+#incbin "dmp/CgFE11p3_pal.dmp"
 ALIGN 4
-fe11_marthFight_tsa:
-#incbin "dmp/fe11_marthFight_tsa.dmp"
+CgFE11p3_tsa:
+#incbin "dmp/CgFE11p3_tsa.dmp"
 
 ALIGN 4
-fe11_marthRises_img:
-#incbin "dmp/fe11_marthRises_png.dmp"
+CgFE11p4_img:
+#incbin "dmp/CgFE11p4_png.dmp"
 ALIGN 4
-fe11_marthRises_pal:
-#incbin "dmp/fe11_marthRises_pal.dmp"
+CgFE11p4_pal:
+#incbin "dmp/CgFE11p4_pal.dmp"
 ALIGN 4
-fe11_marthRises_tsa:
-#incbin "dmp/fe11_marthRises_tsa.dmp"
+CgFE11p4_tsa:
+#incbin "dmp/CgFE11p4_tsa.dmp"
 
 ALIGN 4
-fe11_marthStrikes_img:
-#incbin "dmp/fe11_marthStrikes_png.dmp"
+CgFE11c1_img:
+#incbin "dmp/CgFE11c1_png.dmp"
 ALIGN 4
-fe11_marthStrikes_pal:
-#incbin "dmp/fe11_marthStrikes_pal.dmp"
+CgFE11c1_pal:
+#incbin "dmp/CgFE11c1_pal.dmp"
 ALIGN 4
-fe11_marthStrikes_tsa:
-#incbin "dmp/fe11_marthStrikes_tsa.dmp"
+CgFE11c1_tsa:
+#incbin "dmp/CgFE11c1_tsa.dmp"
 
 ALIGN 4
-fe11_marthShip_img:
-#incbin "dmp/fe11_marthShip_png.dmp"
+CgFE11c2_img:
+#incbin "dmp/CgFE11c2_png.dmp"
 ALIGN 4
-fe11_marthShip_pal:
-#incbin "dmp/fe11_marthShip_pal.dmp"
+CgFE11c2_pal:
+#incbin "dmp/CgFE11c2_pal.dmp"
 ALIGN 4
-fe11_marthShip_tsa:
-#incbin "dmp/fe11_marthShip_tsa.dmp"
+CgFE11c2_tsa:
+#incbin "dmp/CgFE11c2_tsa.dmp"
 
 ALIGN 4
-fe11_Reunion_img:
-#incbin "dmp/fe11_Reunion_png.dmp"
+CgFE11c3_img:
+#incbin "dmp/CgFE11c3_png.dmp"
 ALIGN 4
-fe11_Reunion_pal:
-#incbin "dmp/fe11_Reunion_pal.dmp"
+CgFE11c3_pal:
+#incbin "dmp/CgFE11c3_pal.dmp"
 ALIGN 4
-fe11_Reunion_tsa:
-#incbin "dmp/fe11_Reunion_tsa.dmp"
-////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
-SetBG(0x7a,fe11_anris_img,fe11_anris_pal,fe11_anris_tsa)
-SetBG(0x7b,fe11_medeus_img,fe11_medeus_pal,fe11_medeus_tsa)
-SetBG(0x7c,fe11_marthElice_img,fe11_marthElice_pal,fe11_marthElice_tsa)
-SetBG(0x7d,fe11_dragonDeath_img,fe11_dragonDeath_pal,fe11_dragonDeath_tsa)
-SetBG(0x7e,fe11_gharnef_img,fe11_gharnef_pal,fe11_gharnef_tsa)
-SetBG(0x7f,fe11_gharnefTiki_img,fe11_gharnefTiki_pal,fe11_gharnefTiki_tsa)
-SetBG(0x80,fe11_marthFight_img,fe11_marthFight_pal,fe11_marthFight_tsa)
-SetBG(0x81,fe11_marthRises_img,fe11_marthRises_pal,fe11_marthRises_tsa)
-SetBG(0x82,fe11_marthStrikes_img,fe11_marthStrikes_pal,fe11_marthStrikes_tsa)
-SetBG(0x83,fe11_marthShip_img,fe11_marthShip_pal,fe11_marthShip_tsa)
-SetBG(0x84,fe11_Reunion_img,fe11_Reunion_pal,fe11_Reunion_tsa)
-SetBG(0x85,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x86,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x87,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x88,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x89,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x8a,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x8b,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-SetBG(0x8c,BlankBG_img,BlankBG_pal,BlankBG_tsa)
-////////////////////////////////////////////////////////
+CgFE11c3_tsa:
+#incbin "dmp/CgFE11c3_tsa.dmp"
+
+ALIGN 4
+CgFE11c4_img:
+#incbin "dmp/CgFE11c4_png.dmp"
+ALIGN 4
+CgFE11c4_pal:
+#incbin "dmp/CgFE11c4_pal.dmp"
+ALIGN 4
+CgFE11c4_tsa:
+#incbin "dmp/CgFE11c4_tsa.dmp"
+
+ALIGN 4
+CgFE11c5_img:
+#incbin "dmp/CgFE11c5_png.dmp"
+ALIGN 4
+CgFE11c5_pal:
+#incbin "dmp/CgFE11c5_pal.dmp"
+ALIGN 4
+CgFE11c5_tsa:
+#incbin "dmp/CgFE11c5_tsa.dmp"
+
+ALIGN 4
+CgFE11c6_img:
+#incbin "dmp/CgFE11c6_png.dmp"
+ALIGN 4
+CgFE11c6_pal:
+#incbin "dmp/CgFE11c6_pal.dmp"
+ALIGN 4
+CgFE11c6_tsa:
+#incbin "dmp/CgFE11c6_tsa.dmp"
+
+ALIGN 4
+CgFE11c6x_img:
+#incbin "dmp/CgFE11c6x_png.dmp"
+ALIGN 4
+CgFE11c6x_pal:
+#incbin "dmp/CgFE11c6x_pal.dmp"
+ALIGN 4
+CgFE11c6x_tsa:
+#incbin "dmp/CgFE11c6x_tsa.dmp"
+
+ALIGN 4
+CgFE11c7_img:
+#incbin "dmp/CgFE11c7_png.dmp"
+ALIGN 4
+CgFE11c7_pal:
+#incbin "dmp/CgFE11c7_pal.dmp"
+ALIGN 4
+CgFE11c7_tsa:
+#incbin "dmp/CgFE11c7_tsa.dmp"
+
+ALIGN 4
+CgFE11c8_img:
+#incbin "dmp/CgFE11c8_png.dmp"
+ALIGN 4
+CgFE11c8_pal:
+#incbin "dmp/CgFE11c8_pal.dmp"
+ALIGN 4
+CgFE11c8_tsa:
+#incbin "dmp/CgFE11c8_tsa.dmp"
+
+ALIGN 4
+CgFE11c9_img:
+#incbin "dmp/CgFE11c9_png.dmp"
+ALIGN 4
+CgFE11c9_pal:
+#incbin "dmp/CgFE11c9_pal.dmp"
+ALIGN 4
+CgFE11c9_tsa:
+#incbin "dmp/CgFE11c9_tsa.dmp"
+
+ALIGN 4
+CgFE11c10_img:
+#incbin "dmp/CgFE11c10_png.dmp"
+ALIGN 4
+CgFE11c10_pal:
+#incbin "dmp/CgFE11c10_pal.dmp"
+ALIGN 4
+CgFE11c10_tsa:
+#incbin "dmp/CgFE11c10_tsa.dmp"
+
+ALIGN 4
+CgFE11c11_img:
+#incbin "dmp/CgFE11c11_png.dmp"
+ALIGN 4
+CgFE11c11_pal:
+#incbin "dmp/CgFE11c11_pal.dmp"
+ALIGN 4
+CgFE11c11_tsa:
+#incbin "dmp/CgFE11c11_tsa.dmp"
+
+ALIGN 4
+CgFE11c12_img:
+#incbin "dmp/CgFE11c12_png.dmp"
+ALIGN 4
+CgFE11c12_pal:
+#incbin "dmp/CgFE11c12_pal.dmp"
+ALIGN 4
+CgFE11c12_tsa:
+#incbin "dmp/CgFE11c12_tsa.dmp"
+
+ALIGN 4
+CgFE11c12x_img:
+#incbin "dmp/CgFE11c12x_png.dmp"
+ALIGN 4
+CgFE11c12x_pal:
+#incbin "dmp/CgFE11c12x_pal.dmp"
+ALIGN 4
+CgFE11c12x_tsa:
+#incbin "dmp/CgFE11c12x_tsa.dmp"
+
+ALIGN 4
+CgFE11c13_img:
+#incbin "dmp/CgFE11c13_png.dmp"
+ALIGN 4
+CgFE11c13_pal:
+#incbin "dmp/CgFE11c13_pal.dmp"
+ALIGN 4
+CgFE11c13_tsa:
+#incbin "dmp/CgFE11c13_tsa.dmp"
+
+ALIGN 4
+CgFE11c14_img:
+#incbin "dmp/CgFE11c14_png.dmp"
+ALIGN 4
+CgFE11c14_pal:
+#incbin "dmp/CgFE11c14_pal.dmp"
+ALIGN 4
+CgFE11c14_tsa:
+#incbin "dmp/CgFE11c14_tsa.dmp"
+
+ALIGN 4
+CgFE11c15_img:
+#incbin "dmp/CgFE11c15_png.dmp"
+ALIGN 4
+CgFE11c15_pal:
+#incbin "dmp/CgFE11c15_pal.dmp"
+ALIGN 4
+CgFE11c15_tsa:
+#incbin "dmp/CgFE11c15_tsa.dmp"
+
+ALIGN 4
+CgFE11c16_img:
+#incbin "dmp/CgFE11c16_png.dmp"
+ALIGN 4
+CgFE11c16_pal:
+#incbin "dmp/CgFE11c16_pal.dmp"
+ALIGN 4
+CgFE11c16_tsa:
+#incbin "dmp/CgFE11c16_tsa.dmp"
+
+ALIGN 4
+CgFE11c17_img:
+#incbin "dmp/CgFE11c17_png.dmp"
+ALIGN 4
+CgFE11c17_pal:
+#incbin "dmp/CgFE11c17_pal.dmp"
+ALIGN 4
+CgFE11c17_tsa:
+#incbin "dmp/CgFE11c17_tsa.dmp"
+
+ALIGN 4
+CgFE11c17x_img:
+#incbin "dmp/CgFE11c17x_png.dmp"
+ALIGN 4
+CgFE11c17x_pal:
+#incbin "dmp/CgFE11c17x_pal.dmp"
+ALIGN 4
+CgFE11c17x_tsa:
+#incbin "dmp/CgFE11c17x_tsa.dmp"
+
+ALIGN 4
+CgFE11c18_img:
+#incbin "dmp/CgFE11c18_png.dmp"
+ALIGN 4
+CgFE11c18_pal:
+#incbin "dmp/CgFE11c18_pal.dmp"
+ALIGN 4
+CgFE11c18_tsa:
+#incbin "dmp/CgFE11c18_tsa.dmp"
+
+ALIGN 4
+CgFE11c19_img:
+#incbin "dmp/CgFE11c19_png.dmp"
+ALIGN 4
+CgFE11c19_pal:
+#incbin "dmp/CgFE11c19_pal.dmp"
+ALIGN 4
+CgFE11c19_tsa:
+#incbin "dmp/CgFE11c19_tsa.dmp"
+
+ALIGN 4
+CgFE11c20_img:
+#incbin "dmp/CgFE11c20_png.dmp"
+ALIGN 4
+CgFE11c20_pal:
+#incbin "dmp/CgFE11c20_pal.dmp"
+ALIGN 4
+CgFE11c20_tsa:
+#incbin "dmp/CgFE11c20_tsa.dmp"
+
+ALIGN 4
+CgFE11c20x_img:
+#incbin "dmp/CgFE11c20x_png.dmp"
+ALIGN 4
+CgFE11c20x_pal:
+#incbin "dmp/CgFE11c20x_pal.dmp"
+ALIGN 4
+CgFE11c20x_tsa:
+#incbin "dmp/CgFE11c20x_tsa.dmp"
+
+ALIGN 4
+CgFE11c21_img:
+#incbin "dmp/CgFE11c21_png.dmp"
+ALIGN 4
+CgFE11c21_pal:
+#incbin "dmp/CgFE11c21_pal.dmp"
+ALIGN 4
+CgFE11c21_tsa:
+#incbin "dmp/CgFE11c21_tsa.dmp"
+
+ALIGN 4
+CgFE11c22_img:
+#incbin "dmp/CgFE11c22_png.dmp"
+ALIGN 4
+CgFE11c22_pal:
+#incbin "dmp/CgFE11c22_pal.dmp"
+ALIGN 4
+CgFE11c22_tsa:
+#incbin "dmp/CgFE11c22_tsa.dmp"
+
+ALIGN 4
+CgFE11c23_img:
+#incbin "dmp/CgFE11c23_png.dmp"
+ALIGN 4
+CgFE11c23_pal:
+#incbin "dmp/CgFE11c23_pal.dmp"
+ALIGN 4
+CgFE11c23_tsa:
+#incbin "dmp/CgFE11c23_tsa.dmp"
+
+ALIGN 4
+CgFE11c24p1_img:
+#incbin "dmp/CgFE11c24p1_png.dmp"
+ALIGN 4
+CgFE11c24p1_pal:
+#incbin "dmp/CgFE11c24p1_pal.dmp"
+ALIGN 4
+CgFE11c24p1_tsa:
+#incbin "dmp/CgFE11c24p1_tsa.dmp"
+
+ALIGN 4
+CgFE11c24p2_img:
+#incbin "dmp/CgFE11c24p2_png.dmp"
+ALIGN 4
+CgFE11c24p2_pal:
+#incbin "dmp/CgFE11c24p2_pal.dmp"
+ALIGN 4
+CgFE11c24p2_tsa:
+#incbin "dmp/CgFE11c24p2_tsa.dmp"
+
+ALIGN 4
+CgFE11c24x_img:
+#incbin "dmp/CgFE11c24x_png.dmp"
+ALIGN 4
+CgFE11c24x_pal:
+#incbin "dmp/CgFE11c24x_pal.dmp"
+ALIGN 4
+CgFE11c24x_tsa:
+#incbin "dmp/CgFE11c24x_tsa.dmp"
+
+ALIGN 4
+CgFE11cFinalp1_img:
+#incbin "dmp/CgFE11cFinalp1_png.dmp"
+ALIGN 4
+CgFE11cFinalp1_pal:
+#incbin "dmp/CgFE11cFinalp1_pal.dmp"
+ALIGN 4
+CgFE11cFinalp1_tsa:
+#incbin "dmp/CgFE11cFinalp1_tsa.dmp"
+
+ALIGN 4
+CgFE11cFinalp2_img:
+#incbin "dmp/CgFE11cFinalp2_png.dmp"
+ALIGN 4
+CgFE11cFinalp2_pal:
+#incbin "dmp/CgFE11cFinalp2_pal.dmp"
+ALIGN 4
+CgFE11cFinalp2_tsa:
+#incbin "dmp/CgFE11cFinalp2_tsa.dmp"
+
+ALIGN 4
+CgFE11evt01_img:
+#incbin "dmp/CgFE11evt01_png.dmp"
+ALIGN 4
+CgFE11evt01_pal:
+#incbin "dmp/CgFE11evt01_pal.dmp"
+ALIGN 4
+CgFE11evt01_tsa:
+#incbin "dmp/CgFE11evt01_tsa.dmp"
+
+ALIGN 4
+CgFE11evt02_img:
+#incbin "dmp/CgFE11evt02_png.dmp"
+ALIGN 4
+CgFE11evt02_pal:
+#incbin "dmp/CgFE11evt02_pal.dmp"
+ALIGN 4
+CgFE11evt02_tsa:
+#incbin "dmp/CgFE11evt02_tsa.dmp"
+
+ALIGN 4
+CgFE11evt03_img:
+#incbin "dmp/CgFE11evt03_png.dmp"
+ALIGN 4
+CgFE11evt03_pal:
+#incbin "dmp/CgFE11evt03_pal.dmp"
+ALIGN 4
+CgFE11evt03_tsa:
+#incbin "dmp/CgFE11evt03_tsa.dmp"
+
+ALIGN 4
+CgFE11evt04_img:
+#incbin "dmp/CgFE11evt04_png.dmp"
+ALIGN 4
+CgFE11evt04_pal:
+#incbin "dmp/CgFE11evt04_pal.dmp"
+ALIGN 4
+CgFE11evt04_tsa:
+#incbin "dmp/CgFE11evt04_tsa.dmp"
+
+ALIGN 4
+CgFE11evt05_img:
+#incbin "dmp/CgFE11evt05_png.dmp"
+ALIGN 4
+CgFE11evt05_pal:
+#incbin "dmp/CgFE11evt05_pal.dmp"
+ALIGN 4
+CgFE11evt05_tsa:
+#incbin "dmp/CgFE11evt05_tsa.dmp"
+
+ALIGN 4
+CgFE11evt06_img:
+#incbin "dmp/CgFE11evt06_png.dmp"
+ALIGN 4
+CgFE11evt06_pal:
+#incbin "dmp/CgFE11evt06_pal.dmp"
+ALIGN 4
+CgFE11evt06_tsa:
+#incbin "dmp/CgFE11evt06_tsa.dmp"
+
+ALIGN 4
+CgFE11evt07_img:
+#incbin "dmp/CgFE11evt07_png.dmp"
+ALIGN 4
+CgFE11evt07_pal:
+#incbin "dmp/CgFE11evt07_pal.dmp"
+ALIGN 4
+CgFE11evt07_tsa:
+#incbin "dmp/CgFE11evt07_tsa.dmp"
+
+ALIGN 4
+CgFE11evt08_img:
+#incbin "dmp/CgFE11evt08_png.dmp"
+ALIGN 4
+CgFE11evt08_pal:
+#incbin "dmp/CgFE11evt08_pal.dmp"
+ALIGN 4
+CgFE11evt08_tsa:
+#incbin "dmp/CgFE11evt08_tsa.dmp"
+
+ALIGN 4
+CgFE11evt09_img:
+#incbin "dmp/CgFE11evt09_png.dmp"
+ALIGN 4
+CgFE11evt09_pal:
+#incbin "dmp/CgFE11evt09_pal.dmp"
+ALIGN 4
+CgFE11evt09_tsa:
+#incbin "dmp/CgFE11evt09_tsa.dmp"
+
+ALIGN 4
+CgFE11evt10_img:
+#incbin "dmp/CgFE11evt10_png.dmp"
+ALIGN 4
+CgFE11evt10_pal:
+#incbin "dmp/CgFE11evt10_pal.dmp"
+ALIGN 4
+CgFE11evt10_tsa:
+#incbin "dmp/CgFE11evt10_tsa.dmp"
+
+ALIGN 4
+CgFE11evt11_img:
+#incbin "dmp/CgFE11evt11_png.dmp"
+ALIGN 4
+CgFE11evt11_pal:
+#incbin "dmp/CgFE11evt11_pal.dmp"
+ALIGN 4
+CgFE11evt11_tsa:
+#incbin "dmp/CgFE11evt11_tsa.dmp"
+
+ALIGN 4
+CgFE11misc01_img:
+#incbin "dmp/CgFE11misc01_png.dmp"
+ALIGN 4
+CgFE11misc01_pal:
+#incbin "dmp/CgFE11misc01_pal.dmp"
+ALIGN 4
+CgFE11misc01_tsa:
+#incbin "dmp/CgFE11misc01_tsa.dmp"
+
+ALIGN 4
+CgFE11misc02_img:
+#incbin "dmp/CgFE11misc02_png.dmp"
+ALIGN 4
+CgFE11misc02_pal:
+#incbin "dmp/CgFE11misc02_pal.dmp"
+ALIGN 4
+CgFE11misc02_tsa:
+#incbin "dmp/CgFE11misc02_tsa.dmp"
+
+ALIGN 4
+CgFE11op01_img:
+#incbin "dmp/CgFE11op01_png.dmp"
+ALIGN 4
+CgFE11op01_pal:
+#incbin "dmp/CgFE11op01_pal.dmp"
+ALIGN 4
+CgFE11op01_tsa:
+#incbin "dmp/CgFE11op01_tsa.dmp"
+
+ALIGN 4
+CgFE11op02_img:
+#incbin "dmp/CgFE11op02_png.dmp"
+ALIGN 4
+CgFE11op02_pal:
+#incbin "dmp/CgFE11op02_pal.dmp"
+ALIGN 4
+CgFE11op02_tsa:
+#incbin "dmp/CgFE11op02_tsa.dmp"
+
+ALIGN 4
+CgFE11op03_img:
+#incbin "dmp/CgFE11op03_png.dmp"
+ALIGN 4
+CgFE11op03_pal:
+#incbin "dmp/CgFE11op03_pal.dmp"
+ALIGN 4
+CgFE11op03_tsa:
+#incbin "dmp/CgFE11op03_tsa.dmp"
+
+ALIGN 4
+CgFE11op04_img:
+#incbin "dmp/CgFE11op04_png.dmp"
+ALIGN 4
+CgFE11op04_pal:
+#incbin "dmp/CgFE11op04_pal.dmp"
+ALIGN 4
+CgFE11op04_tsa:
+#incbin "dmp/CgFE11op04_tsa.dmp"
+
+ALIGN 4
+CgFE11op05_img:
+#incbin "dmp/CgFE11op05_png.dmp"
+ALIGN 4
+CgFE11op05_pal:
+#incbin "dmp/CgFE11op05_pal.dmp"
+ALIGN 4
+CgFE11op05_tsa:
+#incbin "dmp/CgFE11op05_tsa.dmp"
+
+ALIGN 4
+CgFE11op06_img:
+#incbin "dmp/CgFE11op06_png.dmp"
+ALIGN 4
+CgFE11op06_pal:
+#incbin "dmp/CgFE11op06_pal.dmp"
+ALIGN 4
+CgFE11op06_tsa:
+#incbin "dmp/CgFE11op06_tsa.dmp"

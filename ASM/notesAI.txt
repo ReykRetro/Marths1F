@@ -1,4 +1,4 @@
-AUM //third, [Vesly,SME], adaptado con IA
+AumPick //third, [SME,Jester,Vesly], adaptado con IA
 BattleAnimsUnitEA //third, [Tequila], OG
 ChangeEdition //OG, hecho con IA, OG
 CheckPlayers //OG, hecho con IA, OG

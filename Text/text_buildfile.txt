@@ -130,6 +130,7 @@ a skill when used.[X]
 #include "dq_text.txt"
 //#include "bq_text.txt"
 #include "wm_text.txt"
+#include "Items_text.txt"
 
 //capitulosPrologos
 #include "Chapters/PrologueI_text.txt"

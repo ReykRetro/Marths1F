@@ -132,7 +132,7 @@ ENUN
 STAL 60
 SetBackground(0x33)
 Text(0x925)
-SetBackground(0x8d)
+SetBackground(0xb5)
 Text(0x926)
 FADI 0x10
 CLEAN

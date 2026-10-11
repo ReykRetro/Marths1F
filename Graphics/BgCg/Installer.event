@@ -1,7 +1,7 @@
-#include "bgDefs.event"
+#include "bgRepointed.event"
 
 #include "BG/bgInstaller.event"
 #include "BG/bgSetup.event"
 
-//#include "CG/cgInstaller.event"
-//#include "CG/cgSetup.event"
+#include "CG/cgInstaller.event"
+#include "CG/cgSetup.event"

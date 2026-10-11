@@ -1,0 +1,56 @@
+
+////////////////////////////////////////////////////
+//                                                //
+// Disassembled with Nintenlord's Event Assembler //
+// Version: 11.1.0.0                              //
+// Game: FE8                                      //
+// File: FE8_clean.event_assembler.gba            //
+// Offset: $A39768                                //
+//                                                //
+////////////////////////////////////////////////////
+ALIGN 4
+WorldMapOpening:
+EVBIT_MODIFY 0x1
+_0xC220
+WM_SPAWNLORD 0x0 0x0 0x1 0x0 0x0
+WM_SETCAM 0x0 0x0
+MUSCFAST 0x7FFF
+STAL 32
+MUSC 0x4
+SetBackground(0x7b)
+STAL 2
+WM_FADEOUT 0x0 0x0 0x0
+WM_TEXTDECORATE
+EVBIT_MODIFY 0x0
+STAL 60
+WM_SHOWTEXTWINDOW 0x0 0x28 0x1
+WM_WAITFORTEXT
+WM_TEXTSTART
+WM_TEXT 0x8DB
+TEXTEND
+STAL 60
+SetBackground(0x7c)
+TEXTCONT
+TEXTEND
+STAL 60
+SetBackground(0x7d)
+TEXTCONT
+TEXTEND
+STAL 60
+SetBackground(0x7e)
+TEXTCONT
+TEXTEND
+STAL 60
+SetBackground(0x7f)
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITELOAD
+WM_REMOVETEXT
+STAL 2
+FADI 16
+SKIPWN
+WM_FXCLEAR1 0x0 0xFFFF 0xFFFF
+WM_FXCLEAR2 0x0 0xFFFF 0xFFFF
+ENDA
+
+WorldMapPointerTable(0,WorldMapOpening)

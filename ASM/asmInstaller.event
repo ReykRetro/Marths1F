@@ -5,11 +5,11 @@
 #include "DismountMount/DismountMountInstaller.event"
 #include "ChangeEdition/ChangeEdition.event"
 #include "MirrorMapSprites/Installer.event"
-#include "ResTerrainWindow/ResTerrainWindowInstaller.event" /* faltan de arreglar cosas */
+#include "ResTerrainWindow/ResTerrainWindowInstaller.event"
 #include "PortraitHeight/PortraitShiftTable.txt"
 #include "PartyCount/Installer.event"
 #include "SecondPortraitFix/Installer.event"
 #include "CheckPlayers/Installer.event"
-//#include "Aum/Aum.event"
 //#include "ClasslockedWeaponRanks/ClasslockedWeaponRanks.event" /* instalado desde antes en la build */
 #include "FadeSoloEndingPortraits/FadeSoloEndingPortraits.event"
+//#include "AumPick/Installer.event" /* instalado desde antes en la build */

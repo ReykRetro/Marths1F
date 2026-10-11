@@ -58,7 +58,7 @@ SetBG(0x31,Plainsv11_img,Plainsv11_pal,Plainsv11_tsa)
 SetBG(0x32,Plainsv12_img,Plainsv12_pal,Plainsv12_tsa)
 SetBG(0x33,Plainsv21_img,Plainsv21_pal,Plainsv21_tsa)
 SetBG(0x34,Plainsv22_img,Plainsv22_pal,Plainsv22_tsa)
-SetBG(0x8d,Plainsv23_img,Plainsv23_pal,Plainsv23_tsa)
+SetBG(0xb5,Plainsv23_img,Plainsv23_pal,Plainsv23_tsa)
 
 SetBG(0x35,BlankBG_img,BlankBG_pal,BlankBG_tsa) //don't touch  //unnecesary, just as reference
 //SetBG(0x36,BlankBG_img,BlankBG_pal,BlankBG_tsa) //don't touch  //unnecesary, just as reference

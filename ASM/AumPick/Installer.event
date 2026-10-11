@@ -1,0 +1,20 @@
+// AumPick -- el Aum (SME) como item, con lista para elegir a quien revivir.
+// Define las etiquetas AumUsability, AumEffect y FindDeadUnit que usa Item_Effect_Revamp.csv.
+//
+// IMPORTANTE: se incluye UNA sola vez, ANTES de las tablas (en ROMBuildfile.event).
+// El Aum original (ASM/Aum/Aum.event) debe quedar sin incluir en ningun sitio, o las
+// etiquetas se duplican y el item usa el Aum original.
+#include "AumPick.lyn.event"
+
+// ID del texto del titulo de la lista. "AumPickReviveText" se define en Text/Items_text.txt
+// (text-process le da un ID libre); aqui se escribe en el dato AumPickTextId del codigo.
+PUSH
+  ORG AumPickTextId
+  SHORT AumPickReviveText
+POP
+
+// Opcional, para eventos (sin item):
+//   AUM_COUNT_DEAD  -> slot 0xC = cuantos caidos hay
+//   AUM_PICK        -> abre la lista; slot 0xC = 0 (B / nadie) o el elegido (1..62)
+#define AUM_COUNT_DEAD "ASMC AumPickCountDead"
+#define AUM_PICK       "ASMC AumPickStart"

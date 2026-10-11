@@ -1,7 +1,30 @@
-//First free icon past vanilla is 222 / 0xDE 
+//First free icon past vanilla is 224 / 0xE0
  
 //#define BlankIcon 222
-#define FalchionIcon 224
+#define ArrowspateIcon 224
+#define AumIcon 225
+#define AuraIcon 226
+#define BlizzardIcon 227
+#define BolganoneIcon 228
+#define DevilSwordIcon 229
+#define EarthstoneIcon 230
+#define FalchionIcon 231
+#define FirestoneIcon 232
+#define GradivusIcon 233
+#define HauteclereIcon 234
+#define HoistflammeIcon 235
+#define ImhulluIcon 236
+#define LevinSwordIcon 237
+#define MagestoneIcon 238
+#define MercuriusIcon 239
+#define PachydermIcon 240
+#define ParthiaIcon 241
+#define StarlightIcon 242
+#define StonehoistIcon 243
+#define SwarmIcon 244
+#define ThoronIcon 245
+#define ThunderboltIcon 246
+#define WingSpearIcon 247
 
 
 

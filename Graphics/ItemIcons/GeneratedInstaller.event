@@ -6,8 +6,30 @@
 /* 
 //First free icon past vanilla is 222 / 0xDE 
  
-#define BlankIcon 222 
-#define FalchionIcon 223 
+#define ArrowspateIcon 222 
+#define AumIcon 223 
+#define AuraIcon 224 
+#define BlizzardIcon 225 
+#define BolganoneIcon 226 
+#define DevilSwordIcon 227 
+#define EarthstoneIcon 228 
+#define FalchionIcon 229 
+#define FirestoneIcon 230 
+#define GradivusIcon 231 
+#define HauteclereIcon 232 
+#define HoistflammeIcon 233 
+#define ImhulluIcon 234 
+#define LevinSwordIcon 235 
+#define MagestoneIcon 236 
+#define MercuriusIcon 237 
+#define PachydermIcon 238 
+#define ParthiaIcon 239 
+#define StarlightIcon 240 
+#define StonehoistIcon 241 
+#define SwarmIcon 242 
+#define ThoronIcon 243 
+#define ThunderboltIcon 244 
+#define WingSpearIcon 245 
 */ 
  
  
@@ -17,10 +39,76 @@
  
 PUSH 
  
-//ItemIconEntry(BlankIcon) 
-//#incbin "dmp/Blank.dmp" 
+ItemIconEntry(ArrowspateIcon) 
+#incbin "dmp/Arrowspate.dmp" 
+ 
+ItemIconEntry(AumIcon) 
+#incbin "dmp/Aum.dmp" 
+ 
+ItemIconEntry(AuraIcon) 
+#incbin "dmp/Aura.dmp" 
+ 
+ItemIconEntry(BlizzardIcon) 
+#incbin "dmp/Blizzard.dmp" 
+ 
+ItemIconEntry(BolganoneIcon) 
+#incbin "dmp/Bolganone.dmp" 
+ 
+ItemIconEntry(DevilSwordIcon) 
+#incbin "dmp/DevilSword.dmp" 
+ 
+ItemIconEntry(EarthstoneIcon) 
+#incbin "dmp/Earthstone.dmp" 
  
 ItemIconEntry(FalchionIcon) 
 #incbin "dmp/Falchion.dmp" 
+ 
+ItemIconEntry(FirestoneIcon) 
+#incbin "dmp/Firestone.dmp" 
+ 
+ItemIconEntry(GradivusIcon) 
+#incbin "dmp/Gradivus.dmp" 
+ 
+ItemIconEntry(HauteclereIcon) 
+#incbin "dmp/Hauteclere.dmp" 
+ 
+ItemIconEntry(HoistflammeIcon) 
+#incbin "dmp/Hoistflamme.dmp" 
+ 
+ItemIconEntry(ImhulluIcon) 
+#incbin "dmp/Imhullu.dmp" 
+ 
+ItemIconEntry(LevinSwordIcon) 
+#incbin "dmp/LevinSword.dmp" 
+ 
+ItemIconEntry(MagestoneIcon) 
+#incbin "dmp/Magestone.dmp" 
+ 
+ItemIconEntry(MercuriusIcon) 
+#incbin "dmp/Mercurius.dmp" 
+ 
+ItemIconEntry(PachydermIcon) 
+#incbin "dmp/Pachyderm.dmp" 
+ 
+ItemIconEntry(ParthiaIcon) 
+#incbin "dmp/Parthia.dmp" 
+ 
+ItemIconEntry(StarlightIcon) 
+#incbin "dmp/Starlight.dmp" 
+ 
+ItemIconEntry(StonehoistIcon) 
+#incbin "dmp/Stonehoist.dmp" 
+ 
+ItemIconEntry(SwarmIcon) 
+#incbin "dmp/Swarm.dmp" 
+ 
+ItemIconEntry(ThoronIcon) 
+#incbin "dmp/Thoron.dmp" 
+ 
+ItemIconEntry(ThunderboltIcon) 
+#incbin "dmp/Thunderbolt.dmp" 
+ 
+ItemIconEntry(WingSpearIcon) 
+#incbin "dmp/WingSpear.dmp" 
  
 POP 

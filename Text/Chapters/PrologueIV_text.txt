@@ -69,8 +69,9 @@ hightail it on outta here![.][ANL][X]
 # 0x092c vgd
 [MidLeft][LoadFace][0xff][0xff]
 [MidRight][LoadFace][0x6a][0x1]
-Sometimes victory on the battlefield requires[NL]
-that someone you care about make a sacrifice.[.][ANL]
+Sometimes victory on the battlefield[NL]
+requires that someone you care[NL] 
+about make a sacrifice.[.][ANL]
 But parting with one comrade may[NL]
 be the only way to meet another.[.][ANL]
 You need to learn to accept your[NL]
@@ -172,22 +173,292 @@ have a bow I could use,[.][ANL]
 I would be honored to[NL]
 fight at your side.[.][ANL][X]
 
+# 0x96c
+[MidLeft][LoadFace][0x50][0x1]
+Listen, men. Your target is the prince.[.][ANL]
+Find the prince of Altea and bring me[NL]
+his head served on a shield![.][ANL][X]
+
+# 0x96e mallmartdec1
+[Right][LoadFace][0x3][0x1]
+Look there![.][ANL]
+[FarRight][LoadFace][0x5d][0x1]
+No... Anri save us...[....][NL]
+Of all the places to be beset![.][ANL]
+Sire, that is Gra's main force-and[ANL]
+they are accompanied by the knights[NL]
+of Grust's Sable Order.[.][ANL]
+Our chances of routing them[NL]
+are slim, I'm afraid...[....][ANL]
+and those of slipping away undetected[NL]
+afterward, all but nil...[....][ANL]
+[Right]
+Then, we've no hope?[.][ANL]
+[FarRight][ClearFace]
+[FarLeft][LoadFace][0x5d][0x1]
+I...I can think of one strategy.[.][ANL]
+We could leave a decoy behind[NL]
+for when the enemy catches up.[.][ANL]
+[Right]
+A decoy?[.][ANL]
+[FarLeft]
+It's you they're after, sire. Were one of[NL]
+your men to stay behind disguised as you...[....][ANL]
+Well, the enemy ought to take the bait.[.][ANL]
+That would give you and the[NL]
+others time to escape.[.][ANL][X]
+
+# 0x96f mallmartdec2
+[FarLeft][LoadFace][0x5d][0x1]
+[Right][LoadFace][0x3][0x1]
+[FarLeft]
+One of your men must make for that[NL]
+fortress on the south highroad.[.][ANL]
+He will act as a decoy by dressing as[NL]
+you and luring the enemy force away.[.][ANL]
+[Right]
+But Malledus, how will he[NL]
+find his way back to us?[.][ANL]
+[FarLeft]
+Sire... He may not. You must part with one[NL]
+of your comrades. There is no other way.[.][ANL]
+[Right]
+...Well, I will find a way! You[NL]
+cannot expect me to agree to...[....][ANL]
+to abandoning one of our own to a[NL]
+death at the hands of the enemy.[.][ANL]
+Surely there must be another way...[....][ANL]
+[FarLeft]
+Forgive me, sire... But[NL]
+this is our only chance.[.][ANL]
+You know as well as I do that[NL]
+you must not die here today.[.][ANL][X]
+
+# 0x970 marthD
+[MidRight][LoadFace][0x5d][0x1]
+No, sire! Get back here! One of your[NL]
+other men must take that position![.][ANL][X]
+
+## abeld
+[MidRight][LoadFace][0x5][0x1]
+I won't fail you, sire.[.][ANL][X]
+
+## freyD
+[MidRight][LoadFace][0x1a][0x1]
+Sire, I will divert their attention.[.][ANL][X]
+
+## jagenD
+[MidRight][LoadFace][0x1f][0x1]
+Sire, I will lead the hence.[.][ANL][X]
+
+## cainD
+[MidRight][LoadFace][0x10][0x1]
+Sire, this time I will not run.[.][ANL][X]
+
+## gordinD
+[MidRight][LoadFace][0x1b][0x1]
+'Twas an honor to fight[NL]
+with you, sire.[.][ANL][X]
+
+## crazyGRA
+[Left][LoadFace][0x62][0x1]
+Look! It's... it's Prince Marth![.][ANL]
+[FarLeft][LoadFace][0x62][0x1]
+Oh yeah? Who's that, then?[.][ANL]
+That bloke over there is[NL]
+dressed in the same clothes.[.][ANL]
+Could be either of 'em.[.][ANL][X]
+
+## decoyJIOL
+[MidLeft][LoadFace][0x50][0x1]
+Simpletons! Use your heads! One of[NL]
+them ran; the other one didn't.[.][ANL]
+What does that tell you? Easy![.][ANL]
+The one who stayed behind is trying[NL]
+to buy time for the one who fled.[.][ANL]
+[MidRight][LoadFace][0x62][0x1]
+So, er...the one who took off is-[.][ANL]
+[MidLeft]
+The real prince, you idiot, yes![.][ANL]
+Hie, troops, after him! Put that[NL]
+craven whelp to the sword![.][ANL][X]
+
+## marDcrys
+[MidRight][LoadFace][0x3][0x1]
+Wait! Quickly, Malledus, we must[NL]
+head south and rescue him![.][ANL]
+[MidLeft][LoadFace][0x5d][0x1]
+No, sire. We have to press on.[.][ANL]
+[MidRight]
+Press on? He might[NL]
+be dying back there![.][ANL]
+[MidRight]
+If he is, then why would you be so[NL]
+selfish as to let him die in vain?[.][ANL]
+Honor him, by allowing his life[NL]
+and his choice to mean something![.][ANL]
+[MidRight]
+...... ...All right.[.][NL]
+I will honor him.[.][ANL]
+...I will go.[.][ANL][X]
 
 
+## soldcaRun
+[MidLeft][LoadFace][0x3f][0x01]
+The prince fled south? Bah![.][ANL]
+Seems the plum's fallen too[NL]
+far from our tree... No matter.[.][ANL]
+Open the north door! We can still crush[NL]
+the Altean rabble he left behind.[.][A][X]
 
+## martgrode
+[MidRight][LoadFace][0x3][0x01]
+Blast! That archer[NL]
+was on our side![.][A][X]
 
+## soldcapgrten
+[MidLeft][LoadFace][0x3f][0x01]
+They killed the captive?[.][NL]
+Heh heh... What fools![.][ANL]
+Hie, let's give them the punishment[NL]
+fools deserve! Open the north door![.][ANL]
+Lure them out and strike them down![.][ANL][X]
 
+## soldcaporMarth
+[MidLeft][LoadFace][0x3f][0x01]
+All but the prince have been slain?[.][ANL]
+Good. Open the north door![.][NL]
+The little whelp is ours now![.][A][X]
 
+## malledusVillage1
+[MidRight][LoadFace][0x5d][0x1]
+Sire, there is village[NL]
+over yonder.[.][A][X]
 
+## malledusVillage2
+[MidRight][LoadFace][0x5d][0x1]
+Its residents may be willing to help.[.][NL]
+Why don't you try paying them a visit?[.][A][X]
 
+## draguMt
+[MidLeft][LoadFace][0x16][0x01]
+[MidRight][LoadFace][0x3][0x01]
+[MidLeft]
+Prince Marth![NL]
+Make haste, sire![.][ANL]
+[MidRight]
+Draug, is that you?[.][NL]
+What are you doing here?[.][ANL]
+[MidLeft]
+I received word from Sir[NL]
+Malledus to ready a vessel,[ANL]
+that we might slip away[NL]
+discreetly by sea.[.][ANL][X]
 
+## draugFvie
+[MidLeft]
+The enemy has crossed the border[NL]
+and closes in on us from the west;[.][ANL]
+we cannot stay here. Hurry, sire![.][ANL][X]
 
+## draugNone
+[FarLeft][LoadFace][0x2e][0x01]
+[Right][LoadFace][0x16][0x01]
+[FarRight][LoadFace][0x3][0x01]
+[FarLeft]
+Draug, sir! The enemy has crossed[NL]
+the border from the west![.][ANL]
+They'll be upon us soon![.][ANL]
+[Right]
+Right, we're on our way.[.][A]
+[Right][ClearFace]
+[Left][LoadFace][0x16][0x01]
+Sire, this is Norne. She caught wind of our[NL]
+struggle and wishes to fight for Altea.[.][ANL]
+[FarLeft]
+Prince Marth, 'tis an honor.[.][ANL]
+By your leave, though, I'll by savin'[NL]
+the curtsy-bobbin' for later.[.][ANL]
+Quickly, sire![.][ANL][X]
 
+## jiolDec
+[MidLeft][LoadFace][0x50][0x01]
+This is... the wrong prince? No![.][NL]
+You dare make a fool of me?[.][ANL]
+Kill him! Make this[NL]
+prince mimer SUFFER![.][ANL][X]
 
+## AbeldLW
+[MidRight][LoadFace][0x5][0x01]
+Good... Altea's hope is restored.[.][NL]
+Farewell, sire. Fortune protect you...[....][ANL][X]
 
+## FreydLW
+[MidRight][LoadFace][0x1a][0x01]
+Count this knight honored to die[NL]
+in the service of his prince.[.][ANL]
+Live, sire, and grow strong...[....][ANL][X]
 
+## JagenDLW
+[MidRight][LoadFace][0x1f][0x01]
+Heh, these old bones are[NL]
+still good for something.[.][ANL]
+Farewell, my prince. Live,[.][NL]
+and grow strong...[....][ANL][X]
 
+## CainDLW
+[MidRight][LoadFace][0x10][0x01]
+Glory to Altea, land of[NL]
+my birth! Farewell, sire![.][ANL]
+Fortune protect you...[....][ANL][X]
 
+## GordinDLW
+[MidRight][LoadFace][0x1b][0x01]
+I was dead anyway till
+you came, sire...[....][ANL]
+If I'm to die again, at[NL]
+least let me die for you.[.][ANL]
+Fortune protect you, sire...[....][ANL][X]
 
+# 0x98A jagMsCg1
+[SetName]Jagen[NL]
+Look, sire. See how Altea[NL]
+shrinks on the horizon...[....][ANL][X]
+## jagMsCg2
+[SetName]Marth[NL]
+...[....]
+aven...[....][ANL][X]
+## jagMsCg3
+[SetName]Jagen[NL]
+Pardon?[.][ANL][X]
 
+## jagMsCg4
+[SetName]Marth[NL]
+I am a craven. Powerless to save my[NL]
+sister; to stanch my kingdom's wounds;[.][ANL]
+to ease my people's fears...[....][ANL][X]
 
+## jagMsCg5
+[SetName]Jagen[NL]
+This... was your only recourse, sire.[.][ANL]
+But surely, one day, you will be[NL]
+able to set things right...[....][ANL][X]
+
+## jagMsCg6
+[SetName]Marth[NL]
+"Surely"? Why do words of such conviction[NL]
+smack so much of uncertainty when spoken?[.][ANL]
+Not surely, Jagen. Assuredly.[.][NL]
+Gra will pay for all their acts.[.][ANL]
+Today, though, allow me to wallow in this[NL]
+pain,  to feel every awful twist of it.[.][ANL]
+I never want to forget.[ANL][X]
+
+## jagMsCg7
+[SetName]Jagen[NL]
+Sire...[....][ANL][X]
+
+## jagMsCg8
+[SetName]Marth[NL]
+I will return, Altea! Your prince[NL]
+will return to you one day![.][ANL][X]

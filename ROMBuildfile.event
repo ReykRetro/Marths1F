@@ -16,7 +16,8 @@
 	//new hacks, before tables or other things need them
 	#include "ASM/GroupAI/GroupAI.event"
 	#include "ASM/ClasslockedWeaponRanks/ClasslockedWeaponRanks.event"
-	#include "ASM/Aum/Aum.event"
+	//#include "ASM/Aum/Aum.event"
+	#include "ASM/AumPick/Installer.event"
 	
     //CSV tables
     #include "Tables/TableInstaller.event"
