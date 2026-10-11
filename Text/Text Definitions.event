@@ -1048,5 +1048,9 @@
 #define jagMsCg6 $98F
 #define jagMsCg7 $990
 #define jagMsCg8 $991
+#define DraugMsCg1 $992
+#define DraugMsCg2 $993
+#define DraugMsCg3 $994
+#define DraugMsCg4 $995
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

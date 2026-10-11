@@ -4217,6 +4217,22 @@ __TEXTPROCESS991:
 #incext ParseFile ".TextEntries/text_buildfilejagMsCg8.fetxt"
 setText($991, __TEXTPROCESS991)
 
+__TEXTPROCESS992:
+#incext ParseFile ".TextEntries/text_buildfileDraugMsCg1.fetxt"
+setText($992, __TEXTPROCESS992)
+
+__TEXTPROCESS993:
+#incext ParseFile ".TextEntries/text_buildfileDraugMsCg2.fetxt"
+setText($993, __TEXTPROCESS993)
+
+__TEXTPROCESS994:
+#incext ParseFile ".TextEntries/text_buildfileDraugMsCg3.fetxt"
+setText($994, __TEXTPROCESS994)
+
+__TEXTPROCESS995:
+#incext ParseFile ".TextEntries/text_buildfileDraugMsCg4.fetxt"
+setText($995, __TEXTPROCESS995)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

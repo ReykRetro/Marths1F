@@ -424,10 +424,12 @@ Fortune protect you, sire...[....][ANL][X]
 [SetName]Jagen[NL]
 Look, sire. See how Altea[NL]
 shrinks on the horizon...[....][ANL][X]
+
 ## jagMsCg2
 [SetName]Marth[NL]
 ...[....]
 aven...[....][ANL][X]
+
 ## jagMsCg3
 [SetName]Jagen[NL]
 Pardon?[.][ANL][X]
@@ -462,3 +464,22 @@ Sire...[....][ANL][X]
 [SetName]Marth[NL]
 I will return, Altea! Your prince[NL]
 will return to you one day![.][ANL][X]
+
+## DraugMsCg1
+[SetName]Draug[NL]
+Look, sire. See how Altea[NL]
+shrinks on the horizon...[....][ANL][X]
+
+## DraugMsCg2
+[SetName]Draug[NL]
+Beg your pardon?[.][ANL][X]
+
+## DraugMsCg3
+[SetName]Draug[NL]
+This... was your only recourse, sire.[.][ANL]
+But surely, one day, you will be[NL]
+able to set things right...[....][ANL][X]
+
+## DraugMsCg4
+[SetName]Draug[NL]
+Sire...[....][ANL][X]
