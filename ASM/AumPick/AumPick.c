@@ -81,6 +81,8 @@ extern void LoadUiFrameGraphics(void);
 extern void LoadObjUIGfx(void);
 extern void LoadIconPalettes(int n);
 extern void DrawUiFrame2(int x, int y, int w, int h, int style);
+extern void UnpackUiVArrowGfx(int chr, int pal);                       /* gfx de la flecha animada  */
+extern void DisplayUiVArrow(int x, int y, u16 oam2Base, int flipEn);   /* flipEn=1 arriba, 0 abajo  */
 
 extern void ResetSysHandCursor(void* parent);
 extern void ShowSysHandCursor(int x, int y, int a, int b);
@@ -131,6 +133,15 @@ extern u16  gBG0TilemapBuffer[];  /* 0x02022CA8, 32x32 entradas                 
 #define KEY_B        0x0002
 #define KEY_UP       0x0040
 #define KEY_DOWN     0x0080
+
+/* Flechas de scroll: tile OBJ 0xE0 y paleta OBJ 3 (0x13), como en la guia del juego. Cada
+ * frame se dibujan de nuevo porque los sprites se vacian en cada vuelta. */
+#define ARROW_CHR    0xE0
+#define ARROW_PAL    3
+#define ARROW_OAM2   (ARROW_CHR | (ARROW_PAL << 12))
+#define ARROW_X      112          /* centrada sobre el marco (x = 48..192) */
+#define ARROW_UP_Y   50           /* sobre el borde superior del marco     */
+#define ARROW_DOWN_Y 150          /* sobre el borde inferior del marco     */
 
 #define TEXT_WHITE   0
 #define TEXT_GOLD    3
@@ -341,6 +352,7 @@ static void AumPick_Init(void* proc)
     LoadUiFrameGraphics();
     LoadObjUIGfx();
     LoadIconPalettes(4);
+    UnpackUiVArrowGfx(ARROW_CHR, ARROW_PAL);
 
     DrawUiFrame2(6, 7, 18, 12, 0);
     BG_EnableSyncByMask(7);
@@ -427,6 +439,13 @@ static void AumPick_Loop(void* proc)
         ShowSysHandCursor(56, 64 + (cur - top) * 16, 0, 0x800);
         DrawList(proc);
     }
+
+    /* flechas: arriba si hay filas ocultas antes, abajo si las hay despues */
+    if (P_TOP(proc) > 0)
+        DisplayUiVArrow(ARROW_X, ARROW_UP_Y, ARROW_OAM2, 1);
+
+    if (P_TOP(proc) + VISIBLE < count)
+        DisplayUiVArrow(ARROW_X, ARROW_DOWN_Y, ARROW_OAM2, 0);
 }
 
 static void AumPick_Restore(void* proc)

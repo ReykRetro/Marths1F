@@ -56,7 +56,7 @@ I did not run...[....][A][X]
 
 //0x6 gordin
 ## gordinDq4
-[MidRight][LoadFace][0x1b][0x1]
+[MidLeft][LoadFace][0x1b][0x1]
 Grrrmph...[....][A][X]
 
 ## gordinDqStandard
