@@ -1,0 +1,70 @@
+// MountedMovegroups.txt  (script de entrada para MoveCost2EA)
+// Clases montadas y voladoras: bloqueados Floor, FloorHeal, Pillar, Throne y Stairs.
+// Uso (desde cmd, en la carpeta de este archivo):  MoveCost2EA.exe MountedMovegroups.txt
+// Genera MoveCostsInstaller.event en la misma carpeta. NO pases un segundo argumento con un
+// nombre de archivo: el programa le agrega "MoveCostsInstaller.event" al final.
+// VanillaMovegroups.txt y TerrainDefs.txt deben estar en la misma carpeta que este archivo.
+// Cada familia tiene 3 grupos: Move (cielo despejado), Rain y Snow.
+// Los valores de lluvia/nieve salen de las tablas vanilla vistas en FEBuilderGBA.
+
+#include VanillaMovegroups.txt
+
+// ---------------------------------------------------------------------------
+// Caballeria sin promover: Cavalier, Cavalier (F), Troubadour (0x05, 0x06, 0x4B)
+// ---------------------------------------------------------------------------
+CavalryMove imports UnpromotedMountedMovegroup {
+	// VanillaMovegroups.txt nombra "Gate" y "Arena" dos veces en la misma lista (indices 8/11 y 35/48).
+	// Segun la version de TerrainDefs.txt, algunos de esos cuatro indices pueden quedar en 255.
+	// En vanilla valen 1, asi que se fijan por numero.
+	[8,11,35,48] = 1
+	[Floor,FloorHeal,Pillar,Throne,Stairs] = 255
+}
+CavalryRain imports CavalryMove {
+	[Plain,Flat] = 3
+	Forest = 4
+	Desert = 3
+	Ruins = 4
+	Wreck = 4
+}
+CavalrySnow imports CavalryRain {
+	//igual que lluvia
+}
+
+// ---------------------------------------------------------------------------
+// Caballeria promovida: Paladin, Mage Knight, Great Knight, Valkyrie
+// (0x07, 0x08, 0x29, 0x2A, 0x35, 0x36, 0x4C). Tambien los Ranger (0x1D, 0x1E),
+// que usaran el mismo movimiento que los Paladin.
+// ---------------------------------------------------------------------------
+PaladinMove imports PromotedMountedMovegroup {
+	[8,11,35,48] = 1
+	[Floor,FloorHeal,Pillar,Throne,Stairs] = 255
+}
+PaladinRain imports PaladinMove {
+	[Plain,Flat] = 3
+	Forest = 4
+	Desert = 3
+	Mountain = 7
+	Ruins = 4
+	Wreck = 4
+}
+PaladinSnow imports PaladinRain {
+	//igual que lluvia
+}
+
+// ---------------------------------------------------------------------------
+// Voladores: Wyvern Rider, Wyvern Lord, Wyvern Knight, Pegasus Knight, Falcoknight
+// (0x1F a 0x24, 0x48, 0x49)
+// ---------------------------------------------------------------------------
+FlierMove imports FlierMovegroup {
+	[Floor,FloorHeal,Pillar,Throne,Stairs] = 255
+}
+// En lluvia y nieve casi todo cuesta 2; los interiores se quedan en 1 (menos los bloqueados).
+FlierRain imports FlierMovegroup {
+	[Plain-Mast] = 2
+	[ChestOpen,Chest,48,Deck] = 1
+	[ClosedVillage,Wall,CrackedWall,Door,Roof,44,Valley,Snag,Brace,Mast] = 255
+	[Floor,FloorHeal,Pillar,Throne,Stairs] = 255
+}
+FlierSnow imports FlierRain {
+	//igual que lluvia
+}

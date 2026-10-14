@@ -5,8 +5,8 @@ weaponTypeAnim(0x00,0x01)
 weaponTypeAnim(0x09,0x02)
 weaponAnimEnd
 SetAnimationPointers(0x01,Lord1)
+SetAnimationPointers(0x02,Lord1)
 SetAnimationPointers(0x80,Lord1)
-SetAnimationPointers(0x81,Lord1)
 SetAnimationPointers(0x82,Lord1)
 SetAnimationPointers(0x83,Lord1)
 SetAnimationPointers(0x84,Lord1)
@@ -133,7 +133,14 @@ SetAnimationPointers(0xFC,Lord1)
 SetAnimationPointers(0xFD,Lord1)
 SetAnimationPointers(0xFE,Lord1)
 SetAnimationPointers(0xFF,Lord1)
-
+ALIGN 4
+Lord2:
+weaponTypeAnim(0x00,0x03)
+weaponTypeAnim(0x09,0x04)
+weaponAnimEnd
+SetAnimationPointers(0x03,Lord2)
+SetAnimationPointers(0x04,Lord2)
+SetAnimationPointers(0x81,Lord2)
 
 ALIGN 4
 CavM:

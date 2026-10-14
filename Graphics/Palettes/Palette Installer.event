@@ -342,3 +342,24 @@ Orridyon:
 Michalis:
 	#incbin "./_palettes/Michalis.lzpal" 
 
+AbeDis1:
+	#incbin "./_palettes/AbeDis1.lzpal" 
+
+AbeDis2:
+	#incbin "./_palettes/AbeDis2.lzpal" 
+
+FreyDis1:
+	#incbin "./_palettes/FreyDis1.lzpal" 
+
+FreyDis2:
+	#incbin "./_palettes/FreyDis2.lzpal" 
+
+JagenDis:
+	#incbin "./_palettes/JagenDis.lzpal" 
+
+CainDis1:
+	#incbin "./_palettes/CainDis1.lzpal" 
+
+CainDis2:
+	#incbin "./_palettes/CainDis2.lzpal" 
+

@@ -13,3 +13,5 @@
 //#include "ClasslockedWeaponRanks/ClasslockedWeaponRanks.event" /* instalado desde antes en la build */
 #include "FadeSoloEndingPortraits/FadeSoloEndingPortraits.event"
 //#include "AumPick/Installer.event" /* instalado desde antes en la build */
+#include "MapCameraPreview/Installer.event"
+#include "Draw/Installer.event"

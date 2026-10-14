@@ -421,33 +421,33 @@ least let me die for you.[.][ANL]
 Fortune protect you, sire...[....][ANL][X]
 
 # 0x98A jagMsCg1
-[SetName]Jagen[NL]
+[SetName]Jagen[.][NL]
 Look, sire. See how Altea[NL]
 shrinks on the horizon...[....][ANL][X]
 
 ## jagMsCg2
-[SetName]Marth[NL]
+[SetName]Marth[.][NL]
 ...[....]
 aven...[....][ANL][X]
 
 ## jagMsCg3
-[SetName]Jagen[NL]
+[SetName]Jagen[.][NL]
 Pardon?[.][ANL][X]
 
 ## jagMsCg4
-[SetName]Marth[NL]
+[SetName]Marth[.][NL]
 I am a craven. Powerless to save my[NL]
 sister; to stanch my kingdom's wounds;[.][ANL]
 to ease my people's fears...[....][ANL][X]
 
 ## jagMsCg5
-[SetName]Jagen[NL]
+[SetName]Jagen[.][NL]
 This... was your only recourse, sire.[.][ANL]
 But surely, one day, you will be[NL]
 able to set things right...[....][ANL][X]
 
 ## jagMsCg6
-[SetName]Marth[NL]
+[SetName]Marth[.][NL]
 "Surely"? Why do words of such conviction[NL]
 smack so much of uncertainty when spoken?[.][ANL]
 Not surely, Jagen. Assuredly.[.][NL]
@@ -457,29 +457,29 @@ pain,  to feel every awful twist of it.[.][ANL]
 I never want to forget.[ANL][X]
 
 ## jagMsCg7
-[SetName]Jagen[NL]
+[SetName]Jagen[.][NL]
 Sire...[....][ANL][X]
 
 ## jagMsCg8
-[SetName]Marth[NL]
+[SetName]Marth[.][NL]
 I will return, Altea! Your prince[NL]
 will return to you one day![.][ANL][X]
 
 ## DraugMsCg1
-[SetName]Draug[NL]
+[SetName]Draug[.][NL]
 Look, sire. See how Altea[NL]
 shrinks on the horizon...[....][ANL][X]
 
 ## DraugMsCg2
-[SetName]Draug[NL]
+[SetName]Draug[.][NL]
 Beg your pardon?[.][ANL][X]
 
 ## DraugMsCg3
-[SetName]Draug[NL]
+[SetName]Draug[.][NL]
 This... was your only recourse, sire.[.][ANL]
 But surely, one day, you will be[NL]
 able to set things right...[....][ANL][X]
 
 ## DraugMsCg4
-[SetName]Draug[NL]
+[SetName]Draug[.][NL]
 Sire...[....][ANL][X]

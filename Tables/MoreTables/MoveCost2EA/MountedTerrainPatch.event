@@ -1,0 +1,40 @@
+// MountedTerrainPatch.event
+// Instala las tablas generadas por MoveCost2EA y apunta a ellas las clases montadas y voladoras.
+//
+// Donde incluirlo: ULTIMA linea de ClassesRepointed.event, despues de
+//   #include "ClassesCustom.event"
+// (asi sobrescribe los punteros sin importar si los escribio el volcado o el vanilla).
+// Este archivo y MoveCostsInstaller.event deben estar en la misma carpeta.
+
+ALIGN 4
+#include "MoveCostsInstaller.event"
+ALIGN 4
+
+// Punteros en cada clase: +0x38 Move Costs, +0x3C Rain, +0x40 Snow (registro de 0x54 bytes)
+#define SetMoveCosts(cls, mv, rn, sn) "PUSH; ORG ClassTable + (0x54 * cls) + 0x38; POIN mv rn sn; POP"
+
+// Caballeria sin promover
+SetMoveCosts(0x05, CavalryMove, CavalryRain, CavalrySnow)  // Cavalier
+SetMoveCosts(0x06, CavalryMove, CavalryRain, CavalrySnow)  // Cavalier (F)
+SetMoveCosts(0x4B, CavalryMove, CavalryRain, CavalrySnow)  // Troubadour
+
+// Caballeria promovida
+SetMoveCosts(0x07, PaladinMove, PaladinRain, PaladinSnow)  // Paladin
+SetMoveCosts(0x08, PaladinMove, PaladinRain, PaladinSnow)  // Paladin (F)
+SetMoveCosts(0x29, PaladinMove, PaladinRain, PaladinSnow)  // Mage Knight
+SetMoveCosts(0x2A, PaladinMove, PaladinRain, PaladinSnow)  // Mage Knight (F)
+SetMoveCosts(0x35, PaladinMove, PaladinRain, PaladinSnow)  // Great Knight
+SetMoveCosts(0x36, PaladinMove, PaladinRain, PaladinSnow)  // Great Knight (F)
+SetMoveCosts(0x4C, PaladinMove, PaladinRain, PaladinSnow)  // Valkyrie
+SetMoveCosts(0x1D, PaladinMove, PaladinRain, PaladinSnow)  // Ranger (mismo movimiento que Paladin)
+SetMoveCosts(0x1E, PaladinMove, PaladinRain, PaladinSnow)  // Ranger (F)
+
+// Voladores
+SetMoveCosts(0x1F, FlierMove, FlierRain, FlierSnow)  // Wyvern Rider
+SetMoveCosts(0x20, FlierMove, FlierRain, FlierSnow)  // Wyvern Rider (F)
+SetMoveCosts(0x21, FlierMove, FlierRain, FlierSnow)  // Wyvern Lord
+SetMoveCosts(0x22, FlierMove, FlierRain, FlierSnow)  // Wyvern Lord (F)
+SetMoveCosts(0x23, FlierMove, FlierRain, FlierSnow)  // Wyvern Knight
+SetMoveCosts(0x24, FlierMove, FlierRain, FlierSnow)  // Wyvern Knight (F)
+SetMoveCosts(0x48, FlierMove, FlierRain, FlierSnow)  // Pegasus Knight
+SetMoveCosts(0x49, FlierMove, FlierRain, FlierSnow)  // Falcoknight

@@ -1052,5 +1052,20 @@
 #define DraugMsCg2 $993
 #define DraugMsCg3 $994
 #define DraugMsCg4 $995
+#define jagsCh01 $996
+#define draugsCh01 $997
+#define marthsChCG011 $998
+#define caedaChCG01 $999
+#define marthsChCG012 $99A
+#define reH01 $99B
+#define meH01 $99C
+#define leH01 $99D
+#define rwH01 $99E
+#define lwH01 $99F
+#define eV01 $9A0
+#define wV01 $9A1
+#define FightGazzak $9A2
+#define DefeGazzak $9A3
+#define talysCastle $9A4
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

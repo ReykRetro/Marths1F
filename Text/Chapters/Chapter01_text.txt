@@ -1,0 +1,132 @@
+# 0x0996 jagsCh01
+[MidLeft][LoadFace][0x1f][0x1]
+Sire! You've a visitor from the[NL]
+castle. It's Princess Caeda![.][ANL][X]
+
+## draugsCh01
+[MidLeft][LoadFace][0x16][0x1]
+Sire! You have a visitor from the[NL]
+castle. It's Princess Caeda![.][ANL][X]
+
+## marthsChCG011
+[SetName]Marth[.][NL]
+Caeda, what is it? You[NL]
+look white as a sheet![.][ANL][X]
+
+## caedaChCG01
+[SetName]Caeda[.][NL]
+Marth, come quickly![.][NL]
+It's the castle...[....][ANL]
+Galder's pirates attacked[NL]
+from out of nowhere...[....][ANL]
+They stormed the gates and cut[NL]
+down everyone in their path![.][ANL]
+I fear for my father's life...[....][ANL][X]
+ 
+## marthsChCG012
+[SetName]Marth[.][NL]
+Steady, Caeda. You did[NL]
+well to come find us.[.][ANL]
+Altea's bravest knights aren't about to[NL]
+hand Talys to that flock of seafowl.[.][ANL]
+Come, we'll make for the castle now![.][ANL][X]
+
+## reH01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+Villages will keep their[NL]
+gates open for Prince Marth,[.][ANL]
+but he must be quick-if a thief reaches[NL]
+a village before the prince does,[.][ANL]
+there may not be any village left to visit.[.][ANL][X] 
+
+## meH01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+I hear you need a high weapon level[NL]
+to wield the strongest weapons.[.][ANL]
+Another thing: keep your fliers well[NL]
+away from those enemy archers![.][ANL][X]
+
+## leH01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+A knight belongs on the[NL]
+front lines, if you ask me.[.][ANL]
+That thick armor can[NL]
+take a lot of abuse,[.][ANL]
+so they should be up front[NL]
+protecting the other units.[.][ANL][X]
+
+## rwH01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+Galder? That's the harbor town west[NL]
+of Talys, out beyond the water.[.][ANL]
+These days, a pirate by the name[NL]
+of Gomer calls the shots there.[.][ANL]
+The whole town's at the[NL]
+mercy of his crew.[.][ANL][X]
+
+## lwH01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+A man of the staff by the name of Wrys lives[NL]
+in the village south of the castle.[.][ANL]
+He was hopin' to meet your prince.[.][ANL][X]
+
+## eV01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+Prince Marth! 'Tis[NL]
+good you stopped by.[.][ANL]
+The villagers have collected[NL]
+10,000 gold pieces.[.][ANL]
+If it please you, use the[NL]
+money to arm your warriors,[.][ANL]
+and rid our land of those pirates.[.][ANL][X]
+
+## wV01
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+I am Wrys, a humble curate. I cannot fight,[.][NL]
+but this staff I carry can heal your wounded.[.][ANL]
+Take me with you, and you'll be very glad you did.[.][ANL][X] 
+
+## FightGazzak
+[MidLeft][LoadFace][0x40][0x1]
+The might of Altea,[.][NL]
+ye say, now? Har![.][ANL]
+Ye sprogs look t' be a mite[NL]
+short o' mighty t' me.[.][ANL][X]
+
+## DefeGazzak
+[MidLeft][LoadFace][0x40][0x1]
+Rrgh... Ye'll[NL]
+pay, dog...[....][ANL][X]
+
+## talysCastle
+[MidRight][LoadFace][0x1f][0x1]
+[MidLeft][LoadFace][0xff][0xff]
+Ah, Prince Marth! You have[NL]
+saved us in our hour of need.[.][ANL]
+Please accept my thanks. Lad,[.][NL]
+I believe you are ready.[.][ANL]
+If you wish to seek out allies in Aurelis,
+I will give you what soldiers I can[NL]
+to see you arrive there safely.[.][ANL]
+Captain Ogma is a fine[NL]
+swordsman, brave and true.[.][ANL]
+I know he and his fighters will[NL]
+serve you well. Another thing...[....][ANL]
+During your travels, you are certain[NL]
+to meet many who despise Dolhr.[.][ANL]
+Some may be hiding in villages;
+other may have been captured or forced to[NL]
+fight against their will or better judgment.[.][ANL]
+It falls upon you to find these individuals
+and win them over to your cause.[.][ANL]
+Understood, lad? Then go![.][NL]
+The time has come![.][ANL]
+Be patient, steady, strong:[.][NL]
+I know you will do great things.[.][ANL][X]

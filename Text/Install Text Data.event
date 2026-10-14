@@ -4233,6 +4233,66 @@ __TEXTPROCESS995:
 #incext ParseFile ".TextEntries/text_buildfileDraugMsCg4.fetxt"
 setText($995, __TEXTPROCESS995)
 
+__TEXTPROCESS996:
+#incext ParseFile ".TextEntries/text_buildfilejagsCh01.fetxt"
+setText($996, __TEXTPROCESS996)
+
+__TEXTPROCESS997:
+#incext ParseFile ".TextEntries/text_buildfiledraugsCh01.fetxt"
+setText($997, __TEXTPROCESS997)
+
+__TEXTPROCESS998:
+#incext ParseFile ".TextEntries/text_buildfilemarthsChCG011.fetxt"
+setText($998, __TEXTPROCESS998)
+
+__TEXTPROCESS999:
+#incext ParseFile ".TextEntries/text_buildfilecaedaChCG01.fetxt"
+setText($999, __TEXTPROCESS999)
+
+__TEXTPROCESS99A:
+#incext ParseFile ".TextEntries/text_buildfilemarthsChCG012.fetxt"
+setText($99A, __TEXTPROCESS99A)
+
+__TEXTPROCESS99B:
+#incext ParseFile ".TextEntries/text_buildfilereH01.fetxt"
+setText($99B, __TEXTPROCESS99B)
+
+__TEXTPROCESS99C:
+#incext ParseFile ".TextEntries/text_buildfilemeH01.fetxt"
+setText($99C, __TEXTPROCESS99C)
+
+__TEXTPROCESS99D:
+#incext ParseFile ".TextEntries/text_buildfileleH01.fetxt"
+setText($99D, __TEXTPROCESS99D)
+
+__TEXTPROCESS99E:
+#incext ParseFile ".TextEntries/text_buildfilerwH01.fetxt"
+setText($99E, __TEXTPROCESS99E)
+
+__TEXTPROCESS99F:
+#incext ParseFile ".TextEntries/text_buildfilelwH01.fetxt"
+setText($99F, __TEXTPROCESS99F)
+
+__TEXTPROCESS9A0:
+#incext ParseFile ".TextEntries/text_buildfileeV01.fetxt"
+setText($9A0, __TEXTPROCESS9A0)
+
+__TEXTPROCESS9A1:
+#incext ParseFile ".TextEntries/text_buildfilewV01.fetxt"
+setText($9A1, __TEXTPROCESS9A1)
+
+__TEXTPROCESS9A2:
+#incext ParseFile ".TextEntries/text_buildfileFightGazzak.fetxt"
+setText($9A2, __TEXTPROCESS9A2)
+
+__TEXTPROCESS9A3:
+#incext ParseFile ".TextEntries/text_buildfileDefeGazzak.fetxt"
+setText($9A3, __TEXTPROCESS9A3)
+
+__TEXTPROCESS9A4:
+#incext ParseFile ".TextEntries/text_buildfiletalysCastle.fetxt"
+setText($9A4, __TEXTPROCESS9A4)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

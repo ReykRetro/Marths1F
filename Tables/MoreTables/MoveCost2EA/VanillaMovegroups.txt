@@ -1,0 +1,117 @@
+
+#include TerrainDefs.txt
+
+//EphraimLord,EirikaLord,Hero,Hero_F,Swordmaster,Swordmaster_F,Sniper,Sniper_F
+PromotedInfantryMovegroup {
+	//default to 255
+	[Empty-Mast] = 255
+	//1-cost
+	[Plain,Road,Village,House,Armory,Vendor,Arena,C.Room,Gate,Sand,Bridge,Floor,FloorHeal,Rubble,Throne,ChestOpen,Chest,Gate,Church,Flat,Wreck,Stairs,Glacier,Arena,FallenSnag,Remains,Inn,Deck] = 1
+	//2-cost
+	[Fort,Forest,Desert,Pillar,Ruins,Ballista,LongBallista,KillerBallista] = 2
+	//other
+	Mountain = 4
+	River = 5
+}
+
+// EphraimGreatLord,EirikaGreatLord,Paladin,Paladin_F,MageKnight,MageKnight_F,GreatKnight,GreatKnight_F,Valkyrie
+PromotedMountedMovegroup imports PromotedInfantryMovegroup { 
+	Forest + 1
+	Rubble + 1
+	Pillar + 1
+	Desert + 2
+	Mountain + 2
+	River = 255
+}
+
+// Cavalier,Cavalier_F,Troubadour
+UnpromotedMountedMovegroup imports PromotedMountedMovegroup {
+	Mountain = 255
+}
+
+// Knight,Knight_F,General,General_F
+ArmoredMovegroup imports PromotedInfantryMovegroup {
+	Desert + 1
+	[River,Mountain] = 255
+}
+
+// Thief,Assassin,Assassin_F,Rogue
+ThiefMovegroup imports PromotedInfantryMovegroup {
+	//unchanged
+}
+
+// Manakete,WyvernRider,WyvernRider_F,WyvernLord,WyvernLord_F,WyvernKnight,WyvernKnight_F,Manakete_2,Manakete_F,PegasusKnight,Falcoknight,Phantom,Mogall,ArchMogall,Gargoyle,Deathgoyle,DracoZombie
+FlierMovegroup {
+	//default to 1
+	[Empty-Mast] = 1
+	//impassable
+	[Empty,ClosedVillage,Wall,CrackedWall,Door,Roof,44,Valley,Snag,Brace,Mast] = 255
+}
+
+// Mercenary,Mercenary_F,Myrmidon,Myrmidon_F,Archer,Archer_F,Recruit,Recruit_2,Recruit_3,Bard,Dancer,Soldier,Revenant,Entombed,Bonewalker,Bonewalker_Bow,Wight,Wight_Bow
+
+UnpromotedInfantryMovegroup imports PromotedInfantryMovegroup {
+	River = 255
+}
+
+// Ranger,Ranger_F,Gwyllgi,Maelduin
+
+LightPromotedMountedMovegroup imports PromotedMountedMovegroup {
+	[Forest,Desert,Mountain] - 1
+	River = 5	
+}
+
+// Mage,Mage_F,Sage,Sage_F,Bishop,Bishop_F,Shaman,Shaman_F,Druid,Druid_F,Summoner,Summoner_F,Pupil,Pupil_2,Pupil_3,Monk,Priest,Cleric,Necromancer
+
+MagicalInfantryMovegroup imports UnpromotedInfantryMovegroup {
+	Desert - 1
+}
+
+// Journeyman,Journeyman_2,Journeyman_3,Fighter,Warrior,Cyclops,Cyclops_2
+
+FighterMovegroup imports UnpromotedInfantryMovegroup {
+	Desert + 1
+	Mountain - 1
+}
+
+// Brigand,Bael,ElderBael,ElderBael_2
+
+PeakwalkerMovegroup imports PromotedInfantryMovegroup {
+	Mountain - 1
+	Peak = 4
+}
+
+// Pirate,Fleet
+
+WaterwalkerMovegroup imports PromotedInfantryMovegroup {
+	Mountain - 1
+	[River,Sea] = 2
+	[Lake,Water] = 3
+}
+
+// Berserker
+
+BerserkerMovegroup imports WaterwalkerMovegroup {
+	Peak = 4
+}
+
+// MautheDoog,Tarvos
+
+LightUnpromotedMountedMovegroup imports LightPromotedMountedMovegroup {
+	[River,Mountain] = 255
+}
+
+// DemonKing
+
+DemonKingMovegroup imports UnpromotedInfantryMovegroup {
+	[Snag,FallenSnag] = 0
+	[Fence,Fence2] = 1
+	Throne + 1
+	Ruins - 1
+}
+
+// Civilians,Queen,Pontifex,cutscene-only classes
+
+NPCMovegroup imports UnpromotedInfantryMovegroup {
+	//unchanged
+}
