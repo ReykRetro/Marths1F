@@ -32,25 +32,25 @@ hand Talys to that flock of seafowl.[.][ANL]
 Come, we'll make for the castle now![.][ANL][X]
 
 ## reH01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6a][0x1]
 Villages will keep their[NL]
 gates open for Prince Marth,[.][ANL]
 but he must be quick-if a thief reaches[NL]
 a village before the prince does,[.][ANL]
-there may not be any village left to visit.[.][ANL][X] 
+there may not be any village left to visit.[.][ANL][X]
 
 ## meH01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6b][0x1]
 I hear you need a high weapon level[NL]
 to wield the strongest weapons.[.][ANL]
 Another thing: keep your fliers well[NL]
 away from those enemy archers![.][ANL][X]
 
 ## leH01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6c][0x1]
 A knight belongs on the[NL]
 front lines, if you ask me.[.][ANL]
 That thick armor can[NL]
@@ -59,8 +59,8 @@ so they should be up front[NL]
 protecting the other units.[.][ANL][X]
 
 ## rwH01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x70][0x1]
 Galder? That's the harbor town west[NL]
 of Talys, out beyond the water.[.][ANL]
 These days, a pirate by the name[NL]
@@ -69,15 +69,15 @@ The whole town's at the[NL]
 mercy of his crew.[.][ANL][X]
 
 ## lwH01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6f][0x1]
 A man of the staff by the name of Wrys lives[NL]
 in the village south of the castle.[.][ANL]
 He was hopin' to meet your prince.[.][ANL][X]
 
 ## eV01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
+[MidRight][LoadFace][0x6a][0x1]
 Prince Marth! 'Tis[NL]
 good you stopped by.[.][ANL]
 The villagers have collected[NL]
@@ -87,11 +87,13 @@ money to arm your warriors,[.][ANL]
 and rid our land of those pirates.[.][ANL][X]
 
 ## wV01
-[MidRight][LoadFace][0x1f][0x1]
 [MidLeft][LoadFace][0xff][0xff]
-I am Wrys, a humble curate. I cannot fight,[.][NL]
-but this staff I carry can heal your wounded.[.][ANL]
-Take me with you, and you'll be very glad you did.[.][ANL][X] 
+[MidRight][LoadFace][0x3c][0x1]
+I am Wrys, a humble curate.[.][ANL]
+I cannot fight, but this staff[NL]
+I carry can heal your wounded.[.][ANL]
+Take me with you, and you'll[NL]
+be very glad you did.[.][ANL][X]
 
 ## FightGazzak
 [MidLeft][LoadFace][0x40][0x1]
@@ -106,13 +108,13 @@ Rrgh... Ye'll[NL]
 pay, dog...[....][ANL][X]
 
 ## talysCastle
-[MidRight][LoadFace][0x1f][0x1]
-[MidLeft][LoadFace][0xff][0xff]
+[MidLeft][LoadFace][0x5f][0x1]
+[MidRight][LoadFace][0x2][0x1]
 Ah, Prince Marth! You have[NL]
 saved us in our hour of need.[.][ANL]
 Please accept my thanks. Lad,[.][NL]
 I believe you are ready.[.][ANL]
-If you wish to seek out allies in Aurelis,
+If you wish to seek out allies in Aurelis,[ANL]
 I will give you what soldiers I can[NL]
 to see you arrive there safely.[.][ANL]
 Captain Ogma is a fine[NL]
@@ -121,10 +123,10 @@ I know he and his fighters will[NL]
 serve you well. Another thing...[....][ANL]
 During your travels, you are certain[NL]
 to meet many who despise Dolhr.[.][ANL]
-Some may be hiding in villages;
+Some may be hiding in villages;[.][ANL]
 other may have been captured or forced to[NL]
 fight against their will or better judgment.[.][ANL]
-It falls upon you to find these individuals
+It falls upon you to find these individuals[NL]
 and win them over to your cause.[.][ANL]
 Understood, lad? Then go![.][NL]
 The time has come![.][ANL]

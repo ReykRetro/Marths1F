@@ -21,7 +21,7 @@ POP
 // La tabla va en espacio libre (por eso no hace falta que quepa en la rutina original).
 ALIGN 4
 PortraitShiftEdit:
-BYTE 0 0 0 1 1 0 0 0  // 0x00-0x07
+BYTE 0 0 0 0 1 0 0 0  // 0x00-0x07
 BYTE 0 0 0 0 0 0 0 0  // 0x08-0x0F
 BYTE 0 0 0 0 0 0 0 0  // 0x10-0x17
 BYTE 1 0 0 0 0 0 0 0  // 0x18-0x1F

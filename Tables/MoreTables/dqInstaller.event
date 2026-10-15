@@ -82,7 +82,7 @@ CheckNoPlayersDeathQuote(0x41)
 CheckNoPlayersDeathQuote(0x42)
 CheckNoPlayersDeathQuote(0x43)
 //
-CheckNoPlayersDeathQuote(0x44)
+ChapterDeathQuote(0x44,0x4,0x2,0x9a3)
 CheckNoPlayersDeathQuote(0x45)
 CheckNoPlayersDeathQuote(0x46)
 CheckNoPlayersDeathQuote(0x47)
