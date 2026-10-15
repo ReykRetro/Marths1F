@@ -13,7 +13,9 @@
 {
 #include "Chapters/Chapter01.event"
 }
-//#include "Chapters/Chapter02.event"
+{
+#include "Chapters/Chapter02.event"
+}
 //#include "Chapters/Chapter03.event"
 //#include "Chapters/Chapter04.event"
 //#include "Chapters/Chapter05.event"

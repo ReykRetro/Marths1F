@@ -1,0 +1,69 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+EventPointerTable(0x17,Cha01evt)
+
+setText(0x165,NewChName02)
+ALIGN 4
+NewChName01:
+String("The Pirates of Galder")
+BYTE 0
+
+ALIGN 4
+Cha01evt:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN NoEvents NoEvents NoEvents
+POIN Tutorial
+POIN TrapData TrapData
+POIN MarthsUnits MarthsUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+CharacterBasedEvents:
+	CharacterEventBothWays(0x7,DarrosRecrui,0x1,0xb)
+	CharacterEventBothWays(0x8,CastorRecrui,0x9,0xc)
+END_MAIN
+
+LocationBasedEvents:
+	Village(0x9,VillageWest,4,9)
+END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+PiratesUnits:
+	UNIT
+UNIT
+MarthsUnits:
+	UNIT
+UNIT
+OgmaUnits:
+	UNIT
+UNIT
+
+BeginningScene:
+ENDA
+
+EndingScene:
+MNC2 6
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET
