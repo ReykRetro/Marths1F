@@ -21,7 +21,7 @@ POP
 // La tabla va en espacio libre (por eso no hace falta que quepa en la rutina original).
 ALIGN 4
 PortraitShiftEdit:
-BYTE 0 0 0 0 1 0 0 0  // 0x00-0x07
+BYTE 0 0 0 1 1 0 0 0  // 0x00-0x07
 BYTE 0 0 0 0 0 0 0 0  // 0x08-0x0F
 BYTE 0 0 0 0 0 0 0 0  // 0x10-0x17
 BYTE 1 0 0 0 0 0 0 0  // 0x18-0x1F
@@ -58,6 +58,6 @@ BYTE 0 0 0 0 0 0 0 0  // 0xF8-0xFF
 #define ShiftPortrait(id) "PUSH; ORG PortraitShiftEdit+id; BYTE 1; POP"
 
 // ---- Retratos desplazados hacia arriba ----
-ShiftPortrait(0x02) // Marth
 ShiftPortrait(0x03) // Marth (segundo retrato, bit 0x800000)
+ShiftPortrait(0x04) // Marth (segundo retrato, bit 0x800000)
 // ShiftPortrait(0x..) // agrega aqui los demas

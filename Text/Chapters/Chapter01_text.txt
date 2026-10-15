@@ -108,8 +108,8 @@ Rrgh... Ye'll[NL]
 pay, dog...[....][ANL][X]
 
 ## talysCastle
-[MidLeft][LoadFace][0x5f][0x1]
 [MidRight][LoadFace][0x2][0x1]
+[MidLeft][LoadFace][0x5f][0x1]
 Ah, Prince Marth! You have[NL]
 saved us in our hour of need.[.][ANL]
 Please accept my thanks. Lad,[.][NL]
