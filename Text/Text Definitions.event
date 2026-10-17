@@ -1067,5 +1067,17 @@
 #define FightGazzak $9A2
 #define DefeGazzak $9A3
 #define talysCastle $9A4
+#define ogmaMarths $9A5
+#define darrRecr $9A6
+#define casRecr $9A7
+#define houseEast2 $9A8
+#define houseNorthern2 $9A9
+#define houseSouthern2 $9AA
+#define villageCh02 $9AB
+#define fighCastorEne $9AC
+#define figGomer $9AD
+#define defeGomer $9AE
+#define enHideuuts $9AF
+#define OgmaCaeda $9B0
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

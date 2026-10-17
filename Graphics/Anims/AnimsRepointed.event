@@ -19,4 +19,13 @@ ORG $70940
 POIN NewAnimTable
 ORG $70A60
 POIN NewAnimTable
+
+ORG $599D2
+BYTE 0x31      // Archer M  -> tu slot 0x32
+ORG $599D6
+BYTE 0x33      // Archer F  -> tu slot 0x34
+ORG $599DA
+BYTE 0x35      // Sniper M  -> tu slot 0x36
+ORG $599DE
+BYTE 0x37      // Sniper F  -> tu slot 0x38
 POP

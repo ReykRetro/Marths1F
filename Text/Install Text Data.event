@@ -4293,6 +4293,54 @@ __TEXTPROCESS9A4:
 #incext ParseFile ".TextEntries/text_buildfiletalysCastle.fetxt"
 setText($9A4, __TEXTPROCESS9A4)
 
+__TEXTPROCESS9A5:
+#incext ParseFile ".TextEntries/text_buildfileogmaMarths.fetxt"
+setText($9A5, __TEXTPROCESS9A5)
+
+__TEXTPROCESS9A6:
+#incext ParseFile ".TextEntries/text_buildfiledarrRecr.fetxt"
+setText($9A6, __TEXTPROCESS9A6)
+
+__TEXTPROCESS9A7:
+#incext ParseFile ".TextEntries/text_buildfilecasRecr.fetxt"
+setText($9A7, __TEXTPROCESS9A7)
+
+__TEXTPROCESS9A8:
+#incext ParseFile ".TextEntries/text_buildfilehouseEast2.fetxt"
+setText($9A8, __TEXTPROCESS9A8)
+
+__TEXTPROCESS9A9:
+#incext ParseFile ".TextEntries/text_buildfilehouseNorthern2.fetxt"
+setText($9A9, __TEXTPROCESS9A9)
+
+__TEXTPROCESS9AA:
+#incext ParseFile ".TextEntries/text_buildfilehouseSouthern2.fetxt"
+setText($9AA, __TEXTPROCESS9AA)
+
+__TEXTPROCESS9AB:
+#incext ParseFile ".TextEntries/text_buildfilevillageCh02.fetxt"
+setText($9AB, __TEXTPROCESS9AB)
+
+__TEXTPROCESS9AC:
+#incext ParseFile ".TextEntries/text_buildfilefighCastorEne.fetxt"
+setText($9AC, __TEXTPROCESS9AC)
+
+__TEXTPROCESS9AD:
+#incext ParseFile ".TextEntries/text_buildfilefigGomer.fetxt"
+setText($9AD, __TEXTPROCESS9AD)
+
+__TEXTPROCESS9AE:
+#incext ParseFile ".TextEntries/text_buildfiledefeGomer.fetxt"
+setText($9AE, __TEXTPROCESS9AE)
+
+__TEXTPROCESS9AF:
+#incext ParseFile ".TextEntries/text_buildfileenHideuuts.fetxt"
+setText($9AF, __TEXTPROCESS9AF)
+
+__TEXTPROCESS9B0:
+#incext ParseFile ".TextEntries/text_buildfileOgmaCaeda.fetxt"
+setText($9B0, __TEXTPROCESS9B0)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

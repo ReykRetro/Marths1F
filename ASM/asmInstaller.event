@@ -15,3 +15,4 @@
 //#include "AumPick/Installer.event" /* instalado desde antes en la build */
 #include "MapCameraPreview/Installer.event"
 #include "Draw/Installer.event"
+#include "TalkAi/TalkAi.event"
