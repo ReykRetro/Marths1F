@@ -44,7 +44,7 @@ Me life is yours![.][ANL][X]
 
 ## houseEast2
 [MidRight][LoadFace][0xff][0xff]
-[MidLeft][LoadFace][0x6f][0x1]
+[MidLeft][LoadFace][0x6b][0x1]
 A pirate callin' himself Darros[NL]
 wants to talk to your prince.[.][ANL]
 Says he's washed his hands[NL]
@@ -55,20 +55,20 @@ who's sworn off rain...[....][ANL][X]
 
 ## houseNorthern2
 [MidRight][LoadFace][0xff][0xff]
-[MidLeft][LoadFace][0x6f][0x1]
+[MidLeft][LoadFace][0x6c][0x1]
 Curates gain experience whenever[NL]
 they use their staves.[.][ANL][X]
 
 ## houseSouthern2
 [MidRight][LoadFace][0xff][0xff]
-[MidLeft][LoadFace][0x6f][0x1]
+[MidLeft][LoadFace][0x69][0x1]
 Hammers smash right through heavy[NL]
 armor. You should pick one up,[.][ANL]
 soon as you get the chance.[.][ANL][X]
 
 ## villageCh02
 [MidRight][LoadFace][0xff][0xff]
-[MidLeft][LoadFace][0x6f][0x1]
+[MidLeft][LoadFace][0x6a][0x1]
 Oh! Mighty prince of Altea! Please,[.][NL]
 will you save Sister Lena?[.][ANL]
 She's gone up into the Ghoul's[NL]
@@ -88,19 +88,22 @@ I need the money somethin'[NL]
 desperate...[....][ANL][X]
 
 ## figGomer
+[MidLeft][LoadFace][0x41][0x1]
 The gall of ye,[.][NL]
 defyin' me crew![.][ANL]
-I'll put an axe square between yer[NL]
-eyes! Ye ain't leaving here alive.[.][ANL]
+I'll put an axe square[NL]
+between yer eyes![.][ANL]
+Ye ain't leaving here alive.[.][ANL]
 I swear it on the rickety[NL]
 peg leg o' Shanty Pete![.][ANL][X]
 ## defeGomer
-Augh... Fiends,
+[MidLeft][LoadFace][0x41][0x1]
+Augh... Fiends,[.][NL]
 ye be...[....][ANL][X]
 
 ## enHideuuts
 [MidRight][LoadFace][0x1][0x1]
-[MidLeft][LoadFace][0x6f][0x1]
+[MidLeft][LoadFace][0x69][0x1]
 You have our gratitude, sire, for[NL]
 finally chasin' those pirates away.[.][ANL]
 Now, as I hear it, you plan[NL]
@@ -113,8 +116,10 @@ That's Soothsire territory.[.][ANL]
 The Soothsires are fearsome bandits,[.][ANL]
 always raidin' the villages and harryin'[NL]
 what travelers dare pass by.[.][ANL]
-And the swordsman with 'em-goes by the name o'[NL]
-Navarre-he's a terror with a blade, so they say.[.][ANL]
+And the swordsman with[NL]
+'em-goes by the name o'[ANL]
+Navarre-he's a terror with[NL]
+a blade, so they say.[.][ANL]
 If you go up there, keep your wits about[NL]
 you-or you won't come back down.[.][ANL][X]
 

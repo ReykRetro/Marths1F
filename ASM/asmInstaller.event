@@ -16,3 +16,4 @@
 #include "MapCameraPreview/Installer.event"
 #include "Draw/Installer.event"
 #include "TalkAi/TalkAi.event"
+#include "TitleFix/Installer.event" // TEMPORAL: quitar cuando el mapa mundial este armado (ver nota)

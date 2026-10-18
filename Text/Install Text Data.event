@@ -3909,6 +3909,18 @@ __TEXTPROCESS101A:
 #incext ParseFile ".TextEntries/text_buildfileAumPickReviveText.fetxt"
 setText($101A, __TEXTPROCESS101A)
 
+__TEXTPROCESS900:
+#incext ParseFile ".TextEntries/text_buildfilePallaTA.fetxt"
+setText($900, __TEXTPROCESS900)
+
+__TEXTPROCESS901:
+#incext ParseFile ".TextEntries/text_buildfileCatriaTA.fetxt"
+setText($901, __TEXTPROCESS901)
+
+__TEXTPROCESS902:
+#incext ParseFile ".TextEntries/text_buildfileEstTA.fetxt"
+setText($902, __TEXTPROCESS902)
+
 __TEXTPROCESS903:
 #incext ParseFile ".TextEntries/text_buildfileConvoP1.fetxt"
 setText($903, __TEXTPROCESS903)
@@ -4242,16 +4254,8 @@ __TEXTPROCESS997:
 setText($997, __TEXTPROCESS997)
 
 __TEXTPROCESS998:
-#incext ParseFile ".TextEntries/text_buildfilemarthsChCG011.fetxt"
+#incext ParseFile ".TextEntries/text_buildfilemarthsCaeda1.fetxt"
 setText($998, __TEXTPROCESS998)
-
-__TEXTPROCESS999:
-#incext ParseFile ".TextEntries/text_buildfilecaedaChCG01.fetxt"
-setText($999, __TEXTPROCESS999)
-
-__TEXTPROCESS99A:
-#incext ParseFile ".TextEntries/text_buildfilemarthsChCG012.fetxt"
-setText($99A, __TEXTPROCESS99A)
 
 __TEXTPROCESS99B:
 #incext ParseFile ".TextEntries/text_buildfilereH01.fetxt"

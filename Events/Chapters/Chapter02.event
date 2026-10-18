@@ -114,9 +114,9 @@ STAL 32
 LOAD1 1 OgmaUnits
 ENUN
 Text(0x9a5)
-MOVE 32 0xc [24,8]
-MOVE 32 0xd [23,7]
-MOVE 32 0xe [22,8]
+MOVE 10 0xc [24,8]
+MOVE 10 0xd [23,7]
+MOVE 10 0xe [22,8]
 ENUN
 MOVE 10 0xb [22,7]
 ENUN
@@ -124,6 +124,12 @@ NoFade
 ENDA
 
 EndingScene:
+SetBackground(0x52)
+TEXTSTART
+TEXTSHOW 0x9af
+TEXTEND
+FADI 16
+REMA
 MNC2 6
 ENDA
 
@@ -148,15 +154,14 @@ NoFade
 ENDA
 
 VillageWest:
-NoFade
-ENDA
+VillageEventMoney(0x9ab,0x4,5000)
 
 House1:
-HouseEvent(0x999,0x1)
+HouseEvent(0x9aa,0x1)
 House2:
-HouseEvent(0x999,0x1)
+HouseEvent(0x9a9,0x1)
 House3:
-HouseEvent(0x999,0x1)
+HouseEvent(0x9a8,0x1)
 
 ALIGN 4
 ArmoryItems:

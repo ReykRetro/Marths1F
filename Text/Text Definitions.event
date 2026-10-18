@@ -972,6 +972,9 @@
 #define AumName $1018
 #define AumDesc $1019
 #define AumPickReviveText $101A
+#define PallaTA $900
+#define CatriaTA $901
+#define EstTA $902
 #define ConvoP1 $903
 #define MarthHall1 $904
 #define MarthHall2 $905
@@ -1054,9 +1057,7 @@
 #define DraugMsCg4 $995
 #define jagsCh01 $996
 #define draugsCh01 $997
-#define marthsChCG011 $998
-#define caedaChCG01 $999
-#define marthsChCG012 $99A
+#define marthsCaeda1 $998
 #define reH01 $99B
 #define meH01 $99C
 #define leH01 $99D

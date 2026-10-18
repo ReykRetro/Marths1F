@@ -1,0 +1,57 @@
+// World Map personalizado (FE8U)
+// Imagenes: 1__World_Map / 2__Dark_World_Map / 3__For_Events_World_Map / 4__Mini_Map_World_Map
+// Los .dmp se generan con MakeWorldMapGfx.py a partir de los PNG (ver ese archivo).
+//
+// IMPORTANTE: incluir este archivo en una zona de espacio libre del Buildfile
+// (junto a los demas instaladores de graficos): los bloques comprimidos se
+// escriben en la posicion actual y despues se apuntan los punteros hacia ellos.
+
+#ifndef WorldMapGfx_Installed
+#define WorldMapGfx_Installed
+
+PUSH
+
+// ---- Datos sin comprimir: ocupan exactamente lo mismo que los vanilla ----
+ORG $A83364 // mapa principal, imagen 4bpp (76800 bytes)
+#incbin "WorldMap_Image.dmp"
+ORG $A95F64 // mapa principal, paleta oscura (4 bancos x 16 colores)
+#incbin "WorldMap_PaletteDark.dmp"
+ORG $A95FE4 // mapa principal, paleta normal
+#incbin "WorldMap_PaletteNormal.dmp"
+ORG $A9E4C4 // mapa de eventos, paleta (4 bancos)
+#incbin "Events_Palette.dmp"
+ORG $AA188C // minimapa, paleta (16 colores)
+#incbin "MiniMap_Palette.dmp"
+
+// ---- Punteros a los bloques comprimidos (se mueven a espacio libre) ----
+ORG $BA800  // mapa principal, mapa de paletas
+POIN WM_PaletteMap
+ORG $C2044  // eventos, imagen
+POIN WM_EventsImage
+ORG $C204C  // eventos, TSA
+POIN WM_EventsTSA
+ORG $C3E6C  // minimapa, imagen
+POIN WM_MiniMapImage
+
+POP
+
+// ---- Bloques comprimidos (LZ77) ----
+ALIGN 4
+WM_PaletteMap:
+#incbin "WorldMap_PaletteMap.lz.dmp"
+
+ALIGN 4
+WM_EventsImage:
+#incbin "Events_Image.lz.dmp"
+
+ALIGN 4
+WM_EventsTSA:
+#incbin "Events_TSA.lz.dmp"
+
+ALIGN 4
+WM_MiniMapImage:
+#incbin "MiniMap_Image.lz.dmp"
+
+ALIGN 4
+
+#endif

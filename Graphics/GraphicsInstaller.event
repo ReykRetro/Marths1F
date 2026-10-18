@@ -8,4 +8,4 @@
 #include "Portraits/MugsInstaller.event"
 //#include "Spells/Installer.event"
 #include "Tilesets/Installer.event"
-//#include "WorldMap/Installer.event"
+#include "WorldMap/Installer.event"

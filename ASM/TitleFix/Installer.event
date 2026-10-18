@@ -1,0 +1,6 @@
+#include "TitleFix.lyn.event"
+
+PUSH
+ORG $8979C
+jumpToHack(GetChapterTitleWM_Fix)
+POP

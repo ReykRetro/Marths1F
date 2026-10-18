@@ -6,7 +6,7 @@ EventPointerTable(0x17,Cha01evt)
 setText(0x164,NewChName01)
 ALIGN 4
 NewChName01:
-String("Marth Embarks")
+String("Ch.1: Marth Embarks")
 BYTE 0
 
 ALIGN 4
@@ -144,17 +144,10 @@ LABEL 10
 LABEL 99
 _0x2141 0xA4 0x1 0x4
 STAL 60
-_0x1A22
-TEXTSHOW 0x998
-TEXTEND
-_0x1A22
-TEXTSHOW 0x999
-TEXTEND
-_0x1A22
-TEXTSHOW 0x99a
-TEXTEND
 FADI 4
-REMA
+SetBackground(0x4c)
+Text(0x998)
+FADI 16
 CLEAN
 FADU 16
 LOAD1 0 MarthsUnits
@@ -197,8 +190,6 @@ ENDA
 ALIGN 4
 VillageEast:
 VillageEventMoney(0x9a0,0x4,10000)
-NoFade
-ENDA
 
 ALIGN 4
 VillageWest:

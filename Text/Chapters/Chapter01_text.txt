@@ -8,30 +8,27 @@ castle. It's Princess Caeda![.][ANL][X]
 Sire! You have a visitor from the[NL]
 castle. It's Princess Caeda![.][ANL][X]
 
-## marthsChCG011
-[SetName]Marth[.][NL]
-Caeda, what is it? You[NL]
-look white as a sheet![.][ANL][X]
-
-## caedaChCG01
-[SetName]Caeda[.][NL]
+## marthsCaeda1
+[MidLeft][LoadFace][0xe][0x1]
+[MidRight][LoadFace][0x2][0x1]
+Caeda, what is it? Yo[NL]
+look white as a sheet![.][ANL]
+[MidLeft]
 Marth, come quickly![.][NL]
 It's the castle...[....][ANL]
 Galder's pirates attacked[NL]
 from out of nowhere...[....][ANL]
 They stormed the gates and cut[NL]
 down everyone in their path![.][ANL]
-I fear for my father's life...[....][ANL][X]
- 
-## marthsChCG012
-[SetName]Marth[.][NL]
-Steady, Caeda. You did[NL]
-well to come find us.[.][ANL]
+I fear for my father's life...[....][ANL]
+[MidRight]
+Steady, Caeda. You did well[NL]
+to come find us.[.][ANL]
 Altea's bravest knights aren't about to[NL]
 hand Talys to that flock of seafowl.[.][ANL]
 Come, we'll make for the castle now![.][ANL][X]
 
-## reH01
+# 0x099b reH01
 [MidLeft][LoadFace][0xff][0xff]
 [MidRight][LoadFace][0x6a][0x1]
 Villages will keep their[NL]
