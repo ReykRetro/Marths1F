@@ -1,0 +1,6 @@
+#include "SeizeFix.lyn.event"
+
+PUSH
+ORG $37B64
+jumpToHack(CanUnitSeize_Fix)
+POP

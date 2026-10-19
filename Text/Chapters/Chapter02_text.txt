@@ -102,7 +102,7 @@ Augh... Fiends,[.][NL]
 ye be...[....][ANL][X]
 
 ## enHideuuts
-[MidRight][LoadFace][0x1][0x1]
+[MidRight][LoadFace][0x2][0x1]
 [MidLeft][LoadFace][0x69][0x1]
 You have our gratitude, sire, for[NL]
 finally chasin' those pirates away.[.][ANL]

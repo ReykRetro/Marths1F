@@ -1,0 +1,32 @@
+# 0x099a JulianLena
+[MidLeft][LoadFace][0x23][0x1]
+[MidRight][LoadFace][0x22][0x1]
+Hey, c'mon, Lena, shake a leg![.][ANL]
+We need to get out of the Teeth,[.][NL]
+and we need to do it yesterday![.][ANL]
+Rumor has it the knights of Altea[NL]
+are at the foot of the mountain.[.][ANL]
+We won't get a better chance than this.[.][NL]
+It's just a little bit farther.[.][ANL]
+Stick with me.[.][ANL]
+[MidLeft]
+Julian, I'm sorry... But I left[NL]
+my Mend staff back there.[.][ANL]
+It's very precious to me...[....][NL]
+You go on ahead.[.][ANL]
+Save yourself! Here, I could use this Warp[NL]
+staff to send you someplace safe-[.][ANL]
+[MidRight]
+Uh-uh, honey. No can do.[.][ANL]
+I didn't betray my boys back there so you[NL]
+could zap me on out of here alone.[.][ANL]
+Forget the staff; I'll come back later[NL]
+and get it for you myself, all right?[.][ANL]
+Right now, though, I need you to RUN.[.][NL]
+Tick-tock, now move that frock![.][ANL][X]
+
+# 0x9b1 NavarreNo
+[MidLeft][LoadFace][0x2d][0x1]
+......[......][ANL][X]
+
+

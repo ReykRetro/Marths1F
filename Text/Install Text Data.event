@@ -4345,6 +4345,14 @@ __TEXTPROCESS9B0:
 #incext ParseFile ".TextEntries/text_buildfileOgmaCaeda.fetxt"
 setText($9B0, __TEXTPROCESS9B0)
 
+__TEXTPROCESS99A:
+#incext ParseFile ".TextEntries/text_buildfileJulianLena.fetxt"
+setText($99A, __TEXTPROCESS99A)
+
+__TEXTPROCESS9B1:
+#incext ParseFile ".TextEntries/text_buildfileNavarreNo.fetxt"
+setText($9B1, __TEXTPROCESS9B1)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

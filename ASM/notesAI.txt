@@ -13,6 +13,8 @@ ResTerrainWindow //third, [Contro,Jester], adaptado con IA
 RWcloudFix //third, [RandomWizard], OG
 SecondPortraitFix //OG, hecho con IA, OG
 UNCMv2 //third, [Vesly], OG
+TittleFix //OG, hecho con IA, OG
+SeizeFix //OG, hecho con IA, OG
 
 
 //comentarios

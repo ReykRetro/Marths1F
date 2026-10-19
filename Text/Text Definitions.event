@@ -1080,5 +1080,7 @@
 #define defeGomer $9AE
 #define enHideuuts $9AF
 #define OgmaCaeda $9B0
+#define JulianLena $99A
+#define NavarreNo $9B1
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
