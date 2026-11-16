@@ -85,4 +85,5 @@ Fire Emblem es propiedad de Nintendo e Intelligent Systems. Este es un proyecto 
 
 ## Licencia
 
-Consulta el archivo [`LICENSE`](LICENSE). Algunos recursos de terceros (tilesets, música, gráficos) pueden tener condiciones propias; revisa `CREDITS.md`.
+Consulta el archivo [`LICENSE`](LICENSE). 
+Algunos recursos de terceros (tilesets, música, gráficos) pueden tener condiciones propias; revisa `CREDITS.md`.
