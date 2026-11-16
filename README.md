@@ -1,89 +1,89 @@
 # Dark Dragon Rebirth
 
-![Mapa del Capítulo 1](Docs/ch01_preview.png)
-<!-- Sube una captura del mapa del Capítulo 1 a Docs/ y ajusta el nombre del archivo. -->
+![Chapter 1 map](Docs/ch01_preview.png)
+<!-- Upload a screenshot of the Chapter 1 map to Docs/ and adjust the file name. -->
 
-Romhack de **Fire Emblem: The Sacred Stones (FE8)** que busca ser la "versión definitiva" de la historia de Marth, empezando por el **Libro 1**. Combina FE1, FE3 y FE11 aprovechando el potencial del motor de FE8.
+A romhack of **Fire Emblem: The Sacred Stones (FE8)** that aims to be the "definitive version" of Marth's story, starting with **Book 1**. It combines FE1, FE3 and FE11, taking advantage of the FE8 engine's potential.
 
-> **Estado:** en desarrollo. Todavía no hay una versión jugable pública.
-> **Progreso actual:** Prólogo hasta el Capítulo [3]. <!-- actualiza este dato -->
+> **Status:** in development. There is no public playable version yet.
+> **Current progress:** Prologue through Chapter [3]. <!-- update this -->
 >
-> Hilo del proyecto en Fire Emblem Universe: https://feuniverse.us/t/fe8-dark-dragon-rebirth/23605
+> Project thread on Fire Emblem Universe: https://feuniverse.us/t/fe8-dark-dragon-rebirth/23605
 
-*Nombres clave de desarrollo: **FE1-Fiukes** y **Marths1F** (este repositorio).*
+*Development codenames: **FE1-Fiukes** and **Marths1F** (this repository).*
 
-## ¿Qué hace diferente a este hack?
+## What makes this hack different?
 
-- **Tres juegos en uno:** reúne FE1 (*Ankoku Ryū to Hikari no Tsurugi*), FE3 (*Monshō no Nazo*) y FE11 (*Shin Ankoku Ryū to Hikari no Tsurugi*), tomando funciones de cada uno para crear una nueva experiencia de juego.
-- **Estilo moderno:** apariencia y jugabilidad cercanas a FE11, con mapas recreados con tilesets de GBA que respetan la geografía original de cada capítulo.
-- **Sistema de montar y desmontar.**
-- **Conversaciones de apoyo.**
-- **Skill System:** usa el Skill System de FE8 como base para incorporar habilidades. [Describe aquí qué habilidades o mecánicas añades.]
-- **Decisiones de diseño:** [Indica aquí qué versión de cada personaje, clase y arma tomas como canónica, y cómo unificas las armas legendarias.]
+- **Three games in one:** brings together FE1 (*Ankoku Ryū to Hikari no Tsurugi*), FE3 (*Monshō no Nazo*) and FE11 (*Shin Ankoku Ryū to Hikari no Tsurugi*), taking features from each to create a new gameplay experience.
+- **Modern style:** visuals and gameplay close to FE11, with maps recreated using GBA tilesets that respect the original geography of each chapter.
+- **Mount and dismount system.**
+- **Support conversations.**
+- **Skill System:** uses the FE8 Skill System as a base to add skills. [Describe here which skills or mechanics you add.]
+- **Design decisions:** [State here which version of each character, class and weapon you treat as canon, and how you unify the legendary weapons.]
 
-## Capturas
+## Screenshots
 
-<!-- Agrega 2 o 3 imágenes: mapa del Capítulo 1, pantalla de batalla, menú de unidad. -->
+<!-- Add 2 or 3 images: Chapter 1 map, battle screen, unit menu. -->
 
-## Equipo (Burrow Team)
+## Team (Burrow Team)
 
-- **Fiuke_Bnuy:** desarrollador, artista y líder de desarrollo.
-- **HauntRS:** desarrollador, soporte técnico y community manager.
+- **Fiuke_Bnuy:** developer, artist and lead developer.
+- **HauntRS:** developer, technical support and community manager.
 
-¿Quieres colaborar? Escribe a cualquiera de los dos por Fire Emblem Universe.
+Want to collaborate? Message either of us on Fire Emblem Universe.
 
-## Cómo compilar
+## How to build
 
-> **Importante:** este repositorio **no incluye ROMs**. Necesitas tu propia copia legal del juego.
+> **Important:** this repository **does not include ROMs**. You need your own legal copy of the game.
 
-1. Descarga o clona este repositorio.
-2. Consigue una ROM limpia de **FE8 (versión USA)**, nómbrala `FE8_clean.gba` y colócala en la carpeta raíz del proyecto.
-3. Ejecuta `MAKE_HACK_full.cmd` para generar la ROM del hack.
-4. Vuelve a ejecutar `MAKE_HACK_full.cmd` cada vez que cambies texto o tablas. Si no tocaste ninguno de los dos, puedes usar `MAKE_HACK_quick.cmd`, que es más rápido.
+1. Download or clone this repository.
+2. Get a clean **FE8 (US version)** ROM, name it `FE8_clean.gba` and place it in the project's root folder.
+3. Run `MAKE_HACK_full.cmd` to generate the hack's ROM.
+4. Run `MAKE_HACK_full.cmd` again whenever you change text or tables. If you changed neither, you can use `MAKE_HACK_quick.cmd`, which is faster.
 
-La ROM generada y los archivos temporales (`.gba`, `.sav`, `.sym`, `.nlz`) quedan fuera del repositorio gracias al `.gitignore`.
+The generated ROM and temporary files (`.gba`, `.sav`, `.sym`, `.nlz`) are kept out of the repository thanks to `.gitignore`.
 
-## Estructura del proyecto
+## Project structure
 
-| Carpeta | Contenido |
+| Folder | Contents |
 | --- | --- |
-| `ASM` | Código ensamblador propio |
-| `Docs` | Documentación del proyecto |
-| `EngineHacks` | Hacks de motor, incluido el Skill System |
-| `EventAssembler` | Herramienta de compilación |
-| `Events` | Eventos de capítulo |
-| `Graphics` | Gráficos (tilesets, retratos, mapa del mundo, etc.) |
-| `Maps` | Mapas |
-| `Music` | Música |
-| `Tables` | Tablas de datos (personajes, clases, armas, etc.) |
-| `Text` | Diálogos y textos |
-| `Tools` | Herramientas auxiliares |
+| `ASM` | Custom or third-party assembly code |
+| `Docs` | Project documentation |
+| `EngineHacks` | Engine hacks, including the Skill System |
+| `EventAssembler` | Build tool |
+| `Events` | Chapter events |
+| `Graphics` | Graphics (tilesets, portraits, world map, etc.) |
+| `Maps` | Maps |
+| `Music` | Music |
+| `Tables` | Data tables (characters, classes, weapons, etc.) |
+| `Text` | Dialogue and text |
+| `Tools` | Helper tools |
 
-## Base técnica
+## Technical base
 
-Este proyecto parte del **FE8 Skill System** (Buildfile), creado por la comunidad de Fire Emblem Universe:
+This project is built on the **FE8 Skill System** (Buildfile), created by the Fire Emblem Universe community:
 https://github.com/FireEmblemUniverse/SkillSystem_FE8
 
-Se instala y compila con Event Assembler. FEBuilderGBA no es un método de instalación soportado para esta base.
+It is installed and built with Event Assembler. FEBuilderGBA is not a supported installation method for this base.
 
-## Inspiración
+## Inspiration
 
-El proyecto está muy influenciado por [*Fire Emblem: Dark Dragon Reborn*](https://feuniverse.us/t/fire-emblem-dark-dragon-reborn-complete/11733/1) de **Merpin**, un remake del juego original de NES con inspiración jugable del remake de DS.
+The project is heavily influenced by [*Fire Emblem: Dark Dragon Reborn*](https://feuniverse.us/t/fire-emblem-dark-dragon-reborn-complete/11733/1) by **Merpin**, a remake of the original NES game with gameplay inspiration from the DS remake.
 
-## Créditos
+## Credits
 
-Este proyecto se apoya en el trabajo de mucha gente de la comunidad. Consulta [`CREDITS.md`](CREDITS.md) para la lista completa. Agradecimientos especiales a:
+This project relies on the work of many people in the community. See [`CREDITS.md`](CREDITS.md) for the full list. Special thanks to:
 
-- **Circleseverywhere**, por crear y publicar el Skill System original.
-- **Merpin**, por *Dark Dragon Reborn*, que sirve de inspiración.
-- Los colaboradores del Skill System y de las herramientas de la comunidad de Fire Emblem Universe.
-- Los autores de los tilesets de la comunidad usados en los mapas.
+- **Circleseverywhere**, for creating and releasing the original Skill System.
+- **Merpin**, for *Dark Dragon Reborn*, which serves as an inspiration.
+- The contributors to the Skill System and to the tools of the Fire Emblem Universe community.
+- The authors of the community tilesets used in the maps.
 
-## Aviso legal
+## Legal notice
 
-Fire Emblem es propiedad de Nintendo e Intelligent Systems. Este es un proyecto de fans sin fines de lucro, sin relación con ellos.
+Fire Emblem is owned by Nintendo and Intelligent Systems. This is a non-profit fan project, unaffiliated with them.
 
-## Licencia
+## License
 
-Consulta el archivo [`LICENSE`](LICENSE). 
-Algunos recursos de terceros (tilesets, música, gráficos) pueden tener condiciones propias; revisa `CREDITS.md`.
+See the [`LICENSE`](LICENSE) file.
+Some third-party assets (tilesets, music, graphics) may have their own terms; check `CREDITS.md`.
