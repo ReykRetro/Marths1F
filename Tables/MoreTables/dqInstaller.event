@@ -6,6 +6,7 @@
 #define CheckNoPlayersDeathQuote(UnitID) "BYTE UnitID 0x0 0xff 0xff 0x00 0x00; SHORT 0x00; WORD 0" //POIN CheckIfNoPlayerUnits" 
 #define EventDeathQuote(UnitID, EventLabelName) "BYTE UnitID 0x0 0xff 0xff 0x00 0x00; SHORT 0x00; POIN EventLabelName" //POIN CheckIfNoPlayerUnits" 
 #define FlagDeathQuote(UnitID, FlagID) "BYTE UnitID 0x0 0xff 0xff; SHORT FlagID; SHORT 0x00; WORD 0"
+#define ChapterEventDeathQuote(UnitID, Chapter, Flag, EventLabelName) "BYTE UnitID 0x0 0xff Chapter Flag 0x0; SHORT 0x0; POIN EventLabelName"
 // previously how I did it 
 
 ALIGN 4
@@ -16,7 +17,8 @@ AlwaysDeathQuote(0x2,0x0,0x90a)
 AlwaysDeathQuote(0x3,0x0,0x916)
 AlwaysDeathQuote(0x4,0x0,0x917)
 AlwaysDeathQuote(0x5,0x0,0x930)
-EventDeathQuote(0x06,gordinsDeath)
+ChapterEventDeathQuote(0x6,0x3,0x28,GordinEnemyDeath)
+AlwaysDeathQuote(0x6,0x0,0x932)
 AlwaysDeathQuote(0x7,0x0,0x933)
 AlwaysDeathQuote(0x8,0x0,0x934)
 AlwaysDeathQuote(0x9,0x0,0x935)
@@ -164,24 +166,15 @@ LABEL 2
 		LABEL 4
 			CHECK_EVENTID 0xb2
 			SVAL 1 0x0
-			BNE 99 0xC 0x0
+			BEQ 99 0xC 0x0
 			Text(0xfdd)
 LABEL 99
 ENUT GameOverFlag
 NoFade
 ENDA
 
-gordinsDeath:
-CHECK_CHAPTER_NUMBER
-SVAL 0x7 0x3
-BNE 0x0 0xC 0x7
-CHECK_ALLEGIANCE 0x6
-BEQ 0x0 0xC 0x0
-	Text(0x931)
-	ENUF 11
-	GOTO 99
-LABEL 0
-	Text(0x932)
-LABEL 99
+GordinEnemyDeath:
+Text(0x931)
+ENUF 11
 NoFade
 ENDA
