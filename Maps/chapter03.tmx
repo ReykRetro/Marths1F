@@ -12,7 +12,7 @@
    <property name="MapChangesID" value="0x20"/>
    <property name="MapID" value="0x1f"/>
    <property name="ObjectType" value="0xe"/>
-   <property name="PaletteID" value="0xf"/>
+   <property name="PaletteID" value="0xea"/>
    <property name="TileConfig" value="0x10"/>
   </properties>
   <data>

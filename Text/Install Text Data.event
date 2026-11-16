@@ -4353,6 +4353,58 @@ __TEXTPROCESS9B1:
 #incext ParseFile ".TextEntries/text_buildfileNavarreNo.fetxt"
 setText($9B1, __TEXTPROCESS9B1)
 
+__TEXTPROCESS9B2:
+#incext ParseFile ".TextEntries/text_buildfileCaedaNavarre.fetxt"
+setText($9B2, __TEXTPROCESS9B2)
+
+__TEXTPROCESS9B3:
+#incext ParseFile ".TextEntries/text_buildfileMarthJulian.fetxt"
+setText($9B3, __TEXTPROCESS9B3)
+
+__TEXTPROCESS9B4:
+#incext ParseFile ".TextEntries/text_buildfileMarthLena.fetxt"
+setText($9B4, __TEXTPROCESS9B4)
+
+__TEXTPROCESS9B5:
+#incext ParseFile ".TextEntries/text_buildfileMarthNavarre.fetxt"
+setText($9B5, __TEXTPROCESS9B5)
+
+__TEXTPROCESS9B6:
+#incext ParseFile ".TextEntries/text_buildfilerh03.fetxt"
+setText($9B6, __TEXTPROCESS9B6)
+
+__TEXTPROCESS9B7:
+#incext ParseFile ".TextEntries/text_buildfiletl03.fetxt"
+setText($9B7, __TEXTPROCESS9B7)
+
+__TEXTPROCESS9B8:
+#incext ParseFile ".TextEntries/text_buildfilebl03.fetxt"
+setText($9B8, __TEXTPROCESS9B8)
+
+__TEXTPROCESS9B9:
+#incext ParseFile ".TextEntries/text_buildfilevillage03.fetxt"
+setText($9B9, __TEXTPROCESS9B9)
+
+__TEXTPROCESS9BA:
+#incext ParseFile ".TextEntries/text_buildfilefightNava.fetxt"
+setText($9BA, __TEXTPROCESS9BA)
+
+__TEXTPROCESS9BB:
+#incext ParseFile ".TextEntries/text_buildfiledefVava.fetxt"
+setText($9BB, __TEXTPROCESS9BB)
+
+__TEXTPROCESS9BC:
+#incext ParseFile ".TextEntries/text_buildfilefightHyman.fetxt"
+setText($9BC, __TEXTPROCESS9BC)
+
+__TEXTPROCESS9BD:
+#incext ParseFile ".TextEntries/text_buildfiledefeatHyman.fetxt"
+setText($9BD, __TEXTPROCESS9BD)
+
+__TEXTPROCESS9BE:
+#incext ParseFile ".TextEntries/text_buildfileending03.fetxt"
+setText($9BE, __TEXTPROCESS9BE)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

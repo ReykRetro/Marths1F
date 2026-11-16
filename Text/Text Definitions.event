@@ -1082,5 +1082,18 @@
 #define OgmaCaeda $9B0
 #define JulianLena $99A
 #define NavarreNo $9B1
+#define CaedaNavarre $9B2
+#define MarthJulian $9B3
+#define MarthLena $9B4
+#define MarthNavarre $9B5
+#define rh03 $9B6
+#define tl03 $9B7
+#define bl03 $9B8
+#define village03 $9B9
+#define fightNava $9BA
+#define defVava $9BB
+#define fightHyman $9BC
+#define defeatHyman $9BD
+#define ending03 $9BE
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
